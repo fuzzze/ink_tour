@@ -12,10 +12,12 @@
     <min fov="5" pan="0" tilt="-90"/>
     <max fov="120" pan="360" tilt="90"/>
   </view>
-  <userdata copyright="" tags="INC 3D" comment="" latitude="" description="УПН" author="" info="upn" datetime="" source="" title="ИНК" longitude=""/>
+  <userdata copyright="" tags="INC 3D" comment="Три действующие на Ярактинском месторождении установки подготовки нефти (УПН) способны готовить до 10 млн тонн нефти в год. Извлекаемое из скважин сырье поступает по системе межпромысловых трубопроводов на дожимную насосную станцию (ДНС), где от нефти «отделяют» попутный нефтяной газ и газовый конденсат. Далее водонефтяная эмульсия подается на УПН, где она обезвоживается и из нее удаляется все лишнее: соль, сера, песок, различные механические примеси. Нефть доводится до показателей ГОСТа. В лабораториях на УПН в постоянном режиме проводится контроль качества сырья. Работа сотрудников УПН максимально автоматизирована, и наблюдение за всеми технологическими процессами проводится в режиме онлайн." latitude="" description="Установка подготовки нефти" author="" info="upn" datetime="" source="" title="ИНК" longitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="Что же в них находится?" pan="-159.48" tilt="11.03" title="Интересные желтые баки"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point02" description="Куда же они ведут и что внутри?" pan="81.12" tilt="17.76" title="Загадочные трубы"/>
   </hotspots>
   <media/>
   <transition zoomout="0" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2"/>

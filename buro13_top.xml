@@ -12,10 +12,13 @@
     <min fov="5" pan="0" tilt="-90"/>
     <max fov="120" pan="360" tilt="31.6"/>
   </view>
-  <userdata copyright="" tags="INC 3D" comment="" latitude="" description="Буровая вид сверху" author="" info="buro13_top" datetime="" source="" title="ИНК" longitude=""/>
+  <userdata copyright="" tags="INC 3D" comment="ИНК выполняет около половины от общего объема эксплуатационного и  поисково-разведочного бурения в Иркутской области, по данным государственного «Центрального диспетчерского управления топливно-энергетического комплекса» («ЦДУ ТЭК»). В составе группы компаний ИНК создано специальное сервисное подразделение ООО «ИНК–СЕРВИС», которое обеспечивает выполнение до 90% объема буровых работ компании.  По оценкам специалистов, «ИНК-Сервис» входит в пятерку крупнейших буровых предприятий страны." latitude="" description="Кустовая площадка и буровая установка: вид сверху" author="" info="buro13_top" datetime="" source="" title="ИНК" longitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+    <hotspot url="" target="_blank" skinid="ht_url" id="Point01" description="Буровая" pan="-153.21" tilt="-71.8" title="buro13"/>
+    <hotspot url="" target="_blank" skinid="ht_url" id="Point02" description="Общий вид" pan="-70.78" tilt="-1.16" title="index"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point03" description="Описание этой таинственной емкости" pan="-126.59" tilt="-27.15" title="Какая-то емкость"/>
   </hotspots>
   <media/>
   <transition zoomout="0" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2"/>

@@ -12,12 +12,16 @@
     <min fov="5" pan="0" tilt="-90"/>
     <max fov="120" pan="360" tilt="90"/>
   </view>
-  <userdata copyright="" tags="INC 3D" comment="" latitude="" description="УПСНГ" author="" info="upsng" datetime="" source="" title="ИНК" longitude=""/>
+  <userdata copyright="" tags="INC 3D" comment="Установка подготовки сернистой нефти и газа (УПСНГ) состоит из двух комплексов - подготовки нефти и сероочистки газа. С 2015 года действует установка подготовки нефти, производительность которой достигает 1,3 млн тонн товарной продукции в год. Это позволило компании существенно увеличить объемы добычи жидкого углеводородного сырья. Необходимость строительства УПСНГ обусловлена вовлечением в производственный процесс скважин, сырье из которых отличается повышенным содержанием сероводорода. Ранее такие скважины не эксплуатировались. Теперь сырье с таких скважин на Ярактинском и Большетирском месторождениях очищается и поставляется, как и остальное, на приемо-сдаточный пункт, а далее – в трубопровод ВСТО. В 2016 году ожидается запуск второй части УПСНГ -  установки сероочистки газа." latitude="" description="Установка подготовки сернистой нефти и газа" author="" info="upsng" datetime="" source="" title="ИНК" longitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="" pan="-66.33" tilt="10.9" title="Интересные боксы"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point02" description="Было бы прекрасно про нее рассказать" pan="38.09" tilt="17.59" title="Затейливая штука"/>
   </hotspots>
-  <media/>
+  <media>
+    <lensflare color="0xffffff" id="Lensflare01" type="2" pan="-44.43" tilt="54.12" blinding="50" alpha="80"/>
+  </media>
   <transition zoomout="0" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2"/>
   <control lockedmouse="0" invertwheel="0" contextfullscreen="0" hideabout="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1">
     <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
