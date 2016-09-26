@@ -12,12 +12,14 @@
     <min fov="5" pan="0" tilt="-90"/>
     <max fov="120" pan="360" tilt="90"/>
   </view>
-  <userdata copyright="" tags="INC 3D" comment="В зависимости от геологических условий бурят различные типы скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." latitude="" description="Кустовая площадка и буровая установка" author="" info="buro13" datetime="" source="" title="ИНК" longitude=""/>
+  <userdata copyright="" tags="INC 3D" comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." latitude="" description="Кустовая площадка и буровая установка" author="" info="buro13" datetime="" source="" title="ИНК" longitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
     <hotspot url="" target="_blank" skinid="ht_deep" id="Point01" description="" pan="-165.64" tilt="6.57" title=""/>
     <hotspot url="" target="_blank" skinid="ht_url" id="Point02" description="" pan="79.55" tilt="74.09" title="buro13_top"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point03" description="Может достигать высоты 50 метров." pan="-97.98" tilt="68.1" title="Буровая вышка"/>
+    <hotspot url="" target="_blank" skinid="ht_zoom" id="Point04" description="" pan="-99.92" tilt="42.54" title="Талевый блок"/>
   </hotspots>
   <media>
     <lensflare color="0xffffff" id="Lensflare01" type="2" pan="21.5" tilt="66.19" blinding="50" alpha="80"/>

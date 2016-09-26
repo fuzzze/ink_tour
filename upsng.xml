@@ -16,8 +16,10 @@
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="" pan="-66.33" tilt="10.9" title="Интересные боксы"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="Неизвестность" pan="-66.33" tilt="10.9" title="Интересные боксы"/>
     <hotspot url="" target="_blank" skinid="ht_info" id="Point02" description="Было бы прекрасно про нее рассказать" pan="38.09" tilt="17.59" title="Затейливая штука"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point03" description="Описание" pan="-19.86" tilt="15.08" title="Концевые сепарационные установки"/>
+    <hotspot url="" target="_blank" skinid="ht_zoom" id="Point04" description="" pan="152.34" tilt="34.48" title="Вышка-громоотвод"/>
   </hotspots>
   <media>
     <lensflare color="0xffffff" id="Lensflare01" type="2" pan="-44.43" tilt="54.12" blinding="50" alpha="80"/>

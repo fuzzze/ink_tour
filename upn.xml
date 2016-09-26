@@ -16,8 +16,9 @@
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="Что же в них находится?" pan="-159.48" tilt="11.03" title="Интересные желтые баки"/>
-    <hotspot url="" target="_blank" skinid="ht_info" id="Point02" description="Куда же они ведут и что внутри?" pan="81.12" tilt="17.76" title="Загадочные трубы"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="В процессе подготовки сырья нефть подогревается для того, чтобы поделить примеси." pan="-152.81" tilt="7.23" title="Печи подогрева нефти"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point02" description="Куда же они ведут и что внутри?" pan="81.23" tilt="17.75" title="Эстакады"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point03" description="Производство относится к кклассу повышенной опасности, в связи с этим на всех производственных установках есть пожарные расчеты.&#xa;(фото веселых пожарных)" pan="-72.84" tilt="4.88" title="Пожарная часть"/>
   </hotspots>
   <media/>
   <transition zoomout="0" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2"/>

@@ -13,12 +13,14 @@
     <min fov="5" pan="0" tilt="-90"/>
     <max fov="120" pan="360" tilt="90"/>
   </view>
-  <userdata copyright="" tags="INC 3D" comment="В зависимости от геологических условий бурят различные типы скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." latitude="" description="Кустовая площадка и буровая установка" author="" info="buro13" datetime="" source="" title="ИНК" longitude=""/>
+  <userdata copyright="" tags="INC 3D" comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." latitude="" description="Кустовая площадка и буровая установка" author="" info="buro13" datetime="" source="" title="ИНК" longitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
     <hotspot url="" target="_blank" skinid="ht_deep" id="Point01" description="" pan="-165.64" tilt="6.57" title=""/>
     <hotspot url="" target="_blank" skinid="ht_url" id="Point02" description="" pan="79.55" tilt="74.09" title="buro13_top"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point03" description="Может достигать высоты 50 метров." pan="-97.98" tilt="68.1" title="Буровая вышка"/>
+    <hotspot url="" target="_blank" skinid="ht_zoom" id="Point04" description="" pan="-99.92" tilt="42.54" title="Талевый блок"/>
   </hotspots>
   <media>
     <lensflare color="0xffffff" id="Lensflare01" type="2" pan="21.5" tilt="66.19" blinding="50" alpha="80"/>
@@ -68,14 +70,21 @@
     <min fov="5" pan="0" tilt="-90"/>
     <max fov="120" pan="360" tilt="30.1"/>
   </view>
-  <userdata copyright="" tags="INC 3D" comment="" latitude="" description="Обзорная панорама" author="" info="index" datetime="" source="" title="ИНК" longitude=""/>
+  <userdata copyright="" tags="INC 3D" comment="Иркутская нефтяная компания представляет панорманый тур. &lt;br>В общем тут приветственный поясняющий текст." latitude="" description="Обзорная панорама" author="" info="index" datetime="" source="" title="ИНК" longitude=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
     <hotspot url="vzhk" target="_blank" skinid="ht_url" id="Point01" description="Вахтовый жилой комплекс" pan="-161.29" tilt="-54.38" title="vzhk"/>
     <hotspot url="buro13_top" target="_blank" skinid="ht_url" id="Point02" description="buro13_top" pan="9.79" tilt="-13.42" title="buro13_top"/>
-    <hotspot url="upsng" target="_blank" skinid="ht_url" id="Point03" description="Установка подготовки сернистой нефти и газа" pan="71.31" tilt="-29.5" title="upsng"/>
-    <hotspot url="" target="_blank" skinid="ht_url" id="upn1_top" description="Установка подготовки нефти" pan="158.33" tilt="-12.67" title="upn1_top"/>
+    <hotspot url="upsng" target="_blank" skinid="ht_url" id="Point03" description="Установка подготовки сернистой нефти и газа" pan="67.05" tilt="-28.5" title="upsng"/>
+    <hotspot url="" target="_blank" skinid="ht_url" id="upn1_top" description="Установка подготовки нефти" pan="24.86" tilt="-58.81" title="upn1_top"/>
+    <hotspot url="" target="_blank" skinid="ht_url" id="Point04" description="" pan="-5.68" tilt="-57.62" title="upn"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point05" description="Какое-то описание и фотографии" pan="-58.67" tilt="-32.05" title="Энергокомплекс УПН"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point06" description="УПДТ — описание" pan="12.41" tilt="-41.56" title="Установка подготовки дизельного топлива"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point08" description="" pan="72.19" tilt="-25.75" title="Установка сероочистки газа"/>
+    <hotspot url="" target="_blank" skinid="ht_zoom" id="Point09" description="" pan="89.67" tilt="-44.67" title="Узел хранения газоконденсата"/>
+    <hotspot url="" target="_blank" skinid="ht_zoom" id="Point10" description="" pan="103.53" tilt="-35.46" title="Автозаправочная станция"/>
+    <hotspot url="" target="_blank" skinid="ht_zoom" id="Point11" description="" pan="-174.75" tilt="-49.44" title="Стадион"/>
   </hotspots>
   <media>
     <lensflare color="0xffffff" id="Lensflare01" type="2" pan="-85.52" tilt="28.69" blinding="50" alpha="80"/>
@@ -102,8 +111,9 @@
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="Что же в них находится?" pan="-159.48" tilt="11.03" title="Интересные желтые баки"/>
-    <hotspot url="" target="_blank" skinid="ht_info" id="Point02" description="Куда же они ведут и что внутри?" pan="81.12" tilt="17.76" title="Загадочные трубы"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="В процессе подготовки сырья нефть подогревается для того, чтобы поделить примеси." pan="-152.81" tilt="7.23" title="Печи подогрева нефти"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point02" description="Куда же они ведут и что внутри?" pan="81.23" tilt="17.75" title="Эстакады"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point03" description="Производство относится к кклассу повышенной опасности, в связи с этим на всех производственных установках есть пожарные расчеты.&#xa;(фото веселых пожарных)" pan="-72.84" tilt="4.88" title="Пожарная часть"/>
   </hotspots>
   <media/>
   <transition zoomout="0" zoomin="0" blendcolor="0x000000" enabled="1" zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2"/>
@@ -156,8 +166,10 @@
   <hotspots width="180" height="20" wordwrap="1">
     <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
     <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="" pan="-66.33" tilt="10.9" title="Интересные боксы"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point01" description="Неизвестность" pan="-66.33" tilt="10.9" title="Интересные боксы"/>
     <hotspot url="" target="_blank" skinid="ht_info" id="Point02" description="Было бы прекрасно про нее рассказать" pan="38.09" tilt="17.59" title="Затейливая штука"/>
+    <hotspot url="" target="_blank" skinid="ht_info" id="Point03" description="Описание" pan="-19.86" tilt="15.08" title="Концевые сепарационные установки"/>
+    <hotspot url="" target="_blank" skinid="ht_zoom" id="Point04" description="" pan="152.34" tilt="34.48" title="Вышка-громоотвод"/>
   </hotspots>
   <media>
     <lensflare color="0xffffff" id="Lensflare01" type="2" pan="-44.43" tilt="54.12" blinding="50" alpha="80"/>
