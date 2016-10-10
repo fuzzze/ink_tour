@@ -3,3 +3,37 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
 }
+.thumb_text{
+	position: absolute;
+	top:-30px;
+	font-size: 10px;
+}
+.ht_info{
+	display: block;
+	background: #3AAB47;
+	color: rgba(255,255,255,0);
+	font-size: 12px;
+	text-align: center;
+	padding: 6px 10px;
+	margin-bottom: 20px;
+	position: relative;
+	overflow: visible;
+	width: 10px;
+	transition:All 1s ease;-webkit-transition:All 0.3s ease;-moz-transition:All 0.3s ease;-o-transition:All 0.3s ease;
+}
+.ht_info:hover{
+	width: auto;
+	color: rgba(255,255,255,1);
+	z-index: 99;
+}
+.ht_info:before{
+	content: ' ';
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: #3AAB47;
+	transform: scaleY(0.5) rotate(45deg) ;
+	position: absolute;
+	bottom: -11px;
+	left: 4px;
+}
