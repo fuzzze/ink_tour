@@ -12,7 +12,7 @@
     <min tilt="-90" fov="5" pan="0"/>
     <max tilt="90" fov="120" pan="360"/>
   </view>
-  <userdata title="ИНК" info="buro13" description="Буровая вышка" comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." latitude="" datetime="" longitude="" author="" tags="INC 3D" copyright="" source=""/>
+  <userdata title="Три измерения Яракты" info="buro13" description="Буровая вышка" comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." latitude="" datetime="" longitude="" author="" tags="INC 3D" copyright="" source=""/>
   <hotspots width="180" height="20" wordwrap="1">
     <label borderalpha="1" background="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" border="1" height="20" wordwrap="1" textalpha="1" enabled="1"/>
     <polystyle mode="0" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
