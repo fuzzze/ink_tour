@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input levelingpitch="0" levelbiashidpi="0.400" width="2590" overlap="1" leveltileurl="buro13/c%c_l%r_%y_%x.jpg" height="2590" levelbias="0.400" leveltilesize="510" levelingroll="0">
-    <level preload="0" width="2590" height="2590" predecode="0"/>
-    <level preload="0" width="1295" height="1295" predecode="0"/>
-    <level preload="0" width="647" height="647" predecode="0"/>
-    <level preload="1" width="323" height="323" predecode="1"/>
+  <input levelbias="0.400" overlap="1" leveltilesize="510" leveltileurl="buro13/c%c_l%r_%y_%x.jpg" width="2590" height="2590" levelbiashidpi="0.400" levelingroll="0" levelingpitch="0">
+    <level predecode="0" width="2590" height="2590" preload="0"/>
+    <level predecode="0" width="1295" height="1295" preload="0"/>
+    <level predecode="0" width="647" height="647" preload="0"/>
+    <level predecode="1" width="323" height="323" preload="1"/>
     <preview color="0x808080" strip="1"/>
   </input>
-  <view fovmode="0" pannorth="0">
-    <start fov="70" pan="-100.48" tilt="36.8"/>
-    <min fov="5" pan="0" tilt="-90"/>
-    <max fov="120" pan="360" tilt="90"/>
+  <view pannorth="0" fovmode="0">
+    <start tilt="36.8" fov="70" pan="-100.48"/>
+    <min tilt="-90" fov="5" pan="0"/>
+    <max tilt="90" fov="120" pan="360"/>
   </view>
-  <userdata copyright="" tags="INC 3D" comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." latitude="" description="Кустовая площадка и буровая установка" author="" info="buro13" datetime="" source="" title="ИНК" longitude=""/>
+  <userdata title="ИНК" info="buro13" description="Буровая вышка" comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." latitude="" datetime="" longitude="" author="" tags="INC 3D" copyright="" source=""/>
   <hotspots width="180" height="20" wordwrap="1">
-    <label backgroundalpha="1" enabled="1" textalpha="1" background="1" width="180" backgroundcolor="0xffffff" borderradius="1" textcolor="0x000000" borderalpha="1" border="1" height="20" bordercolor="0x000000" wordwrap="1"/>
-    <polystyle backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" mode="0" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-    <hotspot url="" target="_blank" skinid="ht_deep" id="Point01" description="" pan="-165.64" tilt="6.57" title=""/>
-    <hotspot url="" target="_blank" skinid="ht_url" id="Point02" description="" pan="79.55" tilt="74.09" title="buro13_top"/>
-    <hotspot url="" target="_blank" skinid="ht_info" id="Point03" description="Может достигать высоты 50 метров." pan="-97.98" tilt="68.1" title="Буровая вышка"/>
-    <hotspot url="" target="_blank" skinid="ht_zoom" id="Point04" description="" pan="-99.92" tilt="42.54" title="Талевый блок"/>
+    <label borderalpha="1" background="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" border="1" height="20" wordwrap="1" textalpha="1" enabled="1"/>
+    <polystyle mode="0" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
+    <hotspot title="" id="Point01" description="" tilt="6.57" target="_blank" url="" skinid="ht_deep" pan="-165.64"/>
+    <hotspot title="buro13_top" id="Point02" description="" tilt="74.09" target="_blank" url="" skinid="ht_url" pan="79.55"/>
+    <hotspot title="Буровая вышка" id="Point03" description="Может достигать высоты 50 метров." tilt="68.1" target="_blank" url="" skinid="ht_info" pan="-97.98"/>
+    <hotspot title="Талевый блок" id="Point04" description="" tilt="42.54" target="_blank" url="" skinid="ht_zoom" pan="-99.92"/>
   </hotspots>
   <media>
-    <lensflare color="0xffffff" id="Lensflare01" type="2" pan="21.5" tilt="66.19" blinding="50" alpha="80"/>
+    <lensflare type="2" id="Lensflare01" alpha="80" tilt="66.19" blinding="50" color="0xffffff" pan="21.5"/>
   </media>
-  <transition zoomout="0" zoomin="0" blendcolor="0x000000" enabled="0" zoomoutpause="1" softedge="0" zoomfov="20" type="crossdissolve" blendtime="1" zoomspeed="2"/>
-  <control lockedmouse="0" invertwheel="0" contextfullscreen="0" hideabout="0" lockedwheel="0" simulatemass="1" lockedkeyboardzoom="0" speedwheel="1" dblclickfullscreen="0" sensitivity="8" lockedkeyboard="0" invertcontrol="1">
+  <transition type="crossdissolve" softedge="0" zoomin="0" zoomoutpause="1" zoomfov="20" blendtime="1" zoomspeed="2" zoomout="0" blendcolor="0x000000" enabled="0"/>
+  <control sensitivity="8" speedwheel="1" contextfullscreen="0" simulatemass="1" lockedkeyboard="0" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" hideabout="0">
     <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>

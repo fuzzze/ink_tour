@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.0.2/15080
 // Filename: INK_material2.ggsk
-// Generated Tue Oct 11 03:52:31 2016
+// Generated Mon Oct 17 06:06:06 2016
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -1336,16 +1336,17 @@ function pano2vrSkin(player,base) {
 		if (hotspot.skinid=='ht_info') {
 			this.__div=document.createElement('div');
 			this.__div.ggId="ht_info";
+			this.__div.ggLeft=-173;
+			this.__div.ggTop=-143;
 			this.__div.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this.__div.ggVisible=true;
 			this.__div.className='ggskin ggskin_hotspot ';
 			this.__div.ggType='hotspot';
 			hs ='';
-			hs+='cursor : pointer;';
 			hs+='height : 5px;';
-			hs+='left : 147px;';
+			hs+='left : -173px;';
 			hs+='position : absolute;';
-			hs+='top : 177px;';
+			hs+='top : -143px;';
 			hs+='visibility : inherit;';
 			hs+='width : 5px;';
 			this.__div.setAttribute('style',hs);
@@ -1368,6 +1369,13 @@ function pano2vrSkin(player,base) {
 				me.skin.hotspotProxyOut(me.hotspot.id);
 			}
 			this.__div.ggUpdatePosition=function () {
+				this.style[domTransition]='none';
+				if (this.parentNode) {
+					var w=this.parentNode.offsetWidth;
+						this.style.left=(this.ggLeft - 0 + w/2) + 'px';
+					var h=this.parentNode.offsetHeight;
+						this.style.top=(this.ggTop - 0 + h/2) + 'px';
+				}
 			}
 			this._txt_hotspot=document.createElement('div');
 			this._txt_hotspot__text=document.createElement('div');
@@ -1375,16 +1383,16 @@ function pano2vrSkin(player,base) {
 			this._txt_hotspot.ggTextDiv=this._txt_hotspot__text;
 			this._txt_hotspot.ggId="txt_hotspot";
 			this._txt_hotspot.ggLeft=-51;
-			this._txt_hotspot.ggTop=-1;
+			this._txt_hotspot.ggTop=-35;
 			this._txt_hotspot.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 			this._txt_hotspot.ggVisible=true;
 			this._txt_hotspot.className='ggskin ggskin_text ';
 			this._txt_hotspot.ggType='text';
 			hs ='';
-			hs+='height : 50px;';
+			hs+='height : 30px;';
 			hs+='left : -51px;';
 			hs+='position : absolute;';
-			hs+='top : -1px;';
+			hs+='top : -35px;';
 			hs+='visibility : inherit;';
 			hs+='width : 100px;';
 			this._txt_hotspot.setAttribute('style',hs);
@@ -1421,7 +1429,7 @@ function pano2vrSkin(player,base) {
 					var w=this.parentNode.offsetWidth;
 						this.style.left=(this.ggLeft - 0 + w/2) + 'px';
 					var h=this.parentNode.offsetHeight;
-						this.style.top=(this.ggTop - 0 + h/2) + 'px';
+						this.style.top=(this.ggTop - 0 + h) + 'px';
 				}
 				this.style[domTransition]='none';
 				this.ggTextDiv.style.left=((100-this.ggTextDiv.offsetWidth)/2) + 'px';
