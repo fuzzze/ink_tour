@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.0.2/15080
 // Filename: INK_material2.ggsk
-// Generated Mon Oct 17 08:55:55 2016
+// Generated Mon Oct 17 09:08:34 2016
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -709,7 +709,7 @@ function pano2vrSkin(player,base) {
 		hs+='width: 561px;';
 		hs+='height: 29px;';
 		hs+='border: 0px solid #000000;';
-		hs+='color: rgba(33,130,69,1);';
+		hs+='color: rgba(74,144,226,1);';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
 		hs+='padding: 0px 1px 0px 1px;';
@@ -1232,6 +1232,9 @@ function pano2vrSkin(player,base) {
 				me.skin._info_window.style[domTransition]='none';
 				me.skin._info_window.style.visibility=(Number(me.skin._info_window.style.opacity)>0||!me.skin._info_window.style.opacity)?'inherit':'hidden';
 				me.skin._info_window.ggVisible=true;
+				me.skin._dark_bg.style[domTransition]='none';
+				me.skin._dark_bg.style.visibility=(Number(me.skin._dark_bg.style.opacity)>0||!me.skin._dark_bg.style.opacity)?'inherit':'hidden';
+				me.skin._dark_bg.ggVisible=true;
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function () {
