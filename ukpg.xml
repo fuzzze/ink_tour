@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input levelbias="0.400" levelbiashidpi="0.400" levelingpitch="0" height="2500" overlap="1" leveltileurl="ukpg/c%c_l%r_%y_%x.jpg" leveltilesize="510" width="2500" levelingroll="0">
-    <level predecode="0" height="2500" width="2500" preload="0"/>
-    <level predecode="0" height="1250" width="1250" preload="0"/>
-    <level predecode="0" height="625" width="625" preload="0"/>
-    <level predecode="1" height="312" width="312" preload="1"/>
-    <preview strip="1" color="0x808080"/>
+  <input levelbias="0.400" overlap="1" leveltilesize="510" leveltileurl="ukpg/c%c_l%r_%y_%x.jpg" width="2500" height="2500" levelbiashidpi="0.400" levelingroll="0" levelingpitch="0">
+    <level predecode="0" width="2500" height="2500" preload="0"/>
+    <level predecode="0" width="1250" height="1250" preload="0"/>
+    <level predecode="0" width="625" height="625" preload="0"/>
+    <level predecode="1" width="312" height="312" preload="1"/>
+    <preview color="0x808080" strip="1"/>
   </input>
-  <view fovmode="0" pannorth="0">
-    <start pan="0" tilt="0" fov="70"/>
-    <min pan="-180" tilt="-46.5" fov="5"/>
-    <max pan="180" tilt="52.3" fov="120"/>
+  <view pannorth="0" fovmode="0">
+    <start tilt="0" fov="70" pan="0"/>
+    <min tilt="-46.5" fov="5" pan="-180"/>
+    <max tilt="52.3" fov="120" pan="180"/>
   </view>
-  <userdata description="" info="ukpg" title="" author="" comment="" longitude="" source="" copyright="" latitude="" tags="ink_tour" datetime=""/>
-  <hotspots wordwrap="1" height="20" width="180">
-    <label textcolor="0x000000" backgroundcolor="0xffffff" enabled="1" wordwrap="1" border="1" height="20" bordercolor="0x000000" borderradius="1" background="1" textalpha="1" backgroundalpha="1" width="180" borderalpha="1"/>
-    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" mode="0" borderalpha="1"/>
+  <userdata title="" info="ukpg" description="Установка комплексной подготовки газа" comment="" latitude="" datetime="" longitude="" author="" tags="ink_tour" copyright="" source=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label borderalpha="1" background="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" border="1" height="20" wordwrap="1" textalpha="1" enabled="1"/>
+    <polystyle mode="0" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
+    <hotspot title="Молниеотвод" id="Point01" description="" tilt="14.61" target="_blank" url="" skinid="ht_info" pan="84.79"/>
+    <hotspot title="Молниеотвод" id="Point02" description="" tilt="11.53" target="_blank" url="" skinid="ht_info" pan="136.26"/>
+    <hotspot title="Склады метанола" id="Point03" description="Метанол используется в процессе подготовки газа." tilt="-6.01" target="_blank" url="" skinid="ht_zoom" pan="101.12"/>
+    <hotspot title="Склады газового конденсата" id="Point04" description="Входят в строящуюся установку подготовки природного и попутного нефтяного газа" tilt="-2.82" target="_blank" url="" skinid="ht_zoom" pan="118.57"/>
+    <hotspot title="Ресиверы азота и воздуха" id="Point05" description="Азот используется в технологическом процессе подготовки газа на УКПГ." tilt="-1.21" target="_blank" url="" skinid="ht_zoom" pan="-2.83"/>
+    <hotspot title="Компрессорные установки УКПГ" id="Point06" description="Шесть компрессорных установок позволяют закачивать газ обратно в пласт" tilt="-2.82" target="_blank" url="" skinid="ht_zoom" pan="67.59"/>
+    <hotspot title="Колонна деэтанизации (входит в строящуюся УПППНГ)" id="Point07" description="Служит для выделения этана из природного и попутного нефтяного газа" tilt="5.57" target="_blank" url="" skinid="ht_zoom" pan="-21.55"/>
+    <hotspot title="Колонна депропанизации" id="Point08" description="Служит для выделения пропана из природного и попутного нефтяного газа" tilt="11.17" target="_blank" url="" skinid="ht_zoom" pan="162.43"/>
+    <hotspot title="Колонна дебутанизации" id="Point09" description="Служит для выделения бутана из смеси природного и попутного газа" tilt="1.78" target="_blank" url="" skinid="ht_zoom" pan="159.33"/>
+    <hotspot title="Энергоцентр УКПГ" id="Point10" description="Обеспечивает электроэнергией компрессоры для обратной закачки газа в пласт." tilt="-1.07" target="_blank" url="" skinid="ht_zoom" pan="128.84"/>
   </hotspots>
   <media/>
-  <transition type="crossdissolve" zoomout="0" enabled="0" blendtime="1" zoomoutpause="1" blendcolor="0x000000" zoomspeed="2" zoomfov="20" softedge="0" zoomin="0"/>
-  <control sensitivity="8" contextfullscreen="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" hideabout="0" lockedwheel="0" speedwheel="1" lockedkeyboard="0" invertcontrol="1">
+  <transition type="crossdissolve" softedge="0" zoomin="0" zoomoutpause="1" zoomfov="20" blendtime="1" zoomspeed="2" zoomout="0" blendcolor="0x000000" enabled="0"/>
+  <control sensitivity="8" speedwheel="1" contextfullscreen="0" simulatemass="1" lockedkeyboard="0" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" hideabout="0">
     <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>
