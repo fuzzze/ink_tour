@@ -62,10 +62,10 @@ html {
 .ht_zoom{background: #4A90E2;text-align: left;overflow:visible;}
 .ht_zoom:before{background: #4A90E2 url(zoom_icon.png) no-repeat center 6px;}
 .ht_zoom:after{background: #4A90E2;}
-.ht_zoom span{
+.ht_zoom div{
 	display: none; 
 }
-.ht_zoom:hover span{
+.ht_zoom:hover div{
 	display: block;
 	width: 300px;
 }
