@@ -18,6 +18,18 @@
             ]
           },
           {
+            "title":"Образовательный Красный",
+            "image_url":"http://www.invisible.ru/media/cache/photos/2016/10/07/red_obraz1.2_620x365_image_2.png",
+            "subtitle":"Красное со всего света – коротать вечера, расширять кругозор",
+            "buttons":[
+              {
+                "type":"web_url",
+                "url":"http://www.invisible.ru/product/redobraz1.3/",
+                "title":"7 500 ₽"
+              }
+            ]
+          },
+          {
             "title":"Meat the Wine v.6.3",
             "image_url":"http://www.invisible.ru/media/cache/photos/2016/10/11/meat_6.2_620x365_oEO62vY_image_2.png",
             "subtitle":"Сет из 4 красных под кусок мяса",
