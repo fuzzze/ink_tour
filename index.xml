@@ -76,40 +76,40 @@
   </control>
 </panorama>
 <panorama id="index">
-  <input levelbiashidpi="0.400" height="2636" leveltilesize="510" leveltileurl="index/c%c_l%r_%y_%x.jpg" width="2636" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0">
-    <level preload="0" height="2636" width="2636" predecode="0"/>
-    <level preload="0" height="1318" width="1318" predecode="0"/>
-    <level preload="0" height="659" width="659" predecode="0"/>
-    <level preload="1" height="329" width="329" predecode="1"/>
+  <input leveltileurl="index/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="2636" levelingroll="0" height="2636" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+    <level predecode="0" width="2636" height="2636" preload="0"/>
+    <level predecode="0" width="1318" height="1318" preload="0"/>
+    <level predecode="0" width="659" height="659" preload="0"/>
+    <level predecode="1" width="329" height="329" preload="1"/>
     <preview color="0x808080" strip="1"/>
   </input>
-  <view pannorth="0" fovmode="0">
+  <view fovmode="0" pannorth="0">
     <start fov="78.5" tilt="-46.38" pan="-16.83"/>
     <min fov="5" tilt="-90" pan="0"/>
     <max fov="120" tilt="30.1" pan="360"/>
   </view>
-  <userdata author="" datetime="" description="Обзорная панорама" source="" tags="INC 3D" comment="" info="index" title="Три измерения Яракты" longitude="" copyright="" latitude=""/>
-  <hotspots height="20" width="180" wordwrap="1">
-    <label border="1" borderradius="1" enabled="1" height="20" borderalpha="1" background="1" width="180" textcolor="0x000000" wordwrap="1" bordercolor="0x000000" backgroundalpha="1" textalpha="1" backgroundcolor="0xffffff"/>
-    <polystyle borderalpha="1" mode="0" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" backgroundcolor="0x0000ff"/>
-    <hotspot skinid="ht_url" description="Вахтовый жилой комплекс" id="Point01" url="vzhk" tilt="-54.38" title="vzhk" target="_blank" pan="-161.29"/>
-    <hotspot skinid="ht_url" description="buro13_top" id="Point02" url="buro13_top" tilt="-13.42" title="buro13_top" target="_blank" pan="9.79"/>
-    <hotspot skinid="ht_url" description="Установка подготовки сернистой нефти и газа" id="Point03" url="upsng" tilt="-28.5" title="upsng" target="_blank" pan="67.05"/>
-    <hotspot skinid="ht_url" description="Установка подготовки нефти" id="upn1_top" url="" tilt="-58.81" title="upn1_top" target="_blank" pan="24.86"/>
-    <hotspot skinid="ht_url" description="" id="Point04" url="" tilt="-57.62" title="upn" target="_blank" pan="-5.68"/>
-    <hotspot skinid="ht_info" description="Какое-то описание и фотографии" id="Point05" url="" tilt="-32.05" title="Энергокомплекс УПН" target="_blank" pan="-58.67"/>
-    <hotspot skinid="ht_info" description="УПДТ — описание" id="Point06" url="" tilt="-41.56" title="Установка подготовки дизельного топлива" target="_blank" pan="12.41"/>
-    <hotspot skinid="ht_info" description="" id="Point09" url="" tilt="-44.67" title="Узел хранения газоконденсата" target="_blank" pan="89.67"/>
-    <hotspot skinid="ht_info" description="" id="Point10" url="" tilt="-35.46" title="Автозаправочная станция" target="_blank" pan="103.68"/>
-    <hotspot skinid="ht_url" description="ukpg" id="Point07" url="" tilt="-1.82" title="ukpg" target="_blank" pan="97.48"/>
-    <hotspot skinid="ht_url" description="psp" id="Point08" url="" tilt="-2.09" title="psp" target="_blank" pan="-8.32"/>
+  <userdata comment="" tags="INC 3D" longitude="" author="" info="index" copyright="" source="" latitude="" title="Три измерения Яракты" description="Обзорная панорама" datetime=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+    <hotspot target="_blank" url="vzhk" skinid="ht_url" id="Point01" tilt="-54.38" pan="-161.29" title="vzhk" description="Вахтовый жилой комплекс"/>
+    <hotspot target="_blank" url="buro13_top" skinid="ht_url" id="Point02" tilt="-13.42" pan="9.79" title="buro13_top" description="buro13_top"/>
+    <hotspot target="_blank" url="upsng" skinid="ht_url" id="Point03" tilt="-28.5" pan="67.05" title="upsng" description="Установка подготовки сернистой нефти и газа"/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="upn1_top" tilt="-58.81" pan="24.86" title="upn1_top" description="Установка подготовки нефти"/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point04" tilt="-57.62" pan="-5.68" title="upn" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point05" tilt="-32.05" pan="-58.67" title="Энергокомплекс УПН" description="Какое-то описание и фотографии"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="-41.56" pan="12.41" title="Установка подготовки дизельного топлива" description="УПДТ — описание"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point09" tilt="-44.67" pan="89.67" title="Узел хранения газоконденсата" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point10" tilt="-35.46" pan="103.68" title="Автозаправочная станция" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point07" tilt="-1.82" pan="97.48" title="ukpg" description="ukpg"/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point08" tilt="-2.09" pan="-8.32" title="psp" description="psp"/>
   </hotspots>
   <media>
-    <lensflare color="0xffffff" id="Lensflare01" blinding="50" type="2" tilt="28.69" alpha="80" pan="-85.52"/>
+    <lensflare color="0xffffff" type="2" id="Lensflare01" tilt="28.69" pan="-85.52" alpha="80" blinding="50"/>
   </media>
-  <transition zoomout="0" enabled="1" zoomfov="20" blendtime="1" zoomin="0" type="crossdissolve" softedge="0" zoomspeed="2" zoomoutpause="1" blendcolor="0x000000"/>
-  <control simulatemass="1" invertcontrol="1" sensitivity="8" speedwheel="1" lockedmouse="0" lockedkeyboard="0" contextfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" lockedwheel="0" dblclickfullscreen="0" hideabout="1">
-    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
+  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="1" zoomoutpause="1" zoomin="0"/>
+  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="1" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
+    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>
 <panorama id="psp">
