@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input leveltilesize="510" height="2590" leveltileurl="buro13/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" levelingpitch="0" width="2590" overlap="1" levelingroll="0" levelbias="0.400">
-    <level preload="0" height="2590" width="2590" predecode="0"/>
-    <level preload="0" height="1295" width="1295" predecode="0"/>
-    <level preload="0" height="647" width="647" predecode="0"/>
-    <level preload="1" height="323" width="323" predecode="1"/>
-    <preview strip="1" color="0x808080"/>
+  <input leveltileurl="buro13/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="2590" levelingroll="0" height="2590" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+    <level predecode="0" width="2590" height="2590" preload="0"/>
+    <level predecode="0" width="1295" height="1295" preload="0"/>
+    <level predecode="0" width="647" height="647" preload="0"/>
+    <level predecode="1" width="323" height="323" preload="1"/>
+    <preview color="0x808080" strip="1"/>
   </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="36.8" fov="70" pan="-100.48"/>
-    <min tilt="-90" fov="5" pan="0"/>
-    <max tilt="90" fov="120" pan="360"/>
+  <view fovmode="0" pannorth="0">
+    <start fov="70" tilt="36.8" pan="-100.48"/>
+    <min fov="5" tilt="-90" pan="0"/>
+    <max fov="120" tilt="90" pan="360"/>
   </view>
-  <userdata title="Три измерения Яракты" datetime="" longitude="" info="buro13" copyright="" author="" source="" description="Буровая установка" comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." tags="INC 3D" latitude=""/>
-  <hotspots height="20" wordwrap="1" width="180">
-    <label bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" textalpha="1" border="1" height="20" background="1" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000"/>
-    <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
-    <hotspot target="_blank" title="average_deep" skinid="ht_deep" tilt="17.75" url="" id="Point01" description="" pan="-121.82"/>
-    <hotspot target="_blank" title="buro13_top" skinid="ht_url" tilt="74.09" url="" id="Point02" description="" pan="79.55"/>
-    <hotspot target="_blank" title="Кронблок" skinid="ht_zoom" tilt="68.25" url="" id="Point03" description="Это система грузоподъемных блоков. Диапазон грузоподъемности кронблока колеблется в пределах 200-600 тонн. &#xa;&#xa;С его помощью ведут погрузочно-разгрузочные работы, фиксируют на определенной высоте инструмент или  обсадные трубы, выполняют технологические операции при бурении скважин." pan="-97.49"/>
-    <hotspot target="_blank" title="Талевый блок" skinid="ht_zoom" tilt="44.29" url="" id="Point04" description="Один из важнейших элементов буровой установки. Используется для поддержания на весу бурильных труб и инструмента во время спускоподъемных операций.&lt;br>&lt;img src=&quot;talevblok.jpg&quot;>" pan="-99.19"/>
-    <hotspot target="_blank" title="Площадка помощника бурильщика" skinid="ht_info" tilt="56.16" url="" id="Point05" description="Позволяет перемещаться по буровой вышке" pan="-108.8"/>
-    <hotspot target="_blank" title="Сепаратор бурового раствора" skinid="ht_info" tilt="29.01" url="" id="Point06" description="" pan="-114.27"/>
-    <hotspot target="_blank" title="Установка капитального ремонта скважин (КРС)" skinid="ht_zoom" tilt="20.3" url="" id="Point07" description="Готовит пробуренные скважины к добыче нефти." pan="-62.99"/>
-    <hotspot target="_blank" title="Трубы для строительства скважин" skinid="ht_info" tilt="-10.02" url="" id="Point08" description="" pan="-30.57"/>
-    <hotspot target="_blank" title="Блок глушения и дросселирования" skinid="ht_zoom" tilt="-1.3" url="" id="Point09" description="Препятствует аварийным выбросам углеводородного сырья и бурового раствора." pan="-142.12"/>
-    <hotspot target="_blank" title="Мобильный жилой городок" skinid="ht_info" tilt="1.66" url="" id="Point10" description="" pan="167.31"/>
-    <hotspot target="_blank" title="Приемные мостки" skinid="ht_zoom" tilt="-19.65" url="" id="Point11" description="Используются для укладки и подачи на буровую площадку бурильных и обсадных труб" pan="137.44"/>
-    <hotspot target="_blank" title="Буровая вышка" skinid="ht_info" tilt="18.8" url="" id="Point12" description="" pan="-99.82"/>
-    <hotspot target="_blank" title="Мобильный жилой городок" skinid="ht_info" tilt="-1.12" url="" id="Point13" description="" pan="32.97"/>
+  <userdata comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." tags="INC 3D" longitude="" author="" info="buro13" copyright="" source="" latitude="" title="Три измерения Яракты" description="Буровая установка" datetime=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+    <hotspot target="_blank" url="" skinid="ht_deep" id="Point01" tilt="17.75" pan="-121.82" title="average_deep" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point02" tilt="74.09" pan="79.55" title="buro13_top" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point03" tilt="68.25" pan="-97.49" title="Кронблок" description="Это система грузоподъемных блоков. Диапазон грузоподъемности кронблока колеблется в пределах 200-600 тонн. &#xa;&#xa;С его помощью ведут погрузочно-разгрузочные работы, фиксируют на определенной высоте инструмент или  обсадные трубы, выполняют технологические операции при бурении скважин."/>
+    <hotspot target="_blank" url="talevblok" skinid="ht_img" id="talevblok" tilt="44.29" pan="-99.19" title="Талевый блок" description="Один из важнейших элементов буровой установки.  Используется для поддержания на весу бурильных труб и  инструмента во время спускоподъемных операций."/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point05" tilt="56.16" pan="-108.8" title="Площадка помощника бурильщика" description="Позволяет перемещаться по буровой вышке"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="29.01" pan="-114.27" title="Сепаратор бурового раствора" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point07" tilt="20.3" pan="-62.99" title="Установка капитального ремонта скважин (КРС)" description="Готовит пробуренные скважины к добыче нефти."/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point08" tilt="-10.02" pan="-30.57" title="Трубы для строительства скважин" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point09" tilt="-1.3" pan="-142.12" title="Блок глушения и дросселирования" description="Препятствует аварийным выбросам углеводородного сырья и бурового раствора."/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point10" tilt="1.66" pan="167.31" title="Мобильный жилой городок" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point11" tilt="-19.65" pan="137.44" title="Приемные мостки" description="Используются для укладки и подачи на буровую площадку бурильных и обсадных труб"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point12" tilt="18.8" pan="-99.82" title="Буровая вышка" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point13" tilt="-1.12" pan="32.97" title="Мобильный жилой городок" description=""/>
   </hotspots>
   <media>
-    <lensflare alpha="80" blinding="50" type="2" tilt="66.19" id="Lensflare01" color="0xffffff" pan="21.5"/>
+    <lensflare color="0xffffff" type="2" id="Lensflare01" tilt="66.19" pan="21.5" alpha="80" blinding="50"/>
   </media>
-  <transition blendtime="1" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" zoomout="0" enabled="0" zoomfov="20" softedge="0" zoomin="0"/>
-  <control lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" lockedwheel="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="0">
-    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
+  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="0" zoomoutpause="1" zoomin="0"/>
+  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="0" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
+    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>

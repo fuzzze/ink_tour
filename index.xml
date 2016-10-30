@@ -1,80 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="index">
-<panorama id="buro13">
-  <input leveltilesize="510" height="2590" leveltileurl="buro13/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" levelingpitch="0" width="2590" overlap="1" levelingroll="0" levelbias="0.400">
-    <level preload="0" height="2590" width="2590" predecode="0"/>
-    <level preload="0" height="1295" width="1295" predecode="0"/>
-    <level preload="0" height="647" width="647" predecode="0"/>
-    <level preload="1" height="323" width="323" predecode="1"/>
-    <preview strip="1" color="0x808080"/>
-  </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="36.8" fov="70" pan="-100.48"/>
-    <min tilt="-90" fov="5" pan="0"/>
-    <max tilt="90" fov="120" pan="360"/>
-  </view>
-  <userdata title="Три измерения Яракты" datetime="" longitude="" info="buro13" copyright="" author="" source="" description="Буровая установка" comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." tags="INC 3D" latitude=""/>
-  <hotspots height="20" wordwrap="1" width="180">
-    <label bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" textalpha="1" border="1" height="20" background="1" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000"/>
-    <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
-    <hotspot target="_blank" title="average_deep" skinid="ht_deep" tilt="17.75" url="" id="Point01" description="" pan="-121.82"/>
-    <hotspot target="_blank" title="buro13_top" skinid="ht_url" tilt="74.09" url="" id="Point02" description="" pan="79.55"/>
-    <hotspot target="_blank" title="Кронблок" skinid="ht_zoom" tilt="68.25" url="" id="Point03" description="Это система грузоподъемных блоков. Диапазон грузоподъемности кронблока колеблется в пределах 200-600 тонн. &#xa;&#xa;С его помощью ведут погрузочно-разгрузочные работы, фиксируют на определенной высоте инструмент или  обсадные трубы, выполняют технологические операции при бурении скважин." pan="-97.49"/>
-    <hotspot target="_blank" title="Талевый блок" skinid="ht_zoom" tilt="44.29" url="" id="Point04" description="Один из важнейших элементов буровой установки. Используется для поддержания на весу бурильных труб и инструмента во время спускоподъемных операций.&lt;br>&lt;img src=&quot;talevblok.jpg&quot;>" pan="-99.19"/>
-    <hotspot target="_blank" title="Площадка помощника бурильщика" skinid="ht_info" tilt="56.16" url="" id="Point05" description="Позволяет перемещаться по буровой вышке" pan="-108.8"/>
-    <hotspot target="_blank" title="Сепаратор бурового раствора" skinid="ht_info" tilt="29.01" url="" id="Point06" description="" pan="-114.27"/>
-    <hotspot target="_blank" title="Установка капитального ремонта скважин (КРС)" skinid="ht_zoom" tilt="20.3" url="" id="Point07" description="Готовит пробуренные скважины к добыче нефти." pan="-62.99"/>
-    <hotspot target="_blank" title="Трубы для строительства скважин" skinid="ht_info" tilt="-10.02" url="" id="Point08" description="" pan="-30.57"/>
-    <hotspot target="_blank" title="Блок глушения и дросселирования" skinid="ht_zoom" tilt="-1.3" url="" id="Point09" description="Препятствует аварийным выбросам углеводородного сырья и бурового раствора." pan="-142.12"/>
-    <hotspot target="_blank" title="Мобильный жилой городок" skinid="ht_info" tilt="1.66" url="" id="Point10" description="" pan="167.31"/>
-    <hotspot target="_blank" title="Приемные мостки" skinid="ht_zoom" tilt="-19.65" url="" id="Point11" description="Используются для укладки и подачи на буровую площадку бурильных и обсадных труб" pan="137.44"/>
-    <hotspot target="_blank" title="Буровая вышка" skinid="ht_info" tilt="18.8" url="" id="Point12" description="" pan="-99.82"/>
-    <hotspot target="_blank" title="Мобильный жилой городок" skinid="ht_info" tilt="-1.12" url="" id="Point13" description="" pan="32.97"/>
-  </hotspots>
-  <media>
-    <lensflare alpha="80" blinding="50" type="2" tilt="66.19" id="Lensflare01" color="0xffffff" pan="21.5"/>
-  </media>
-  <transition blendtime="1" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" zoomout="0" enabled="1" zoomfov="20" softedge="0" zoomin="0"/>
-  <control lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" lockedwheel="0" invertcontrol="1" hideabout="1" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="0">
-    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
-  </control>
-</panorama>
-<panorama id="buro13_top">
-  <input leveltilesize="510" height="3250" leveltileurl="buro13_top/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" levelingpitch="0" width="3250" overlap="1" levelingroll="0" levelbias="0.400">
-    <level preload="0" height="3250" width="3250" predecode="0"/>
-    <level preload="0" height="1625" width="1625" predecode="0"/>
-    <level preload="0" height="812" width="812" predecode="0"/>
-    <level preload="1" height="406" width="406" predecode="1"/>
-    <preview strip="1" color="0x808080"/>
-  </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="-27.49" fov="70" pan="-158.58"/>
-    <min tilt="-90" fov="5" pan="0"/>
-    <max tilt="30.6" fov="120" pan="360"/>
-  </view>
-  <userdata title="Три измерения Яракты" datetime="" longitude="" info="buro13_top" copyright="" author="" source="" description="Кустовая площадка и буровая установка: вид сверху" comment="ИНК выполняет около половины от общего объема эксплуатационного и  поисково-разведочного бурения в Иркутской области, по данным государственного «Центрального диспетчерского управления топливно-энергетического комплекса» («ЦДУ ТЭК»). В составе группы компаний ИНК создано специальное сервисное подразделение ООО «ИНК–СЕРВИС», которое обеспечивает выполнение до 90% объема буровых работ компании.  По оценкам специалистов, «ИНК-Сервис» входит в пятерку крупнейших буровых предприятий страны." tags="INC 3D" latitude=""/>
-  <hotspots height="20" wordwrap="1" width="180">
-    <label bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" textalpha="1" border="1" height="20" background="1" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000"/>
-    <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
-    <hotspot target="_blank" title="buro13" skinid="ht_url" tilt="-58.15" url="" id="Point01" description="Буровая" pan="-156.64"/>
-    <hotspot target="_blank" title="index" skinid="ht_url" tilt="-1.16" url="" id="Point02" description="Общий вид" pan="-70.78"/>
-    <hotspot target="_blank" title="Шламовый амбар" skinid="ht_zoom" tilt="-28.59" url="" id="Point03" description="Использованный буровой раствор проходит очистку для дальнейшей рекультивации кустовой площадки." pan="-126.48"/>
-    <hotspot target="_blank" title="Шламовый амбар" skinid="ht_zoom" tilt="-27.14" url="" id="Point04" description="Использованный буровой раствор проходит очистку для дальнейшей рекультивации кустовой площадки." pan="159.94"/>
-    <hotspot target="_blank" title="Котельная установка" skinid="ht_info" tilt="-28.05" url="" id="Point05" description="" pan="103.68"/>
-    <hotspot target="_blank" title="Склад" skinid="ht_zoom" tilt="-51.84" url="" id="Point06" description="Хранение химреагентов и цемента, используемых в процессе бурения и обустройства скважин" pan="86.26"/>
-    <hotspot target="_blank" title="Мобильный жилой городок" skinid="ht_info" tilt="-48.5" url="" id="Point07" description="" pan="-50.13"/>
-    <hotspot target="_blank" title="Трубы для строительства скважин" skinid="ht_info" tilt="-52.53" url="" id="Point08" description="" pan="-135.85"/>
-    <hotspot target="_blank" title="Буровая установка" skinid="ht_info" tilt="-11.72" url="" id="Point09" description="" pan="-157.57"/>
-    <hotspot target="_blank" title="average_deep" skinid="ht_deep" tilt="2.91" url="" id="Point10" description="" pan="-157.44"/>
-    <hotspot target="_blank" title="Приемные мостки" skinid="ht_info" tilt="-55.55" url="" id="Point11" description="" pan="-170.58"/>
-    <hotspot target="_blank" title="Насосно-емкостной блок" skinid="ht_zoom" tilt="-36.01" url="" id="Point12" description="Включает систему очистки бурового раствора, емкости для хранения бурового раствора и буровые насосы" pan="-176.54"/>
-  </hotspots>
-  <media/>
-  <transition blendtime="1" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" zoomout="0" enabled="1" zoomfov="20" softedge="0" zoomin="0"/>
-  <control lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" lockedwheel="0" invertcontrol="1" hideabout="1" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="0">
-    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
-  </control>
-</panorama>
 <panorama id="index">
   <input leveltileurl="index/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="2636" levelingroll="0" height="2636" leveltilesize="510" levelingpitch="0" levelbias="0.400">
     <level predecode="0" width="2636" height="2636" preload="0"/>
@@ -88,20 +13,20 @@
     <min fov="5" tilt="-90" pan="0"/>
     <max fov="120" tilt="30.1" pan="360"/>
   </view>
-  <userdata comment="" tags="INC 3D" longitude="" author="" info="index" copyright="" source="" latitude="" title="Три измерения Яракты" description="Обзорная панорама" datetime=""/>
+  <userdata comment="" tags="INC 3D" longitude="" author="" info="index" copyright="" source="" latitude="" title="Три измерения Яракты" description="Общий вид месторождения" datetime=""/>
   <hotspots wordwrap="1" width="180" height="20">
     <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
     <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
     <hotspot target="_blank" url="vzhk" skinid="ht_url" id="Point01" tilt="-54.38" pan="-161.29" title="vzhk" description="Вахтовый жилой комплекс"/>
-    <hotspot target="_blank" url="buro13_top" skinid="ht_url" id="Point02" tilt="-13.42" pan="9.79" title="buro13_top" description="buro13_top"/>
+    <hotspot target="_blank" url="buro13_top" skinid="ht_url" id="Point02" tilt="-13.43" pan="9.79" title="buro13_top" description="Буровая вышка"/>
     <hotspot target="_blank" url="upsng" skinid="ht_url" id="Point03" tilt="-28.5" pan="67.05" title="upsng" description="Установка подготовки сернистой нефти и газа"/>
-    <hotspot target="_blank" url="" skinid="ht_url" id="upn1_top" tilt="-58.81" pan="24.86" title="upn1_top" description="Установка подготовки нефти"/>
-    <hotspot target="_blank" url="" skinid="ht_url" id="Point04" tilt="-57.62" pan="-5.68" title="upn" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="upn1_top" tilt="-58.81" pan="24.86" title="upn1_top" description="Установка подготовки нефти вид сверху"/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point04" tilt="-57.62" pan="-5.68" title="upn" description="Установка подготовки нефти"/>
     <hotspot target="_blank" url="" skinid="ht_info" id="Point05" tilt="-32.05" pan="-58.67" title="Энергокомплекс УПН" description="Какое-то описание и фотографии"/>
     <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="-41.56" pan="12.41" title="Установка подготовки дизельного топлива" description="УПДТ — описание"/>
     <hotspot target="_blank" url="" skinid="ht_info" id="Point09" tilt="-44.67" pan="89.67" title="Узел хранения газоконденсата" description=""/>
     <hotspot target="_blank" url="" skinid="ht_info" id="Point10" tilt="-35.46" pan="103.68" title="Автозаправочная станция" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_url" id="Point07" tilt="-1.82" pan="97.48" title="ukpg" description="ukpg"/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point07" tilt="-1.82" pan="97.48" title="ukpg" description="Установка комплексной подготовки газа"/>
     <hotspot target="_blank" url="" skinid="ht_url" id="Point08" tilt="-2.09" pan="-8.32" title="psp" description="Приемо-сдаточный пункт нефти «Марковское»"/>
   </hotspots>
   <media>
@@ -112,45 +37,74 @@
     <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>
-<panorama id="psp">
-  <input leveltileurl="psp/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="12777" levelingroll="0" height="12777" leveltilesize="510" levelingpitch="0" levelbias="0.400">
-    <level predecode="0" width="12777" height="12777" preload="0"/>
-    <level predecode="0" width="6388" height="6388" preload="0"/>
-    <level predecode="0" width="3194" height="3194" preload="0"/>
-    <level predecode="0" width="1597" height="1597" preload="0"/>
-    <level predecode="0" width="798" height="798" preload="0"/>
-    <level predecode="1" width="399" height="399" preload="1"/>
+<panorama id="buro13">
+  <input leveltileurl="buro13/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="2590" levelingroll="0" height="2590" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+    <level predecode="0" width="2590" height="2590" preload="0"/>
+    <level predecode="0" width="1295" height="1295" preload="0"/>
+    <level predecode="0" width="647" height="647" preload="0"/>
+    <level predecode="1" width="323" height="323" preload="1"/>
     <preview color="0x808080" strip="1"/>
   </input>
   <view fovmode="0" pannorth="0">
-    <start fov="16" tilt="5.59" pan="20.44"/>
-    <min fov="5" tilt="-16.8721" pan="-60"/>
-    <max fov="120" tilt="16.8721" pan="60"/>
+    <start fov="70" tilt="36.8" pan="-100.48"/>
+    <min fov="5" tilt="-90" pan="0"/>
+    <max fov="120" tilt="90" pan="360"/>
   </view>
-  <userdata comment="" tags="ink_tour" longitude="" author="" info="psp" copyright="" source="" latitude="" title="Три измерения Яракты" description="Приемо-сдаточный пункт нефти «Марковское»" datetime="2016:10:22 00:15:33"/>
+  <userdata comment="В зависимости от геологических условий производят бурение различных типов скважин: вертикальные, наклонно-направленные, горизонтальные, многоствольные. Сейчас почти 70% скважин на Ярактинском месторождении являются наклонно-направленными с горизонтальным окончанием. Средняя глубина скважин на Ярактинском месторождении 3200 метров. С 2006 по 2016 годы на Ярак­тинском месторождении построено более 200 скважин." tags="INC 3D" longitude="" author="" info="buro13" copyright="" source="" latitude="" title="Три измерения Яракты" description="Буровая установка" datetime=""/>
   <hotspots wordwrap="1" width="180" height="20">
     <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
     <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point01" tilt="4.66" pan="-38.58" title="Товарные резервуары для хранения нефти объемом 20 тыс. м3" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point02" tilt="2.33" pan="-33.31" title="Противопожарные резервуары" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point03" tilt="3.68" pan="-24.3" title="Электрическая подстанция" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point04" tilt="-2.47" pan="-51.06" title="Электрическая подстанция" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point05" tilt="2.79" pan="-28.89" title="Насосная станция пожаротушения" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="5.67" pan="50.93" title="Точка подключения к трубопроводной системе «Восточная Сибирь - Тихий океан»" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point07" tilt="5.51" pan="37.05" title=" Система измерения количества и качества нефти" description="«Сердце» приемо-сдаточного пункта - система измерения и контроля качества нефти (СИКН), где нефть еще раз проходит проверку по всем параметрам."/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point08" tilt="10.03" pan="28.13" title="Трасса трубопровода ВСТО" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point09" tilt="8.8" pan="22.21" title="Товарные резервуары для хранения нефти объемом 3 тыс. м3" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point10" tilt="7.92" pan="13.61" title="Товарные резервуары для хранения нефти объемом 10 тыс. м3" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point11" tilt="6.46" pan="23.45" title="Противопожарные резервуары" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point12" tilt="6.13" pan="4.94" title="Противопожарные резервуары" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_img" id="Point13" tilt="-7.77" pan="45.5" title="Лаборатория" description="lab"/>
-    <hotspot target="_blank" url="" skinid="ht_img" id="Point14" tilt="-10.72" pan="28.71" title="Операторская" description="oper"/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point15" tilt="1.51" pan="33.64" title="Система измерения количества и качества нефти" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point16" tilt="-3.41" pan="26.81" title="Электрическая подстанция" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point17" tilt="2.42" pan="26.49" title="Котельная" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point18" tilt="-0.96" pan="1.39" title="Камера приема очистного устройства" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point19" tilt="4.68" pan="9.99" title="Насосные станции" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point20" tilt="10.04" pan="7.9" title="Нефтепровод от установки подготовки нефти на Ярактинском месторождении" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_deep" id="Point01" tilt="17.75" pan="-121.82" title="average_deep" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point02" tilt="74.09" pan="79.55" title="buro13_top" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point03" tilt="68.25" pan="-97.49" title="Кронблок" description="Это система грузоподъемных блоков. Диапазон грузоподъемности кронблока колеблется в пределах 200-600 тонн. &#xa;&#xa;С его помощью ведут погрузочно-разгрузочные работы, фиксируют на определенной высоте инструмент или  обсадные трубы, выполняют технологические операции при бурении скважин."/>
+    <hotspot target="_blank" url="talevblok" skinid="ht_img" id="talevblok" tilt="44.29" pan="-99.19" title="Талевый блок" description="Один из важнейших элементов буровой установки.  Используется для поддержания на весу бурильных труб и  инструмента во время спускоподъемных операций."/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point05" tilt="56.16" pan="-108.8" title="Площадка помощника бурильщика" description="Позволяет перемещаться по буровой вышке"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="29.01" pan="-114.27" title="Сепаратор бурового раствора" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point07" tilt="20.3" pan="-62.99" title="Установка капитального ремонта скважин (КРС)" description="Готовит пробуренные скважины к добыче нефти."/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point08" tilt="-10.02" pan="-30.57" title="Трубы для строительства скважин" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point09" tilt="-1.3" pan="-142.12" title="Блок глушения и дросселирования" description="Препятствует аварийным выбросам углеводородного сырья и бурового раствора."/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point10" tilt="1.66" pan="167.31" title="Мобильный жилой городок" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point11" tilt="-19.65" pan="137.44" title="Приемные мостки" description="Используются для укладки и подачи на буровую площадку бурильных и обсадных труб"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point12" tilt="18.8" pan="-99.82" title="Буровая вышка" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point13" tilt="-1.12" pan="32.97" title="Мобильный жилой городок" description=""/>
+  </hotspots>
+  <media>
+    <lensflare color="0xffffff" type="2" id="Lensflare01" tilt="66.19" pan="21.5" alpha="80" blinding="50"/>
+  </media>
+  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="1" zoomoutpause="1" zoomin="0"/>
+  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="1" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
+    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
+  </control>
+</panorama>
+<panorama id="buro13_top">
+  <input leveltileurl="buro13_top/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="3250" levelingroll="0" height="3250" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+    <level predecode="0" width="3250" height="3250" preload="0"/>
+    <level predecode="0" width="1625" height="1625" preload="0"/>
+    <level predecode="0" width="812" height="812" preload="0"/>
+    <level predecode="1" width="406" height="406" preload="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start fov="70" tilt="-27.49" pan="-158.58"/>
+    <min fov="5" tilt="-90" pan="0"/>
+    <max fov="120" tilt="30.6" pan="360"/>
+  </view>
+  <userdata comment="ИНК выполняет около половины от общего объема эксплуатационного и  поисково-разведочного бурения в Иркутской области, по данным государственного «Центрального диспетчерского управления топливно-энергетического комплекса» («ЦДУ ТЭК»). В составе группы компаний ИНК создано специальное сервисное подразделение ООО «ИНК–СЕРВИС», которое обеспечивает выполнение до 90% объема буровых работ компании.  По оценкам специалистов, «ИНК-Сервис» входит в пятерку крупнейших буровых предприятий страны." tags="INC 3D" longitude="" author="" info="buro13_top" copyright="" source="" latitude="" title="Три измерения Яракты" description="Кустовая площадка и буровая установка: вид сверху" datetime=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point01" tilt="-58.15" pan="-156.64" title="buro13" description="Буровая"/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point02" tilt="-1.16" pan="-70.78" title="index" description="Общий вид"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point03" tilt="-28.59" pan="-126.48" title="Шламовый амбар" description="Использованный буровой раствор проходит очистку для дальнейшей рекультивации кустовой площадки."/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point04" tilt="-27.14" pan="159.94" title="Шламовый амбар" description="Использованный буровой раствор проходит очистку для дальнейшей рекультивации кустовой площадки."/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point05" tilt="-28.05" pan="103.68" title="Котельная установка" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point06" tilt="-51.84" pan="86.26" title="Склад" description="Хранение химреагентов и цемента, используемых в процессе бурения и обустройства скважин"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point07" tilt="-48.5" pan="-50.13" title="Мобильный жилой городок" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point08" tilt="-52.53" pan="-135.85" title="Трубы для строительства скважин" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point09" tilt="-11.72" pan="-157.57" title="Буровая установка" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_deep" id="Point10" tilt="2.91" pan="-157.44" title="average_deep" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point11" tilt="-55.55" pan="-170.58" title="Приемные мостки" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point12" tilt="-36.01" pan="-176.54" title="Насосно-емкостной блок" description="Включает систему очистки бурового раствора, емкости для хранения бурового раствора и буровые насосы"/>
   </hotspots>
   <media/>
   <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="1" zoomoutpause="1" zoomin="0"/>
@@ -158,103 +112,71 @@
     <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>
-<panorama id="ukpg">
-  <input levelbias="0.400" overlap="1" leveltilesize="510" leveltileurl="ukpg/c%c_l%r_%y_%x.jpg" width="2500" height="2500" levelbiashidpi="0.400" levelingroll="0" levelingpitch="0">
-    <level predecode="0" width="2500" height="2500" preload="0"/>
-    <level predecode="0" width="1250" height="1250" preload="0"/>
-    <level predecode="0" width="625" height="625" preload="0"/>
-    <level predecode="1" width="312" height="312" preload="1"/>
-    <preview color="0x808080" strip="1"/>
-  </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="0" fov="70" pan="0"/>
-    <min tilt="-46.5" fov="5" pan="-180"/>
-    <max tilt="52.3" fov="120" pan="180"/>
-  </view>
-  <userdata title="" info="ukpg" description="Установка комплексной подготовки газа" comment="" latitude="" datetime="" longitude="" author="" tags="ink_tour" copyright="" source=""/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label borderalpha="1" background="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" border="1" height="20" wordwrap="1" textalpha="1" enabled="1"/>
-    <polystyle mode="0" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
-    <hotspot title="Молниеотвод" id="Point01" description="" tilt="14.61" target="_blank" url="" skinid="ht_info" pan="84.79"/>
-    <hotspot title="Молниеотвод" id="Point02" description="" tilt="11.53" target="_blank" url="" skinid="ht_info" pan="136.26"/>
-    <hotspot title="Склады метанола" id="Point03" description="Метанол используется в процессе подготовки газа." tilt="-6.01" target="_blank" url="" skinid="ht_zoom" pan="101.12"/>
-    <hotspot title="Склады газового конденсата" id="Point04" description="Входят в строящуюся установку подготовки природного и попутного нефтяного газа" tilt="-2.82" target="_blank" url="" skinid="ht_zoom" pan="118.57"/>
-    <hotspot title="Ресиверы азота и воздуха" id="Point05" description="Азот используется в технологическом процессе подготовки газа на УКПГ." tilt="-1.21" target="_blank" url="" skinid="ht_zoom" pan="-2.83"/>
-    <hotspot title="Компрессорные установки УКПГ" id="Point06" description="Шесть компрессорных установок позволяют закачивать газ обратно в пласт" tilt="-2.82" target="_blank" url="" skinid="ht_zoom" pan="67.59"/>
-    <hotspot title="Колонна деэтанизации (входит в строящуюся УПППНГ)" id="Point07" description="Служит для выделения этана из природного и попутного нефтяного газа" tilt="5.57" target="_blank" url="" skinid="ht_zoom" pan="-21.55"/>
-    <hotspot title="Колонна депропанизации" id="Point08" description="Служит для выделения пропана из природного и попутного нефтяного газа" tilt="11.17" target="_blank" url="" skinid="ht_zoom" pan="162.43"/>
-    <hotspot title="Колонна дебутанизации" id="Point09" description="Служит для выделения бутана из смеси природного и попутного газа" tilt="1.78" target="_blank" url="" skinid="ht_zoom" pan="159.33"/>
-    <hotspot title="Энергоцентр УКПГ" id="Point10" description="Обеспечивает электроэнергией компрессоры для обратной закачки газа в пласт." tilt="-1.07" target="_blank" url="" skinid="ht_zoom" pan="128.84"/>
-  </hotspots>
-  <media/>
-  <transition type="crossdissolve" softedge="0" zoomin="0" zoomoutpause="1" zoomfov="20" blendtime="1" zoomspeed="2" zoomout="0" blendcolor="0x000000" enabled="1"/>
-  <control sensitivity="8" speedwheel="1" contextfullscreen="0" simulatemass="1" lockedkeyboard="0" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" hideabout="1">
-    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
-  </control>
-</panorama>
-<panorama id="upn">
-  <input leveltilesize="510" height="3351" leveltileurl="upn/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" levelingpitch="0" width="3351" overlap="1" levelingroll="0" levelbias="0.400">
-    <level preload="0" height="3351" width="3351" predecode="0"/>
-    <level preload="0" height="1675" width="1675" predecode="0"/>
-    <level preload="0" height="837" width="837" predecode="0"/>
-    <level preload="1" height="418" width="418" predecode="1"/>
-    <preview strip="1" color="0x808080"/>
-  </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="-3.09" fov="70" pan="92.46"/>
-    <min tilt="-90" fov="5" pan="0"/>
-    <max tilt="90" fov="120" pan="360"/>
-  </view>
-  <userdata title="Три измерения Яракты" datetime="" longitude="" info="upn" copyright="" author="" source="" description="Установка подготовки нефти" comment="Три действующие на Ярактинском месторождении установки подготовки нефти (УПН) способны готовить до 10 млн тонн нефти в год. Извлекаемое из скважин сырье поступает по системе межпромысловых трубопроводов на дожимную насосную станцию (ДНС), где от нефти «отделяют» попутный нефтяной газ и газовый конденсат. Далее водонефтяная эмульсия подается на УПН, где она обезвоживается и из нее удаляется все лишнее: соль, сера, песок, различные механические примеси. Нефть доводится до показателей ГОСТа. В лабораториях на УПН в постоянном режиме проводится контроль качества сырья. Работа сотрудников УПН максимально автоматизирована, и наблюдение за всеми технологическими процессами проводится в режиме онлайн." tags="INC 3D" latitude=""/>
-  <hotspots height="20" wordwrap="1" width="180">
-    <label bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" textalpha="1" border="1" height="20" background="1" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000"/>
-    <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
-    <hotspot target="_blank" title="Путевой подогреватель" skinid="ht_zoom" tilt="7.23" url="" id="Point01" description="Подогревают нефть, которая приходит со скважин, с 10-12 С до приблизительно 40 С. Это необходимо, чтобы удалить примеси из нефти (парафины, соли и другие). Мощность одной установки – 1,6 тыс. тонн." pan="-152.81"/>
-    <hotspot target="_blank" title="Технологические эстакады" skinid="ht_zoom" tilt="17.46" url="" id="Point02" description="Инженерные коммуникации, которые обеспечивают движение воды, нефти и газа на установке подготовки нефти. Здесь же находятся электрические кабели, сети контрольно-измерительных приборов и автоматики." pan="90.76"/>
-    <hotspot target="_blank" title="Пожарная часть" skinid="ht_zoom" tilt="0.14" url="" id="Point03" description="Производство относится к кклассу повышенной опасности, в связи с этим на всех производственных установках есть пожарные расчеты.&#xa;&lt;br>&#xa;&lt;img src=&quot;firefighters.jpg&quot;>" pan="-52.07"/>
-    <hotspot target="_blank" title="Теплообменное оборудование" skinid="ht_zoom" tilt="7.86" url="" id="Point04" description="Обеспечивает работу путевых подогревателей нефти" pan="27.84"/>
-    <hotspot target="_blank" title="Площадка №1. Узел входных задвижек" skinid="ht_zoom" tilt="-1.54" url="" id="Point05" description="Оборудование для первого этапа подготовки нефти" pan="-11.58"/>
-    <hotspot target="_blank" title="Административно-бытовой комплекс" skinid="ht_info" tilt="4.81" url="" id="Point06" description="" pan="-73.13"/>
-    <hotspot target="_blank" title="Водонапорная башня" skinid="ht_info" tilt="12.99" url="" id="Point07" description="" pan="-98.7"/>
-  </hotspots>
-  <media/>
-  <transition blendtime="1" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" zoomout="0" enabled="1" zoomfov="20" softedge="0" zoomin="0"/>
-  <control lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" lockedwheel="0" invertcontrol="1" hideabout="1" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="0">
-    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
-  </control>
-</panorama>
 <panorama id="upn1_top">
-  <input levelbias="0.400" overlap="1" leveltilesize="510" leveltileurl="upn1_top/c%c_l%r_%y_%x.jpg" width="2637" height="2637" levelbiashidpi="0.400" levelingroll="0" levelingpitch="0">
+  <input leveltileurl="upn1_top/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="2637" levelingroll="0" height="2637" leveltilesize="510" levelingpitch="0" levelbias="0.400">
     <level predecode="0" width="2637" height="2637" preload="0"/>
     <level predecode="0" width="1318" height="1318" preload="0"/>
     <level predecode="0" width="659" height="659" preload="0"/>
     <level predecode="1" width="329" height="329" preload="1"/>
     <preview color="0x808080" strip="1"/>
   </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="-23.69" fov="52.4" pan="-67.28"/>
-    <min tilt="-90" fov="5" pan="0"/>
-    <max tilt="28.7" fov="120" pan="360"/>
+  <view fovmode="0" pannorth="0">
+    <start fov="52.4" tilt="-23.69" pan="-67.28"/>
+    <min fov="5" tilt="-90" pan="0"/>
+    <max fov="120" tilt="28.7" pan="360"/>
   </view>
-  <userdata title="ИНК" info="upn1_top" description="Установка подготовки нефти: вид сверху" comment="Три действующие на Ярактинском месторождении установки подготовки нефти (УПН) способны готовить до 10 млн тонн нефти в год. Извлекаемое из скважин сырье поступает по системе межпромысловых трубопроводов на дожимную насосную станцию (ДНС), где от нефти «отделяют» попутный нефтяной газ и газовый конденсат. Далее водонефтяная эмульсия подается на УПН, где она обезвоживается и из нее удаляется все лишнее: соль, сера, песок, различные механические примеси. Нефть доводится до показателей ГОСТа. В лабораториях на УПН в постоянном режиме проводится контроль качества сырья. Работа сотрудников УПН максимально автоматизирована, и наблюдение за всеми технологическими процессами проводится в режиме онлайн." latitude="" datetime="" longitude="" author="" tags="INC 3D" copyright="" source=""/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label borderalpha="1" background="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" border="1" height="20" wordwrap="1" textalpha="1" enabled="1"/>
-    <polystyle mode="0" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
-    <hotspot title="upn" id="upn" description="" tilt="-28.25" target="_blank" url="upn" skinid="ht_url" pan="-173.24"/>
-    <hotspot title="vzhk" id="Point02" description="" tilt="-19.55" target="_blank" url="" skinid="ht_url" pan="-59.44"/>
-    <hotspot title="upsng" id="Point03" description="" tilt="-3.49" target="_blank" url="" skinid="ht_url" pan="-24.18"/>
-    <hotspot title="Столовая на 60 мест для подрядчиков ИНК" id="Point01" description="" tilt="-17.6" target="_blank" url="" skinid="ht_info" pan="-78.2"/>
-    <hotspot title="Православный храм во имя святителя Николая" id="Point04" description="Построен в 2012 году на Ярактинском месторождении.  Церковь во имя святителя Николая первое и пока единственное культурное и религиозное учреждение в этой местности.&#xa;Идея построить церковь на месторождении родилась в Иркутской нефтяной компании в 2010 году во время корпоративного обучающего семинара. Несколько сотрудников сразу же пожертвовали на эти цели свои личные средства. Однако основные расходы по строительству здания взяла на себя компания." tilt="-17.93" target="_blank" url="" skinid="ht_zoom" pan="-64.6"/>
-    <hotspot title="Столовая" id="Point05" description="Столовая на 120 посадочных мест для работников ИНК открылась в августе 2016 года." tilt="-18.61" target="_blank" url="" skinid="ht_zoom" pan="-80.71"/>
-    <hotspot title="Склад оборудования и материалов" id="Point06" description="" tilt="-28.91" target="_blank" url="" skinid="ht_info" pan="-59.98"/>
-    <hotspot title="Склад оборудования и материалов" id="Point07" description="" tilt="-28.35" target="_blank" url="" skinid="ht_info" pan="-45"/>
-    <hotspot title="Гараж управления технологического транспорта" id="Point08" description="" tilt="-34.49" target="_blank" url="" skinid="ht_info" pan="-88.46"/>
-    <hotspot title="Гараж управления технологического транспорта" id="Point09" description="" tilt="-35.2" target="_blank" url="" skinid="ht_info" pan="-51.64"/>
-    <hotspot title="Общежития" id="Point10" description="" tilt="-15.86" target="_blank" url="" skinid="ht_zoom" pan="-67.05"/>
+  <userdata comment="Три действующие на Ярактинском месторождении установки подготовки нефти (УПН) способны готовить до 10 млн тонн нефти в год. Извлекаемое из скважин сырье поступает по системе межпромысловых трубопроводов на дожимную насосную станцию (ДНС), где от нефти «отделяют» попутный нефтяной газ и газовый конденсат. Далее водонефтяная эмульсия подается на УПН, где она обезвоживается и из нее удаляется все лишнее: соль, сера, песок, различные механические примеси. Нефть доводится до показателей ГОСТа. В лабораториях на УПН в постоянном режиме проводится контроль качества сырья. Работа сотрудников УПН максимально автоматизирована, и наблюдение за всеми технологическими процессами проводится в режиме онлайн." tags="INC 3D" longitude="" author="" info="upn1_top" copyright="" source="" latitude="" title="ИНК" description="Установка подготовки нефти: вид сверху" datetime=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+    <hotspot target="_blank" url="upn" skinid="ht_url" id="upn" tilt="-28.25" pan="-173.24" title="upn" description="Установка подготовки нефти"/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point02" tilt="-19.55" pan="-59.44" title="vzhk" description="Вахтовый жилой комплекс"/>
+    <hotspot target="_blank" url="" skinid="ht_url" id="Point03" tilt="-3.49" pan="-24.18" title="upsng" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point01" tilt="-17.67" pan="-75.93" title="Столовая на 60 мест для подрядчиков ИНК" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point04" tilt="-17.93" pan="-64.6" title="Православный храм во имя святителя Николая" description="Построен в 2012 году на Ярактинском месторождении.  Церковь во имя святителя Николая первое и пока единственное культурное и религиозное учреждение в этой местности.&#xa;Идея построить церковь на месторождении родилась в Иркутской нефтяной компании в 2010 году во время корпоративного обучающего семинара. Несколько сотрудников сразу же пожертвовали на эти цели свои личные средства. Однако основные расходы по строительству здания взяла на себя компания."/>
+    <hotspot target="_blank" url="vzhk_stol" skinid="ht_img" id="Point05" tilt="-17.31" pan="-81.22" title="Столовая" description="Столовая на 120 посадочных мест для работников ИНК открылась в августе 2016 года."/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="-28.91" pan="-59.98" title="Склад оборудования и материалов" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point07" tilt="-28.35" pan="-45" title="Склад оборудования и материалов" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point08" tilt="-34.49" pan="-88.46" title="Гараж управления технологического транспорта" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point09" tilt="-35.2" pan="-51.64" title="Гараж управления технологического транспорта" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point10" tilt="-15.86" pan="-67.06" title="Общежития" description=""/>
+    <hotspot target="_blank" url="vzhk_pek2" skinid="ht_img" id="Point11" tilt="-19.62" pan="-77.61" title="Пекарня" description=""/>
+    <hotspot target="_blank" url="stad" skinid="ht_img" id="Point12" tilt="-14.33" pan="-80.16" title="Стадион" description=""/>
   </hotspots>
   <media/>
-  <transition type="crossdissolve" softedge="0" zoomin="0" zoomoutpause="1" zoomfov="20" blendtime="1" zoomspeed="2" zoomout="0" blendcolor="0x000000" enabled="1"/>
-  <control sensitivity="8" speedwheel="1" contextfullscreen="0" simulatemass="1" lockedkeyboard="0" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" hideabout="1">
+  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="1" zoomoutpause="1" zoomin="0"/>
+  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="1" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
+    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
+  </control>
+</panorama>
+<panorama id="upn">
+  <input leveltileurl="upn/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="3351" levelingroll="0" height="3351" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+    <level predecode="0" width="3351" height="3351" preload="0"/>
+    <level predecode="0" width="1675" height="1675" preload="0"/>
+    <level predecode="0" width="837" height="837" preload="0"/>
+    <level predecode="1" width="418" height="418" preload="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start fov="70" tilt="-3.09" pan="92.46"/>
+    <min fov="5" tilt="-90" pan="0"/>
+    <max fov="120" tilt="90" pan="360"/>
+  </view>
+  <userdata comment="Три действующие на Ярактинском месторождении установки подготовки нефти (УПН) способны готовить до 10 млн тонн нефти в год. Извлекаемое из скважин сырье поступает по системе межпромысловых трубопроводов на дожимную насосную станцию (ДНС), где от нефти «отделяют» попутный нефтяной газ и газовый конденсат. Далее водонефтяная эмульсия подается на УПН, где она обезвоживается и из нее удаляется все лишнее: соль, сера, песок, различные механические примеси. Нефть доводится до показателей ГОСТа. В лабораториях на УПН в постоянном режиме проводится контроль качества сырья. Работа сотрудников УПН максимально автоматизирована, и наблюдение за всеми технологическими процессами проводится в режиме онлайн." tags="INC 3D" longitude="" author="" info="upn" copyright="" source="" latitude="" title="Три измерения Яракты" description="Установка подготовки нефти" datetime=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point01" tilt="7.23" pan="-152.81" title="Путевой подогреватель" description="Подогревают нефть, которая приходит со скважин, с 10-12 С до приблизительно 40 С. Это необходимо, чтобы удалить примеси из нефти (парафины, соли и другие). Мощность одной установки – 1,6 тыс. тонн."/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point02" tilt="17.46" pan="90.76" title="Технологические эстакады" description="Инженерные коммуникации, которые обеспечивают движение воды, нефти и газа на установке подготовки нефти. Здесь же находятся электрические кабели, сети контрольно-измерительных приборов и автоматики."/>
+    <hotspot target="_blank" url="firefighters" skinid="ht_img" id="Point03" tilt="0.14" pan="-52.07" title="Пожарная часть" description="Производство относится к кклассу повышенной опасности, в связи с этим на всех производственных установках есть пожарные расчеты.&#xa;"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point04" tilt="7.86" pan="27.84" title="Теплообменное оборудование" description="Обеспечивает работу путевых подогревателей нефти"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point05" tilt="-1.54" pan="-11.58" title="Площадка №1. Узел входных задвижек" description="Оборудование для первого этапа подготовки нефти"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="4.81" pan="-73.13" title="Административно-бытовой комплекс" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point07" tilt="12.99" pan="-98.7" title="Водонапорная башня" description=""/>
+  </hotspots>
+  <media/>
+  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="1" zoomoutpause="1" zoomin="0"/>
+  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="1" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
     <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>
@@ -289,30 +211,111 @@
     <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
   </control>
 </panorama>
+<panorama id="psp">
+  <input leveltileurl="psp/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="12777" levelingroll="0" height="12777" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+    <level predecode="0" width="12777" height="12777" preload="0"/>
+    <level predecode="0" width="6388" height="6388" preload="0"/>
+    <level predecode="0" width="3194" height="3194" preload="0"/>
+    <level predecode="0" width="1597" height="1597" preload="0"/>
+    <level predecode="0" width="798" height="798" preload="0"/>
+    <level predecode="1" width="399" height="399" preload="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start fov="16" tilt="5.59" pan="20.44"/>
+    <min fov="5" tilt="-16.8721" pan="-60"/>
+    <max fov="120" tilt="16.8721" pan="60"/>
+  </view>
+  <userdata comment="" tags="ink_tour" longitude="" author="" info="psp" copyright="" source="" latitude="" title="Три измерения Яракты" description="Приемо-сдаточный пункт нефти «Марковское»" datetime="2016:10:22 00:15:33"/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point01" tilt="4.66" pan="-38.58" title="Товарные резервуары для хранения нефти объемом 20 тыс. м3" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point02" tilt="2.33" pan="-33.31" title="Противопожарные резервуары" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point03" tilt="3.68" pan="-24.3" title="Электрическая подстанция" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point04" tilt="-2.47" pan="-51.06" title="Электрическая подстанция" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point05" tilt="2.79" pan="-28.89" title="Насосная станция пожаротушения" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="5.67" pan="50.93" title="Точка подключения к трубопроводной системе «Восточная Сибирь - Тихий океан»" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point07" tilt="5.51" pan="37.05" title=" Система измерения количества и качества нефти" description="«Сердце» приемо-сдаточного пункта - система измерения и контроля качества нефти (СИКН), где нефть еще раз проходит проверку по всем параметрам."/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point08" tilt="10.03" pan="28.13" title="Трасса трубопровода ВСТО" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point09" tilt="8.8" pan="22.21" title="Товарные резервуары для хранения нефти объемом 3 тыс. м3" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point10" tilt="7.92" pan="13.61" title="Товарные резервуары для хранения нефти объемом 10 тыс. м3" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point11" tilt="6.46" pan="23.45" title="Противопожарные резервуары" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point12" tilt="6.13" pan="4.94" title="Противопожарные резервуары" description=""/>
+    <hotspot target="_blank" url="lab" skinid="ht_img" id="Point13" tilt="-7.77" pan="45.5" title="Лаборатория" description=""/>
+    <hotspot target="_blank" url="oper" skinid="ht_img" id="Point14" tilt="-10.72" pan="28.71" title="Операторская" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point15" tilt="1.51" pan="33.64" title="Система измерения количества и качества нефти" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point16" tilt="-3.41" pan="26.81" title="Электрическая подстанция" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point17" tilt="2.42" pan="26.49" title="Котельная" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point18" tilt="-0.96" pan="1.39" title="Камера приема очистного устройства" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point19" tilt="4.68" pan="9.99" title="Насосные станции" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point20" tilt="10.04" pan="7.9" title="Нефтепровод от установки подготовки нефти на Ярактинском месторождении" description=""/>
+  </hotspots>
+  <media/>
+  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="1" zoomoutpause="1" zoomin="0"/>
+  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="1" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
+    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
+  </control>
+</panorama>
+<panorama id="ukpg">
+  <input leveltileurl="ukpg/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="2500" levelingroll="0" height="2500" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+    <level predecode="0" width="2500" height="2500" preload="0"/>
+    <level predecode="0" width="1250" height="1250" preload="0"/>
+    <level predecode="0" width="625" height="625" preload="0"/>
+    <level predecode="1" width="312" height="312" preload="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view fovmode="0" pannorth="0">
+    <start fov="70" tilt="0" pan="0"/>
+    <min fov="5" tilt="-46.5" pan="-180"/>
+    <max fov="120" tilt="52.3" pan="180"/>
+  </view>
+  <userdata comment="Особенность геологии Восточной Сибири – здесь практически нет чисто нефтяных пластов, поэтому вместе с нефтью компания вынуждена добывать газ. В условиях, когда отсутствует инфраструктура для его потребления и транспортировки газа, его утилизация – непростая задача. В 2010 году ИНК запустила в работу установку комплексной подготовки газа (УКПГ), которая служит для обратной закачки природного и попутного нефтяного газа в пласт.  Это позволило не только интенсифицировать добычу, но и сократить объем сжигаемого газа и, как следствие, выбросов вредных веществ в атмосферу. ИНК первой в России успешно внедрила процесс обратной закачки газа в пласт.  С этого проекта фактически началось освоение газовых запасов Ярактинского месторождения. Сейчас вблизи УКПГ завершается строительство других объектов, которые являются частью масштабной газовой программы компании – новой страницы в истории ИНК." tags="ink_tour" longitude="" author="" info="ukpg" copyright="" source="" latitude="" title="" description="Установка комплексной подготовки газа" datetime=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point01" tilt="14.13" pan="83.02" title="Молниеотвод" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point02" tilt="11.57" pan="135.49" title="Молниеотвод" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point03" tilt="-6.01" pan="101.12" title="Склады метанола" description="Метанол используется в процессе подготовки газа."/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point04" tilt="-2.82" pan="118.57" title="Склады газового конденсата" description="Входят в строящуюся установку подготовки природного и попутного нефтяного газа"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point05" tilt="-1.21" pan="-2.83" title="Ресиверы азота и воздуха" description="Азот используется в технологическом процессе подготовки газа на УКПГ."/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point06" tilt="-2.82" pan="67.59" title="Компрессорные установки УКПГ" description="Шесть компрессорных установок позволяют закачивать газ обратно в пласт"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point07" tilt="7.31" pan="-22.81" title="Колонна деэтанизации (входит в строящуюся УПППНГ)" description="Служит для выделения этана из природного и попутного нефтяного газа"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point08" tilt="11.17" pan="162.43" title="Колонна депропанизации" description="Служит для выделения пропана из природного и попутного нефтяного газа"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point09" tilt="1.78" pan="159.33" title="Колонна дебутанизации" description="Служит для выделения бутана из смеси природного и попутного газа"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point10" tilt="-1.07" pan="128.84" title="Энергоцентр УКПГ" description="Обеспечивает электроэнергией компрессоры для обратной закачки газа в пласт."/>
+    <hotspot target="_blank" url="upppng" skinid="ht_img" id="Point11" tilt="-3.11" pan="-171.41" title="Установка комплексной подготовки природного и попутного нефтяного газа (УПППНГ)" description="Строительство УПППНГ - часть масштабного проекта по освоению газовых запасов месторождений ИНК. Установка предназначена для извлечения и подготовки товарных пропана, бутана и газового конденсата. Ее производительность - 3,6 млн/ м3 в сутки."/>
+  </hotspots>
+  <media/>
+  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="1" zoomoutpause="1" zoomin="0"/>
+  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="1" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
+    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
+  </control>
+</panorama>
 <panorama id="vzhk">
-  <input levelbias="0.400" overlap="1" leveltilesize="510" leveltileurl="vzhk/c%c_l%r_%y_%x.jpg" width="2499" height="2499" levelbiashidpi="0.400" levelingroll="0" levelingpitch="0">
+  <input leveltileurl="vzhk/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="2499" levelingroll="0" height="2499" leveltilesize="510" levelingpitch="0" levelbias="0.400">
     <level predecode="0" width="2499" height="2499" preload="0"/>
     <level predecode="0" width="1249" height="1249" preload="0"/>
     <level predecode="0" width="624" height="624" preload="0"/>
     <level predecode="1" width="312" height="312" preload="1"/>
     <preview color="0x808080" strip="1"/>
   </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="10.45" fov="70" pan="-132"/>
-    <min tilt="-90" fov="5" pan="0"/>
-    <max tilt="90" fov="120" pan="360"/>
+  <view fovmode="0" pannorth="0">
+    <start fov="70" tilt="10.45" pan="-132"/>
+    <min fov="5" tilt="-90" pan="0"/>
+    <max fov="120" tilt="90" pan="360"/>
   </view>
-  <userdata title="ИНК" info="vzhk" description="ВЖК" comment="" latitude="" datetime="" longitude="" author="" tags="INC 3D" copyright="" source=""/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label borderalpha="1" background="1" backgroundalpha="1" textcolor="0x000000" borderradius="1" bordercolor="0x000000" backgroundcolor="0xffffff" width="180" border="1" height="20" wordwrap="1" textalpha="1" enabled="1"/>
-    <polystyle mode="0" borderalpha="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
-    <hotspot title="Православный храм во имя святителя Николая" id="Point01" description="Построен в 2012 году на Ярактинском месторождении.  Церковь во имя святителя Николая первое и пока единственное культурное и религиозное учреждение в этой местности.&#xa;Идея построить церковь на месторождении родилась в Иркутской нефтяной компании в 2010 году во время корпоративного обучающего семинара. Несколько сотрудников сразу же пожертвовали на эти цели свои личные средства. Однако основные расходы по строительству здания взяла на себя компания." tilt="17.05" target="_blank" url="" skinid="ht_zoom" pan="-116.46"/>
-    <hotspot title="Общежитие" id="Point02" description="" tilt="4.34" target="_blank" url="" skinid="ht_info" pan="-75.45"/>
-    <hotspot title="Общежития" id="Point03" description="Всего на Ярактинском месторождении работает восемь общежитий, рассчитанных на 580 мест. Кроме общежитий, в вахтовом городке находятся столовые, пекарня, баня, тренажерный зал, стадион, магазин и  медпункт." tilt="3.84" target="_blank" url="" skinid="ht_zoom" pan="-9.1"/>
+  <userdata comment="" tags="INC 3D" longitude="" author="" info="vzhk" copyright="" source="" latitude="" title="ИНК" description="Вахтовый жилой комплекс" datetime=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point02" tilt="4.34" pan="-75.45" title="Общежитие" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point03" tilt="3.84" pan="-9.1" title="Общежития" description="Всего на Ярактинском месторождении работает восемь общежитий, рассчитанных на 580 мест. Кроме общежитий, в вахтовом городке находятся столовые, пекарня, баня, тренажерный зал, стадион, магазин и  медпункт."/>
+    <hotspot target="_blank" url="church" skinid="ht_img" id="Point04" tilt="20.86" pan="-115.57" title="Православный храм во имя святителя Николая" description="Построен в 2012 году на Ярактинском месторождении.  Церковь во имя святителя Николая первое и пока единственное культурное и религиозное учреждение в этой местности.&#xa;Идея построить церковь на месторождении родилась в Иркутской нефтяной компании в 2010 году во время корпоративного обучающего семинара. Несколько сотрудников сразу же пожертвовали на эти цели свои личные средства. Однако основные расходы по строительству здания взяла на себя компания."/>
   </hotspots>
   <media/>
-  <transition type="crossdissolve" softedge="0" zoomin="0" zoomoutpause="1" zoomfov="20" blendtime="1" zoomspeed="2" zoomout="0" blendcolor="0x000000" enabled="1"/>
-  <control sensitivity="8" speedwheel="1" contextfullscreen="0" simulatemass="1" lockedkeyboard="0" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" invertcontrol="1" dblclickfullscreen="0" lockedwheel="0" hideabout="1">
+  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="1" zoomoutpause="1" zoomin="0"/>
+  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="1" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
     <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>

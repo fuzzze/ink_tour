@@ -3,6 +3,17 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
 }
+
+.intro_text{
+	background: rgba(0,0,0,0.8);
+	padding: 40px;
+	font-family: 'Roboto', Arial !important; font-weight: 400;
+	color:white;
+	font-size: 16px;
+	line-height: 22px;
+	font-weight:100;
+	width: 500px;
+}
 .thumb_text{
 	position: absolute;
 	font-size: 14px;
@@ -12,9 +23,9 @@ html {
 	font-family: 'Roboto', Arial !important; font-weight: 400;
 	background: rgba(0,0,0,0.3);
 	display:inline-block;
-	padding: 0 4px;
+	padding: 4px 8px;
 }
-.ht_info, .ht_zoom, .ht_img{
+.ht_info, .ht_img{
 	display: block;
 	background: #3AAB47;
 	color: rgba(255,255,255,0);
@@ -24,16 +35,19 @@ html {
 	margin-bottom: 20px;
 	position: relative;
 	width: 10px;
+	position:relative; left: -50%;
+	font-size: 14px;
 	transition:All 0.3s ease;-webkit-transition:All 0.3s ease;-moz-transition:All 0.3s ease;-o-transition:All 0.3s ease;
-
 }
-.ht_info:hover, .ht_zoom:hover, .ht_img:hover{
+
+.ht_info:hover, .ht_img:hover{
 	width: auto;
 	color: rgba(255,255,255,1);
 	z-index: 99;
 	background-image: none;
+	
 }
-.ht_info:before, .ht_zoom:before, .ht_img:before{
+.ht_info:before,.ht_img:before{
 	display: block;
 	content: ' ';
 	width:100%;
@@ -44,11 +58,11 @@ html {
 	left:0;
 	top:0;
 }
-.ht_info:hover:before, .ht_zoom:hover:before, .ht_img:hover:before{
+.ht_info:hover:before, .ht_img:hover:before{
 	opacity: 0;
-
+	transform: translate(-50%,-50%);
 }
-.ht_info:after, .ht_zoom:after, .ht_img:after{
+.ht_info:after, .ht_img:after{
 	content: ' ';
 	display: block;
 	width: 22px;
@@ -60,27 +74,34 @@ html {
 	left: 4px;
 	z-index: -1;
 }
+.ht_info:hover:after, .ht_img:hover:after{
+	left: 45%;
+}
 
-
+/*
 .ht_zoom{background: #4A90E2;text-align: left;overflow:visible;}
 .ht_zoom:before{background: #4A90E2 url(zoom_icon.png) no-repeat center 6px;}
 .ht_zoom:after{background: #4A90E2;}
 .ht_zoom div{
-	display: none; 
+	display: none;
+	white-space: normal;
+	padding: 12px;
+}
+.ht_zoom:hover{
+	
 }
 .ht_zoom:hover div{
 	display: block;
 	width: 300px;
 }
+*/
 
 .ht_img{background: #F5A623;text-align: left;overflow:visible;}
 .ht_img:before{background: #F5A623 url(photo_icon.png) no-repeat center 6px;}
 .ht_img:after{background: #F5A623;}
 
 .img_view{
-	margin: 20px;
-	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
@@ -88,17 +109,93 @@ html {
 	text-align: left;
 	position: relative;
 	z-index: 999;
+	box-sizing: border-box;
+	font-family: 'Roboto', Arial !important; font-weight: 100;
 }
 
-.img_view span{
+.img_view div{
 	position: absolute;
 	top: 40px;
-	left: 40px;
-	display: inline-block;
-	background: none repeat scroll 0% 0% #DC493C;
+	left: 0px;
+	display: block;
+	background: none repeat scroll 0% 0% #F5A623;
     color: #FFF;
-    font-family: 'Roboto', Arial !important; font-weight: 400;
-    font-size: 18px;
-    box-shadow: 8px 0px 0px #DC493C, -8px 0px 0px #DC493C;
+    font-family: 'Roboto', Arial !important; font-weight: 100;
+    font-size: 16px;
+    line-height: 22px;
+    width: 400px;
+    padding: 20px;
+    white-space: normal;
 	
+}
+.img_view div h3{
+	font-size: 22px;
+	margin-bottom: 8px;
+	font-weight: 100;
+	line-height: 28px;
+	color: white;
+}
+.ht_zoom:parent{overflow:visible !important}
+
+.ht_zoom{
+	width: 22px;
+	height: 22px;
+	position: relative;
+	overflow: visible;
+	color:white;
+	bottom:0px;
+	text-align:left;
+}
+
+.zoom_point{
+	width: 22px;
+	height: 22px;
+	background: #4A90E2;
+	transform: scaleY(0.5) rotate(45deg) ;
+	position: absolute;
+	z-index: -1;
+	top:-11px;
+}
+.zoom_point:after{
+	display: block;
+	transform: rotate(-45deg) scaleY(2);
+	position: absolute;
+	top: -23px;
+	left: -24px;
+	content: ' ';
+	width: 32px;
+	height: 28px;
+	background: #4A90E2 url(zoom_icon.png) no-repeat center 6px;
+	z-index:1;
+}
+
+.zoom_body{
+	display: block;
+	overflow:hidden;
+	width: 0px;
+	height:0px;
+	transform: translateY(-100%);
+	position: absolute;
+	left: 0px;
+	background: #4A90E2;
+	padding: 0px;
+	box-sizing: border-box;
+	white-space: normal;
+	transition:height 0.3s ease 1s;-webkit-transition:height 0.3s ease 1s;-moz-transition:height 0.3s ease 1s;-o-transition:height 0.3s ease 1s;
+}
+
+.ht_zoom:hover .zoom_body{
+	padding: 20px;
+	display: block;
+	left: -153px;
+	width: 350px;
+	height: auto;
+	z-index: 99;
+}
+
+h3.zoom_title{
+	margin: 0 0 10px 0;
+	padding:0;
+	font-weight: 100;
+	font-size: 21px;
 }

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input leveltilesize="510" height="3351" leveltileurl="upn/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" levelingpitch="0" width="3351" overlap="1" levelingroll="0" levelbias="0.400">
-    <level preload="0" height="3351" width="3351" predecode="0"/>
-    <level preload="0" height="1675" width="1675" predecode="0"/>
-    <level preload="0" height="837" width="837" predecode="0"/>
-    <level preload="1" height="418" width="418" predecode="1"/>
-    <preview strip="1" color="0x808080"/>
+  <input leveltileurl="upn/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="3351" levelingroll="0" height="3351" leveltilesize="510" levelingpitch="0" levelbias="0.400">
+    <level predecode="0" width="3351" height="3351" preload="0"/>
+    <level predecode="0" width="1675" height="1675" preload="0"/>
+    <level predecode="0" width="837" height="837" preload="0"/>
+    <level predecode="1" width="418" height="418" preload="1"/>
+    <preview color="0x808080" strip="1"/>
   </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="-3.09" fov="70" pan="92.46"/>
-    <min tilt="-90" fov="5" pan="0"/>
-    <max tilt="90" fov="120" pan="360"/>
+  <view fovmode="0" pannorth="0">
+    <start fov="70" tilt="-3.09" pan="92.46"/>
+    <min fov="5" tilt="-90" pan="0"/>
+    <max fov="120" tilt="90" pan="360"/>
   </view>
-  <userdata title="Три измерения Яракты" datetime="" longitude="" info="upn" copyright="" author="" source="" description="Установка подготовки нефти" comment="Три действующие на Ярактинском месторождении установки подготовки нефти (УПН) способны готовить до 10 млн тонн нефти в год. Извлекаемое из скважин сырье поступает по системе межпромысловых трубопроводов на дожимную насосную станцию (ДНС), где от нефти «отделяют» попутный нефтяной газ и газовый конденсат. Далее водонефтяная эмульсия подается на УПН, где она обезвоживается и из нее удаляется все лишнее: соль, сера, песок, различные механические примеси. Нефть доводится до показателей ГОСТа. В лабораториях на УПН в постоянном режиме проводится контроль качества сырья. Работа сотрудников УПН максимально автоматизирована, и наблюдение за всеми технологическими процессами проводится в режиме онлайн." tags="INC 3D" latitude=""/>
-  <hotspots height="20" wordwrap="1" width="180">
-    <label bordercolor="0x000000" backgroundalpha="1" enabled="1" borderradius="1" textalpha="1" border="1" height="20" background="1" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" width="180" textcolor="0x000000"/>
-    <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1"/>
-    <hotspot target="_blank" title="Путевой подогреватель" skinid="ht_zoom" tilt="7.23" url="" id="Point01" description="Подогревают нефть, которая приходит со скважин, с 10-12 С до приблизительно 40 С. Это необходимо, чтобы удалить примеси из нефти (парафины, соли и другие). Мощность одной установки – 1,6 тыс. тонн." pan="-152.81"/>
-    <hotspot target="_blank" title="Технологические эстакады" skinid="ht_zoom" tilt="17.46" url="" id="Point02" description="Инженерные коммуникации, которые обеспечивают движение воды, нефти и газа на установке подготовки нефти. Здесь же находятся электрические кабели, сети контрольно-измерительных приборов и автоматики." pan="90.76"/>
-    <hotspot target="_blank" title="Пожарная часть" skinid="ht_zoom" tilt="0.14" url="" id="Point03" description="Производство относится к кклассу повышенной опасности, в связи с этим на всех производственных установках есть пожарные расчеты.&#xa;&lt;br>&#xa;&lt;img src=&quot;firefighters.jpg&quot;>" pan="-52.07"/>
-    <hotspot target="_blank" title="Теплообменное оборудование" skinid="ht_zoom" tilt="7.86" url="" id="Point04" description="Обеспечивает работу путевых подогревателей нефти" pan="27.84"/>
-    <hotspot target="_blank" title="Площадка №1. Узел входных задвижек" skinid="ht_zoom" tilt="-1.54" url="" id="Point05" description="Оборудование для первого этапа подготовки нефти" pan="-11.58"/>
-    <hotspot target="_blank" title="Административно-бытовой комплекс" skinid="ht_info" tilt="4.81" url="" id="Point06" description="" pan="-73.13"/>
-    <hotspot target="_blank" title="Водонапорная башня" skinid="ht_info" tilt="12.99" url="" id="Point07" description="" pan="-98.7"/>
+  <userdata comment="Три действующие на Ярактинском месторождении установки подготовки нефти (УПН) способны готовить до 10 млн тонн нефти в год. Извлекаемое из скважин сырье поступает по системе межпромысловых трубопроводов на дожимную насосную станцию (ДНС), где от нефти «отделяют» попутный нефтяной газ и газовый конденсат. Далее водонефтяная эмульсия подается на УПН, где она обезвоживается и из нее удаляется все лишнее: соль, сера, песок, различные механические примеси. Нефть доводится до показателей ГОСТа. В лабораториях на УПН в постоянном режиме проводится контроль качества сырья. Работа сотрудников УПН максимально автоматизирована, и наблюдение за всеми технологическими процессами проводится в режиме онлайн." tags="INC 3D" longitude="" author="" info="upn" copyright="" source="" latitude="" title="Три измерения Яракты" description="Установка подготовки нефти" datetime=""/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
+    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point01" tilt="7.23" pan="-152.81" title="Путевой подогреватель" description="Подогревают нефть, которая приходит со скважин, с 10-12 С до приблизительно 40 С. Это необходимо, чтобы удалить примеси из нефти (парафины, соли и другие). Мощность одной установки – 1,6 тыс. тонн."/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point02" tilt="17.46" pan="90.76" title="Технологические эстакады" description="Инженерные коммуникации, которые обеспечивают движение воды, нефти и газа на установке подготовки нефти. Здесь же находятся электрические кабели, сети контрольно-измерительных приборов и автоматики."/>
+    <hotspot target="_blank" url="firefighters" skinid="ht_img" id="Point03" tilt="0.14" pan="-52.07" title="Пожарная часть" description="Производство относится к кклассу повышенной опасности, в связи с этим на всех производственных установках есть пожарные расчеты.&#xa;"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point04" tilt="7.86" pan="27.84" title="Теплообменное оборудование" description="Обеспечивает работу путевых подогревателей нефти"/>
+    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point05" tilt="-1.54" pan="-11.58" title="Площадка №1. Узел входных задвижек" description="Оборудование для первого этапа подготовки нефти"/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="4.81" pan="-73.13" title="Административно-бытовой комплекс" description=""/>
+    <hotspot target="_blank" url="" skinid="ht_info" id="Point07" tilt="12.99" pan="-98.7" title="Водонапорная башня" description=""/>
   </hotspots>
   <media/>
-  <transition blendtime="1" zoomoutpause="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" zoomout="0" enabled="0" zoomfov="20" softedge="0" zoomin="0"/>
-  <control lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" lockedwheel="0" invertcontrol="1" hideabout="0" speedwheel="1" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" contextfullscreen="0">
-    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
+  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="0" zoomoutpause="1" zoomin="0"/>
+  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="0" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
+    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>
