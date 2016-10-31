@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input leveltileurl="psp/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" overlap="1" width="12777" levelingroll="0" height="12777" leveltilesize="510" levelingpitch="0" levelbias="0.400">
-    <level predecode="0" width="12777" height="12777" preload="0"/>
-    <level predecode="0" width="6388" height="6388" preload="0"/>
-    <level predecode="0" width="3194" height="3194" preload="0"/>
-    <level predecode="0" width="1597" height="1597" preload="0"/>
-    <level predecode="0" width="798" height="798" preload="0"/>
-    <level predecode="1" width="399" height="399" preload="1"/>
+  <input overlap="1" height="12777" width="12777" leveltilesize="510" leveltileurl="psp/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" levelbias="0.400" levelingroll="0" levelingpitch="0">
+    <level height="12777" width="12777" preload="0" predecode="0"/>
+    <level height="6388" width="6388" preload="0" predecode="0"/>
+    <level height="3194" width="3194" preload="0" predecode="0"/>
+    <level height="1597" width="1597" preload="0" predecode="0"/>
+    <level height="798" width="798" preload="0" predecode="0"/>
+    <level height="399" width="399" preload="1" predecode="1"/>
     <preview color="0x808080" strip="1"/>
   </input>
-  <view fovmode="0" pannorth="0">
-    <start fov="16" tilt="5.59" pan="20.44"/>
-    <min fov="5" tilt="-16.8721" pan="-60"/>
-    <max fov="120" tilt="16.8721" pan="60"/>
+  <view pannorth="0" fovmode="0">
+    <start pan="20.44" tilt="5.59" fov="16"/>
+    <min pan="-60" tilt="-16.8721" fov="5"/>
+    <max pan="60" tilt="16.8721" fov="120"/>
   </view>
-  <userdata comment="" tags="ink_tour" longitude="" author="" info="psp" copyright="" source="" latitude="" title="Три измерения Яракты" description="Приемо-сдаточный пункт нефти «Марковское»" datetime="2016:10:22 00:15:33"/>
-  <hotspots wordwrap="1" width="180" height="20">
-    <label backgroundcolor="0xffffff" bordercolor="0x000000" wordwrap="1" width="180" border="1" height="20" textalpha="1" enabled="1" backgroundalpha="1" borderalpha="1" background="1" textcolor="0x000000" borderradius="1"/>
-    <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point01" tilt="4.66" pan="-38.58" title="Товарные резервуары для хранения нефти объемом 20 тыс. м3" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point02" tilt="2.33" pan="-33.31" title="Противопожарные резервуары" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point03" tilt="3.68" pan="-24.3" title="Электрическая подстанция" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point04" tilt="-2.47" pan="-51.06" title="Электрическая подстанция" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point05" tilt="2.79" pan="-28.89" title="Насосная станция пожаротушения" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point06" tilt="5.67" pan="50.93" title="Точка подключения к трубопроводной системе «Восточная Сибирь - Тихий океан»" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_zoom" id="Point07" tilt="5.51" pan="37.05" title=" Система измерения количества и качества нефти" description="«Сердце» приемо-сдаточного пункта - система измерения и контроля качества нефти (СИКН), где нефть еще раз проходит проверку по всем параметрам."/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point08" tilt="10.03" pan="28.13" title="Трасса трубопровода ВСТО" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point09" tilt="8.8" pan="22.21" title="Товарные резервуары для хранения нефти объемом 3 тыс. м3" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point10" tilt="7.92" pan="13.61" title="Товарные резервуары для хранения нефти объемом 10 тыс. м3" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point11" tilt="6.46" pan="23.45" title="Противопожарные резервуары" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point12" tilt="6.13" pan="4.94" title="Противопожарные резервуары" description=""/>
-    <hotspot target="_blank" url="lab" skinid="ht_img" id="Point13" tilt="-7.77" pan="45.5" title="Лаборатория" description=""/>
-    <hotspot target="_blank" url="oper" skinid="ht_img" id="Point14" tilt="-10.72" pan="28.71" title="Операторская" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point15" tilt="1.51" pan="33.64" title="Система измерения количества и качества нефти" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point16" tilt="-3.41" pan="26.81" title="Электрическая подстанция" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point17" tilt="2.42" pan="26.49" title="Котельная" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point18" tilt="-0.96" pan="1.39" title="Камера приема очистного устройства" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point19" tilt="4.68" pan="9.99" title="Насосные станции" description=""/>
-    <hotspot target="_blank" url="" skinid="ht_info" id="Point20" tilt="10.04" pan="7.9" title="Нефтепровод от установки подготовки нефти на Ярактинском месторождении" description=""/>
+  <userdata comment="После того, как нефть прошла через все этапы подготовки, она готова для поставок потребителю. Сырье прокачивается по внутрипромысловому нефтепроводу до приемо-сдаточного пункта (ПСП) «Марковское». Здесь -  точка врезки в магистральный нефтепровод «Восточная Сибирь – Тихий океан». На ПСП расположены резервуары, в которых может храниться минимум трехсуточный запас сырья, готового к прокачке. Отсюда нефть поступает в ВСТО для поставок на нефтеперерабатывающие заводы Дальнего Востока и на экспорт в страны Азиатско-Тихоокеанского региона." author="" copyright="" info="psp" source="" latitude="" description="Приемо-сдаточный пункт нефти «Марковское»" datetime="2016:10:22 00:15:33" title="Три измерения Яракты" tags="ink_tour" longitude=""/>
+  <hotspots wordwrap="1" height="20" width="180">
+    <label wordwrap="1" backgroundalpha="1" border="1" height="20" textalpha="1" width="180" borderradius="1" backgroundcolor="0xffffff" borderalpha="1" textcolor="0x000000" enabled="1" bordercolor="0x000000" background="1"/>
+    <polystyle mode="0" backgroundalpha="0.2509803921568627" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff"/>
+    <hotspot skinid="ht_info" id="Point01" pan="-38.58" tilt="4.66" description="" url="" title="Товарные резервуары для хранения нефти объемом 20 тыс. м3" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point02" pan="-33.31" tilt="2.33" description="" url="" title="Противопожарные резервуары" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point03" pan="-24.3" tilt="3.68" description="" url="" title="Электрическая подстанция" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point04" pan="-51.06" tilt="-2.47" description="" url="" title="Электрическая подстанция" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point05" pan="-28.89" tilt="2.79" description="" url="" title="Насосная станция пожаротушения" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point06" pan="50.93" tilt="5.67" description="" url="" title="Точка подключения к трубопроводной системе «Восточная Сибирь - Тихий океан»" target="_blank"/>
+    <hotspot skinid="ht_zoom" id="Point07" pan="37.05" tilt="5.51" description="«Сердце» приемо-сдаточного пункта - система измерения и контроля качества нефти (СИКН), где нефть еще раз проходит проверку по всем параметрам." url="" title=" Система измерения количества и качества нефти" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point08" pan="28.13" tilt="10.03" description="" url="" title="Трасса трубопровода ВСТО" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point09" pan="22.21" tilt="8.8" description="" url="" title="Товарные резервуары для хранения нефти объемом 3 тыс. м3" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point10" pan="13.61" tilt="7.92" description="" url="" title="Товарные резервуары для хранения нефти объемом 10 тыс. м3" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point11" pan="23.45" tilt="6.46" description="" url="" title="Противопожарные резервуары" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point12" pan="4.94" tilt="6.13" description="" url="" title="Противопожарные резервуары" target="_blank"/>
+    <hotspot skinid="ht_img" id="Point13" pan="45.5" tilt="-7.77" description="" url="lab" title="Лаборатория" target="_blank"/>
+    <hotspot skinid="ht_img" id="Point14" pan="28.71" tilt="-10.72" description="" url="oper" title="Операторская" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point15" pan="33.64" tilt="1.51" description="" url="" title="Система измерения количества и качества нефти" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point16" pan="26.81" tilt="-3.41" description="" url="" title="Электрическая подстанция" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point17" pan="26.49" tilt="2.42" description="" url="" title="Котельная" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point18" pan="1.39" tilt="-0.96" description="" url="" title="Камера приема очистного устройства" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point19" pan="9.99" tilt="4.68" description="" url="" title="Насосные станции" target="_blank"/>
+    <hotspot skinid="ht_info" id="Point20" pan="7.9" tilt="10.04" description="" url="" title="Нефтепровод от установки подготовки нефти на Ярактинском месторождении" target="_blank"/>
   </hotspots>
   <media/>
-  <transition blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000" zoomout="0" enabled="0" zoomoutpause="1" zoomin="0"/>
-  <control contextfullscreen="0" lockedmouse="0" invertwheel="0" lockedwheel="0" hideabout="0" invertcontrol="1" lockedkeyboard="0" lockedkeyboardzoom="0" dblclickfullscreen="0" sensitivity="8" simulatemass="1" speedwheel="1">
-    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
+  <transition zoomfov="20" type="crossdissolve" zoomoutpause="1" softedge="0" zoomin="0" zoomout="0" enabled="0" blendcolor="0x000000" blendtime="1" zoomspeed="2"/>
+  <control contextfullscreen="0" invertwheel="0" speedwheel="1" hideabout="0" lockedkeyboard="0" lockedwheel="0" simulatemass="1" sensitivity="8" invertcontrol="1" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedmouse="0">
+    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
   </control>
 </panorama>
