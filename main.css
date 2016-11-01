@@ -7,20 +7,20 @@
 .about a{color:#45d4ff;}
 .about a:visited{color:#45d4ff;}
 
-.start_button{
-	font-family: 'Roboto', Arial !important; font-weight: 400;
+.start_button, .load_text{
+	font-family: 'Roboto', Arial !important; font-weight: 100;
 	font-size: 24px;
-	background: rgba(255,255,255,0.3);
+	background: #3AAB47;
 	color: white;
 	padding: 8px 16px;
-	border: 1px solid rgba(255,255,255, 0.5);
-	font-weight: 100;
 	text-align:center;
 }
 .start_button:hover{
-	background: rgba(255,255,255,0.1);
+	background: #4A90E2;
 }
-
+.load_text{
+	font-size: 18px;
+}
 .intro_text{
 	background: rgba(0,0,0,0.8);
 	padding: 40px;
@@ -96,23 +96,6 @@
 	left: 45%;
 }
 
-/*
-.ht_zoom{background: #4A90E2;text-align: left;overflow:visible;}
-.ht_zoom:before{background: #4A90E2 url(zoom_icon.png) no-repeat center 6px;}
-.ht_zoom:after{background: #4A90E2;}
-.ht_zoom div{
-	display: none;
-	white-space: normal;
-	padding: 12px;
-}
-.ht_zoom:hover{
-	
-}
-.ht_zoom:hover div{
-	display: block;
-	width: 300px;
-}
-*/
 
 .ht_img{background: #F5A623;text-align: left;overflow:visible;}
 .ht_img:before{background: #F5A623 url(photo_icon.png) no-repeat center 6px;}

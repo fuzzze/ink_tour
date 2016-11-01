@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>checkmark</title>
+    <title>activemark</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="new" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="checkmark">
-            <polygon fill="#9B9B9B" points="0 0 62 0 62 62"></polygon>
-            <path d="M41.363961,19.9497475 L34.2426407,12.8284271 L30,17.0710678 L41.3137085,28.3847763 L41.363961,28.3345238 L41.4142136,28.3847763 L55.5563492,14.2426407 L51.3137085,10 L41.363961,19.9497475 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        <g id="activemark">
+            <polygon id="checkmark" fill="#DC493C" points="0 0 62 0 62 62"></polygon>
+            <circle id="Oval-52" fill="#FFFFFF" cx="43" cy="18" r="8"></circle>
         </g>
     </g>
 </svg>
