@@ -1,7 +1,24 @@
-html {
+* {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
+}
+.about{max-height: 500px;overflow-y: scroll;}
+.about a{color:#45d4ff;}
+.about a:visited{color:#45d4ff;}
+
+.start_button{
+	font-family: 'Roboto', Arial !important; font-weight: 400;
+	font-size: 24px;
+	background: rgba(255,255,255,0.3);
+	color: white;
+	padding: 8px 16px;
+	border: 1px solid rgba(255,255,255, 0.5);
+	font-weight: 100;
+	text-align:center;
+}
+.start_button:hover{
+	background: rgba(255,255,255,0.1);
 }
 
 .intro_text{
