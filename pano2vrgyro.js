@@ -79,7 +79,12 @@ function pano2vrGyro(panoObject,containerId) {
 					roll = orientation.roll / degRad,
 					altyaw = yaw,
 					factor;
-
+			
+			var isAndroid=/Android/i.test(navigator.userAgent);
+			if ((isAndroid) && (roll>90)) { 
+				roll-=180; //
+				pitch=-pitch;
+			} 
 			switch(window.orientation) {
 				case 0:
 					roll += 180;
