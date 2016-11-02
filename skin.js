@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.1 beta/15555
 // Filename: INK_material2.ggsk
-// Generated Wed Nov 2 12:08:50 2016
+// Generated Wed Nov 2 12:22:51 2016
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -412,7 +412,7 @@ function pano2vrSkin(player,base) {
 		hs+='text-align: left;';
 		hs+='white-space: pre-wrap;';
 		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
+		 
 		this._pan_title__text.setAttribute('style',hs);
 		this._pan_title.ggUpdateText=function() {
 			var hs="<div style=\"font-family: 'Roboto', Arial !important; font-weight: 200; text-shadow: 1px 1px 0 rgba(0,0,0,0.4)\">"+me.ggUserdata.description+"<\/div>";
@@ -808,7 +808,7 @@ function pano2vrSkin(player,base) {
 		hs+='text-align: left;';
 		hs+='white-space: pre-wrap;';
 		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
+		 
 		hs+='overflow-y: auto;';
 		this._info_w_text__text.setAttribute('style',hs);
 		this._info_w_text__text.innerHTML="";
@@ -857,7 +857,7 @@ function pano2vrSkin(player,base) {
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
 		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
+		 
 		this._info_w_title__text.setAttribute('style',hs);
 		this._info_w_title__text.innerHTML="";
 		this._info_w_title.appendChild(this._info_w_title__text);
@@ -988,7 +988,7 @@ function pano2vrSkin(player,base) {
 		hs+='text-align: left;';
 		hs+='white-space: pre-wrap;';
 		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
+		 
 		hs+='overflow-y: auto;';
 		this._info_t_text__text.setAttribute('style',hs);
 		this._info_t_text__text.innerHTML="";
@@ -1039,7 +1039,7 @@ function pano2vrSkin(player,base) {
 		hs+='text-align: left;';
 		hs+='white-space: pre-wrap;';
 		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
+		 
 		this._intro_text__text.setAttribute('style',hs);
 		this._intro_text.ggUpdateText=function() {
 			var hs="<div class=\"intro_text\">"+me.ggUserdata.comment+"<\/div>";
@@ -1147,7 +1147,7 @@ function pano2vrSkin(player,base) {
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
 		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
+		 
 		this._img_view__text.setAttribute('style',hs);
 		this._img_view__text.innerHTML="";
 		this._img_view.appendChild(this._img_view__text);
@@ -1390,7 +1390,7 @@ function pano2vrSkin(player,base) {
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
 		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
+		 
 		this._loading_text__text.setAttribute('style',hs);
 		this._loading_text.ggUpdateText=function() {
 			var hs="<div class=\"load_text\">\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430 "+(me.player.getPercentLoaded()*100.0).toFixed(0)+"%<\/div>";
@@ -1453,7 +1453,7 @@ function pano2vrSkin(player,base) {
 		hs+='text-align: center;';
 		hs+='white-space: nowrap;';
 		hs+='padding: 2px 3px 2px 3px;';
-		hs+='overflow: hidden;';
+		 
 		this._start_button__text.setAttribute('style',hs);
 		this._start_button__text.innerHTML="<div class=\"start_button\">\u0421\u0442\u0430\u0440\u0442<\/div>";
 		this._start_button.appendChild(this._start_button__text);
@@ -1662,7 +1662,7 @@ function pano2vrSkin(player,base) {
 			hs+='text-align: left;';
 			hs+='white-space: nowrap;';
 			hs+='padding: 0px 1px 0px 1px;';
-			hs+='overflow: hidden;';
+			 
 			this._txt_hotspot2__text.setAttribute('style',hs);
 			this._txt_hotspot2__text.innerHTML="<div class=\"ht_zoom\"><div class=\"zoom_point\"><\/div><div class=\"zoom_body\"><h3 class=\"zoom_title\">"+me.hotspot.title+"<\/h3><div class=\"zoom_desc\">"+me.hotspot.description+"<\/div><\/div><\/div>";
 			this._txt_hotspot2.appendChild(this._txt_hotspot2__text);
@@ -1773,7 +1773,7 @@ function pano2vrSkin(player,base) {
 			hs+='text-align: center;';
 			hs+='white-space: nowrap;';
 			hs+='padding: 0px 1px 0px 1px;';
-			hs+='overflow: hidden;';
+			 
 			this._txt_hotspot__text.setAttribute('style',hs);
 			this._txt_hotspot__text.innerHTML="<div class=\"ht_info\">"+me.hotspot.title+"<\/div>";
 			this._txt_hotspot.appendChild(this._txt_hotspot__text);
@@ -1892,7 +1892,7 @@ function pano2vrSkin(player,base) {
 			hs+='text-align: center;';
 			hs+='white-space: nowrap;';
 			hs+='padding: 0px 1px 0px 1px;';
-			hs+='overflow: hidden;';
+			 
 			this._img_hotspot__text.setAttribute('style',hs);
 			this._img_hotspot__text.innerHTML="<div class=\"ht_img\">"+me.hotspot.title+"<\/div>";
 			this._img_hotspot.appendChild(this._img_hotspot__text);
@@ -2061,7 +2061,7 @@ function pano2vrSkin(player,base) {
 			hs+='text-align: left;';
 			hs+='white-space: nowrap;';
 			hs+='padding: 0px 1px 0px 1px;';
-			hs+='overflow: hidden;';
+			 
 			this._point_preview__text.setAttribute('style',hs);
 			this._point_preview.ggUpdateText=function() {
 				var hs="<div style=\"margin:2px 2px 2px 1px\"><img src=\"images\/thumbnail_nodeimage_"+me.hotspot.title+".jpg\" alt=\""+me.ggUserdata.description+"\" width=\"200\" height=\"100\">";
@@ -2154,7 +2154,7 @@ function pano2vrSkin(player,base) {
 			hs+='text-align: left;';
 			hs+='white-space: pre-wrap;';
 			hs+='padding: 0px 1px 0px 1px;';
-			hs+='overflow: hidden;';
+			 
 			this._node_title2__text.setAttribute('style',hs);
 			this._node_title2__text.innerHTML="<div class=\"thumb_text\">"+me.hotspot.description+"<\/div>";
 			this._node_title2.appendChild(this._node_title2__text);
@@ -2265,7 +2265,7 @@ function pano2vrSkin(player,base) {
 			hs+='text-align: left;';
 			hs+='white-space: nowrap;';
 			hs+='padding: 0px 1px 0px 1px;';
-			hs+='overflow: hidden;';
+			 
 			this._deep_svg__text.setAttribute('style',hs);
 			this._deep_svg__text.innerHTML="<img src=\"infogr\/"+me.hotspot.title+".svg\">";
 			this._deep_svg.appendChild(this._deep_svg__text);
@@ -2393,7 +2393,7 @@ function pano2vrSkin(player,base) {
 		hs+='text-align: left;';
 		hs+='white-space: pre-wrap;';
 		hs+='padding: 0px 1px 0px 1px;';
-		hs+='overflow: hidden;';
+		 
 		this._node_title__text.setAttribute('style',hs);
 		this._node_title__text.innerHTML="<div class=\"thumb_text\">"+me.ggUserdata.description+"<\/div>";
 		this._node_title.appendChild(this._node_title__text);
