@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.1 beta/15555
 // Filename: INK_material2.ggsk
-// Generated Wed Nov 2 12:22:51 2016
+// Generated Wed Nov 2 13:22:55 2016
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];

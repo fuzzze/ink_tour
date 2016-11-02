@@ -19,7 +19,6 @@
     <polystyle handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
     <hotspot skinid="ht_url" url="upn" description="Установка подготовки нефти" title="upn" id="upn" pan="-173.24" tilt="-28.25" target="_blank"/>
     <hotspot skinid="ht_url" url="" description="Вахтовый жилой комплекс" title="vzhk" id="Point02" pan="-59.44" tilt="-19.55" target="_blank"/>
-    <hotspot skinid="ht_url" url="" description="" title="upsng" id="Point03" pan="-24.18" tilt="-3.49" target="_blank"/>
     <hotspot skinid="ht_info" url="" description="" title="Столовая на 60 мест для подрядчиков ИНК" id="Point01" pan="-75.93" tilt="-17.67" target="_blank"/>
     <hotspot skinid="ht_zoom" url="" description="Построен в 2012 году на Ярактинском месторождении.  Церковь во имя святителя Николая первое и пока единственное культурное и религиозное учреждение в этой местности.&#xa;Идея построить церковь на месторождении родилась в Иркутской нефтяной компании в 2010 году во время корпоративного обучающего семинара. Несколько сотрудников сразу же пожертвовали на эти цели свои личные средства. Однако основные расходы по строительству здания взяла на себя компания." title="Православный храм во имя святителя Николая" id="Point04" pan="-64.6" tilt="-17.93" target="_blank"/>
     <hotspot skinid="ht_img" url="vzhk_stol" description="Столовая на 120 посадочных мест для работников ИНК открылась в августе 2016 года." title="Столовая" id="Point05" pan="-81.22" tilt="-17.31" target="_blank"/>
