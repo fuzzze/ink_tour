@@ -1,52 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input width="2637" height="2637" overlap="1" levelingroll="0" levelbias="0.400" leveltilesize="510" leveltileurl="upn1_top/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" levelingpitch="0">
-    <level width="2637" height="2637" predecode="0" preload="0"/>
-    <level width="1318" height="1318" predecode="0" preload="0"/>
-    <level width="659" height="659" predecode="0" preload="0"/>
-    <level width="329" height="329" predecode="1" preload="1"/>
-    <preview strip="1" color="0x808080"/>
+  <input width="2637" height="2637" leveltilesize="510" leveltileurl="upn1_top/c%c_l%r_%y_%x.jpg" levelbias="0.400" overlap="1" levelbiashidpi="0.400" levelingroll="0" levelingpitch="0">
+    <level preload="0" width="2637" height="2637" predecode="0"/>
+    <level preload="0" width="1318" height="1318" predecode="0"/>
+    <level preload="0" width="659" height="659" predecode="0"/>
+    <level preload="1" width="329" height="329" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
   </input>
-  <view pannorth="0" fovmode="0">
-    <start tilt="-23.69" fov="52.4" projection="4" pan="-67.28"/>
-    <flyin tilt="-90" fov="170" projection="9" pan="0"/>
-    <min tilt="-90" fov="5" pan="0"/>
-    <max tilt="28.7" fovfisheye="360" fovstereographic="270" fov="120" pan="360"/>
+  <view fovmode="0" pannorth="0">
+    <start projection="4" fov="52.4" pan="-67.28" tilt="-23.69"/>
+    <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+    <min fov="5" pan="0" tilt="-90"/>
+    <max fov="120" fovstereographic="270" fovfisheye="360" pan="360" tilt="28.7"/>
   </view>
-  <userdata description="Установка подготовки нефти: вид сверху" author="" latitude="" source="" datetime="" title="Три измерения Яракты" tags="INC 3D" longitude="" copyright="" info="upn1_top" comment="Три действующие на Ярактинском месторождении установки подготовки нефти (УПН) способны готовить до 10 млн тонн нефти в год. Извлекаемое из скважин сырье поступает по системе межпромысловых трубопроводов на дожимную насосную станцию (ДНС), где от нефти «отделяют» попутный нефтяной газ и газовый конденсат. Далее водонефтяная эмульсия подается на УПН, где она обезвоживается и из нее удаляется все лишнее: соль, сера, песок, различные механические примеси. Нефть доводится до показателей ГОСТа. В лабораториях на УПН в постоянном режиме проводится контроль качества сырья. Работа сотрудников УПН максимально автоматизирована, и наблюдение за всеми технологическими процессами проводится в режиме онлайн."/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label width="180" border="1" height="20" background="1" textcolor="0x000000" backgroundalpha="1" bordercolor="0x000000" borderradius="1" wordwrap="1" enabled="1" backgroundcolor="0xffffff" textalpha="1" borderalpha="1"/>
-    <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff" mode="0" borderalpha="1"/>
-    <hotspot skinid="ht_url" description="Установка подготовки нефти" tilt="-28.25" url="upn" title="upn" id="upn" target="_blank" pan="-173.24"/>
-    <hotspot skinid="ht_url" description="Вахтовый жилой комплекс" tilt="-19.55" url="" title="vzhk" id="Point02" target="_blank" pan="-59.44"/>
-    <hotspot skinid="ht_url" description="" tilt="-3.49" url="" title="upsng" id="Point03" target="_blank" pan="-24.18"/>
-    <hotspot skinid="ht_info" description="" tilt="-17.67" url="" title="Столовая на 60 мест для подрядчиков ИНК" id="Point01" target="_blank" pan="-75.93"/>
-    <hotspot skinid="ht_zoom" description="Построен в 2012 году на Ярактинском месторождении.  Церковь во имя святителя Николая первое и пока единственное культурное и религиозное учреждение в этой местности.&#xa;Идея построить церковь на месторождении родилась в Иркутской нефтяной компании в 2010 году во время корпоративного обучающего семинара. Несколько сотрудников сразу же пожертвовали на эти цели свои личные средства. Однако основные расходы по строительству здания взяла на себя компания." tilt="-17.93" url="" title="Православный храм во имя святителя Николая" id="Point04" target="_blank" pan="-64.6"/>
-    <hotspot skinid="ht_img" description="Столовая на 120 посадочных мест для работников ИНК открылась в августе 2016 года." tilt="-17.31" url="vzhk_stol" title="Столовая" id="Point05" target="_blank" pan="-81.22"/>
-    <hotspot skinid="ht_info" description="" tilt="-28.91" url="" title="Склад оборудования и материалов" id="Point06" target="_blank" pan="-59.98"/>
-    <hotspot skinid="ht_info" description="" tilt="-28.35" url="" title="Склад оборудования и материалов" id="Point07" target="_blank" pan="-45"/>
-    <hotspot skinid="ht_info" description="" tilt="-34.49" url="" title="Гараж управления технологического транспорта" id="Point08" target="_blank" pan="-88.46"/>
-    <hotspot skinid="ht_info" description="" tilt="-35.2" url="" title="Гараж управления технологического транспорта" id="Point09" target="_blank" pan="-51.64"/>
-    <hotspot skinid="ht_info" description="" tilt="-15.86" url="" title="Общежития" id="Point10" target="_blank" pan="-67.06"/>
-    <hotspot skinid="ht_img" description="" tilt="-19.62" url="vzhk_pek2" title="Пекарня" id="Point11" target="_blank" pan="-77.61"/>
-    <hotspot skinid="ht_img" description="На стадионе Ярактинского месторождения ежегодно проходит Спартакиада – главное спортивное мероприятие ИНК." tilt="-14.33" url="stad" title="Стадион" id="Point12" target="_blank" pan="-80.16"/>
-    <hotspot skinid="ht_info" description="" tilt="-12.43" url="" title="Склад" id="Point13" target="_blank" pan="50.23"/>
-    <hotspot skinid="ht_info" description="" tilt="-11.51" url="" title="Административно-бытовой комплекс" id="Point14" target="_blank" pan="55.88"/>
-    <hotspot skinid="ht_zoom" description="Здесь расположены расположены четыре газотурбинных установки мощностью 12МВт каждая." tilt="-9.79" url="" title="Машинные залы" id="Point15" target="_blank" pan="59.58"/>
-    <hotspot skinid="ht_zoom" description="Установленная мощность энергокомплекса составит 48МВт" tilt="-10.15" url="" title="Строящийся энергоцентр" id="Point16" target="_blank" pan="52.42"/>
-    <hotspot skinid="ht_zoom" description="Строительство резервуаров объемом 20 тыс. тонн нефти каждый" tilt="-14.74" url="" title="Резервуары хранения товарной нефти" id="Point17" target="_blank" pan="113.86"/>
-    <hotspot skinid="ht_info" description="" tilt="-9.1" url="" title="Резервуары хранения дизельного топлива" id="Point18" target="_blank" pan="128.73"/>
-    <hotspot skinid="ht_zoom" description="Топливо производится из нефти месторождений компании  и используется  для собственных нужд - заправки собственного автотранспорта,  на передвижных насосных установках и дизельных электростанциях  при бурении скважин. Мощность установки – до 30 тыс. тонн в год." tilt="-8.58" url="" title="Установка подготовки дизельного топлива" id="Point19" target="_blank" pan="142.44"/>
-    <hotspot skinid="ht_info" description="" tilt="-22.68" url="" title="Резервуары хранения товарной нефти объемом 3000 тонн" id="Point20" target="_blank" pan="147.47"/>
-    <hotspot skinid="ht_info" description="" tilt="-36.8" url="" title="Блок дозирования реагентов" id="Point21" target="_blank" pan="155.79"/>
-    <hotspot skinid="ht_zoom" description="Закачивают воду в нагнетательные скважины, чтобы поддерживать пластовое давление (давление, под которым находятся жидкости и газ в нефтяной залежи)." tilt="-40.12" url="" title="Блочные кустовые насосные станции" id="Point22" target="_blank" pan="106.94"/>
-    <hotspot skinid="ht_info" description="" tilt="-26.58" url="" title="Противопожарные резервуары для хранения воды" id="Point23" target="_blank" pan="113.29"/>
-    <hotspot skinid="ht_zoom" description="Пластовая вода, которая образуется в процессе добычи и подготовки нефти,  закачивается в пласт для поддержания давления. Такое использование пластовых вод попутно решает другую важную задачу — предотвращает за­грязнение территории промысла сильно минерализован­ными водами." tilt="-35.16" url="" title="Емкости под пластовую воду" id="Point24" target="_blank" pan="116.68"/>
-    <hotspot skinid="ht_zoom" description="Используются для отделения нефти от воды" tilt="-40.65" url="" title="Дегидраторы-отстойники" id="Point25" target="_blank" pan="168.58"/>
+  <userdata longitude="" copyright="" author="" source="" description="Установка подготовки нефти: вид сверху" tags="INC 3D" comment="Три действующие на Ярактинском месторождении установки подготовки нефти (УПН) способны готовить до 10 млн тонн нефти в год. Извлекаемое из скважин сырье поступает по системе межпромысловых трубопроводов на дожимную насосную станцию (ДНС), где от нефти «отделяют» попутный нефтяной газ и газовый конденсат. Далее водонефтяная эмульсия подается на УПН, где она обезвоживается и из нее удаляется все лишнее: соль, сера, песок, различные механические примеси. Нефть доводится до показателей ГОСТа. В лабораториях на УПН в постоянном режиме проводится контроль качества сырья. Работа сотрудников УПН максимально автоматизирована, и наблюдение за всеми технологическими процессами проводится в режиме онлайн." latitude="" title="Три измерения Яракты" datetime="" info="upn1_top"/>
+  <hotspots wordwrap="1" width="180" height="20">
+    <label wordwrap="1" textalpha="1" width="180" height="20" border="1" enabled="1" backgroundalpha="1" borderalpha="1" borderradius="1" textcolor="0x000000" background="1" backgroundcolor="0xffffff" bordercolor="0x000000"/>
+    <polystyle handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff"/>
+    <hotspot skinid="ht_url" url="upn" description="Установка подготовки нефти" title="upn" id="upn" pan="-173.24" tilt="-28.25" target="_blank"/>
+    <hotspot skinid="ht_url" url="" description="Вахтовый жилой комплекс" title="vzhk" id="Point02" pan="-59.44" tilt="-19.55" target="_blank"/>
+    <hotspot skinid="ht_url" url="" description="" title="upsng" id="Point03" pan="-24.18" tilt="-3.49" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Столовая на 60 мест для подрядчиков ИНК" id="Point01" pan="-75.93" tilt="-17.67" target="_blank"/>
+    <hotspot skinid="ht_zoom" url="" description="Построен в 2012 году на Ярактинском месторождении.  Церковь во имя святителя Николая первое и пока единственное культурное и религиозное учреждение в этой местности.&#xa;Идея построить церковь на месторождении родилась в Иркутской нефтяной компании в 2010 году во время корпоративного обучающего семинара. Несколько сотрудников сразу же пожертвовали на эти цели свои личные средства. Однако основные расходы по строительству здания взяла на себя компания." title="Православный храм во имя святителя Николая" id="Point04" pan="-64.6" tilt="-17.93" target="_blank"/>
+    <hotspot skinid="ht_img" url="vzhk_stol" description="Столовая на 120 посадочных мест для работников ИНК открылась в августе 2016 года." title="Столовая" id="Point05" pan="-81.22" tilt="-17.31" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Склад оборудования и материалов" id="Point06" pan="-59.98" tilt="-28.91" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Склад оборудования и материалов" id="Point07" pan="-45" tilt="-28.35" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Гараж управления технологического транспорта" id="Point08" pan="-88.46" tilt="-34.49" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Гараж управления технологического транспорта" id="Point09" pan="-51.64" tilt="-35.2" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Общежития" id="Point10" pan="-67.06" tilt="-15.86" target="_blank"/>
+    <hotspot skinid="ht_img" url="vzhk_pek2" description="" title="Пекарня" id="Point11" pan="-77.61" tilt="-19.62" target="_blank"/>
+    <hotspot skinid="ht_img" url="stad" description="На стадионе Ярактинского месторождения ежегодно проходит Спартакиада – главное спортивное мероприятие ИНК." title="Стадион" id="Point12" pan="-80.16" tilt="-14.33" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Склад" id="Point13" pan="50.23" tilt="-12.43" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Административно-бытовой комплекс" id="Point14" pan="55.88" tilt="-11.51" target="_blank"/>
+    <hotspot skinid="ht_zoom" url="" description="Здесь расположены расположены четыре газотурбинных установки мощностью 12МВт каждая." title="Машинные залы" id="Point15" pan="59.58" tilt="-9.79" target="_blank"/>
+    <hotspot skinid="ht_zoom" url="" description="Установленная мощность энергокомплекса составит 48МВт" title="Строящийся энергоцентр" id="Point16" pan="52.42" tilt="-10.15" target="_blank"/>
+    <hotspot skinid="ht_zoom" url="" description="Строительство резервуаров объемом 20 тыс. тонн нефти каждый" title="Резервуары хранения товарной нефти" id="Point17" pan="113.86" tilt="-14.74" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Резервуары хранения дизельного топлива" id="Point18" pan="128.73" tilt="-9.1" target="_blank"/>
+    <hotspot skinid="ht_img" url="updt" description="Топливо производится из нефти месторождений компании  и используется  для собственных нужд - заправки собственного автотранспорта,  на передвижных насосных установках и дизельных электростанциях  при бурении скважин. Мощность установки – до 30 тыс. тонн в год." title="Установка подготовки дизельного топлива" id="Point19" pan="142.44" tilt="-8.58" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Резервуары хранения товарной нефти объемом 3000 тонн" id="Point20" pan="147.47" tilt="-22.68" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Блок дозирования реагентов" id="Point21" pan="155.79" tilt="-36.8" target="_blank"/>
+    <hotspot skinid="ht_zoom" url="" description="Закачивают воду в нагнетательные скважины, чтобы поддерживать пластовое давление (давление, под которым находятся жидкости и газ в нефтяной залежи)." title="Блочные кустовые насосные станции" id="Point22" pan="106.94" tilt="-40.12" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Противопожарные резервуары для хранения воды" id="Point23" pan="113.29" tilt="-26.58" target="_blank"/>
+    <hotspot skinid="ht_zoom" url="" description="Пластовая вода, которая образуется в процессе добычи и подготовки нефти,  закачивается в пласт для поддержания давления. Такое использование пластовых вод попутно решает другую важную задачу — предотвращает за­грязнение территории промысла сильно минерализован­ными водами." title="Емкости под пластовую воду" id="Point24" pan="116.68" tilt="-35.16" target="_blank"/>
+    <hotspot skinid="ht_zoom" url="" description="Используются для отделения нефти от воды" title="Дегидраторы-отстойники" id="Point25" pan="168.58" tilt="-40.65" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Трансформаторная подстанция" id="Point26" pan="-16.8" tilt="-48.13" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Передвижные автономные электростанции" id="Point27" pan="8.68" tilt="-49.7" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Дизельные электростанции" id="Point28" pan="2.51" tilt="-39.49" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Емкости приема и хранения газового конденсата" id="Point29" pan="-114.18" tilt="-12.32" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Противопожарные резервуары для хранения воды" id="Point30" pan="-110.91" tilt="-14.17" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Операторная" id="Point31" pan="-109.26" tilt="-13.55" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Насосный блок" id="Point32" pan="-112.53" tilt="-13.63" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Резервуары для хранения газового конденсата" id="Point33" pan="-118.71" tilt="-13.16" target="_blank"/>
+    <hotspot skinid="ht_info" url="" description="" title="Узел налива газового конденсата" id="Point34" pan="-124.98" tilt="-13.39" target="_blank"/>
   </hotspots>
   <media/>
-  <transition zoomfov="20" zoomoutpause="1" blendtime="1" zoomin="0" zoomout="0" enabled="0" zoomspeed="2" type="crossdissolve" softedge="0" blendcolor="0x000000"/>
-  <control dblclickfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboard="0" lockedmouse="0" invertwheel="0" simulatemass="1" invertcontrol="1" lockedwheel="0" contextfullscreen="0" hideabout="0" contextprojections="0" lockedkeyboardzoom="0">
+  <transition zoomspeed="2" zoomout="0" zoomoutpause="1" enabled="0" softedge="0" blendcolor="0x000000" zoomfov="20" zoomin="0" type="crossdissolve" blendtime="1"/>
+  <control invertwheel="0" contextfullscreen="0" lockedwheel="0" hideabout="0" simulatemass="1" lockedkeyboard="0" sensitivity="8" invertcontrol="1" speedwheel="1" contextprojections="0" lockedkeyboardzoom="0" lockedmouse="0" dblclickfullscreen="0">
     <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>
