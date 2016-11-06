@@ -3,10 +3,15 @@
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
 }
-.about{max-height: 500px;overflow-y: scroll;}
-.about a{color:#45d4ff;}
-.about a:visited{color:#45d4ff;}
+.about{max-height: 500px;overflow-y: scroll;overflow-x: hidden;}
+.about a, .about a:visited{color:#45d4ff;}
 
+.pano_title{
+	font-family: 'Roboto', Arial !important; font-weight: 200; text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+.pano_title:hover{
+	text-decoration: underline;
+}
 .start_button, .load_text{
 	font-family: 'Roboto', Arial !important; font-weight: 100;
 	font-size: 24px;
@@ -23,14 +28,13 @@
 }
 .intro_text{
 	background: rgba(0,0,0,0.8);
-	padding: 40px;
+	padding: 50px 20px 40px 40px;
 	font-family: 'Roboto', Arial !important; font-weight: 400;
 	color:white;
 	font-size: 16px;
 	line-height: 22px;
 	font-weight:100;
 	width: 500px;
-	
 }
 .thumb_text{
 	position: absolute;
