@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input levelbias="0.400" leveltileurl="buro13_top/c%c_l%r_%y_%x.jpg" levelingpitch="0" width="3250" levelbiashidpi="0.400" levelingroll="0" height="3250" overlap="1" leveltilesize="510">
-    <level width="3250" predecode="0" height="3250" preload="0"/>
-    <level width="1625" predecode="0" height="1625" preload="0"/>
-    <level width="812" predecode="0" height="812" preload="0"/>
-    <level width="406" predecode="1" height="406" preload="1"/>
+  <input levelingroll="0" leveltilesize="510" width="3250" overlap="1" levelingpitch="0" leveltileurl="buro13_top/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" height="3250" levelbias="0.400">
+    <level predecode="0" width="3250" preload="0" height="3250"/>
+    <level predecode="0" width="1625" preload="0" height="1625"/>
+    <level predecode="0" width="812" preload="0" height="812"/>
+    <level predecode="1" width="406" preload="1" height="406"/>
     <preview color="0x808080" strip="1"/>
   </input>
   <view fovmode="0" pannorth="0">
-    <start pan="-160.73" tilt="-26.26" projection="4" fov="113.7"/>
-    <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-    <min pan="0" tilt="-90" fov="5"/>
-    <max pan="360" tilt="30.6" fovstereographic="270" fov="120" fovfisheye="360"/>
+    <start projection="4" tilt="-26.26" fov="113.7" pan="-160.73"/>
+    <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+    <min tilt="-90" fov="5" pan="0"/>
+    <max tilt="30.6" fov="120" pan="360" fovstereographic="270" fovfisheye="360"/>
   </view>
-  <userdata info="buro13_top" latitude="" datetime="" comment="ИНК выполняет около половины от общего объема эксплуатационного и  поисково-разведочного бурения в Иркутской области, по данным государственного «Центрального диспетчерского управления топливно-энергетического комплекса» («ЦДУ ТЭК»). В составе группы компаний ИНК создано специальное сервисное подразделение ООО «ИНК–СЕРВИС», которое обеспечивает выполнение до 90% объема буровых работ компании.  По оценкам специалистов, «ИНК-Сервис» входит в пятерку крупнейших буровых предприятий страны." longitude="" author="" title="Три измерения Яракты" description="Кустовая площадка и буровая установка: вид сверху" copyright="" source="" tags="INC 3D"/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label borderradius="1" textcolor="0x000000" enabled="1" bordercolor="0x000000" width="180" backgroundalpha="1" border="1" height="20" textalpha="1" borderalpha="1" wordwrap="1" background="1" backgroundcolor="0xffffff"/>
-    <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
-    <hotspot pan="-156.64" tilt="-58.15" target="_blank" id="Point01" skinid="ht_url" title="buro13" url="" description="Буровая"/>
-    <hotspot pan="-70.78" tilt="-1.16" target="_blank" id="Point02" skinid="ht_url" title="index" url="" description="Общий вид"/>
-    <hotspot pan="-126.48" tilt="-28.59" target="_blank" id="Point03" skinid="ht_zoom" title="Шламовый амбар" url="" description="Использованный буровой раствор проходит очистку для дальнейшей рекультивации кустовой площадки."/>
-    <hotspot pan="159.94" tilt="-27.14" target="_blank" id="Point04" skinid="ht_zoom" title="Шламовый амбар" url="" description="Использованный буровой раствор проходит очистку для дальнейшей рекультивации кустовой площадки."/>
-    <hotspot pan="103.68" tilt="-28.05" target="_blank" id="Point05" skinid="ht_info" title="Котельная установка" url="" description=""/>
-    <hotspot pan="86.26" tilt="-51.84" target="_blank" id="Point06" skinid="ht_zoom" title="Склад" url="" description="Хранение химреагентов и цемента, используемых в процессе бурения и обустройства скважин"/>
-    <hotspot pan="-50.13" tilt="-48.5" target="_blank" id="Point07" skinid="ht_info" title="Мобильный жилой городок" url="" description=""/>
-    <hotspot pan="-135.85" tilt="-52.53" target="_blank" id="Point08" skinid="ht_info" title="Трубы для строительства скважин" url="" description=""/>
-    <hotspot pan="-157.57" tilt="-11.72" target="_blank" id="Point09" skinid="ht_info" title="Буровая установка" url="" description=""/>
-    <hotspot pan="-157.44" tilt="2.91" target="_blank" id="Point10" skinid="ht_deep" title="average_deep" url="" description=""/>
-    <hotspot pan="-170.58" tilt="-55.55" target="_blank" id="Point11" skinid="ht_info" title="Приемные мостки" url="" description=""/>
-    <hotspot pan="-176.54" tilt="-36.01" target="_blank" id="Point12" skinid="ht_zoom" title="Насосно-емкостной блок" url="" description="Включает систему очистки бурового раствора, емкости для хранения бурового раствора и буровые насосы"/>
+  <userdata source="" info="buro13_top" longitude="" comment="ИНК выполняет около половины от общего объема эксплуатационного и  поисково-разведочного бурения в Иркутской области, по данным государственного «Центрального диспетчерского управления топливно-энергетического комплекса» («ЦДУ ТЭК»). В составе группы компаний ИНК создано специальное сервисное подразделение ООО «ИНК–СЕРВИС», которое обеспечивает выполнение до 90% объема буровых работ компании.  По оценкам специалистов, «ИНК-Сервис» входит в пятерку крупнейших буровых предприятий страны." latitude="" description="Кустовая площадка и буровая установка: вид сверху" copyright="" datetime="" title="Три измерения Яракты" tags="INC 3D" author=""/>
+  <hotspots width="180" wordwrap="1" height="20">
+    <label enabled="1" backgroundcolor="0xffffff" borderalpha="1" width="180" textalpha="1" borderradius="1" background="1" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" border="1" wordwrap="1" height="20"/>
+    <polystyle handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
+    <hotspot url="" tilt="-58.15" description="Буровая" id="Point01" pan="-156.64" target="_blank" skinid="ht_url" title="buro13"/>
+    <hotspot url="" tilt="-1.16" description="Общий вид" id="Point02" pan="-70.78" target="_blank" skinid="ht_url" title="index"/>
+    <hotspot url="" tilt="-28.59" description="Использованный буровой раствор проходит очистку для дальнейшей рекультивации кустовой площадки." id="Point03" pan="-126.48" target="_blank" skinid="ht_zoom" title="Шламовый амбар"/>
+    <hotspot url="" tilt="-27.14" description="Использованный буровой раствор проходит очистку для дальнейшей рекультивации кустовой площадки." id="Point04" pan="159.94" target="_blank" skinid="ht_zoom" title="Шламовый амбар"/>
+    <hotspot url="" tilt="-28.05" description="" id="Point05" pan="103.68" target="_blank" skinid="ht_info" title="Котельная установка"/>
+    <hotspot url="" tilt="-51.84" description="Хранение химреагентов и цемента, используемых в процессе бурения и обустройства скважин" id="Point06" pan="86.26" target="_blank" skinid="ht_zoom" title="Склад"/>
+    <hotspot url="" tilt="-48.5" description="" id="Point07" pan="-50.13" target="_blank" skinid="ht_info" title="Мобильный жилой городок"/>
+    <hotspot url="" tilt="-52.53" description="" id="Point08" pan="-135.85" target="_blank" skinid="ht_info" title="Трубы для строительства скважин"/>
+    <hotspot url="" tilt="-11.72" description="" id="Point09" pan="-157.57" target="_blank" skinid="ht_info" title="Буровая установка"/>
+    <hotspot url="" tilt="2.91" description="" id="Point10" pan="-157.44" target="_blank" skinid="ht_deep" title="average_deep"/>
+    <hotspot url="" tilt="-55.55" description="" id="Point11" pan="-170.58" target="_blank" skinid="ht_info" title="Приемные мостки"/>
+    <hotspot url="" tilt="-36.01" description="Включает систему очистки бурового раствора, емкости для хранения бурового раствора и буровые насосы" id="Point12" pan="-176.54" target="_blank" skinid="ht_zoom" title="Насосно-емкостной блок"/>
   </hotspots>
   <media/>
-  <transition zoomin="0" zoomout="0" type="crossdissolve" softedge="0" enabled="0" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
-  <control simulatemass="1" lockedmouse="0" invertwheel="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" lockedkeyboard="0" speedwheel="1">
-    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
+  <transition enabled="0" blendtime="1" type="crossdissolve" softedge="0" zoomspeed="2" zoomfov="20" zoomoutpause="1" zoomin="0" blendcolor="0x000000" zoomout="0"/>
+  <control lockedwheel="0" contextfullscreen="0" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" sensitivity="8" simulatemass="1" speedwheel="1" lockedmouse="0" invertwheel="0">
+    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
   </control>
 </panorama>
