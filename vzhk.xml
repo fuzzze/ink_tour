@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input levelbias="0.400" leveltileurl="vzhk/c%c_l%r_%y_%x.jpg" levelingpitch="0" width="2499" levelbiashidpi="0.400" levelingroll="0" height="2499" overlap="1" leveltilesize="510">
-    <level width="2499" predecode="0" height="2499" preload="0"/>
-    <level width="1249" predecode="0" height="1249" preload="0"/>
-    <level width="624" predecode="0" height="624" preload="0"/>
-    <level width="312" predecode="1" height="312" preload="1"/>
-    <preview color="0x808080" strip="1"/>
+  <input overlap="1" levelbias="0.400" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400" height="2499" width="2499" levelingpitch="0" leveltileurl="vzhk/c%c_l%r_%y_%x.jpg">
+    <level predecode="0" preload="0" height="2499" width="2499"/>
+    <level predecode="0" preload="0" height="1249" width="1249"/>
+    <level predecode="0" preload="0" height="624" width="624"/>
+    <level predecode="1" preload="1" height="312" width="312"/>
+    <preview strip="1" color="0x808080"/>
   </input>
   <view fovmode="0" pannorth="0">
-    <start pan="-132" tilt="10.45" projection="4" fov="70"/>
-    <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-    <min pan="0" tilt="-90" fov="5"/>
-    <max pan="360" tilt="90" fovstereographic="270" fov="120" fovfisheye="360"/>
+    <start projection="4" fov="70" pan="-132" tilt="10.45"/>
+    <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+    <min fov="5" pan="0" tilt="-90"/>
+    <max fov="120" fovstereographic="270" pan="360" tilt="90" fovfisheye="360"/>
   </view>
-  <userdata info="vzhk" latitude="" datetime="" comment="На месторождениях ИНК построены современные вахтовые жилые комплексы (ВЖК).  Сегодня это 11 стационарных общежитий, вмещающих до 730 человек, столовые, медпункты, бани, тренажерные залы и даже стадион. На территории ВЖК Яракты построена православная часовня. Компания непрерывно развивает социальную инфраструктуру. В августе этого года на Ярактинском НГКМ открылась новая столовая, укомплектованная самым современным оборудованием. Часть вахтовиков, занятых на нефтепромысле, и сотрудники подрядных организаций проживают в вагон-домах." longitude="" author="" title="ИНК" description="Вахтовый жилой комплекс" copyright="" source="" tags="INC 3D"/>
-  <hotspots width="180" height="20" wordwrap="1">
-    <label borderradius="1" textcolor="0x000000" enabled="1" bordercolor="0x000000" width="180" backgroundalpha="1" border="1" height="20" textalpha="1" borderalpha="1" wordwrap="1" background="1" backgroundcolor="0xffffff"/>
-    <polystyle mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
-    <hotspot pan="-75.45" tilt="4.34" target="_blank" id="Point02" skinid="ht_info" title="Общежитие" url="" description=""/>
-    <hotspot pan="-9.1" tilt="3.84" target="_blank" id="Point03" skinid="ht_zoom" title="Общежития" url="" description="Всего на Ярактинском месторождении работает восемь общежитий, рассчитанных на 580 мест. Кроме общежитий, в вахтовом городке находятся столовые, пекарня, баня, тренажерный зал, стадион, магазин и  медпункт."/>
-    <hotspot pan="-113.95" tilt="24.97" target="_blank" id="Point04" skinid="ht_zoom" title="Православный храм во имя святителя Николая" url="church" description="Построен в 2012 году на Ярактинском месторождении.  Церковь во имя святителя Николая первое и пока единственное культовое учреждение в этой местности.&#xa;"/>
-    <hotspot pan="-29.38" tilt="2.28" target="_blank" id="Point01" skinid="ht_deep" title="vzhk" url="" description=""/>
-    <hotspot pan="-45.44" tilt="1.08" target="_blank" id="Point05" skinid="ht_img" title="Общежитие" url="sportzal" description=""/>
-    <hotspot pan="103.67" tilt="45.28" target="_blank" id="Point06" skinid="ht_url" title="upn1_top" url="upn1_top" description="Установка подготовки нефти вид сверху"/>
+  <userdata title="ИНК" description="Вахтовый жилой комплекс" longitude="" tags="INC 3D" latitude="" author="" copyright="" datetime="" source="" info="vzhk" comment="На месторождениях ИНК построены современные вахтовые жилые комплексы (ВЖК).  Сегодня это 11 стационарных общежитий, вмещающих до 730 человек, столовые, медпункты, бани, тренажерные залы и даже стадион. На территории ВЖК Яракты построена православная часовня. Компания непрерывно развивает социальную инфраструктуру. В августе этого года на Ярактинском НГКМ открылась новая столовая, укомплектованная самым современным оборудованием. Часть вахтовиков, занятых на нефтепромысле, и сотрудники подрядных организаций проживают в вагон-домах."/>
+  <hotspots wordwrap="1" height="20" width="180">
+    <label textcolor="0x000000" wordwrap="1" borderalpha="1" backgroundalpha="1" height="20" border="1" enabled="1" bordercolor="0x000000" textalpha="1" width="180" borderradius="1" backgroundcolor="0xffffff" background="1"/>
+    <polystyle borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+    <hotspot title="Общежитие" url="" target="_blank" description="" skinid="ht_info" pan="-75.45" id="Point02" tilt="4.34"/>
+    <hotspot title="Общежития" url="" target="_blank" description="Всего на Ярактинском месторождении работает восемь общежитий, рассчитанных на 580 мест. Кроме общежитий, в вахтовом городке находятся столовые, пекарня, баня, тренажерный зал, стадион, магазин и  медпункт." skinid="ht_zoom" pan="-9.1" id="Point03" tilt="3.84"/>
+    <hotspot title="Православный храм во имя святителя Николая" url="church" target="_blank" description="Построен в 2012 году на Ярактинском месторождении.  Церковь во имя святителя Николая первое и пока единственное культовое учреждение в этой местности.&#xa;" skinid="ht_zoom" pan="-113.95" id="Point04" tilt="24.97"/>
+    <hotspot title="vzhk" url="" target="_blank" description="" skinid="ht_deep" pan="-29.38" id="Point01" tilt="2.28"/>
+    <hotspot title="Общежитие" url="sportzal" target="_blank" description="" skinid="ht_img" pan="-45.44" id="Point05" tilt="1.08"/>
+    <hotspot title="upn1_top" url="upn1_top" target="_blank" description="Установка подготовки нефти вид сверху" skinid="ht_url" pan="84.79" id="Point06" tilt="28.23"/>
   </hotspots>
   <media/>
-  <transition zoomin="0" zoomout="0" type="crossdissolve" softedge="0" enabled="0" blendtime="1" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
-  <control simulatemass="1" lockedmouse="0" invertwheel="0" lockedwheel="0" contextfullscreen="0" contextprojections="0" lockedkeyboardzoom="0" hideabout="0" dblclickfullscreen="0" invertcontrol="1" sensitivity="8" lockedkeyboard="0" speedwheel="1">
+  <transition zoomin="0" blendtime="1" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" enabled="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20"/>
+  <control speedwheel="1" sensitivity="8" contextfullscreen="0" invertcontrol="1" hideabout="0" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0">
     <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>
