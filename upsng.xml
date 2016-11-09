@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input levelingroll="0" leveltilesize="510" width="2547" overlap="1" levelingpitch="0" leveltileurl="upsng/c%c_l%r_%y_%x.jpg" levelbiashidpi="0.400" height="2547" levelbias="0.400">
-    <level predecode="0" width="2547" preload="0" height="2547"/>
-    <level predecode="0" width="1273" preload="0" height="1273"/>
-    <level predecode="0" width="636" preload="0" height="636"/>
-    <level predecode="1" width="318" preload="1" height="318"/>
-    <preview color="0x808080" strip="1"/>
+  <input overlap="1" levelbias="0.400" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400" height="2547" width="2547" levelingpitch="0" leveltileurl="upsng/c%c_l%r_%y_%x.jpg">
+    <level predecode="0" preload="0" height="2547" width="2547"/>
+    <level predecode="0" preload="0" height="1273" width="1273"/>
+    <level predecode="0" preload="0" height="636" width="636"/>
+    <level predecode="1" preload="1" height="318" width="318"/>
+    <preview strip="1" color="0x808080"/>
   </input>
   <view fovmode="0" pannorth="0">
-    <start projection="4" tilt="6.53" fov="70" pan="38.94"/>
-    <flyin projection="9" tilt="-90" fov="170" pan="0"/>
-    <min tilt="-90" fov="5" pan="0"/>
-    <max tilt="90" fov="120" pan="360" fovstereographic="270" fovfisheye="360"/>
+    <start projection="4" fov="70" pan="38.94" tilt="6.53"/>
+    <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+    <min fov="5" pan="0" tilt="-90"/>
+    <max fov="120" fovstereographic="270" pan="360" tilt="90" fovfisheye="360"/>
   </view>
-  <userdata source="" info="upsng" longitude="" comment="Установка подготовки сернистой нефти и газа (УПСНГ) состоит из двух комплексов - подготовки нефти и сероочистки газа. С 2015 года действует установка подготовки нефти, производительность которой достигает 1,3 млн тонн товарной продукции в год. Это позволило компании существенно увеличить объемы добычи жидкого углеводородного сырья. Необходимость строительства УПСНГ обусловлена вовлечением в производственный процесс скважин, сырье из которых отличается повышенным содержанием сероводорода. Ранее такие скважины не эксплуатировались. Теперь сырье с таких скважин на Ярактинском и Большетирском месторождениях очищается и поставляется, как и остальное, на приемо-сдаточный пункт, а далее – в трубопровод ВСТО. В 2016 году ожидается запуск второй части УПСНГ -  установки сероочистки газа." latitude="" description="Установка подготовки сернистой нефти и газа" copyright="" datetime="" title="Три измерения Яракты" tags="INC 3D" author=""/>
-  <hotspots width="180" wordwrap="1" height="20">
-    <label enabled="1" backgroundcolor="0xffffff" borderalpha="1" width="180" textalpha="1" borderradius="1" background="1" bordercolor="0x000000" backgroundalpha="1" textcolor="0x000000" border="1" wordwrap="1" height="20"/>
-    <polystyle handcursor="1" mode="0" backgroundcolor="0x0000ff" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627"/>
-    <hotspot url="" tilt="10.9" description="" id="Point01" pan="-66.33" target="_blank" skinid="ht_info" title="Насосная сырой и товарной нефти&#xa;"/>
-    <hotspot url="" tilt="16.92" description="Разделяет сырье со скважин на нефть, газ и воду. Участвует в очистке сернистой нефти до нормативных показателей." id="Point02" pan="27.51" target="_blank" skinid="ht_zoom" title="Нефтегазовый сепаратор со сбросом воды"/>
-    <hotspot url="" tilt="15.08" description="Оборудование для очистки нефти от попутного газа" id="Point03" pan="-19.86" target="_blank" skinid="ht_zoom" title="Концевая сепарационная установка"/>
-    <hotspot url="" tilt="34.48" description="" id="Point04" pan="152.34" target="_blank" skinid="ht_info" title="Вышка-громоотвод"/>
-    <hotspot url="" tilt="8.51" description="Инженерные коммуникации, которые обеспечивают движение воды, нефти и газа на установке подготовки нефти. Здесь же находятся электрические кабели, сети контрольно-измерительных приборов и автоматики." id="Point05" pan="-8.53" target="_blank" skinid="ht_zoom" title="Технологические эстакады"/>
-    <hotspot url="" tilt="-9.82" description="" id="Point06" pan="-113.75" target="_blank" skinid="ht_deep" title="upsng"/>
-    <hotspot url="" tilt="1.48" description="" id="Point07" pan="-1.71" target="_blank" skinid="ht_info" title="Узел предварительного отбора газа"/>
+  <userdata title="Три измерения Яракты" description="Установка подготовки сернистой нефти и газа" longitude="" tags="INC 3D" latitude="" author="" copyright="" datetime="" source="" info="upsng" comment="Установка подготовки сернистой нефти и газа (УПСНГ) состоит из двух комплексов - подготовки нефти и сероочистки газа. Строительство установки закончат в 2016 году. Она будет введена в эксплуатацию после приемки государственным органом строительного надзора. УПСНГ позволит вовлечь в производство ранее не эксплуатировавшиеся скважины, сырье из которых отличается повышенным содержанием сероводорода. Сернистая нефть с Ярактинского и Большетирского месторождений будет очищаться на УПСНГ и поставляться, как и остальное сырье, на приемо-сдаточный пункт ИНК, а затем – в трубопроводную систему «Восточная Сибирь – Тихий океан». "/>
+  <hotspots wordwrap="1" height="20" width="180">
+    <label textcolor="0x000000" wordwrap="1" borderalpha="1" backgroundalpha="1" height="20" border="1" enabled="1" bordercolor="0x000000" textalpha="1" width="180" borderradius="1" backgroundcolor="0xffffff" background="1"/>
+    <polystyle borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
+    <hotspot title="Насосная сырой и товарной нефти&#xa;" url="" target="_blank" description="" skinid="ht_info" pan="-66.33" id="Point01" tilt="10.9"/>
+    <hotspot title="Нефтегазовый сепаратор со сбросом воды" url="" target="_blank" description="Разделяет сырье со скважин на нефть, газ и воду. Участвует в очистке сернистой нефти до нормативных показателей." skinid="ht_zoom" pan="27.51" id="Point02" tilt="16.92"/>
+    <hotspot title="Концевая сепарационная установка" url="" target="_blank" description="Оборудование для очистки нефти от попутного газа" skinid="ht_zoom" pan="-19.86" id="Point03" tilt="15.08"/>
+    <hotspot title="Вышка-громоотвод" url="" target="_blank" description="" skinid="ht_info" pan="152.34" id="Point04" tilt="34.48"/>
+    <hotspot title="Технологические эстакады" url="" target="_blank" description="Инженерные коммуникации, которые обеспечивают движение воды, нефти и газа на установке подготовки нефти. Здесь же находятся электрические кабели, сети контрольно-измерительных приборов и автоматики." skinid="ht_zoom" pan="-8.53" id="Point05" tilt="8.51"/>
+    <hotspot title="upsng" url="" target="_blank" description="" skinid="ht_deep" pan="-105.51" id="Point06" tilt="11.62"/>
+    <hotspot title="Узел предварительного отбора газа" url="" target="_blank" description="" skinid="ht_info" pan="-1.71" id="Point07" tilt="1.48"/>
   </hotspots>
   <media>
-    <lensflare type="2" tilt="54.12" color="0xffffff" id="Lensflare01" pan="-44.43" blinding="50" alpha="80"/>
+    <lensflare alpha="80" color="0xffffff" pan="-44.43" blinding="50" type="2" id="Lensflare01" tilt="54.12"/>
   </media>
-  <transition enabled="0" blendtime="1" type="crossdissolve" softedge="0" zoomspeed="2" zoomfov="20" zoomoutpause="1" zoomin="0" blendcolor="0x000000" zoomout="0"/>
-  <control lockedwheel="0" contextfullscreen="0" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" dblclickfullscreen="0" lockedkeyboard="0" hideabout="0" sensitivity="8" simulatemass="1" speedwheel="1" lockedmouse="0" invertwheel="0">
-    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
+  <transition zoomin="0" blendtime="1" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" enabled="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20"/>
+  <control speedwheel="1" sensitivity="8" contextfullscreen="0" invertcontrol="1" hideabout="0" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0">
+    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
   </control>
 </panorama>
