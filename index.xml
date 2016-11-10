@@ -284,8 +284,8 @@
     <hotspot title="Трасса трубопровода ВСТО" url="" target="_blank" description="" skinid="ht_info" pan="28.13" id="Point08" tilt="10.03"/>
     <hotspot title="Товарные резервуары для хранения нефти объемом 3 тыс. м3" url="" target="_blank" description="" skinid="ht_info" pan="22.21" id="Point09" tilt="8.8"/>
     <hotspot title="Товарные резервуары для хранения нефти объемом 10 тыс. м3" url="" target="_blank" description="" skinid="ht_info" pan="13.61" id="Point10" tilt="7.92"/>
-    <hotspot title="Противопожарный резервуар" url="" target="_blank" description="" skinid="ht_info" pan="23.47" id="Point11" tilt="6.44"/>
-    <hotspot title="Противопожарные резервуары" url="" target="_blank" description="" skinid="ht_info" pan="4.94" id="Point12" tilt="6.13"/>
+    <hotspot title="Противопожарные резервуары" url="" target="_blank" description="" skinid="ht_info" pan="23.47" id="Point11" tilt="6.44"/>
+    <hotspot title="Противопожарный резервуар" url="" target="_blank" description="" skinid="ht_info" pan="4.94" id="Point12" tilt="6.13"/>
     <hotspot title="Лаборатория" url="lab" target="_blank" description="" skinid="ht_img" pan="45.5" id="Point13" tilt="-7.77"/>
     <hotspot title="Операторская" url="oper" target="_blank" description="" skinid="ht_img" pan="28.71" id="Point14" tilt="-10.72"/>
     <hotspot title="Система измерения количества и качества нефти" url="" target="_blank" description="«Сердце» приемо-сдаточного пункта - система измерения и контроля качества нефти (СИКН), где нефть еще раз проходит проверку по всем параметрам." skinid="ht_zoom" pan="32.7" id="Point15" tilt="1.39"/>
