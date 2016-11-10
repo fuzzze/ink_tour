@@ -266,7 +266,7 @@
   </input>
   <view fovmode="0" pannorth="0">
     <start projection="4" fov="16" pan="20.44" tilt="5.59"/>
-    <flyin projection="9" fov="190" pan="0" tilt="-90"/>
+    <flyin projection="9" fov="140" pan="0" tilt="-90"/>
     <min fov="5" pan="-60" tilt="-16.8721"/>
     <max fov="120" fovstereographic="270" pan="60" tilt="16.8721" fovfisheye="360"/>
   </view>
