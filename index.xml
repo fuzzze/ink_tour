@@ -96,7 +96,7 @@
     <label textcolor="0x000000" wordwrap="1" borderalpha="1" backgroundalpha="1" height="20" border="1" enabled="1" bordercolor="0x000000" textalpha="1" width="180" borderradius="1" backgroundcolor="0xffffff" background="1"/>
     <polystyle borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
     <hotspot title="average_deep" url="" target="_blank" description="" skinid="ht_deep" pan="-121.82" id="Point01" tilt="17.75"/>
-    <hotspot title="buro13_top" url="" target="_blank" description="" skinid="ht_url" pan="78.4" id="Point02" tilt="11.09"/>
+    <hotspot title="buro13_top" url="" target="_blank" description="Кустовая площадка и буровая установка: вид сверху" skinid="ht_url" pan="78.4" id="Point02" tilt="11.09"/>
     <hotspot title="Кронблок" url="" target="_blank" description="Это система грузоподъемных блоков. Диапазон грузоподъемности кронблока колеблется в пределах 200-600 тонн. &#xa;&#xa;С его помощью ведут погрузочно-разгрузочные работы, фиксируют на определенной высоте инструмент или  обсадные трубы, выполняют технологические операции при бурении скважин." skinid="ht_zoom" pan="-97.49" id="Point03" tilt="68.25"/>
     <hotspot title="Талевый блок" url="talevblok" target="_blank" description="Один из важнейших элементов буровой установки.  Используется для поддержания на весу бурильных труб и  инструмента во время спускоподъемных операций." skinid="ht_img" pan="-99.19" id="talevblok" tilt="44.29"/>
     <hotspot title="Площадка помощника бурильщика" url="" target="_blank" description="Позволяет перемещаться по буровой вышке" skinid="ht_info" pan="-108.8" id="Point05" tilt="56.16"/>
