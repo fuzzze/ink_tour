@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <panorama id="node1">
-  <input overlap="1" levelbias="0.400" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400" height="2500" width="2500" levelingpitch="0" leveltileurl="ukpg/c%c_l%r_%y_%x.jpg">
-    <level predecode="0" preload="0" height="2500" width="2500"/>
-    <level predecode="0" preload="0" height="1250" width="1250"/>
-    <level predecode="0" preload="0" height="625" width="625"/>
-    <level predecode="1" preload="1" height="312" width="312"/>
-    <preview strip="1" color="0x808080"/>
+  <input height="2500" levelbiashidpi="0.400" leveltileurl="ukpg/c%c_l%r_%y_%x.jpg" levelbias="0.400" levelingroll="0" levelingpitch="0" width="2500" overlap="1" leveltilesize="510">
+    <level height="2500" preload="0" predecode="0" width="2500"/>
+    <level height="1250" preload="0" predecode="0" width="1250"/>
+    <level height="625" preload="0" predecode="0" width="625"/>
+    <level height="312" preload="1" predecode="1" width="312"/>
+    <preview color="0x808080" strip="1"/>
   </input>
   <view fovmode="0" pannorth="0">
-    <start projection="4" fov="70" pan="0" tilt="0"/>
-    <flyin projection="9" fov="170" pan="0" tilt="-90"/>
-    <min fov="5" pan="-180" tilt="-46.5"/>
-    <max fov="120" fovstereographic="270" pan="180" tilt="52.3" fovfisheye="360"/>
+    <start pan="0" tilt="0" projection="4" fov="70"/>
+    <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+    <min pan="-180" tilt="-46.5" fov="5"/>
+    <max pan="180" fovfisheye="360" tilt="52.3" fovstereographic="270" fov="120"/>
   </view>
-  <userdata title="Три измерения Яракты" description="Установка комплексной подготовки газа" longitude="" tags="ink_tour" latitude="" author="" copyright="" datetime="" source="" info="ukpg" comment="Особенность геологии Восточной Сибири – здесь практически нет чисто нефтяных пластов, поэтому вместе с нефтью компания вынуждена добывать газ. В условиях, когда отсутствует инфраструктура для его потребления и транспортировки газа, его утилизация – непростая задача. В 2010 году ИНК запустила в работу установку комплексной подготовки газа (УКПГ), которая служит для обратной закачки природного и попутного нефтяного газа в пласт.  Это позволило не только интенсифицировать добычу, но и сократить объем сжигаемого газа и, как следствие, выбросов вредных веществ в атмосферу. ИНК первой в России успешно внедрила процесс обратной закачки газа в пласт.  С этого проекта фактически началось освоение газовых запасов Ярактинского месторождения. Сейчас вблизи УКПГ завершается строительство других объектов, которые являются частью масштабной газовой программы компании – новой страницы в истории ИНК."/>
-  <hotspots wordwrap="1" height="20" width="180">
-    <label textcolor="0x000000" wordwrap="1" borderalpha="1" backgroundalpha="1" height="20" border="1" enabled="1" bordercolor="0x000000" textalpha="1" width="180" borderradius="1" backgroundcolor="0xffffff" background="1"/>
-    <polystyle borderalpha="1" handcursor="1" backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff"/>
-    <hotspot title="Молниеотвод" url="" target="_blank" description="" skinid="ht_info" pan="83.02" id="Point01" tilt="14.13"/>
-    <hotspot title="Молниеотвод" url="" target="_blank" description="" skinid="ht_info" pan="135.49" id="Point02" tilt="11.57"/>
-    <hotspot title="Склады метанола" url="" target="_blank" description="Метанол используется в процессе подготовки газа." skinid="ht_zoom" pan="101.12" id="Point03" tilt="-6.01"/>
-    <hotspot title="Склады газового конденсата" url="" target="_blank" description="Входят в строящуюся установку подготовки природного и попутного нефтяного газа" skinid="ht_zoom" pan="118.57" id="Point04" tilt="-2.82"/>
-    <hotspot title="Ресиверы азота и воздуха" url="" target="_blank" description="Азот используется в технологическом процессе подготовки газа на УКПГ." skinid="ht_zoom" pan="-2.83" id="Point05" tilt="-1.21"/>
-    <hotspot title="Компрессорные установки УКПГ" url="compress" target="_blank" description="Шесть компрессорных установок позволяют закачивать газ обратно в пласт" skinid="ht_img" pan="67.59" id="Point06" tilt="-2.82"/>
-    <hotspot title="Колонна деэтанизации (входит в строящуюся УПППНГ)" url="" target="_blank" description="Служит для выделения этана из природного и попутного нефтяного газа" skinid="ht_zoom" pan="-22.81" id="Point07" tilt="7.31"/>
-    <hotspot title="Колонна депропанизации" url="" target="_blank" description="Служит для выделения пропана из природного и попутного нефтяного газа" skinid="ht_zoom" pan="162.43" id="Point08" tilt="11.17"/>
-    <hotspot title="Колонна дебутанизации" url="" target="_blank" description="Служит для выделения бутана из смеси природного и попутного газа" skinid="ht_zoom" pan="159.33" id="Point09" tilt="1.78"/>
-    <hotspot title="Энергоцентр УКПГ" url="energo2" target="_blank" description="Обеспечивает электроэнергией компрессоры для обратной закачки газа в пласт." skinid="ht_img" pan="128.84" id="Point10" tilt="-1.07"/>
-    <hotspot title="Строительство установки подготовки природного и попутного нефтяного газа" url="upppng" target="_blank" description="Строительство УПППНГ - часть масштабного проекта по освоению газовых запасов месторождений ИНК. Установка предназначена для извлечения и подготовки товарных пропана, бутана и газового конденсата. Ее производительность - 3,6 млн/ м3 в сутки." skinid="ht_img" pan="162.62" id="Point11" tilt="25.74"/>
+  <userdata author="" description="Установка комплексной подготовки газа" source="" tags="ink_tour" longitude="" info="ukpg" comment="Особенность геологии Восточной Сибири – здесь практически нет чисто нефтяных пластов, поэтому вместе с нефтью компания вынуждена добывать газ. В условиях, когда отсутствует инфраструктура для его потребления и транспортировки газа, его утилизация – непростая задача. В 2010 году ИНК запустила в работу установку комплексной подготовки газа (УКПГ), которая служит для обратной закачки природного и попутного нефтяного газа в пласт.  Это позволило не только интенсифицировать добычу, но и сократить объем сжигаемого газа и, как следствие, выбросов вредных веществ в атмосферу. ИНК первой в России успешно внедрила процесс обратной закачки газа в пласт.  С этого проекта фактически началось освоение газовых запасов Ярактинского месторождения. Сейчас вблизи УКПГ завершается строительство других объектов, которые являются частью масштабной газовой программы компании – новой страницы в истории ИНК." latitude="" datetime="" copyright="" title="Три измерения Яракты"/>
+  <hotspots height="20" wordwrap="1" width="180">
+    <label height="20" textcolor="0x000000" borderalpha="1" wordwrap="1" enabled="1" backgroundcolor="0xffffff" background="1" width="180" bordercolor="0x000000" textalpha="1" backgroundalpha="1" borderradius="1" border="1"/>
+    <polystyle borderalpha="1" backgroundcolor="0x0000ff" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
+    <hotspot pan="83.02" description="" id="Point01" tilt="14.13" url="" target="_blank" title="Молниеотвод" skinid="ht_info"/>
+    <hotspot pan="135.49" description="" id="Point02" tilt="11.57" url="" target="_blank" title="Молниеотвод" skinid="ht_info"/>
+    <hotspot pan="101.12" description="Метанол используется в процессе подготовки газа." id="Point03" tilt="-6.01" url="" target="_blank" title="Склады метанола" skinid="ht_zoom"/>
+    <hotspot pan="118.57" description="Входят в строящуюся установку подготовки природного и попутного нефтяного газа" id="Point04" tilt="-2.82" url="" target="_blank" title="Склады газового конденсата" skinid="ht_zoom"/>
+    <hotspot pan="-2.83" description="Азот используется в технологическом процессе подготовки газа на УКПГ." id="Point05" tilt="-1.21" url="" target="_blank" title="Ресиверы азота и воздуха" skinid="ht_zoom"/>
+    <hotspot pan="67.59" description="Шесть компрессорных установок позволяют закачивать газ обратно в пласт" id="Point06" tilt="-2.82" url="compress" target="_blank" title="Компрессорные установки УКПГ" skinid="ht_img"/>
+    <hotspot pan="-22.81" description="Служит для выделения этана из природного и попутного нефтяного газа" id="Point07" tilt="7.31" url="" target="_blank" title="Колонна деэтанизации (входит в строящуюся УПППНГ)" skinid="ht_zoom"/>
+    <hotspot pan="162.43" description="Служит для выделения пропана из природного и попутного нефтяного газа" id="Point08" tilt="11.17" url="" target="_blank" title="Колонна депропанизации" skinid="ht_zoom"/>
+    <hotspot pan="159.33" description="Служит для выделения бутана из смеси природного и попутного газа" id="Point09" tilt="1.78" url="" target="_blank" title="Колонна дебутанизации" skinid="ht_zoom"/>
+    <hotspot pan="128.84" description="Обеспечивает электроэнергией компрессоры для обратной закачки газа в пласт." id="Point10" tilt="-1.07" url="energo2" target="_blank" title="Энергоцентр УКПГ" skinid="ht_img"/>
+    <hotspot pan="162.62" description="Строительство УПППНГ - часть масштабного проекта по освоению газовых запасов месторождений ИНК. Установка предназначена для извлечения и подготовки товарных пропана, бутана и газового конденсата. Ее производительность - 3,6 млн/ м3 в сутки." id="Point11" tilt="25.74" url="upppng" target="_blank" title="Строительство установки подготовки природного и попутного нефтяного газа" skinid="ht_img"/>
   </hotspots>
   <media>
-    <lensflare alpha="80" color="0xffffff" pan="146.25" blinding="50" type="2" id="Lensflare01" tilt="27.78"/>
+    <lensflare pan="146.25" color="0xffffff" type="2" id="Lensflare01" tilt="27.78" blinding="50" alpha="80"/>
   </media>
-  <transition zoomin="0" blendtime="1" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" enabled="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20"/>
-  <control speedwheel="1" sensitivity="8" contextfullscreen="0" invertcontrol="1" hideabout="0" simulatemass="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" lockedkeyboard="0" lockedwheel="0">
-    <menulink url="http://www.irkutskoil.ru/" text="Иркутская нефтяная компания"/>
+  <transition blendcolor="0x000000" zoomout="0" enabled="0" blendtime="1" softedge="0" type="crossdissolve" zoomspeed="2" zoomfov="20" zoomin="0" zoomoutpause="1"/>
+  <control invertcontrol="1" sensitivity="8" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboardzoom="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" contextfullscreen="0" hideabout="0" lockedwheel="0" simulatemass="1">
+    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
   </control>
 </panorama>

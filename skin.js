@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.1 beta/15555
 // Filename: INK_material2.ggsk
-// Generated Wed Nov 9 16:36:40 2016
+// Generated Sun Nov 20 15:19:00 2016
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -646,118 +646,6 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		this.divSkin.appendChild(this._go_home);
-		this._dark_bg=document.createElement('div');
-		this._dark_bg.ggId="dark_bg";
-		this._dark_bg.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._dark_bg.ggVisible=false;
-		this._dark_bg.className='ggskin ggskin_rectangle ';
-		this._dark_bg.ggType='rectangle';
-		hs ='';
-		hs+='background : #000000;';
-		hs+='border : 0px solid #000000;';
-		hs+='height : 3600px;';
-		hs+='left : 0px;';
-		hs+='opacity : 0.7;';
-		hs+='position : absolute;';
-		hs+='top : 0px;';
-		hs+='visibility : hidden;';
-		hs+='width : 3600px;';
-		this._dark_bg.setAttribute('style',hs);
-		this._dark_bg.style[domTransform + 'Origin']='50% 50%';
-		me._dark_bg.ggIsActive=function() {
-			return false;
-		}
-		me._dark_bg.ggElementNodeId=function() {
-			return me.player.getCurrentNode();
-		}
-		this._dark_bg.onclick=function (e) {
-			me._dark_bg.style[domTransition]='none';
-			me._dark_bg.style.visibility='hidden';
-			me._dark_bg.ggVisible=false;
-			me._info_t_text.style[domTransition]='none';
-			me._info_t_text.style.visibility='hidden';
-			me._info_t_text.ggVisible=false;
-		}
-		this._dark_bg.ggUpdatePosition=function (useTransition) {
-		}
-		this.divSkin.appendChild(this._dark_bg);
-		this._load_text=document.createElement('div');
-		this._load_text.ggId="load_text";
-		this._load_text.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._load_text.ggVisible=false;
-		this._load_text.className='ggskin ggskin_rectangle ';
-		this._load_text.ggType='rectangle';
-		hs ='';
-		hs+='background : #ffffff;';
-		hs+='border : 1px solid #000000;';
-		hs+='height : 19px;';
-		hs+='left : 145px;';
-		hs+='position : absolute;';
-		hs+='top : 182px;';
-		hs+='visibility : hidden;';
-		hs+='width : 99px;';
-		this._load_text.setAttribute('style',hs);
-		this._load_text.style[domTransform + 'Origin']='50% 50%';
-		me._load_text.ggIsActive=function() {
-			return false;
-		}
-		me._load_text.ggElementNodeId=function() {
-			return me.player.getCurrentNode();
-		}
-		this._load_text.ggUpdatePosition=function (useTransition) {
-		}
-		this.divSkin.appendChild(this._load_text);
-		this._info_t_text=document.createElement('div');
-		this._info_t_text__text=document.createElement('div');
-		this._info_t_text.className='ggskin ggskin_textdiv';
-		this._info_t_text.ggTextDiv=this._info_t_text__text;
-		this._info_t_text.ggId="info_t_text";
-		this._info_t_text.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		this._info_t_text.ggVisible=false;
-		this._info_t_text.className='ggskin ggskin_text ';
-		this._info_t_text.ggType='text';
-		hs ='';
-		hs+='height : 398px;';
-		hs+='left : 9px;';
-		hs+='position : absolute;';
-		hs+='top : 145px;';
-		hs+='visibility : hidden;';
-		hs+='width : 232px;';
-		hs+='font-size:18px;line-height:24px;';
-		this._info_t_text.setAttribute('style',hs);
-		this._info_t_text.style[domTransform + 'Origin']='0% 0%';
-		hs ='position:absolute;';
-		hs+='left: 0px;';
-		hs+='top:  0px;';
-		hs+='width: 232px;';
-		hs+='height: 398px;';
-		hs+='border: 0px solid #000000;';
-		hs+='color: rgba(255,255,255,0.486275);';
-		hs+='text-align: left;';
-		hs+='white-space: pre-wrap;';
-		hs+='padding: 0px 1px 0px 1px;';
-		 
-		hs+='overflow-y: auto;';
-		this._info_t_text__text.setAttribute('style',hs);
-		this._info_t_text__text.innerHTML="";
-		this._info_t_text.appendChild(this._info_t_text__text);
-		me._info_t_text.ggIsActive=function() {
-			return false;
-		}
-		me._info_t_text.ggElementNodeId=function() {
-			return me.player.getCurrentNode();
-		}
-		this._info_t_text.onclick=function (e) {
-			me._info_t_text.style[domTransition]='none';
-			me._info_t_text.style.visibility='hidden';
-			me._info_t_text.ggVisible=false;
-			me._dark_bg.style[domTransition]='none';
-			me._dark_bg.style.visibility='hidden';
-			me._dark_bg.ggVisible=false;
-		}
-		this._info_t_text.ggUpdatePosition=function (useTransition) {
-		}
-		this.divSkin.appendChild(this._info_t_text);
 		this._intro_text=document.createElement('div');
 		this._intro_text__text=document.createElement('div');
 		this._intro_text.className='ggskin ggskin_textdiv';
@@ -769,7 +657,7 @@ function pano2vrSkin(player,base) {
 		this._intro_text.ggType='text';
 		hs ='';
 		hs+='height : 56px;';
-		hs+='left : -2px;';
+		hs+='left : -600px;';
 		hs+='opacity : 0.9;';
 		hs+='position : absolute;';
 		hs+='top : 20px;';
@@ -810,28 +698,28 @@ function pano2vrSkin(player,base) {
 			me._intro_text.style.visibility='hidden';
 			me._intro_text.ggVisible=false;
 		}
-		me._intro_text.ggCurrentLogicStateVisible = -1;
+		me._intro_text.ggCurrentLogicStatePosition = -1;
 		this._intro_text.ggUpdateConditionTimer=function () {
-			var newLogicStateVisible;
+			var newLogicStatePosition;
 			if (
-				(ggSkinVars['currentPan'] == 'index')
+				(ggSkinVars['started'] == true)
 			)
 			{
-				newLogicStateVisible = 0;
+				newLogicStatePosition = 0;
 			}
 			else {
-				newLogicStateVisible = -1;
+				newLogicStatePosition = -1;
 			}
-			if (me._intro_text.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._intro_text.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._intro_text.style[domTransition]='';
-				if (me._intro_text.ggCurrentLogicStateVisible == 0) {
-					me._intro_text.style.visibility="hidden";
-					me._intro_text.ggVisible=false;
+			if (me._intro_text.ggCurrentLogicStatePosition != newLogicStatePosition) {
+				me._intro_text.ggCurrentLogicStatePosition = newLogicStatePosition;
+				me._intro_text.style[domTransition]='left none, top none';
+				if (me._intro_text.ggCurrentLogicStatePosition == 0) {
+					me._intro_text.style.left='-2px';
+					me._intro_text.style.top='20px';
 				}
 				else {
-					me._intro_text.style.visibility=(Number(me._intro_text.style.opacity)>0||!me._intro_text.style.opacity)?'inherit':'hidden';
-					me._intro_text.ggVisible=true;
+					me._intro_text.style.left='-600px';
+					me._intro_text.style.top='20px';
 				}
 			}
 		}
@@ -1241,22 +1129,6 @@ function pano2vrSkin(player,base) {
 			me._thumbnail_cloner.ggUpdate(me._thumbnail_cloner.ggTags);
 		}
 		this.divSkin.ggLoaded=function() {
-			me._info_t_text.ggText="<div style=\"font-family: 'Roboto', Arial !important; font-weight: 200\">"+me.ggUserdata.comment+"<\/div>";
-			me._info_t_text.ggTextDiv.innerHTML=me._info_t_text.ggText;
-			if (me._info_t_text.ggUpdateText) {
-				me._info_t_text.ggUpdateText=function() {
-					var hs="<div style=\"font-family: 'Roboto', Arial !important; font-weight: 200\">"+me.ggUserdata.comment+"<\/div>";
-					if (hs!=this.ggText) {
-						this.ggText=hs;
-						this.ggTextDiv.innerHTML=hs;
-						if (this.ggUpdatePosition) this.ggUpdatePosition();
-					}
-				}
-			}
-			if (me._info_t_text.ggUpdatePosition) {
-				me._info_t_text.ggUpdatePosition();
-			}
-			me._info_t_text.ggTextDiv.scrollTop = 0;
 			me._loading_text.style[domTransition]='none';
 			me._loading_text.style.visibility='hidden';
 			me._loading_text.ggVisible=false;
@@ -1273,6 +1145,9 @@ function pano2vrSkin(player,base) {
 			}
 			me._loading_container.style.opacity='1';
 			me._loading_container.style.visibility=me._loading_container.ggVisible?'inherit':'hidden';
+			me._intro_text.style[domTransition]='none';
+			me._intro_text.style.visibility=(Number(me._intro_text.style.opacity)>0||!me._intro_text.style.opacity)?'inherit':'hidden';
+			me._intro_text.ggVisible=true;
 		}
 		this.divSkin.ggLoadedLevels=function() {
 		}
@@ -1796,6 +1671,9 @@ function pano2vrSkin(player,base) {
 			}
 			this.__div.onclick=function (e) {
 				ggSkinVars['currentPan'] = me.hotspot.title;
+				me.skin._intro_text.style[domTransition]='none';
+				me.skin._intro_text.style.visibility=(Number(me.skin._intro_text.style.opacity)>0||!me.skin._intro_text.style.opacity)?'inherit':'hidden';
+				me.skin._intro_text.ggVisible=true;
 				me.skin.hotspotProxyClick(me.hotspot.id);
 			}
 			this.__div.onmouseover=function (e) {
