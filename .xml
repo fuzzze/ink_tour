@@ -1,25 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama id="node1">
-  <input levelingroll="0" height="2500" leveltilesize="510" levelbias="0.400" overlap="1" levelbiashidpi="0.400" leveltileurl="ukpg/c%c_l%r_%y_%x.jpg" width="2500" levelingpitch="0">
-    <level preload="0" height="2500" predecode="0" width="2500"/>
-    <level preload="0" height="1250" predecode="0" width="1250"/>
-    <level preload="0" height="625" predecode="0" width="625"/>
-    <level preload="1" height="312" predecode="1" width="312"/>
-    <preview strip="1" color="0x808080"/>
-  </input>
-  <view fovmode="0" pannorth="0">
-    <start tilt="0" fov="70" pan="0"/>
-    <min tilt="-46.5" fov="5" pan="-180"/>
-    <max tilt="52.3" fov="120" pan="180"/>
-  </view>
-  <userdata description="" tags="ink_tour" copyright="" latitude="" datetime="" info="" title="" author="" comment="" source="" longitude=""/>
-  <hotspots height="20" wordwrap="1" width="180">
-    <label textalpha="1" borderalpha="1" enabled="1" background="1" backgroundcolor="0xffffff" textcolor="0x000000" bordercolor="0x000000" border="1" height="20" wordwrap="1" borderradius="1" backgroundalpha="1" width="180"/>
-    <polystyle borderalpha="1" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" backgroundalpha="0.2509803921568627"/>
-  </hotspots>
-  <media/>
-  <transition zoomin="0" blendcolor="0x000000" zoomout="0" enabled="0" type="crossdissolve" zoomfov="20" zoomoutpause="1" blendtime="1" zoomspeed="2" softedge="0"/>
-  <control hideabout="0" contextfullscreen="0" sensitivity="8" speedwheel="1" lockedkeyboard="0" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" invertcontrol="1" simulatemass="1">
-    <menulink text="Иркутская нефтяная компания" url="http://www.irkutskoil.ru/"/>
-  </control>
-</panorama>
+<tour appversion="6.0.1" apprev="17227" start="node2">
+  <panorama hideabout="1" id="node2">
+    <input width="5000" height="5000" levelingpitch="0" levelbias="0.400" overlap="1" leveltileurl="/DJI_0342/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400">
+      <level width="5000" preload="0" predecode="0" height="5000"/>
+      <level width="2500" preload="0" predecode="0" height="2500"/>
+      <level width="1250" preload="0" predecode="0" height="1250"/>
+      <level width="625" preload="0" predecode="0" height="625"/>
+      <level width="312" preload="1" predecode="1" height="312"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" fov="120" fovfisheye="360" tilt="34.8" pan="360" fovstereographic="270"/>
+    </view>
+    <userdata customnodeid="" tags="1_Ярактинское нефтегазоконденсатное месторождение|yaracta" datetime="09.08.2023 20:23" longitude="106.791533" copyright="" source="" info="" comment="" title="ИНК" description="" author="" latitude="57.988389"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" textalpha="1" border="1" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000" background="1" wordwrap="1" borderradius="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1"/>
+    </hotspots>
+    <media>
+      <lensflare color="0xffffff" alpha="80" type="2" blinding="50" id="Lensflare01" tilt="4.1" pan="-253.48"/>
+    </media>
+    <transition zoomspeed="2" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomin="0" enabled="1" softedge="0" zoomoutpause="1" blendtime="0.5" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="1" lockedkeyboard="0" hideabout="1" invertwheel="0" lockedmouse="0" speedwheel="1" simulatemass="1" contextprojections="0" invertcontrol="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node3">
+    <input width="4000" height="4000" levelingpitch="0" levelbias="0.400" overlap="1" leveltileurl="/DJI_0300 Panorama/c%c_l%r_%y_%x.jpg" levelingroll="0" leveltilesize="510" levelbiashidpi="0.400">
+      <level width="4000" preload="0" predecode="0" height="4000"/>
+      <level width="2000" preload="0" predecode="0" height="2000"/>
+      <level width="1000" preload="0" predecode="0" height="1000"/>
+      <level width="500" preload="1" predecode="1" height="500"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="0">
+      <start fov="70" tilt="0" projection="4" pan="0"/>
+      <flyin fov="170" tilt="-90" projection="9" pan="0"/>
+      <min fovpixel="2" tilt="-90" pan="0"/>
+      <max scaletofit="1" fov="120" fovfisheye="360" tilt="37.2" pan="360" fovstereographic="270"/>
+    </view>
+    <userdata customnodeid="" tags="2_ВЖК Ярактинского месторождения  (вахтовый жилой комплекс, обзорная)" datetime="09.08.2023 20:03" longitude="106.790499" copyright="" source="" info="" comment="" title="" description="" author="" latitude="57.988288"/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label width="180" backgroundcolor="0xffffff" borderalpha="1" bordercolor="0x000000" textalpha="1" border="1" backgroundalpha="1" enabled="1" height="20" textcolor="0x000000" background="1" wordwrap="1" borderradius="1"/>
+      <polystyle backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1"/>
+      <hotspot target="$fwd" url="" id="Point01" skinid="ht_url" tilt="0" title="$(ut)" description="" pan="-79.56"/>
+      <hotspot target="" url="{node3}" id="Point02" skinid="Hotspot 1" tilt="0" title="" description="" pan="0"/>
+    </hotspots>
+    <media/>
+    <transition zoomspeed="2" zoomfov="20" blendcolor="0x000000" type="crossdissolve" zoomin="0" enabled="1" softedge="0" zoomoutpause="1" blendtime="0.5" zoomout="0"/>
+    <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
+    <control rubberband="1" lockedkeyboard="0" hideabout="1" invertwheel="0" lockedmouse="0" speedwheel="1" simulatemass="1" contextprojections="0" invertcontrol="1" contextfullscreen="0" lockedkeyboardzoom="0" lockedwheel="0" sensitivity="8" dblclickfullscreen="0"/>
+  </panorama>
+  <masternode>
+    <userdata customnodeid="" tags="" datetime="" longitude="" copyright="" source="" info="" comment="" title="" description="" author="" latitude=""/>
+  </masternode>
+</tour>

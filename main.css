@@ -1,0 +1,8 @@
+.glass{
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+.s-title{
+    font-family: Navigo;
+    font-weight: bold;
+}

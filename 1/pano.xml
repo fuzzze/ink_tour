@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama id="node1" appversion="6.0.1" apprev="17227">
+  <input width="5000" height="5000" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+    <level width="5000" height="5000" preload="0" predecode="0"/>
+    <level width="2500" height="2500" preload="0" predecode="0"/>
+    <level width="1250" height="1250" preload="0" predecode="0"/>
+    <level width="625" height="625" preload="0" predecode="0"/>
+    <level width="312" height="312" preload="1" predecode="1"/>
+    <preview color="0x808080" strip="1"/>
+  </input>
+  <view pannorth="24.29" fovmode="0">
+    <start fov="70" projection="4" pan="47.84" tilt="-19.87"/>
+    <flyin fov="70" projection="4" pan="175.72" tilt="-14.6"/>
+    <min fovpixel="2" pan="0" tilt="-90"/>
+    <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="35.4"/>
+  </view>
+  <userdata source="" copyright="" tags="1_Ярактинское нефтегазоконденсатное месторождение" description="" longitude="106.791533" author="" title="Ярактинское нефтегазоконденсатное месторождение" customnodeid="" datetime="09.08.2023 20:23" latitude="57.988389" info="" comment=""/>
+  <hotspots width="180" height="20" wordwrap="1">
+    <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+    <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+  </hotspots>
+  <media>
+    <lensflare color="0xffffff" alpha="80" id="Lensflare01" blinding="50" type="4" pan="-254.71" tilt="4.91"/>
+  </media>
+  <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+  <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+  <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="1" rubberband="0" hideabout="0" lockedwheel="0" dblclickfullscreen="0" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+</panorama>
