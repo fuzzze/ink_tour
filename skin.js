@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Mon Mar 4 00:57:12 2024
+// Generated Mon Mar 4 01:27:32 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "index");
@@ -1891,6 +1891,107 @@ function pano2vrSkin(player,base) {
 		}
 		me._arrow_menu.appendChild(me._arrow_down);
 		me.divSkin.appendChild(me._arrow_menu);
+		el=me._abouttext=document.createElement('div');
+		els=me._abouttext__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="about-text";
+		el.ggDy=-56;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='height : 383px;';
+		hs+='position : absolute;';
+		hs+='right : 39px;';
+		hs+='top : -10000px;';
+		hs+='visibility : inherit;';
+		hs+='width : 502px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='0% 0%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='right: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 502px;';
+		hs+='height: 383px;';
+		hs+='background: #ffffff;';
+		hs+='background: rgba(255,255,255,0.117647);';
+		hs+='border: 0px solid #000000;';
+		hs+='color: #000000;';
+		hs+='text-align: left;';
+		hs+='white-space: pre-wrap;';
+		hs+='padding: 20px 21px 20px 21px;';
+		hs+='overflow: hidden;';
+		hs+='overflow-y: auto;';
+		hs+="backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); border-radius:20px; padding:40px; font-family:\"Navigo\"; font-size: 16px; line-height:20px;";
+		els.setAttribute('style',hs);
+		me._abouttext.ggUpdateText=function() {
+			var hs=me.ggUserdata.description;
+			if (hs!=this.ggText) {
+				this.ggText=hs;
+				this.ggTextDiv.innerHTML=hs;
+				if (this.ggUpdatePosition) this.ggUpdatePosition();
+			}
+		}
+		me._abouttext.ggUpdateText();
+		el.appendChild(els);
+		me._abouttext.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._abouttext.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				(me.ggUserdata.information == "0")
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._abouttext.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._abouttext.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._abouttext.style[domTransition]='';
+				if (me._abouttext.ggCurrentLogicStateVisible == 0) {
+					me._abouttext.style.visibility="hidden";
+					me._abouttext.ggVisible=false;
+				}
+				else {
+					me._abouttext.style.visibility=(Number(me._abouttext.style.opacity)>0||!me._abouttext.style.opacity)?'inherit':'hidden';
+					me._abouttext.ggVisible=true;
+				}
+			}
+		}
+		me._abouttext.onclick=function (e) {
+			if (player.transitionsDisabled) {
+				me._abouttext.style[domTransition]='none';
+			} else {
+				me._abouttext.style[domTransition]='all 500ms ease-out 0ms';
+			}
+			me._abouttext.style.opacity='0';
+			me._abouttext.style.visibility='hidden';
+		}
+		me._abouttext.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
+			}
+		}
+		me.divSkin.appendChild(me._abouttext);
 		el=me._cover=document.createElement('div');
 		el.ggId="cover";
 		el.ggDx=0;
@@ -2348,6 +2449,7 @@ function pano2vrSkin(player,base) {
 		if (me.elementMouseDown['arrow_down']) {
 			player.changeTiltLog(-1.4,true);
 		}
+		me._abouttext.ggUpdateText();
 		me._loading_text.ggUpdateText();
 		if (!player.getLockedKeyboard()) {
 			switch(me.skinKeyPressed) {
@@ -2750,8 +2852,10 @@ function pano2vrSkin(player,base) {
 	me._main_menu.logicBlock_scaling();
 	me._toggle2.logicBlock_scaling();
 	me._arrow_menu.logicBlock_scaling();
+	me._abouttext.logicBlock_visible();
 	me._gyro.logicBlock_visible();
 	player.addListener('sizechanged', function(args) { me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_scaling();me._toggle2.logicBlock_scaling();me._arrow_menu.logicBlock_scaling(); });
+	player.addListener('changenodeid', function(args) { me._abouttext.logicBlock_visible(); });
 	player.addListener('configloaded', function(args) { me._gyro.logicBlock_visible(); });
 	player.addListener('changenodeid', function(args) { me._thumbnail_cloner.callChildLogicBlocks_changenodeid(); });
 	player.addListener('mouseover', function(args) { me._thumbnail_cloner.callChildLogicBlocks_mouseover(); });
