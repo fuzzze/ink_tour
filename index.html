@@ -8,7 +8,6 @@
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black" />
 		<meta name="mobile-web-app-capable" content="yes" />
-		<meta property="og:image" content="preview.jpg">
 		<style type="text/css" title="Default">
 			body, div, h1, h2, h3, span, p {
 				font-family: Verdana,Arial,Helvetica,sans-serif;
@@ -34,6 +33,8 @@
 			}
 		</style>	
 		<link href="styles.css" rel="stylesheet">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<meta property="og:locale" content="ru_RU" />
 	</head>
 	<body>
 <!-- - - - - - - 8<- - - - - - cut here - - - - - 8<- - - - - - - -->
@@ -96,7 +97,7 @@
 			// load the configuration
 		
 			window.addEventListener("load", function() {
-				pano.readConfigUrlAsync(".xml");
+				pano.readConfigUrlAsync("pano.xml");
 			});
 		</script>
 		<noscript>

@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node6" appversion="6.0.1" apprev="17227">
+  <panorama hideabout="1" id="node6">
+    <input width="2048" height="2048" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="2048" height="2048" preload="0" predecode="0"/>
+      <level width="1024" height="1024" preload="0" predecode="0"/>
+      <level width="512" height="512" preload="0" predecode="0"/>
+      <level width="256" height="256" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="" description="" longitude="" author="" title="" customnodeid="" datetime="" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot url="{node1}" description="" target="" skinid="start-button" title="Ярактинское нефтегазоконденсатное месторождение" id="start-button" pan="0.14" tilt="-17.82"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node1">
+    <input width="5000" height="5000" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="5000" height="5000" preload="0" predecode="0"/>
+      <level width="2500" height="2500" preload="0" predecode="0"/>
+      <level width="1250" height="1250" preload="0" predecode="0"/>
+      <level width="625" height="625" preload="0" predecode="0"/>
+      <level width="312" height="312" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="24.29" fovmode="0">
+      <start fov="70" projection="9" pan="47.84" tilt="-19.87"/>
+      <flyin fov="70" projection="4" pan="175.72" tilt="-14.6"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="35.4"/>
+    </view>
+    <userdata source="" copyright="" tags="1_Ярактинское нефтегазоконденсатное месторождение" description="Ярактинское нефтегазоконденсатное месторождение  (ЯНГКМ) -  один из основных добывающих активов ИНК. На месторождении ведётся промышленная добыча углеводородного сырья. ЯНГКМ расположено в северной части Усть-Кутского района Иркутской области. &#xa;&#xa;Месторождение было открыто в 1969 году: на Северомарковской скважине № 5, названной скважиной-первооткрывательницей, с глубины 2019 м был получен приток нефти около 1,5 м3 в сутки. Керны, поднятые на Ярактинском месторождении, свидетельствуют о том, что ориентировочный возраст отложений составляет около 600 млн лет. &#xa;&#xa;" longitude="106.791533" author="" title="Ярактинское нефтегазоконденсатное месторождение" customnodeid="" datetime="09.08.2023 20:23" latitude="57.988389" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media>
+      <lensflare color="0xffffff" alpha="80" id="Lensflare01" blinding="50" type="4" pan="-254.71" tilt="4.91"/>
+    </media>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node2">
+    <input width="4000" height="4000" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4000" height="4000" preload="0" predecode="0"/>
+      <level width="2000" height="2000" preload="0" predecode="0"/>
+      <level width="1000" height="1000" preload="0" predecode="0"/>
+      <level width="500" height="500" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
+    </view>
+    <userdata source="" copyright="" tags="2" description="На территории вахтового жилого комплекса (ВЖК) Ярактинского месторождения расположены десять общежитий, две столовые, прачечная, магазин, баня и парикмахерская. Социально-бытовая инфраструктура на производстве постоянно развивается в связи с активным ростом группы компаний." longitude="106.790499" author="" title="Вахтовый жилой комплекс Ярактинского месторождения " customnodeid="" datetime="09.08.2023 20:03" latitude="57.988288" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot url="{node3}" description="" target="0.0/0.0/70.0" skinid="Hotspot 1" title="Вахтовый жилой комплекс Ярактинского месторождения " id="Point01" pan="-17.32" tilt="-22.38"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node3">
+    <input width="5000" height="5000" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="5000" height="5000" preload="0" predecode="0"/>
+      <level width="2500" height="2500" preload="0" predecode="0"/>
+      <level width="1250" height="1250" preload="0" predecode="0"/>
+      <level width="625" height="625" preload="0" predecode="0"/>
+      <level width="312" height="312" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.3"/>
+    </view>
+    <userdata source="" copyright="" tags="2-1" description="&quot;Православный храм на Ярактинском месторождении был открыт в 2012 году. Храм назван в честь, пожалуй, самого почитаемого в православном мире святого – Николая Угодника. Еще при жизни святителю поклонялись за милосердие и чудотворения. В православии он считается покровителем путешественников. &#xa;&#xa;Храм возведен из клееного бруса по всем канонам церковного строительства. Внутреннее оформление выполнено в классическом русском стиле. Здание расположено в непосредственной близости от общежитий. Здесь же расположена звонница, колокола для которой были отлиты в Каменск-Уральском. &quot;" longitude="106.790431" author="" title="Вахтовый жилой комплекс Ярактинского месторождения " customnodeid="" datetime="09.08.2023 20:29" latitude="57.987862" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node4">
+    <input width="5000" height="5000" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="5000" height="5000" preload="0" predecode="0"/>
+      <level width="2500" height="2500" preload="0" predecode="0"/>
+      <level width="1250" height="1250" preload="0" predecode="0"/>
+      <level width="625" height="625" preload="0" predecode="0"/>
+      <level width="312" height="312" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="2-2" description="Памятная стела с именами первооткрывателей Ярактинского газоконденсатного месторождения. Была установлена в сентябре 2019 года по случаю 50-летию со дня открытия ЯНГКМ. По замыслу автора, известного иркутского архитектора Сергея Демкова, арт-объект символизирует связь прошлого и будущего, поскольку, с одной стороны, рассказывает о геологах, стоявших у истоков освоения Яракты, с другой – отсчитывает точное время с момента открытия месторождения. " longitude="" author="" title="Церковь ВЖК ЯНГКМ" customnodeid="" datetime="09.08.2023 19:36" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node7">
+    <input width="4484" height="4484" levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4484" height="4484" preload="0" predecode="0"/>
+      <level width="2242" height="2242" preload="0" predecode="0"/>
+      <level width="1121" height="1121" preload="0" predecode="0"/>
+      <level width="560" height="560" preload="0" predecode="0"/>
+      <level width="280" height="280" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="2-301" description="" longitude="106.791534" author="" title="ВЖК Ярактинского месторождения (вахтовый жилой комплекс, обзорная)" customnodeid="" datetime="09.08.2023 20:05" latitude="57.988078" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node8">
+    <input width="6249" height="6249" levelingroll="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="6249" height="6249" preload="0" predecode="0"/>
+      <level width="3124" height="3124" preload="0" predecode="0"/>
+      <level width="1562" height="1562" preload="0" predecode="0"/>
+      <level width="781" height="781" preload="0" predecode="0"/>
+      <level width="390" height="390" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="3" description="Панорама открывается в видом  на ДНС. На другой стороне ДКС. Предлагаю просто подписать тут названия объектов без сокращений. А по клику на след панорамы уже подробные описания (ниже).  " longitude="106.550384" author="" title="ДКС ДНС (обзорная)" customnodeid="" datetime="08.08.2023 10:31" latitude="58.034190" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node9">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="3-1" description="Дожимная компрессорная станция (ДКС) была введена в эксплуатацию в 2012 году. Она предназначена для приема попутного нефтяного газа, поступающего с установки подготовки нефти (УПН), установки подготовки сернистой и газа (УПСНГ) и дожимной насосной станции (ДНС) Ярактинского месторождения. Здесь происходит подготовка, компримирование и транспортировка попутного нефтяного газа на установку комплексной подготовки газа (УКПГ) и установку подготовки природного и попутного нефтяного газа (УПППНГ 3,6)." longitude="" author="" title="ДКС (дожимная компрессорная станция) (Яракта рядом с ДНС)" customnodeid="" datetime="08.08.2023 09:50" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node10">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="3-2" description="" longitude="" author="" title="ДКС (дожимная компрессорная станция) (Яракта рядом с ДНС внутри)" customnodeid="" datetime="08.08.2023 10:04" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node11">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="3-3" description="" longitude="106.802650" author="" title="ДКС (дожимная компрессорная станция) (Яракта на УПН, обзорная)" customnodeid="" datetime="09.08.2023 18:08" latitude="57.973393" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node12">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node12/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="3-4" description="" longitude="" author="" title="ДКС (дожимная компрессорная станция) (Яракта на УПН, земля)" customnodeid="" datetime="09.08.2023 17:28" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node13">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node13/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="3-5" description="" longitude="" author="" title="ДКС (дожимная компрессорная станция) (Яракта на УПН, внутри)" customnodeid="" datetime="09.08.2023 17:37" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node14">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node14/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="3-6" description="" longitude="" author="" title="ДКС (дожимная компрессорная станция) (Яракта на УПН, земля)" customnodeid="" datetime="09.08.2023 17:49" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node15">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node15/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="4" description="Дожимная насосная станция Ярактинского месторождения (ДНС ЯНГКМ) проектной мощностью 1 697 тыс. т/год была введена в эксплуатацию в 2012 году. Она предназначена для осуществления первой ступени сепарации нефти от газа, отделения пластовой воды и дальнейшей транспортировки нефти на установку подготовки нефти (УПН) ЯНГКМ, газа под давлением сепарации – на дожимную компрессорную станцию (ДКС ЯНГКМ), подготовленной пластовой воды – в систему поддержания пластового давления. Сырьем для ДНС является водонефтяная эмульсия, поступающая с Ярактинского месторождения. На ДНС также осуществляется прием и хранение товарной нефти с установки подготовки нефти Ичединского месторождения, а также дальнейшая транспортировка нефти на УПН ЯНГКМ. " longitude="" author="" title="ДНС (дожимная насосная станция) (Яракта рядом с ДКС, земля)" customnodeid="" datetime="07.08.2023 18:21" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node16">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node16/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="7" description="Установка комплексной подготовки газа (УКПГ) проектной мощностью порядка 1 млн м3/сут. была введена в эксплуатацию в 2010 году (1-й этап строительства) и предназначена для подготовки газа к закачке в пласт, подачи газа на нагнетательные скважины для водогазового воздействия (ВГВ), обеспечения топливным газом энергокомплексов УКПГ и УПН ЯНГКМ." longitude="" author="" title="УКПГ 3,6 (уст-ка комплексной подготовки газа, обзорная)" customnodeid="" datetime="08.08.2023 14:27" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node17">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node17/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="8" description="" longitude="" author="" title="УКПГ-2 (уст-ка комплексной подготовки газа, обзорная)" customnodeid="" datetime="08.08.2023 12:21" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node18">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node18/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="8-6052" description="" longitude="" author="" title="УКПГ-2 (уст-ка комплексной подготовки газа, земля)" customnodeid="" datetime="07.08.2023 15:04" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node19">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node19/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="8-6128" description="" longitude="" author="" title="УКПГ-2 (уст-ка комплексной подготовки газа, земля)" customnodeid="" datetime="07.08.2023 15:22" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <masternode>
+    <userdata source="" copyright="" tags="" description="" longitude="" author="" title="" customnodeid="" datetime="" latitude="" info="" comment=""/>
+  </masternode>
+</tour>

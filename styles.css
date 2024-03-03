@@ -1,8 +1,16 @@
 .glass{
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 .s-title{
     font-family: Navigo;
     font-weight: bold;
 }
+
+.menu-container {
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:76px;
+}
+/* 
+title color #2b5e4a */
