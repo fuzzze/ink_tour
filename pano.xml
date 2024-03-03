@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node6" appversion="6.0.1" apprev="17227">
   <panorama hideabout="1" id="node6">
-    <input width="2048" height="2048" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
-      <level width="2048" height="2048" preload="0" predecode="0"/>
+    <input width="1024" height="1024" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
       <level width="1024" height="1024" preload="0" predecode="0"/>
       <level width="512" height="512" preload="0" predecode="0"/>
       <level width="256" height="256" preload="1" predecode="1"/>
@@ -18,7 +17,6 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node1}" description="" target="" skinid="start-button" title="Ярактинское нефтегазоконденсатное месторождение" id="start-button" pan="0.14" tilt="-17.82"/>
     </hotspots>
     <media/>
     <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
@@ -460,6 +458,706 @@
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
     </view>
     <userdata source="" copyright="" tags="8-6128" description="" longitude="" author="" title="УКПГ-2 (уст-ка комплексной подготовки газа, земля)" customnodeid="" datetime="07.08.2023 15:22" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node20">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node20/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="8-7149" description="" longitude="" author="" title="УКПГ-2 (уст-ка комплексной подготовки газа, земля)" customnodeid="" datetime="08.08.2023 13:20" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node21">
+    <input width="4721" height="4721" levelingroll="0" leveltileurl="tiles/node21/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4721" height="4721" preload="0" predecode="0"/>
+      <level width="2360" height="2360" preload="0" predecode="0"/>
+      <level width="1180" height="1180" preload="0" predecode="0"/>
+      <level width="590" height="590" preload="0" predecode="0"/>
+      <level width="295" height="295" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="12" description="Установка по производству сжиженного гелия была открыта в мае 2023 г. Мощность линии -10 млн литров в год.  По данным на 2023 г., это второй и крупнейший в РФ гелиевый завод, который способен потенциально обеспечить до 5% мирового производства. На гелиевую установку поступает сухой отбензиненный газ с УКПГ-2. " longitude="106.563039" author="" title="Гелиевый завод (обзорная)" customnodeid="" datetime="08.08.2023 12:11" latitude="58.089535" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node22">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node22/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="12-1" description="" longitude="" author="" title="Гелиевый завод (земля)" customnodeid="" datetime="07.08.2023 16:02" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node23">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node23/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="-180" tilt="-48.1858"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" pan="180" tilt="48.1858"/>
+    </view>
+    <userdata source="" copyright="" tags="12-2" description="" longitude="" author="" title="Гелиевый завод (земля)" customnodeid="" datetime="07.08.2023 16:28" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node24">
+    <input width="3587" height="3587" levelingroll="0" leveltileurl="tiles/node24/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="3587" height="3587" preload="0" predecode="0"/>
+      <level width="1793" height="1793" preload="0" predecode="0"/>
+      <level width="896" height="896" preload="0" predecode="0"/>
+      <level width="448" height="448" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="13" description="" longitude="106.530852" author="" title="Скважина закачки газа в пласт (обзорная)" customnodeid="" datetime="09.08.2023 10:06" latitude="58.150631" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node25">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node25/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="13-1" description="" longitude="" author="" title="Скважина закачки газа в пласт (земля)" customnodeid="" datetime="09.08.2023 09:49" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node26">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node26/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="15" description="Ичёдинское месторождение было открыто в 2012 году: по результатам испытания западно-ярактинской поисковой скважины №312 был получен приток нефти. Месторождение находится в границах Западно-Ярактинского лицензионного участка недр (Усть-Кутский и Катангский районы Иркутской области). Название Ичёде дала река, которая протекает недалеко от этого места." longitude="105.884189" author="" title="ИНГКМ (Ичединское нефтегазоконденсатное месторождение, обзорная)" customnodeid="" datetime="08.08.2023 18:00" latitude="57.874625" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node27">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node27/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="15-1" description="На Ичединском месторождении создана производственная и социальная инфраструктура. Более того, Ичёда стала своеобразным полигоном для испытания новых технологических решений: например, именно здесь был реализован пилотный проект по внедрению неметаллических технологий при строительстве трубопроводов, а также построена первая в компании мобильная установка подготовки попутного нефтяного газа." longitude="" author="" title="ИНГКМ (Ичединское нефтегазоконденсатное месторождение, земля)" customnodeid="" datetime="08.08.2023 17:01" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node28">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node28/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="16" description="УПН проектной мощностью по подготовке нефти 1,395 млн т/год была введена в эксплуатацию в 2018 году и предназначена для сбора, сепарирования, обезвоживания и обессоливания водонефтяной эмульсии, поступающей с Ичединского и Верхнетирского нефтяных месторождений." longitude="" author="" title="ИНГКМ (Ичединское нефтегазоконденсатное месторождение, земля)" customnodeid="" datetime="08.08.2023 17:13" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node29">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node29/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="16-1" description="" longitude="" author="" title="ИНГКМ энергокомплекс(Ичединское нефтегазоконденсатное месторождение, земля)" customnodeid="" datetime="08.08.2023 17:47" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node30">
+    <input width="4716" height="4716" levelingroll="0" leveltileurl="tiles/node30/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4716" height="4716" preload="0" predecode="0"/>
+      <level width="2358" height="2358" preload="0" predecode="0"/>
+      <level width="1179" height="1179" preload="0" predecode="0"/>
+      <level width="589" height="589" preload="0" predecode="0"/>
+      <level width="294" height="294" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="17" description="" longitude="107.030566" author="" title="ПСП (приемосдаточный пункт, обзорная)" customnodeid="" datetime="10.08.2023 12:26" latitude="57.527472" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node31">
+    <input width="4722" height="4722" levelingroll="0" leveltileurl="tiles/node31/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4722" height="4722" preload="0" predecode="0"/>
+      <level width="2361" height="2361" preload="0" predecode="0"/>
+      <level width="1180" height="1180" preload="0" predecode="0"/>
+      <level width="590" height="590" preload="0" predecode="0"/>
+      <level width="295" height="295" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="17-1" description="" longitude="107.039131" author="" title="ПСП нижний парк РВС (приемосдаточный пункт, обзорная)" customnodeid="" datetime="10.08.2023 13:25" latitude="57.530721" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node32">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node32/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="17-2" description="" longitude="" author="" title="ПСП нижний парк РВС (приемосдаточный пункт, земля)" customnodeid="" datetime="10.08.2023 13:03" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node33">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node33/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="17-3" description="" longitude="" author="" title="ПСП нижний парк РВС (приемосдаточный пункт, земля)" customnodeid="" datetime="10.08.2023 13:14" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node34">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node34/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="17-4" description="" longitude="" author="" title="ПСП (приемосдаточный пункт, земля)" customnodeid="" datetime="10.08.2023 11:22" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node35">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node35/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="17-5" description="" longitude="" author="" title="ПСП (приемосдаточный пункт, земля)" customnodeid="" datetime="10.08.2023 11:44" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node36">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node36/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="18-1" description="" longitude="106.047235" author="" title="ИЗП (иркутский завод полимеров, водозабор) " customnodeid="" datetime="12.08.2023 11:49" latitude="56.815617" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node37">
+    <input width="4722" height="4722" levelingroll="0" leveltileurl="tiles/node37/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4722" height="4722" preload="0" predecode="0"/>
+      <level width="2361" height="2361" preload="0" predecode="0"/>
+      <level width="1180" height="1180" preload="0" predecode="0"/>
+      <level width="590" height="590" preload="0" predecode="0"/>
+      <level width="295" height="295" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="19" description="" longitude="106.023083" author="" title="Склад газоконденсата" customnodeid="" datetime="11.08.2023 11:47" latitude="56.818294" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node38">
+    <input width="2500" height="2500" levelingroll="0" leveltileurl="tiles/node38/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="2500" height="2500" preload="0" predecode="0"/>
+      <level width="1250" height="1250" preload="0" predecode="0"/>
+      <level width="625" height="625" preload="0" predecode="0"/>
+      <level width="312" height="312" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="19-0144" description="" longitude="" author="" title="СУГ (сжиженные углеводородные газы, земля)" customnodeid="" datetime="11.08.2023 10:32" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node39">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node39/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="19-0316" description="" longitude="" author="" title="СУГ (сжиженные углеводородные газы, земля)" customnodeid="" datetime="11.08.2023 11:12" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node40">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node40/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="19-0412" description="" longitude="" author="" title="СУГ (сжиженные углеводородные газы, земля)" customnodeid="" datetime="11.08.2023 11:34" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node41">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node41/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="20" description="" longitude="106.010231" author="" title="ГФУ (газофракционирующая установка, обзорная)" customnodeid="" datetime="11.08.2023 13:25" latitude="56.826045" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node42">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node42/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="20-1" description="" longitude="106.009839" author="" title="ГФУ (газофракционирующая установка, обзорная)" customnodeid="" datetime="11.08.2023 13:28" latitude="56.825520" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node43">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node43/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="21" description="" longitude="" author="" title="УКПГ Верхнемарковское (уст-ка комплексной подготовки газа, обзорная)" customnodeid="" datetime="07.08.2023 12:45" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node44">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node44/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="21-1" description="" longitude="" author="" title="УКПГ Верхнемарковское (уст-ка комплексной подготовки газа, обзорная)" customnodeid="" datetime="07.08.2023 12:30" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node45">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node45/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="21-2" description="" longitude="" author="" title="УКПГ Верхнемарковское (уст-ка комплексной подготовки газа, земля)" customnodeid="" datetime="07.08.2023 11:39" latitude="" info="" comment=""/>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
+      <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+    </hotspots>
+    <media/>
+    <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
+    <flyintransition speed="1.00" enabled="1"/>
+    <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
+    <control lockedkeyboardzoom="0" simulatemass="1" speedwheel="1" invertcontrol="1" contextfullscreen="0" rubberband="0" hideabout="1" lockedwheel="0" dblclickfullscreen="1" contextprojections="0" lockedmouse="0" invertwheel="0" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama hideabout="1" id="node46">
+    <input width="4500" height="4500" levelingroll="0" leveltileurl="tiles/node46/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" levelbias="0.400" overlap="1" leveltilesize="510" levelbiashidpi="1.000">
+      <level width="4500" height="4500" preload="0" predecode="0"/>
+      <level width="2250" height="2250" preload="0" predecode="0"/>
+      <level width="1125" height="1125" preload="0" predecode="0"/>
+      <level width="562" height="562" preload="0" predecode="0"/>
+      <level width="281" height="281" preload="1" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start fov="70" projection="4" pan="0" tilt="0"/>
+      <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+    </view>
+    <userdata source="" copyright="" tags="21-3" description="" longitude="" author="" title="УКПГ Верхнемарковское (уст-ка комплексной подготовки газа, земля)" customnodeid="" datetime="07.08.2023 11:56" latitude="" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
