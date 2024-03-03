@@ -1,1 +1,1 @@
-https://fuzzze.github.io/ink_tour/1/
+https://fuzzze.github.io/ink_tour/
