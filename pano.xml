@@ -19,10 +19,17 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
+      <hotspot url="{node2}" description="" target="$fwd" skinid="ht_node" title="Вахтовый жилой комплекс Ярактинского месторождения " id="Point01" pan="124.73" tilt="0"/>
+      <hotspot url="{node8}" description="" target="$fwd" skinid="ht_node" title="ДКС ДНС (обзорная)" id="Point02" pan="94.4638" tilt="0"/>
+      <hotspot url="{node21}" description="" target="$fwd" skinid="ht_node" title="Гелиевый завод (обзорная)" id="Point03" pan="74.289" tilt="0"/>
+      <hotspot url="{node24}" description="" target="$fwd" skinid="ht_node" title="Скважина закачки газа в пласт (обзорная)" id="Point04" pan="64.537" tilt="0"/>
+      <hotspot url="{node11}" description="" target="$fwd" skinid="ht_node" title="ДКС (дожимная компрессорная станция) (Яракта на УПН, обзорная)" id="Point05" pan="-134.248" tilt="0"/>
+      <hotspot url="{node31}" description="" target="$fwd" skinid="ht_node" title="ПСП нижний парк РВС (приемосдаточный пункт, обзорная)" id="Point06" pan="-139.507" tilt="0"/>
+      <hotspot url="{node7}" description="" target="$fwd" skinid="ht_node" title="ВЖК Ярактинского месторождения (вахтовый жилой комплекс, обзорная)" id="Point07" pan="-155.612" tilt="0"/>
+      <hotspot url="{node41}" description="" target="$fwd" skinid="ht_node" title="ГФУ (газофракционирующая установка, обзорная)" id="Point08" pan="184.056" tilt="0"/>
+      <hotspot url="{node3}" description="" target="$fwd" skinid="ht_node" title="Вахтовый жилой комплекс Ярактинского месторождения " id="Point09" pan="156.345" tilt="0"/>
     </hotspots>
-    <media>
-      <lensflare color="0xffffff" alpha="80" id="Lensflare01" blinding="50" type="9" pan="-254.71" tilt="4.91"/>
-    </media>
+    <media/>
     <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
     <flyintransition speed="1.00" enabled="1"/>
     <animation animsequence="Animation01" syncanimationwithvideo="0" useinautorotation="0"/>
@@ -37,16 +44,21 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="96.87" tilt="-6.03"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="35.2"/>
     </view>
     <userdata source="" copyright="" tags="2" description="На территории вахтового жилого комплекса (ВЖК) Ярактинского месторождения расположены десять общежитий, две столовые, прачечная, магазин, баня и парикмахерская. Социально-бытовая инфраструктура на производстве постоянно развивается в связи с активным ростом группы компаний." longitude="106.790499" author="" title="Вахтовый жилой комплекс Ярактинского месторождения " customnodeid="" datetime="09.08.2023 20:03" latitude="57.988288" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
       <label background="1" width="180" backgroundalpha="1" bordercolor="0x000000" height="20" border="1" borderradius="1" borderalpha="1" textalpha="1" textcolor="0x000000" wordwrap="1" enabled="1" backgroundcolor="0xffffff"/>
       <polystyle backgroundalpha="0.2509803921568627" bordercolor="0x0000ff" handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff"/>
-      <hotspot url="{node3}" description="" target="0.0/0.0/70.0" skinid="Hotspot 1" title="Вахтовый жилой комплекс Ярактинского месторождения " id="Point01" pan="-17.32" tilt="-22.38"/>
+      <hotspot url="{node3}" description="" target="0.0/0.0/70.0" skinid="Redpin" title="Вахтовый жилой комплекс Ярактинского месторождения " id="Point01" pan="-17.32" tilt="-22.38"/>
+      <hotspot url="{node41}" description="" target="$fwd" skinid="Redpin" title="ГФУ (газофракционирующая установка, обзорная)" id="Point02" pan="159.789" tilt="0"/>
+      <hotspot url="{node26}" description="" target="$fwd" skinid="Redpin" title="ИНГКМ (Ичединское нефтегазоконденсатное месторождение, обзорная)" id="Point03" pan="102.906" tilt="0"/>
+      <hotspot url="{node8}" description="" target="$fwd" skinid="Redpin" title="ДКС ДНС (обзорная)" id="Point04" pan="70.0557" tilt="0"/>
+      <hotspot url="{node21}" description="" target="$fwd" skinid="Redpin" title="Гелиевый завод (обзорная)" id="Point05" pan="49.8434" tilt="0"/>
+      <hotspot url="{node24}" description="" target="$fwd" skinid="Redpin" title="Скважина закачки газа в пласт (обзорная)" id="Point06" pan="40.1175" tilt="0"/>
     </hotspots>
     <media/>
     <transition zoomfov="20" softedge="0" zoomspeed="2" zoomout="0" zoomoutpause="1" blendtime="1" type="crossdissolve" enabled="1" zoomin="0" blendcolor="0x000000"/>
@@ -64,7 +76,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-30.79" tilt="-3.9"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.3"/>
@@ -90,7 +102,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="45.63" tilt="-9.82"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -116,10 +128,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="121.47" tilt="-10.71"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="2-301" description="" longitude="106.791534" author="" title="ВЖК Ярактинского месторождения (вахтовый жилой комплекс, обзорная)" customnodeid="" datetime="09.08.2023 20:05" latitude="57.988078" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -142,7 +154,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="144.18" tilt="-16.19"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -168,7 +180,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="125.03" tilt="1.57"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -194,7 +206,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="120.46" tilt="-13.02"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -220,10 +232,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-62.26" tilt="-13.86"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="3-3" description="" longitude="106.802650" author="" title="ДКС (дожимная компрессорная станция) (Яракта на УПН, обзорная)" customnodeid="" datetime="09.08.2023 18:08" latitude="57.973393" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -246,7 +258,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-62.29" tilt="29.43"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -272,7 +284,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="141.76" tilt="-3.17"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -298,7 +310,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="108.68" tilt="4.98"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -324,7 +336,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-63.25" tilt="7.9"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -350,10 +362,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-2.75" tilt="-5.7"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="35.5"/>
     </view>
     <userdata source="" copyright="" tags="7" description="Установка комплексной подготовки газа (УКПГ) проектной мощностью порядка 1 млн м3/сут. была введена в эксплуатацию в 2010 году (1-й этап строительства) и предназначена для подготовки газа к закачке в пласт, подачи газа на нагнетательные скважины для водогазового воздействия (ВГВ), обеспечения топливным газом энергокомплексов УКПГ и УПН ЯНГКМ." longitude="" author="" title="УКПГ 3,6 (уст-ка комплексной подготовки газа, обзорная)" customnodeid="" datetime="08.08.2023 14:27" latitude="" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -376,10 +388,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-67.68" tilt="-4"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="8" description="" longitude="" author="" title="УКПГ-2 (уст-ка комплексной подготовки газа, обзорная)" customnodeid="" datetime="08.08.2023 12:21" latitude="" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -402,7 +414,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-73.6" tilt="13.31"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -428,7 +440,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="64.89" tilt="27.74"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -454,7 +466,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="35.8" tilt="23.32"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -480,10 +492,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="112.42" tilt="-12.49"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="12" description="Установка по производству сжиженного гелия была открыта в мае 2023 г. Мощность линии -10 млн литров в год.  По данным на 2023 г., это второй и крупнейший в РФ гелиевый завод, который способен потенциально обеспечить до 5% мирового производства. На гелиевую установку поступает сухой отбензиненный газ с УКПГ-2. " longitude="106.563039" author="" title="Гелиевый завод (обзорная)" customnodeid="" datetime="08.08.2023 12:11" latitude="58.089535" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -506,7 +518,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-20.44" tilt="21.68"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -532,7 +544,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-58.47" tilt="6.98"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="-180" tilt="-48.1858"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" pan="180" tilt="48.1858"/>
@@ -557,10 +569,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="67.47" tilt="-4"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="13" description="" longitude="106.530852" author="" title="Скважина закачки газа в пласт (обзорная)" customnodeid="" datetime="09.08.2023 10:06" latitude="58.150631" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -583,7 +595,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-68.31" tilt="0.1"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -609,10 +621,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="27.83" tilt="-37.13"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="32.4"/>
     </view>
     <userdata source="" copyright="" tags="15" description="Ичёдинское месторождение было открыто в 2012 году: по результатам испытания западно-ярактинской поисковой скважины №312 был получен приток нефти. Месторождение находится в границах Западно-Ярактинского лицензионного участка недр (Усть-Кутский и Катангский районы Иркутской области). Название Ичёде дала река, которая протекает недалеко от этого места." longitude="105.884189" author="" title="ИНГКМ (Ичединское нефтегазоконденсатное месторождение, обзорная)" customnodeid="" datetime="08.08.2023 18:00" latitude="57.874625" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -635,7 +647,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-46.56" tilt="22.22"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -661,7 +673,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="175.59" tilt="29.48"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -687,7 +699,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="176.55" tilt="22.64"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -713,10 +725,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-173.89" tilt="-4.01"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="17" description="" longitude="107.030566" author="" title="ПСП (приемосдаточный пункт, обзорная)" customnodeid="" datetime="10.08.2023 12:26" latitude="57.527472" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -739,10 +751,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-80.73" tilt="-4"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="17-1" description="" longitude="107.039131" author="" title="ПСП нижний парк РВС (приемосдаточный пункт, обзорная)" customnodeid="" datetime="10.08.2023 13:25" latitude="57.530721" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -765,7 +777,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="10.32" tilt="12.27"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -791,7 +803,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-126.57" tilt="2"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -817,7 +829,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-70.77" tilt="-0.66"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -843,7 +855,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-66.16" tilt="70.95"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -869,10 +881,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-153.59" tilt="-4.9"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="36.3"/>
     </view>
     <userdata source="" copyright="" tags="18-1" description="" longitude="106.047235" author="" title="ИЗП (иркутский завод полимеров, водозабор) " customnodeid="" datetime="12.08.2023 11:49" latitude="56.815617" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -895,10 +907,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-4.63" tilt="-4"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="19" description="" longitude="106.023083" author="" title="Склад газоконденсата" customnodeid="" datetime="11.08.2023 11:47" latitude="56.818294" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -920,7 +932,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-43.08" tilt="12.51"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -946,7 +958,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="139.42" tilt="38.09"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -972,7 +984,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-165.02" tilt="-37.72"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -998,10 +1010,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="38.25" tilt="-4"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="20" description="" longitude="106.010231" author="" title="ГФУ (газофракционирующая установка, обзорная)" customnodeid="" datetime="11.08.2023 13:25" latitude="56.826045" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -1024,10 +1036,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="95.49" tilt="-8.24"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="36.6"/>
     </view>
     <userdata source="" copyright="" tags="20-1" description="" longitude="106.009839" author="" title="ГФУ (газофракционирующая установка, обзорная)" customnodeid="" datetime="11.08.2023 13:28" latitude="56.825520" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -1050,10 +1062,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-22.66" tilt="-4"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="37.2"/>
     </view>
     <userdata source="" copyright="" tags="21" description="" longitude="" author="" title="УКПГ Верхнемарковское (уст-ка комплексной подготовки газа, обзорная)" customnodeid="" datetime="07.08.2023 12:45" latitude="" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -1076,10 +1088,10 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-77.79" tilt="-9.8"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
+      <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="36.2"/>
     </view>
     <userdata source="" copyright="" tags="21-1" description="" longitude="" author="" title="УКПГ Верхнемарковское (уст-ка комплексной подготовки газа, обзорная)" customnodeid="" datetime="07.08.2023 12:30" latitude="" info="" comment=""/>
     <hotspots width="180" height="20" wordwrap="1">
@@ -1102,7 +1114,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-27.53" tilt="12.05"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
@@ -1128,7 +1140,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start fov="70" projection="9" pan="0" tilt="0"/>
+      <start fov="82.4" projection="4" pan="-141.71" tilt="6.15"/>
       <flyin fov="170" projection="9" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
       <max fovstereographic="270" fov="120" fovfisheye="360" scaletofit="1" pan="360" tilt="90"/>
