@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Mon Mar 4 01:27:32 2024
+// Generated Thu Mar 7 15:18:49 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "index");
@@ -137,6 +137,30 @@ function pano2vrSkin(player,base) {
 		}
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
+		}
+		me._top_menu.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				(me.ggUserdata.information != "0")
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._top_menu.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._top_menu.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._top_menu.style[domTransition]='';
+				if (me._top_menu.ggCurrentLogicStateVisible == 0) {
+					me._top_menu.style.visibility="hidden";
+					me._top_menu.ggVisible=false;
+				}
+				else {
+					me._top_menu.style.visibility=(Number(me._top_menu.style.opacity)>0||!me._top_menu.style.opacity)?'inherit':'hidden';
+					me._top_menu.ggVisible=true;
+				}
+			}
 		}
 		me._top_menu.ggUpdatePosition=function (useTransition) {
 		}
@@ -1896,41 +1920,36 @@ function pano2vrSkin(player,base) {
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="about-text";
-		el.ggDy=-56;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='height : 383px;';
+		hs+='height : 823px;';
 		hs+='position : absolute;';
-		hs+='right : 39px;';
-		hs+='top : -10000px;';
+		hs+='right : 16px;';
+		hs+='top : 145px;';
 		hs+='visibility : inherit;';
 		hs+='width : 502px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='0% 0%';
+		el.style[domTransform + 'Origin']='100% 0%';
 		hs ='position:absolute;';
 		hs += 'box-sizing: border-box;';
 		hs+='cursor: default;';
 		hs+='right: 0px;';
 		hs+='top:  0px;';
 		hs+='width: 502px;';
-		hs+='height: 383px;';
-		hs+='background: #ffffff;';
-		hs+='background: rgba(255,255,255,0.117647);';
+		hs+='height: 823px;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: #000000;';
 		hs+='text-align: left;';
 		hs+='white-space: pre-wrap;';
-		hs+='padding: 20px 21px 20px 21px;';
+		hs+='padding: 0px 1px 0px 1px;';
 		hs+='overflow: hidden;';
-		hs+='overflow-y: auto;';
-		hs+="backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); border-radius:20px; padding:40px; font-family:\"Navigo\"; font-size: 16px; line-height:20px;";
 		els.setAttribute('style',hs);
 		me._abouttext.ggUpdateText=function() {
-			var hs=me.ggUserdata.description;
+			var hs="<div id=\"inf-wnd\"><br\/><h2>"+me.ggUserdata.title+"<\/h2><br\/>"+me.ggUserdata.description+"<br\/><\/div>";
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -1979,17 +1998,6 @@ function pano2vrSkin(player,base) {
 			me._abouttext.style.visibility='hidden';
 		}
 		me._abouttext.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var ph=this.parentNode.clientHeight;
-				var h=this.offsetHeight;
-					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
-			}
 		}
 		me.divSkin.appendChild(me._abouttext);
 		el=me._cover=document.createElement('div');
@@ -2852,10 +2860,11 @@ function pano2vrSkin(player,base) {
 	me._main_menu.logicBlock_scaling();
 	me._toggle2.logicBlock_scaling();
 	me._arrow_menu.logicBlock_scaling();
+	me._top_menu.logicBlock_visible();
 	me._abouttext.logicBlock_visible();
 	me._gyro.logicBlock_visible();
 	player.addListener('sizechanged', function(args) { me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_scaling();me._toggle2.logicBlock_scaling();me._arrow_menu.logicBlock_scaling(); });
-	player.addListener('changenodeid', function(args) { me._abouttext.logicBlock_visible(); });
+	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._abouttext.logicBlock_visible(); });
 	player.addListener('configloaded', function(args) { me._gyro.logicBlock_visible(); });
 	player.addListener('changenodeid', function(args) { me._thumbnail_cloner.callChildLogicBlocks_changenodeid(); });
 	player.addListener('mouseover', function(args) { me._thumbnail_cloner.callChildLogicBlocks_mouseover(); });
