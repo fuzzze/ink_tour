@@ -40,6 +40,14 @@
       <hotspot id="Point19" title="" description="" skinid="Redpin" target="93.0/8.2/70.0" pan="-150.54" tilt="-21.68" url="{node32}"/>
       <hotspot id="Point20" title="" description="" skinid="Redpin" target="113.4/25.5/70.0" pan="-151.74" tilt="-20.46" url="{node33}"/>
       <hotspot id="Point21" title="" description="" skinid="Redpin" target="104.0/1.5/70.0" pan="-157.11" tilt="-20.67" url="{node34}"/>
+      <hotspot id="Point22" title="" description="" skinid="Redpin" target="104.2/-4.2/70.0" pan="-120.82" tilt="-11.69" url="{node10}"/>
+      <hotspot id="Point23" title="15_Ичёдинское месторождение" description="" skinid="Redpin" target="" pan="102.902" tilt="0" url="{node43}"/>
+      <hotspot id="Point24" title="" description="" skinid="Redpin" target="" pan="-244.76" tilt="-0.06" url="{node12}"/>
+      <hotspot id="Point25" title="" description="" skinid="Redpin" target="37.2/-38.9/70.0" pan="-299.46" tilt="-0.05" url="{node26}"/>
+      <hotspot id="Point26" title="12_Гелиевый завод" description="" skinid="Redpin" target="" pan="49.999" tilt="0" url="{node38}"/>
+      <hotspot id="Point27" title="13_Скважина для закачки газа в пласт" description="" skinid="Redpin" target="-119.9/-0.2/70.0" pan="40.247" tilt="0" url="{node40}"/>
+      <hotspot id="Point28" title="20_Газофракционирующая установка" description="" skinid="Redpin" target="" pan="159.766" tilt="0" url="{node73}"/>
+      <hotspot id="Point29" title="17_1_Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" description="" skinid="Redpin" target="" pan="-163.797" tilt="0" url="{node46}"/>
     </hotspots>
     <media>
       <lensflare id="sun" type="2" alpha="80" color="0xffffff" pan="-255.24" blinding="50" tilt="5.12"/>
@@ -68,6 +76,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-309.77" tilt="22.33" url="{node1}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -95,6 +104,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-138.06" tilt="28.04" url="{node1}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -122,6 +132,7 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-292.17" tilt="35.71" url="{node1}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -149,6 +160,8 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-314.62" tilt="-13.91" url="{node4}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="8.5/-20.2/70.0" pan="-283.58" tilt="-9.98" url="{node3}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -176,6 +189,10 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-177.38" tilt="15.23" url="{node1}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="" pan="-219.82" tilt="-3.69" url="{node6}"/>
+      <hotspot id="Point03" title="" description="" skinid="Redpin" target="-8.5/-5.8/70.0" pan="-151.64" tilt="-3.04" url="{node7}"/>
+      <hotspot id="Point04" title="" description="" skinid="Redpin" target="" pan="-294.87" tilt="-9.05" url="{node13}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -634,6 +651,10 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-193.31" tilt="-0.28" url="{node1}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="" pan="-256.99" tilt="-1.6" url="{node22}"/>
+      <hotspot id="Point03" title="" description="" skinid="Redpin" target="8.2/-54.3/70.0" pan="-160.45" tilt="-17.44" url="{node38}"/>
+      <hotspot id="Point04" title="" description="" skinid="Redpin" target="8.4/-76.0/70.0" pan="-233.43" tilt="-2.8" url="{node28}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -1118,6 +1139,9 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="-48.9/-0.5/70.0" pan="-282.6" tilt="-18.1" url="{node42}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="" pan="-317.52" tilt="-18.37" url="{node45}"/>
+      <hotspot id="Point03" title="" description="" skinid="Redpin" target="55.6/-8.3/70.0" pan="-41.46" tilt="-5.8" url="{node44}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -1395,8 +1419,19 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="-157.8/-6.8/70.0" pan="-240.74" tilt="-5.55" url="{node41}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="148.0/-24.0/70.0" pan="-282.02" tilt="1.16" url="{node52}"/>
+      <hotspot id="Point03" title="" description="" skinid="Redpin" target="31.0/-0.5/70.0" pan="-239.57" tilt="-2.25" url="{node69}"/>
+      <hotspot id="Point04" title="" description="" skinid="Redpin" target="27.5/-0.2/70.0" pan="-244.01" tilt="-1.09" url="{node73}"/>
+      <hotspot id="Point05" title="" description="" skinid="Redpin" target="-68.6/-27.0/70.0" pan="-241.82" tilt="-1.75" url="{node64}"/>
+      <hotspot id="Point06" title="" description="" skinid="Redpin" target="" pan="-9.76" tilt="-0.39" url="{node1}"/>
+      <hotspot id="Point07" title="" description="" skinid="Redpin" target="" pan="-26.55" tilt="-0.71" url="{node74}"/>
+      <hotspot id="Point08" title="" description="" skinid="Redpin" target="" pan="-346.77" tilt="0.73" url="{node43}"/>
+      <hotspot id="Point09" title="" description="" skinid="Redpin" target="" pan="-358.18" tilt="0.23" url="{node26}"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="2" alpha="80" color="0xffffff" pan="-128.59" blinding="50" tilt="33.03"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -1449,6 +1484,19 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-334.23" tilt="1.61" url="{node63}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="" pan="-59.34" tilt="1.1" url="{node64}"/>
+      <hotspot id="Point03" title="" description="" skinid="Redpin" target="" pan="-83.15" tilt="1.42" url="{node73}"/>
+      <hotspot id="Point04" title="" description="" skinid="Redpin" target="-4.5/-20.2/70.0" pan="-240.55" tilt="-20" url="{node53}"/>
+      <hotspot id="Point05" title="" description="" skinid="Redpin" target="" pan="-296.96" tilt="-11.87" url="{node54}"/>
+      <hotspot id="Point06" title="" description="" skinid="Redpin" target="" pan="-307.25" tilt="-4.93" url="{node55}"/>
+      <hotspot id="Point07" title="" description="" skinid="Redpin" target="" pan="-331.42" tilt="-4.39" url="{node56}"/>
+      <hotspot id="Point08" title="" description="" skinid="Redpin" target="" pan="-198.42" tilt="-10.12" url="{node57}"/>
+      <hotspot id="Point09" title="" description="" skinid="Redpin" target="2.9/-15.5/70.0" pan="-181.16" tilt="-7.91" url="{node58}"/>
+      <hotspot id="Point10" title="" description="" skinid="Redpin" target="-84.9/-61.2/70.0" pan="-193.38" tilt="-5.75" url="{node59}"/>
+      <hotspot id="Point11" title="" description="" skinid="Redpin" target="180.0/19.1/70.0" pan="-170.8" tilt="-11.25" url="{node60}"/>
+      <hotspot id="Point12" title="" description="" skinid="Redpin" target="" pan="-32.66" tilt="-49.61" url="{node61}"/>
+      <hotspot id="Point13" title="" description="" skinid="Redpin" target="50.4/0.3/70.0" pan="-324.37" tilt="-7.37" url="{node62}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -1773,6 +1821,11 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-238.87" tilt="0.13" url="{node69}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="" pan="-66.37" tilt="-61.2" url="{node65}"/>
+      <hotspot id="Point03" title="" description="" skinid="Redpin" target="45.8/1.1/70.0" pan="-225.47" tilt="-6.69" url="{node66}"/>
+      <hotspot id="Point04" title="" description="" skinid="Redpin" target="-116.8/-3.5/70.0" pan="-247.21" tilt="-6.67" url="{node67}"/>
+      <hotspot id="Point05" title="" description="" skinid="Redpin" target="-28.6/0.8/70.0" pan="-328.8" tilt="-18.83" url="{node68}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -1908,6 +1961,11 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-243.18" tilt="2.46" url="{node70}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="" pan="-152.88" tilt="9.41" url="{node64}"/>
+      <hotspot id="Point03" title="" description="" skinid="Redpin" target="24.5/-24.6/70.0" pan="-69.72" tilt="13.08" url="{node52}"/>
+      <hotspot id="Point04" title="" description="" skinid="Redpin" target="-4.1/12.2/70.0" pan="-313" tilt="1.99" url="{node71}"/>
+      <hotspot id="Point05" title="" description="" skinid="Redpin" target="" pan="-255.1" tilt="-12.76" url="{node72}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
@@ -2016,6 +2074,9 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-73.05" tilt="-10.32" url="{node74}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="100.2/-15.7/70.0" pan="-42.35" tilt="-10.23" url="{node75}"/>
+      <hotspot id="Point03" title="" description="" skinid="Redpin" target="81.9/-40.4/70.0" pan="-105.81" tilt="-13.21" url="{node76}"/>
     </hotspots>
     <media/>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
