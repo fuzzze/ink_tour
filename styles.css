@@ -81,8 +81,10 @@
     font-weight: bold;
     font-style: normal;
 }
-
-
+.map{
+    background: black url("images/map_bg.png") repeat center center;
+}
+    
 .glass{
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);

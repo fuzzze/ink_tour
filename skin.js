@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Wed Apr 10 23:02:52 2024
+// Generated Thu Apr 11 00:27:22 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "index");
@@ -4235,7 +4235,7 @@ function pano2vrSkin(player,base) {
 		el.ggId="cover-back";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
-		el.className="ggskin ggskin_rectangle ";
+		el.className="ggskin ggskin_rectangle .map";
 		el.ggType='rectangle';
 		hs ='';
 		hs+='background : #000000;';
@@ -4248,6 +4248,7 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 100%;';
 		hs+='pointer-events:auto;';
+		hs+='background: black url(\"images\/map_bg.png\") repeat center center;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._coverback.ggIsActive=function() {
