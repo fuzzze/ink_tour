@@ -90,6 +90,7 @@
 .s-title{
     font-family: 'Navigo';
     font-weight: bold;
+    mix-blend-mode: overlay;
 }
 
 .menu-container {
