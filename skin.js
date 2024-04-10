@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Wed Apr 10 17:18:22 2024
+// Generated Wed Apr 10 21:43:33 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "index");
@@ -2769,7 +2769,7 @@ function pano2vrSkin(player,base) {
 		hs+='bottom : 46px;';
 		hs+='cursor : pointer;';
 		hs+='height : 80px;';
-		hs+='left : 161px;';
+		hs+='left : 165px;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 80px;';
@@ -3981,6 +3981,20 @@ function pano2vrSkin(player,base) {
 			var flag=me._windowdown.ggVisible;
 			me._windowdown.style[domTransition]='none';
 			me._windowdown.style.visibility=((flag)&&(Number(me._windowdown.style.opacity)>0||!me._windowdown.style.opacity))?'inherit':'hidden';
+			if (
+				(
+					(me.ggUserdata.description != "+")
+				)
+			) {
+				me._abouttext.ggVisible = !me._abouttext.ggVisible;
+				var flag=me._abouttext.ggVisible;
+				me._abouttext.style[domTransition]='none';
+				me._abouttext.style.visibility=((flag)&&(Number(me._abouttext.style.opacity)>0||!me._abouttext.style.opacity))?'inherit':'hidden';
+			}
+			me._minimap.ggVisible = !me._minimap.ggVisible;
+			var flag=me._minimap.ggVisible;
+			me._minimap.style[domTransition]='none';
+			me._minimap.style.visibility=((flag)&&(Number(me._minimap.style.opacity)>0||!me._minimap.style.opacity))?'inherit':'hidden';
 		}
 		me._toggle2.onmouseover=function (e) {
 			me._toggle2__img.style.visibility='hidden';

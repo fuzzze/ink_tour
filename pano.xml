@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node55" appversion="6.0.1" apprev="17227">
+<tour start="node1" appversion="6.0.1" apprev="17227">
   <panorama id="node1" hideabout="1">
     <input height="5000" levelingpitch="0" leveltilesize="510" levelbiashidpi="1.000" levelingroll="0" levelbias="0.400" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="5000" overlap="1">
       <level height="5000" predecode="0" preload="0" width="5000"/>
@@ -19,7 +19,27 @@
     <hotspots height="20" wordwrap="1" width="180">
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot id="Point01" title="3_Дожимная компрессорная станция&#xa;Дожимная насосная станция" description="" skinid="ht_node" target="$fwd" pan="70.1738" tilt="0" url="{node12}"/>
+      <hotspot id="Point02" title="" description="" skinid="Redpin" target="" pan="-114.75" tilt="-39.39" url="{node14}"/>
+      <hotspot id="Point03" title="" description="" skinid="Redpin" target="" pan="-98.46" tilt="-42.33" url="{node17}"/>
+      <hotspot id="Point04" title="" description="" skinid="Redpin" target="" pan="-117.74" tilt="-30.39" url="{node15}"/>
+      <hotspot id="Point05" title="" description="" skinid="Redpin" target="" pan="-103.75" tilt="-31.51" url="{node16}"/>
+      <hotspot id="Point06" title="" description="" skinid="Redpin" target="" pan="-249.15" tilt="-83.29" url="{node5}"/>
+      <hotspot id="Point07" title="" description="" skinid="Redpin" target="" pan="-166.08" tilt="-84.57" url="{node2}"/>
+      <hotspot id="Point08" title="" description="" skinid="Redpin" target="" pan="-195.93" tilt="-74.32" url="{node3}"/>
+      <hotspot id="Point09" title="" description="" skinid="Redpin" target="" pan="-225.82" tilt="-79.24" url="{node4}"/>
+      <hotspot id="Point10" title="" description="" skinid="Redpin" target="" pan="-123.73" tilt="-12.25" url="{node8}"/>
+      <hotspot id="Point11" title="" description="" skinid="Redpin" target="" pan="-119.3" tilt="-12.28" url="{node9}"/>
+      <hotspot id="Point12" title="" description="" skinid="Redpin" target="65.3/-2.5/70.0" pan="-117.88" tilt="-11.65" url="{node11}"/>
+      <hotspot id="Point01" title="" description="" skinid="Redpin" target="112.1/-19.9/70.0" pan="-103.21" tilt="-24.71" url="{node20}"/>
+      <hotspot id="Point13" title="" description="" skinid="Redpin" target="" pan="-104.43" tilt="-24.4" url="{node18}"/>
+      <hotspot id="Point14" title="" description="" skinid="Redpin" target="" pan="-103.48" tilt="-22.01" url="{node19}"/>
+      <hotspot id="Point15" title="" description="" skinid="Redpin" target="125.3/-30.9/70.0" pan="-63.3" tilt="-20.43" url="{node31}"/>
+      <hotspot id="Point16" title="" description="" skinid="Redpin" target="" pan="-53.57" tilt="-19.64" url="{node29}"/>
+      <hotspot id="Point17" title="" description="" skinid="Redpin" target="20.3/-1.0/70.0" pan="-57.67" tilt="-19.35" url="{node30}"/>
+      <hotspot id="Point18" title="" description="" skinid="Redpin" target="154.3/-52.4/70.0" pan="-155.65" tilt="-22.4" url="{node35}"/>
+      <hotspot id="Point19" title="" description="" skinid="Redpin" target="93.0/8.2/70.0" pan="-150.54" tilt="-21.68" url="{node32}"/>
+      <hotspot id="Point20" title="" description="" skinid="Redpin" target="113.4/25.5/70.0" pan="-151.74" tilt="-20.46" url="{node33}"/>
+      <hotspot id="Point21" title="" description="" skinid="Redpin" target="104.0/1.5/70.0" pan="-157.11" tilt="-20.67" url="{node34}"/>
     </hotspots>
     <media>
       <lensflare id="sun" type="2" alpha="80" color="0xffffff" pan="-255.24" blinding="50" tilt="5.12"/>
