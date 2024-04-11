@@ -78,7 +78,9 @@
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-309.77" tilt="22.33" url="{node1}"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-109.83" blinding="50" tilt="10.69"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -106,7 +108,9 @@
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-138.06" tilt="28.04" url="{node1}"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-294.21" blinding="50" tilt="7.08"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -134,7 +138,9 @@
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-292.17" tilt="35.71" url="{node1}"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-39.19" blinding="50" tilt="9.289999999999999"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -163,7 +169,9 @@
       <hotspot id="Point01" title="" description="" skinid="Redpin" target="" pan="-314.62" tilt="-13.91" url="{node4}"/>
       <hotspot id="Point02" title="" description="" skinid="Redpin" target="8.5/-20.2/70.0" pan="-283.58" tilt="-9.98" url="{node3}"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-310.74" blinding="50" tilt="7.4"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -221,7 +229,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-319.38" blinding="50" tilt="35.55"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -274,7 +284,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="1" alpha="80" color="0xffffff" pan="-100.16" blinding="50" tilt="12.49"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -409,7 +421,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="3" alpha="80" color="0xffffff" pan="-284.83" blinding="50" tilt="7.35"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -436,7 +450,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-132.33" blinding="50" tilt="7.13"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -683,7 +699,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-95.83" blinding="50" tilt="42.49"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -710,7 +728,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="3" alpha="80" color="0xffffff" pan="-273.66" blinding="50" tilt="42.05"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -1060,7 +1080,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-207.64" blinding="50" tilt="32.4"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -1133,7 +1155,7 @@
       <start projection="4" fov="70" pan="0" tilt="0"/>
       <flyin projection="9" fov="170" pan="0" tilt="-90"/>
       <min fovpixel="2" pan="0" tilt="-90"/>
-      <max scaletofit="1" fovstereographic="270" fov="120" fovfisheye="360" pan="360" tilt="90"/>
+      <max scaletofit="1" fovstereographic="270" fov="120" fovfisheye="360" pan="360" tilt="32.4"/>
     </view>
     <userdata title="Ичёдинское месторождение" author="" tags="15|Ичёдинское месторождение" latitude="57.874625" description="Ичёдинское месторождение было открыто в 2012 году: по результатам испытания западно-ярактинской поисковой скважины №312 был получен приток нефти. Месторождение находится в границах Западно-Ярактинского лицензионного участка недр (Усть-Кутский и Катангский районы Иркутской области). Название Ичёде дала река, которая протекает недалеко от этого места." source="" longitude="105.884189" customnodeid="" info="Ичёдинское месторождение" datetime="08.08.2023 18:00" copyright="" comment=""/>
     <hotspots height="20" wordwrap="1" width="180">
@@ -1224,7 +1246,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-323.13" blinding="50" tilt="23.05"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -1881,7 +1905,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-294.87" blinding="50" tilt="42.11"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -1908,7 +1934,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-122.32" blinding="50" tilt="45.1"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -1935,7 +1963,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-14.43" blinding="50" tilt="43.72"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -2132,7 +2162,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-101.28" blinding="50" tilt="46.97"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
@@ -2159,7 +2191,9 @@
       <label height="20" background="1" backgroundalpha="1" textalpha="1" border="1" borderradius="1" textcolor="0x000000" enabled="1" backgroundcolor="0xffffff" bordercolor="0x000000" borderalpha="1" wordwrap="1" width="180"/>
       <polystyle backgroundalpha="0.2509803921568627" mode="0" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
     </hotspots>
-    <media/>
+    <media>
+      <lensflare id="Lensflare01" type="4" alpha="80" color="0xffffff" pan="-284.31" blinding="50" tilt="45.99"/>
+    </media>
     <transition type="crossdissolve" blendtime="1" zoomin="0" zoomout="0" enabled="1" softedge="0" zoomfov="20" zoomspeed="2" blendcolor="0x000000" zoomoutpause="1"/>
     <autorotate speed="0.070" delay="30.00" enabled="1" noderandom="1" nodedelay="0.00" returntohorizon="0.000" startloaded="1" useanimation="0"/>
     <flyintransition speed="1.00" enabled="1"/>
