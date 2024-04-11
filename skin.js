@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Thu Apr 11 00:27:22 2024
+// Generated Thu Apr 11 09:40:05 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "index");
@@ -3189,10 +3189,10 @@ function pano2vrSkin(player,base) {
 		el=me._sound=document.createElement('div');
 		els=me._sound__img=document.createElement('img');
 		els.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjcycHgiIGhlaWdodD0iNTZweCIgdmlld0JveD0iMCAwIDcyIDU2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjguMyAoMjk4MDIpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPnNvdW5kX29uPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2'+
-			'V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9Im5ldyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9InNvdW5kX29uIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyNi4wMDAwMDAsIDE4LjAwMDAwMCkiIGZpbGw9IiNGRkZGRkYiPgogICAgICAgICAgICA8ZyBpZD0idm9sdW1lLXVwIj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLDYuMjYxMzYzNjQgTDAsMTIuNzM4NjM2NCBMNC40NDQ0NDQ0NCwxMi43Mzg2MzY0IEwxMCwxOC4xMzYzNjM2IEwxMCwwLjg2MzYzNjM2NCBMNC40'+
-			'NDQ0NDQ0NCw2LjI2MTM2MzY0IEwwLDYuMjYxMzYzNjQgTDAsNi4yNjEzNjM2NCBaIE0xNSw5LjUgQzE1LDcuNTU2ODE4MTggMTMuODg4ODg4OSw1LjkzNzUgMTIuMjIyMjIyMiw1LjE4MTgxODE4IEwxMi4yMjIyMjIyLDEzLjgxODE4MTggQzEzLjg4ODg4ODksMTMuMDYyNSAxNSwxMS40NDMxODE4IDE1LDkuNSBMMTUsOS41IFogTTEyLjIyMjIyMjIsMCBMMTIuMjIyMjIyMiwyLjI2NzA0NTQ1IEMxNS40NDQ0NDQ0LDMuMjM4NjM2MzYgMTcuNzc3Nzc3OCw2LjA0NTQ1NDU1IDE3Ljc3Nzc3NzgsOS41IEMxNy43Nzc3Nzc4LDEyLjk1NDU0NTUgMTUuNDQ0NDQ0NCwxNS43NjEzNjM2IDEyLjIyMjIyMj'+
-			'IsMTYuNzMyOTU0NSBMMTIuMjIyMjIyMiwxOSBDMTYuNjY2NjY2NywxOC4wMjg0MDkxIDIwLDE0LjE0MjA0NTUgMjAsOS41IEMyMCw0Ljg1Nzk1NDU1IDE2LjY2NjY2NjcsMC45NzE1OTA5MDkgMTIuMjIyMjIyMiwwIEwxMi4yMjIyMjIyLDAgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzJweCIgaGVpZ2h0PSI1NnB4IiB2aWV3Qm94PSIwIDAgNzIgNTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+YmFjazwvdGl0bGU+CiAgICA8ZyBpZD0iUGFub1RvdXIiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJwYW5vLTE5MjB4MTA4MCIgdHJhbnNmb3JtPSJ0cm'+
+			'Fuc2xhdGUoLTU2LCAtNTkyKSI+CiAgICAgICAgICAgIDxnIGlkPSJiYWNrIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1NiwgNTkyKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0icm93LWNvcHktNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYsIDgpIj4KICAgICAgICAgICAgICAgICAgICA8Y2lyY2xlIGlkPSJPdmFsIiBjeD0iMjAiIGN5PSIyMCIgcj0iMjAiPjwvY2lyY2xlPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjUuNTc1NCwgMTguNSkiIGZpbGw9IiNGRkZGRkYiIGlkPSJDb21iaW5lZC1TaGFwZSI+CiAgICAgICAgICAg'+
+			'ICAgICAgICAgPHBhdGggZD0iTTcuNDI0NjIxMiwxOC45NzA1NjI3IEwzLjU1MjcxMzY4ZS0xNSwxMS41NDU5NDE1IEw3LjQyNDYyMTIsNC4xMjEzMjAzNCBMNy40MjQ2MjEyLDkuNzUgTDEzLjExMjEyMTIsOS43NSBDMTQuOTA3MDQ2Niw5Ljc1IDE2LjM2MjEyMTIsOC4yOTQ5MjU0NCAxNi4zNjIxMjEyLDYuNSBMMTYuMzYyMTIxMiwwIEwxOS42MTIxMjEyLDAgTDE5LjYxMjEyMTIsNi41IEMxOS42MTIxMjEyLDEwLjA4OTg1MDkgMTYuNzAxOTcyMSwxMyAxMy4xMTIxMjEyLDEzIEw3LjQyNDYyMTIsMTMgTDcuNDI0NjIxMiwxOC45NzA1NjI3IFoiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDwvZz'+
+			'4KICAgICAgICAgICAgICAgIDxyZWN0IGlkPSI3Mng1NiIgeD0iMCIgeT0iMCIgd2lkdGg9IjcyIiBoZWlnaHQ9IjU2Ij48L3JlY3Q+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==';
 		me._sound__img.setAttribute('src',hs);
 		els.setAttribute('alt','Включить звуковые эффекты');
 		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;sound;');
@@ -3201,11 +3201,10 @@ function pano2vrSkin(player,base) {
 		el.ggSubElement = els;
 		elo=me._sound__imgo=document.createElement('img');
 		elo.className='ggskin ggskin_svg';
-		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjcycHgiIGhlaWdodD0iNTZweCIgdmlld0JveD0iMCAwIDcyIDU2IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogICAgPCEtLSBHZW5lcmF0b3I6IFNrZXRjaCAzLjguMyAoMjk4MDIpIC0gaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoIC0tPgogICAgPHRpdGxlPnNvdW5kX29uX2hvdmVyPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2'+
-			'l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGRlZnM+PC9kZWZzPgogICAgPGcgaWQ9Im5ldyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9InNvdW5kX29uX2hvdmVyLWNvcHkiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE2LjAwMDAwMCwgOC4wMDAwMDApIj4KICAgICAgICAgICAgPGcgaWQ9InJvdyIgZmlsbC1vcGFjaXR5PSIwLjI2IiBmaWxsPSIjMDAwMDAwIj4KICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwiIGN4PSIyMCIgY3k9IjIwIiByPSIyMCI+PC9jaXJjbGU+CiAgICAgICAgICAgIDwv'+
-			'Zz4KICAgICAgICAgICAgPGcgaWQ9InZvbHVtZS11cCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTAuMDAwMDAwLCAxMC4wMDAwMDApIiBmaWxsPSIjRkZGRkZGIj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0wLDYuMjYxMzYzNjQgTDAsMTIuNzM4NjM2NCBMNC40NDQ0NDQ0NCwxMi43Mzg2MzY0IEwxMCwxOC4xMzYzNjM2IEwxMCwwLjg2MzYzNjM2NCBMNC40NDQ0NDQ0NCw2LjI2MTM2MzY0IEwwLDYuMjYxMzYzNjQgTDAsNi4yNjEzNjM2NCBaIE0xNSw5LjUgQzE1LDcuNTU2ODE4MTggMTMuODg4ODg4OSw1LjkzNzUgMTIuMjIyMjIyMiw1LjE4MTgxODE4IEwxMi4yMjIyMjIyLDEzLjgxODE4MT'+
-			'ggQzEzLjg4ODg4ODksMTMuMDYyNSAxNSwxMS40NDMxODE4IDE1LDkuNSBMMTUsOS41IFogTTEyLjIyMjIyMjIsMCBMMTIuMjIyMjIyMiwyLjI2NzA0NTQ1IEMxNS40NDQ0NDQ0LDMuMjM4NjM2MzYgMTcuNzc3Nzc3OCw2LjA0NTQ1NDU1IDE3Ljc3Nzc3NzgsOS41IEMxNy43Nzc3Nzc4LDEyLjk1NDU0NTUgMTUuNDQ0NDQ0NCwxNS43NjEzNjM2IDEyLjIyMjIyMjIsMTYuNzMyOTU0NSBMMTIuMjIyMjIyMiwxOSBDMTYuNjY2NjY2NywxOC4wMjg0MDkxIDIwLDE0LjE0MjA0NTUgMjAsOS41IEMyMCw0Ljg1Nzk1NDU1IDE2LjY2NjY2NjcsMC45NzE1OTA5MDkgMTIuMjIyMjIyMiwwIEwxMi4yMjIyMjIy'+
-			'LDAgWiIgaWQ9IlNoYXBlIj48L3BhdGg+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNzJweCIgaGVpZ2h0PSI1NnB4IiB2aWV3Qm94PSIwIDAgNzIgNTYiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+YmFja19ob3ZlcjwvdGl0bGU+CiAgICA8ZyBpZD0iUGFub1RvdXIiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJwYW5vLTE5MjB4MTA4MCIgdHJhbnNmb3'+
+			'JtPSJ0cmFuc2xhdGUoLTU2LCAtNTkyKSI+CiAgICAgICAgICAgIDxnIGlkPSJiYWNrX2hvdmVyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg1NiwgNTkyKSI+CiAgICAgICAgICAgICAgICA8ZyBpZD0icm93LWNvcHktNyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTYsIDgpIiBmaWxsPSIjMDAwMDAwIiBmaWxsLW9wYWNpdHk9IjAuMjYiPgogICAgICAgICAgICAgICAgICAgIDxjaXJjbGUgaWQ9Ik92YWwiIGN4PSIyMCIgY3k9IjIwIiByPSIyMCI+PC9jaXJjbGU+CiAgICAgICAgICAgICAgICA8L2c+CiAgICAgICAgICAgICAgICA8ZyBpZD0iYmFjayIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjUuNTc1'+
+			'NCwgMTguNSkiIGZpbGw9IiNGRkZGRkYiPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik03LjQyNDYyMTIsMTguOTcwNTYyNyBMMy41NTI3MTM2OGUtMTUsMTEuNTQ1OTQxNSBMNy40MjQ2MjEyLDQuMTIxMzIwMzQgTDcuNDI0NjIxMiw5Ljc1IEwxMy4xMTIxMjEyLDkuNzUgQzE0LjkwNzA0NjYsOS43NSAxNi4zNjIxMjEyLDguMjk0OTI1NDQgMTYuMzYyMTIxMiw2LjUgTDE2LjM2MjEyMTIsMCBMMTkuNjEyMTIxMiwwIEwxOS42MTIxMjEyLDYuNSBDMTkuNjEyMTIxMiwxMC4wODk4NTA5IDE2LjcwMTk3MjEsMTMgMTMuMTEyMTIxMiwxMyBMNy40MjQ2MjEyLDEzIEw3LjQyNDYyMTIsMTguOT'+
+			'cwNTYyNyBaIiBpZD0iQ29tYmluZWQtU2hhcGUiPjwvcGF0aD4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgICAgIDxyZWN0IGlkPSI3Mng1NiIgeD0iMCIgeT0iMCIgd2lkdGg9IjcyIiBoZWlnaHQ9IjU2Ij48L3JlY3Q+CiAgICAgICAgICAgIDwvZz4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==';
 		me._sound__imgo.setAttribute('src',hs);
 		elo.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;visibility:hidden;pointer-events:none;sound;');
 		elo['ondragstart']=function() { return false; };
@@ -3239,7 +3238,7 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._sound.onclick=function (e) {
-			player.playPauseSound("_background","1");
+			player.openNext("{"+player.getLastVisitedNode()+"}","");
 		}
 		me._sound.onmouseover=function (e) {
 			me._sound__img.style.visibility='hidden';
@@ -4153,6 +4152,33 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
+		me._abouttext.logicBlock_scaling = function() {
+			var newLogicStateScaling;
+			if (
+				(player.getViewerSize().width <= 640) || 
+				(player.getViewerSize().width <= 640)
+			)
+			{
+				newLogicStateScaling = 0;
+			}
+			else {
+				newLogicStateScaling = -1;
+			}
+			if (me._abouttext.ggCurrentLogicStateScaling != newLogicStateScaling) {
+				me._abouttext.ggCurrentLogicStateScaling = newLogicStateScaling;
+				me._abouttext.style[domTransition]='' + cssPrefix + 'transform 0s';
+				if (me._abouttext.ggCurrentLogicStateScaling == 0) {
+					me._abouttext.ggParameter.sx = 0.6;
+					me._abouttext.ggParameter.sy = 0.6;
+					me._abouttext.style[domTransform]=parameterToTransform(me._abouttext.ggParameter);
+				}
+				else {
+					me._abouttext.ggParameter.sx = 1;
+					me._abouttext.ggParameter.sy = 1;
+					me._abouttext.style[domTransform]=parameterToTransform(me._abouttext.ggParameter);
+				}
+			}
+		}
 		me._abouttext.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
@@ -4166,7 +4192,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._abouttext.ggCurrentLogicStateVisible != newLogicStateVisible) {
 				me._abouttext.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._abouttext.style[domTransition]='';
+				me._abouttext.style[domTransition]='' + cssPrefix + 'transform 0s';
 				if (me._abouttext.ggCurrentLogicStateVisible == 0) {
 					me._abouttext.style.visibility="hidden";
 					me._abouttext.ggVisible=false;
@@ -4295,6 +4321,33 @@ function pano2vrSkin(player,base) {
 				return this.parentNode.ggElementNodeId();
 			}
 			return player.getCurrentNode();
+		}
+		me._container_1.logicBlock_scaling = function() {
+			var newLogicStateScaling;
+			if (
+				(player.getViewerSize().width <= 640) || 
+				(player.getViewerSize().height <= 640)
+			)
+			{
+				newLogicStateScaling = 0;
+			}
+			else {
+				newLogicStateScaling = -1;
+			}
+			if (me._container_1.ggCurrentLogicStateScaling != newLogicStateScaling) {
+				me._container_1.ggCurrentLogicStateScaling = newLogicStateScaling;
+				me._container_1.style[domTransition]='' + cssPrefix + 'transform 0s';
+				if (me._container_1.ggCurrentLogicStateScaling == 0) {
+					me._container_1.ggParameter.sx = 0.6;
+					me._container_1.ggParameter.sy = 0.6;
+					me._container_1.style[domTransform]=parameterToTransform(me._container_1.ggParameter);
+				}
+				else {
+					me._container_1.ggParameter.sx = 1;
+					me._container_1.ggParameter.sy = 1;
+					me._container_1.style[domTransform]=parameterToTransform(me._container_1.ggParameter);
+				}
+			}
 		}
 		me._container_1.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
@@ -6149,6 +6202,8 @@ function pano2vrSkin(player,base) {
 	me._main_menu.logicBlock_scaling();
 	me._arrow_menu.logicBlock_scaling();
 	me._toggle2.logicBlock_scaling();
+	me._abouttext.logicBlock_scaling();
+	me._container_1.logicBlock_scaling();
 	me._top_menu.logicBlock_visible();
 	me._thumbnail_menu4.logicBlock_visible();
 	me._thumbnail_menu3.logicBlock_visible();
@@ -6157,7 +6212,7 @@ function pano2vrSkin(player,base) {
 	me._thumbnail_menu0.logicBlock_visible();
 	me._abouttext.logicBlock_visible();
 	me._gyro.logicBlock_visible();
-	player.addListener('sizechanged', function(args) { me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_scaling();me._arrow_menu.logicBlock_scaling();me._toggle2.logicBlock_scaling(); });
+	player.addListener('sizechanged', function(args) { me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_scaling();me._arrow_menu.logicBlock_scaling();me._toggle2.logicBlock_scaling();me._abouttext.logicBlock_scaling();me._container_1.logicBlock_scaling(); });
 	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._thumbnail_menu4.logicBlock_visible();me._thumbnail_menu3.logicBlock_visible();me._thumbnail_menu2.logicBlock_visible();me._thumbnail_menu1.logicBlock_visible();me._thumbnail_menu0.logicBlock_visible();me._abouttext.logicBlock_visible(); });
 	player.addListener('configloaded', function(args) { me._gyro.logicBlock_visible(); });
 	player.addListener('changenodeid', function(args) { me._thumbnail_cloner_4.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_3.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_2.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_1.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_0.callChildLogicBlocks_changenodeid(); });
@@ -6197,7 +6252,7 @@ me._map_bg.ggPositonActive=!flag;
 					player.toggleAutorotate();
 					break;
 				case 83:
-					player.playPauseSound("_background","1");
+					player.openNext("{"+player.getLastVisitedNode()+"}","");
 					break;
 			}
 		}
