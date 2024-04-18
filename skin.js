@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Thu Apr 18 10:24:25 2024
+// Generated Thu Apr 18 10:45:54 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "index");
@@ -178,7 +178,7 @@ function pano2vrSkin(player,base) {
 		hs+='left : 56px;';
 		hs+='opacity : 0.79999;';
 		hs+='position : absolute;';
-		hs+='top : 14px;';
+		hs+='top : 15px;';
 		hs+='visibility : inherit;';
 		hs+='width : 90%;';
 		hs+='pointer-events:auto;';
@@ -237,10 +237,11 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text .subtitle";
 		el.ggType='text';
 		hs ='';
-		hs+='height : 24px;';
+		hs+='z-index: -1;';
+		hs+='height : 31px;';
 		hs+='left : 59px;';
 		hs+='position : absolute;';
-		hs+='top : 67px;';
+		hs+='top : 80px;';
 		hs+='visibility : inherit;';
 		hs+='width : 154px;';
 		hs+='pointer-events:auto;';
@@ -255,13 +256,13 @@ function pano2vrSkin(player,base) {
 		hs+='height: auto;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 14px;';
+		hs+='font-size: 16px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 12px 13px 12px 13px;';
+		hs+='padding: 12px 21px 12px 21px;';
 		hs+='overflow: hidden;';
-		hs+="border-radius:20px; overflow: hidden; background: #7dbcca; color:white; padding: 4px 8px; mix-blend-mode: screen;";
+		hs+="border-radius:20px; overflow: hidden; background: #7dbcca; color:white; padding: 8px 16px; mix-blend-mode: screen;";
 		els.setAttribute('style',hs);
 		me._subtitle.ggUpdateText=function() {
 			var hs=me.ggUserdata.information;
