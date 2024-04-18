@@ -19,34 +19,34 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-98.46" skinid="Redpin" title="" target="" description="" tilt="-42.33" url="{node17}" id="Point03"/>
-      <hotspot pan="-117.74" skinid="Redpin" title="" target="" description="" tilt="-30.39" url="{node15}" id="Point04"/>
-      <hotspot pan="-103.75" skinid="Redpin" title="" target="" description="" tilt="-31.51" url="{node16}" id="Point05"/>
-      <hotspot pan="-249.15" skinid="Redpin" title="" target="" description="" tilt="-83.29" url="{node5}" id="Point06"/>
-      <hotspot pan="-166.08" skinid="Redpin" title="" target="" description="" tilt="-84.57" url="{node2}" id="Point07"/>
-      <hotspot pan="-195.93" skinid="Redpin" title="" target="" description="" tilt="-74.32" url="{node3}" id="Point08"/>
-      <hotspot pan="-225.82" skinid="Redpin" title="" target="" description="" tilt="-79.24" url="{node4}" id="Point09"/>
-      <hotspot pan="-119.23" skinid="Redpin" title="" target="" description="" tilt="-12.28" url="{node9}" id="Point11"/>
-      <hotspot pan="-117.88" skinid="Redpin" title="" target="65.3/-2.5/70.0" description="" tilt="-11.65" url="{node11}" id="Point12"/>
-      <hotspot pan="-103.21" skinid="Redpin" title="" target="112.1/-19.9/70.0" description="" tilt="-24.71" url="{node20}" id="Point01"/>
-      <hotspot pan="-104.43" skinid="Redpin" title="" target="" description="" tilt="-24.4" url="{node18}" id="Point13"/>
-      <hotspot pan="-103.48" skinid="Redpin" title="" target="" description="" tilt="-22.01" url="{node19}" id="Point14"/>
-      <hotspot pan="-63.3" skinid="Redpin" title="" target="125.3/-30.9/70.0" description="" tilt="-20.43" url="{node31}" id="Point15"/>
-      <hotspot pan="-53.57" skinid="Redpin" title="" target="" description="" tilt="-19.64" url="{node29}" id="Point16"/>
-      <hotspot pan="-57.67" skinid="Redpin" title="" target="20.3/-1.0/70.0" description="" tilt="-19.35" url="{node30}" id="Point17"/>
-      <hotspot pan="-155.65" skinid="Redpin" title="" target="154.3/-52.4/70.0" description="" tilt="-22.4" url="{node35}" id="Point18"/>
-      <hotspot pan="-150.54" skinid="Redpin" title="" target="93.0/8.2/70.0" description="" tilt="-21.68" url="{node32}" id="Point19"/>
-      <hotspot pan="-151.74" skinid="Redpin" title="" target="113.4/25.5/70.0" description="" tilt="-20.46" url="{node33}" id="Point20"/>
-      <hotspot pan="-157.11" skinid="Redpin" title="" target="104.0/1.5/70.0" description="" tilt="-20.67" url="{node34}" id="Point21"/>
-      <hotspot pan="-120.89" skinid="Redpin" title="" target="104.2/-4.2/70.0" description="" tilt="-11.69" url="{node10}" id="Point22"/>
+      <hotspot pan="-98.46" skinid="Redpin" title="Установка подготовки нефти" target="" description="" tilt="-42.33" url="{node17}" id="Point03"/>
+      <hotspot pan="-117.74" skinid="Redpin" title="Установка подготовки нефти" target="" description="" tilt="-30.39" url="{node15}" id="Point04"/>
+      <hotspot pan="-103.75" skinid="Redpin" title="Установка подготовки нефти" target="" description="" tilt="-31.51" url="{node16}" id="Point05"/>
+      <hotspot pan="-249.15" skinid="Redpin" title="Вахтовый жилой комплекс" target="" description="" tilt="-83.29" url="{node5}" id="Point06"/>
+      <hotspot pan="-166.08" skinid="Redpin" title="Вахтовый жилой комплекс Ярактинского месторождения" target="" description="" tilt="-84.57" url="{node2}" id="Point07"/>
+      <hotspot pan="-195.93" skinid="Redpin" title="Православный храм" target="" description="" tilt="-74.32" url="{node3}" id="Point08"/>
+      <hotspot pan="-225.82" skinid="Redpin" title="Храм на Ярактинском месторождении" target="" description="" tilt="-79.24" url="{node4}" id="Point09"/>
+      <hotspot pan="-119.23" skinid="Redpin" title="Дожимная компрессорная станция" target="" description="" tilt="-12.28" url="{node9}" id="Point11"/>
+      <hotspot pan="-117.88" skinid="Redpin" title="Дожимная компрессорная станция" target="65.3/-2.5/70.0" description="" tilt="-11.65" url="{node11}" id="Point12"/>
+      <hotspot pan="-103.21" skinid="Redpin" title="Установка подготовки дизельного топлива" target="112.1/-19.9/70.0" description="" tilt="-24.71" url="{node20}" id="Point01"/>
+      <hotspot pan="-104.43" skinid="Redpin" title="Установка подготовки дизельного топлива" target="" description="" tilt="-24.4" url="{node18}" id="Point13"/>
+      <hotspot pan="-103.48" skinid="Redpin" title="Установка подготовки дизельного топлива" target="" description="" tilt="-22.01" url="{node19}" id="Point14"/>
+      <hotspot pan="-63.3" skinid="Redpin" title="Установка подготовки сернистой нефти и газа" target="125.3/-30.9/70.0" description="" tilt="-20.43" url="{node31}" id="Point15"/>
+      <hotspot pan="-53.57" skinid="Redpin" title="Установка подготовки сернистой нефти и газа" target="" description="" tilt="-19.64" url="{node29}" id="Point16"/>
+      <hotspot pan="-57.67" skinid="Redpin" title="Установка подготовки сернистой нефти и газа" target="20.3/-1.0/70.0" description="" tilt="-19.35" url="{node30}" id="Point17"/>
+      <hotspot pan="-155.65" skinid="Redpin" title="Энергокомплекс установки подготовки нефти" target="154.3/-52.4/70.0" description="" tilt="-22.4" url="{node35}" id="Point18"/>
+      <hotspot pan="-150.54" skinid="Redpin" title="Энергокомплекс установки подготовки нефти" target="93.0/8.2/70.0" description="" tilt="-21.68" url="{node32}" id="Point19"/>
+      <hotspot pan="-151.74" skinid="Redpin" title="Энергокомплекс установки подготовки нефти" target="113.4/25.5/70.0" description="" tilt="-20.46" url="{node33}" id="Point20"/>
+      <hotspot pan="-157.11" skinid="Redpin" title="Энергокомплекс установки подготовки нефти" target="104.0/1.5/70.0" description="" tilt="-20.67" url="{node34}" id="Point21"/>
+      <hotspot pan="-120.89" skinid="Redpin" title="Дожимная компрессорная станция" target="104.2/-4.2/70.0" description="" tilt="-11.69" url="{node10}" id="Point22"/>
       <hotspot pan="102.902" skinid="Redpin" title="Ичёдинское месторождение" target="" description="" tilt="0" url="{node43}" id="Point23"/>
-      <hotspot pan="-244.76" skinid="Redpin" title="" target="" description="" tilt="-0.06" url="{node12}" id="Point24"/>
-      <hotspot pan="-299.46" skinid="Redpin" title="" target="37.2/-38.9/70.0" description="" tilt="-0.05" url="{node26}" id="Point25"/>
+      <hotspot pan="-244.76" skinid="Redpin" title="Дожимная компрессорная станция&#xa;Дожимная насосная станция" target="" description="" tilt="-0.06" url="{node12}" id="Point24"/>
+      <hotspot pan="-299.46" skinid="Redpin" title="Установки комплексной подготовки газа -6" target="37.2/-38.9/70.0" description="" tilt="-0.05" url="{node26}" id="Point25"/>
       <hotspot pan="49.999" skinid="Redpin" title="Гелиевый завод" target="" description="" tilt="0" url="{node38}" id="Point26"/>
       <hotspot pan="40.247" skinid="Redpin" title="Скважина для закачки газа в пласт" target="-119.9/-0.2/70.0" description="" tilt="0" url="{node40}" id="Point27"/>
       <hotspot pan="159.766" skinid="Redpin" title="Газофракционирующая установка" target="" description="" tilt="0" url="{node73}" id="Point28"/>
       <hotspot pan="-163.797" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="" description="" tilt="0" url="{node46}" id="Point29"/>
-      <hotspot pan="-119.7" skinid="Airpin" title="" target="" description="" tilt="-8.38" url="{node8}" id="Point30"/>
+      <hotspot pan="-119.43" skinid="Airpin" title="Дожимная компрессорная станция" target="" description="" tilt="-4.39" url="{node8}" id="Point30"/>
     </hotspots>
     <media>
       <lensflare pan="-255.24" alpha="80" type="2" blinding="50" tilt="5.12" color="0xffffff" id="sun"/>
@@ -75,8 +75,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-309.77" skinid="Redpin" title="" target="" description="" tilt="22.33" url="{node1}" id="Point01"/>
-      <hotspot pan="-13.38" skinid="Airpin" title="" target="" description="" tilt="-11.22" url="{node3}" id="Point02"/>
+      <hotspot pan="-309.77" skinid="Redpin" title="Ярактинское месторождение" target="" description="" tilt="22.33" url="{node1}" id="Point01"/>
+      <hotspot pan="-13.38" skinid="Airpin" title="Православный храм" target="" description="" tilt="-11.22" url="{node3}" id="Point02"/>
     </hotspots>
     <media>
       <lensflare pan="-109.83" alpha="80" type="4" blinding="50" tilt="10.69" color="0xffffff" id="Lensflare01"/>
@@ -106,8 +106,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-138.06" skinid="Redpin" title="" target="" description="" tilt="28.04" url="{node1}" id="Point01"/>
-      <hotspot pan="-333.01" skinid="Airpin" title="" target="" description="" tilt="9.55" url="{node5}" id="Point02"/>
+      <hotspot pan="-138.06" skinid="Redpin" title="Ярактинское месторождение" target="" description="" tilt="28.04" url="{node1}" id="Point01"/>
+      <hotspot pan="-333.01" skinid="Airpin" title="Вахтовый жилой комплекс" target="" description="" tilt="9.55" url="{node5}" id="Point02"/>
     </hotspots>
     <media>
       <lensflare pan="-294.21" alpha="80" type="4" blinding="50" tilt="7.08" color="0xffffff" id="Lensflare01"/>
@@ -137,8 +137,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-292.01" skinid="Redpin" title="" target="" description="" tilt="35.71" url="{node1}" id="Point01"/>
-      <hotspot pan="-336.9" skinid="Airpin" title="" target="" description="" tilt="23.87" url="{node3}" id="Point02"/>
+      <hotspot pan="-292.01" skinid="Redpin" title="Ярактинское месторождение" target="" description="" tilt="35.71" url="{node1}" id="Point01"/>
+      <hotspot pan="-336.9" skinid="Airpin" title="Православный храм" target="" description="" tilt="23.87" url="{node3}" id="Point02"/>
     </hotspots>
     <media>
       <lensflare pan="-39.19" alpha="80" type="4" blinding="50" tilt="9.289999999999999" color="0xffffff" id="Lensflare01"/>
@@ -168,9 +168,9 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-314.62" skinid="Redpin" title="" target="" description="" tilt="-13.91" url="{node4}" id="Point01"/>
-      <hotspot pan="-283.58" skinid="Redpin" title="" target="8.5/-20.2/70.0" description="" tilt="-9.98" url="{node3}" id="Point02"/>
-      <hotspot pan="-141.2" skinid="Airpin" title="" target="" description="" tilt="17.37" url="{node1}" id="Point03"/>
+      <hotspot pan="-314.62" skinid="Redpin" title="Храм на Ярактинском месторождении" target="" description="" tilt="-13.91" url="{node4}" id="Point01"/>
+      <hotspot pan="-283.58" skinid="Redpin" title="Православный храм" target="8.5/-20.2/70.0" description="" tilt="-9.98" url="{node3}" id="Point02"/>
+      <hotspot pan="-141.2" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="17.37" url="{node1}" id="Point03"/>
     </hotspots>
     <media>
       <lensflare pan="-310.74" alpha="80" type="4" blinding="50" tilt="7.4" color="0xffffff" id="Lensflare01"/>
@@ -200,10 +200,10 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-177.38" skinid="Airpin" title="" target="" description="" tilt="15.23" url="{node1}" id="Point01"/>
-      <hotspot pan="-219.82" skinid="Redpin" title="" target="" description="" tilt="-3.69" url="{node6}" id="Point02"/>
-      <hotspot pan="-145.87" skinid="Redpin" title="" target="-8.5/-5.8/70.0" description="" tilt="-27.94" url="{node7}" id="Point03"/>
-      <hotspot pan="-294.87" skinid="Redpin" title="" target="" description="" tilt="-9.05" url="{node13}" id="Point04"/>
+      <hotspot pan="-177.38" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="15.23" url="{node1}" id="Point01"/>
+      <hotspot pan="-219.82" skinid="Redpin" title="Дожимная компрессорная станция" target="" description="" tilt="-3.69" url="{node6}" id="Point02"/>
+      <hotspot pan="-145.87" skinid="Redpin" title="Дожимная компрессорная станция" target="-8.5/-5.8/70.0" description="" tilt="-27.94" url="{node7}" id="Point03"/>
+      <hotspot pan="-294.87" skinid="Redpin" title="Дожимная насосная станция" target="" description="" tilt="-9.05" url="{node13}" id="Point04"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -231,8 +231,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-185.01" skinid="Airpin" title="" target="" description="" tilt="35.05" url="{node1}" id="Point01"/>
-      <hotspot pan="-323.4" skinid="Redpin" title="" target="" description="" tilt="7.7" url="{node7}" id="Point02"/>
+      <hotspot pan="-185.01" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="35.05" url="{node1}" id="Point01"/>
+      <hotspot pan="-323.4" skinid="Redpin" title="Дожимная компрессорная станция" target="" description="" tilt="7.7" url="{node7}" id="Point02"/>
     </hotspots>
     <media>
       <lensflare pan="-319.38" alpha="80" type="4" blinding="50" tilt="35.55" color="0xffffff" id="Lensflare01"/>
@@ -262,7 +262,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-122.24" skinid="Redpin" title="" target="0.0/0.0/70.0" description="" tilt="-10.8" url="{node6}" id="Point01"/>
+      <hotspot pan="-122.24" skinid="Redpin" title="Дожимная компрессорная станция" target="0.0/0.0/70.0" description="" tilt="-10.8" url="{node6}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -289,9 +289,9 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-69.01" skinid="Redpin" title="" target="" description="" tilt="-19.97" url="{node10}" id="Point01"/>
-      <hotspot pan="-24.57" skinid="Redpin" title="" target="" description="" tilt="-20.27" url="{node11}" id="Point02"/>
-      <hotspot pan="-99.93" skinid="Redpin" title="" target="-39.4/4.7/70.0" description="" tilt="-19.93" url="{node9}" id="Point03"/>
+      <hotspot pan="-69.01" skinid="Redpin" title="Дожимная компрессорная станция" target="" description="" tilt="-19.97" url="{node10}" id="Point01"/>
+      <hotspot pan="-24.57" skinid="Redpin" title="Дожимная компрессорная станция" target="" description="" tilt="-20.27" url="{node11}" id="Point02"/>
+      <hotspot pan="-99.93" skinid="Redpin" title="Дожимная компрессорная станция" target="-39.4/4.7/70.0" description="" tilt="-19.93" url="{node9}" id="Point03"/>
     </hotspots>
     <media>
       <lensflare pan="-100.16" alpha="80" type="1" blinding="50" tilt="12.49" color="0xffffff" id="Lensflare01"/>
@@ -321,8 +321,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-339.44" skinid="Redpin" title="" target="-25.1/2.6/70.0" description="" tilt="7.46" url="{node10}" id="Point01"/>
-      <hotspot pan="-292.1" skinid="Airpin" title="" target="" description="" tilt="33.33" url="{node8}" id="Point02"/>
+      <hotspot pan="-339.44" skinid="Redpin" title="Дожимная компрессорная станция" target="-25.1/2.6/70.0" description="" tilt="7.46" url="{node10}" id="Point01"/>
+      <hotspot pan="-292.1" skinid="Airpin" title="Дожимная компрессорная станция" target="" description="" tilt="33.33" url="{node8}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -350,7 +350,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-9.79" skinid="Redpin" title="" target="" description="" tilt="-7.88" url="{node9}" id="Point01"/>
+      <hotspot pan="-9.79" skinid="Redpin" title="Дожимная компрессорная станция" target="" description="" tilt="-7.88" url="{node9}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -378,7 +378,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-25.05" skinid="Airpin" title="" target="-18.0/-22.9/70.0" description="" tilt="30.86" url="{node8}" id="Point01"/>
+      <hotspot pan="-25.05" skinid="Airpin" title="Дожимная компрессорная станция" target="-18.0/-22.9/70.0" description="" tilt="30.86" url="{node8}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -406,7 +406,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-283.46" skinid="Airpin" title="" target="-122.1/-5.5/70.0" description="" tilt="17.97" url="{node12}" id="Point01"/>
+      <hotspot pan="-283.46" skinid="Airpin" title="Дожимная компрессорная станция&#xa;Дожимная насосная станция" target="-122.1/-5.5/70.0" description="" tilt="17.97" url="{node12}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -434,9 +434,9 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-185.57" skinid="Airpin" title="" target="" description="" tilt="-5.09" url="{node15}" id="Point02"/>
-      <hotspot pan="-164.32" skinid="Redpin" title="" target="" description="" tilt="-9.18" url="{node16}" id="Point03"/>
-      <hotspot pan="-319.19" skinid="Airpin" title="" target="" description="" tilt="3.25" url="{node1}" id="Point04"/>
+      <hotspot pan="-185.57" skinid="Airpin" title="Установка подготовки нефти" target="" description="" tilt="-5.09" url="{node15}" id="Point02"/>
+      <hotspot pan="-164.32" skinid="Redpin" title="Установка подготовки нефти" target="" description="" tilt="-9.18" url="{node16}" id="Point03"/>
+      <hotspot pan="-319.19" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="3.25" url="{node1}" id="Point04"/>
     </hotspots>
     <media>
       <lensflare pan="-284.83" alpha="80" type="3" blinding="50" tilt="7.35" color="0xffffff" id="Lensflare01"/>
@@ -466,8 +466,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-184.04" skinid="Airpin" title="" target="" description="" tilt="8.1" url="{node1}" id="Point01"/>
-      <hotspot pan="-292.1" skinid="Airpin" title="" target="4.4/-25.6/70.0" description="" tilt="2.19" url="{node20}" id="Point02"/>
+      <hotspot pan="-184.04" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="8.1" url="{node1}" id="Point01"/>
+      <hotspot pan="-292.1" skinid="Airpin" title="Установка подготовки дизельного топлива" target="4.4/-25.6/70.0" description="" tilt="2.19" url="{node20}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -495,7 +495,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-0.9" skinid="Airpin" title="" target="" description="" tilt="38.94" url="{node1}" id="Point01"/>
+      <hotspot pan="-0.9" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="38.94" url="{node1}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -523,7 +523,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-264.31" skinid="Airpin" title="" target="" description="" tilt="6.47" url="{node1}" id="Point01"/>
+      <hotspot pan="-264.31" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="6.47" url="{node1}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -551,8 +551,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-11.08" skinid="Airpin" title="" target="" description="" tilt="45.9" url="{node20}" id="Point01"/>
-      <hotspot pan="-291.79" skinid="Airpin" title="" target="" description="" tilt="21.54" url="{node1}" id="Point02"/>
+      <hotspot pan="-11.08" skinid="Airpin" title="Установка подготовки дизельного топлива" target="" description="" tilt="45.9" url="{node20}" id="Point01"/>
+      <hotspot pan="-291.79" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="21.54" url="{node1}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -580,8 +580,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-249.16" skinid="Airpin" title="" target="" description="" tilt="20.33" url="{node20}" id="Point01"/>
-      <hotspot pan="-280.83" skinid="Airpin" title="" target="" description="" tilt="12.97" url="{node1}" id="Point02"/>
+      <hotspot pan="-249.16" skinid="Airpin" title="Установка подготовки дизельного топлива" target="" description="" tilt="20.33" url="{node20}" id="Point01"/>
+      <hotspot pan="-280.83" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="12.97" url="{node1}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -609,11 +609,11 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-302.63" skinid="Airpin" title="" target="" description="" tilt="9.96" url="{node1}" id="Point01"/>
-      <hotspot pan="-208.01" skinid="Airpin" title="" target="" description="" tilt="4.86" url="{node26}" id="Point02"/>
-      <hotspot pan="-327.22" skinid="Redpin" title="" target="" description="" tilt="-23.8" url="{node21}" id="Point03"/>
-      <hotspot pan="-239.31" skinid="Airpin" title="" target="" description="" tilt="-2.42" url="{node28}" id="Point04"/>
-      <hotspot pan="-229.31" skinid="Airpin" title="" target="" description="" tilt="2.23" url="{node38}" id="Point05"/>
+      <hotspot pan="-302.63" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="9.96" url="{node1}" id="Point01"/>
+      <hotspot pan="-208.01" skinid="Airpin" title="Установки комплексной подготовки газа -6" target="" description="" tilt="4.86" url="{node26}" id="Point02"/>
+      <hotspot pan="-327.22" skinid="Redpin" title="Установка комплексной подготовки газа - 3,6 " target="" description="" tilt="-23.8" url="{node21}" id="Point03"/>
+      <hotspot pan="-239.31" skinid="Airpin" title="Резервуарный парк Цеха переработки газа -1 " target="" description="" tilt="-2.42" url="{node28}" id="Point04"/>
+      <hotspot pan="-229.31" skinid="Airpin" title="Гелиевый завод" target="" description="" tilt="2.23" url="{node38}" id="Point05"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -641,7 +641,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-293.48" skinid="Airpin" title="" target="" description="" tilt="28.18" url="{node22}" id="Point01"/>
+      <hotspot pan="-293.48" skinid="Airpin" title="Установка комплексной подготовки газа - 3,6 " target="" description="" tilt="28.18" url="{node22}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -669,13 +669,13 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-193.31" skinid="Redpin" title="" target="" description="" tilt="-0.28" url="{node1}" id="Point01"/>
-      <hotspot pan="-256.99" skinid="Redpin" title="" target="" description="" tilt="-1.6" url="{node22}" id="Point02"/>
-      <hotspot pan="-160.45" skinid="Redpin" title="" target="8.2/-54.3/70.0" description="" tilt="-17.44" url="{node38}" id="Point03"/>
-      <hotspot pan="-233.43" skinid="Redpin" title="" target="8.4/-76.0/70.0" description="" tilt="-2.8" url="{node28}" id="Point04"/>
-      <hotspot pan="-353.42" skinid="Redpin" title="" target="" description="" tilt="-8.3" url="{node23}" id="Point05"/>
-      <hotspot pan="-41.71" skinid="Redpin" title="" target="" description="" tilt="-2.22" url="{node24}" id="Point06"/>
-      <hotspot pan="-85.42" skinid="Redpin" title="" target="96.6/-3.4/70.0" description="" tilt="-16.11" url="{node25}" id="Point07"/>
+      <hotspot pan="-193.31" skinid="Redpin" title="Ярактинское месторождение" target="" description="" tilt="-0.28" url="{node1}" id="Point01"/>
+      <hotspot pan="-256.99" skinid="Redpin" title="Установка комплексной подготовки газа - 3,6 " target="" description="" tilt="-1.6" url="{node22}" id="Point02"/>
+      <hotspot pan="-160.45" skinid="Redpin" title="Гелиевый завод" target="8.2/-54.3/70.0" description="" tilt="-17.44" url="{node38}" id="Point03"/>
+      <hotspot pan="-233.43" skinid="Redpin" title="Резервуарный парк Цеха переработки газа -1 " target="8.4/-76.0/70.0" description="" tilt="-2.8" url="{node28}" id="Point04"/>
+      <hotspot pan="-353.42" skinid="Redpin" title="Установки комплексной подготовки газа - 6" target="" description="" tilt="-8.3" url="{node23}" id="Point05"/>
+      <hotspot pan="-41.71" skinid="Redpin" title="Установки комплексной подготовки газа - 6" target="" description="" tilt="-2.22" url="{node24}" id="Point06"/>
+      <hotspot pan="-85.42" skinid="Redpin" title="Установки комплексной подготовки газа - 6" target="96.6/-3.4/70.0" description="" tilt="-16.11" url="{node25}" id="Point07"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -703,7 +703,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-174.09" skinid="Airpin" title="" target="" description="" tilt="27.74" url="{node26}" id="Point01"/>
+      <hotspot pan="-174.09" skinid="Airpin" title="Установки комплексной подготовки газа -6" target="" description="" tilt="27.74" url="{node26}" id="Point01"/>
     </hotspots>
     <media>
       <lensflare pan="-95.83" alpha="80" type="4" blinding="50" tilt="42.49" color="0xffffff" id="Lensflare01"/>
@@ -733,7 +733,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-310.61" skinid="Airpin" title="" target="" description="" tilt="35.56" url="{node26}" id="Point01"/>
+      <hotspot pan="-310.61" skinid="Airpin" title="Установки комплексной подготовки газа -6" target="" description="" tilt="35.56" url="{node26}" id="Point01"/>
     </hotspots>
     <media>
       <lensflare pan="-273.66" alpha="80" type="3" blinding="50" tilt="42.05" color="0xffffff" id="Lensflare01"/>
@@ -763,7 +763,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-359.47" skinid="Airpin" title="" target="" description="" tilt="37.49" url="{node26}" id="Point01"/>
+      <hotspot pan="-359.47" skinid="Airpin" title="Установки комплексной подготовки газа -6" target="" description="" tilt="37.49" url="{node26}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -791,8 +791,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-312.83" skinid="Airpin" title="" target="" description="" tilt="6.95" url="{node26}" id="Point01"/>
-      <hotspot pan="-3.35" skinid="Redpin" title="" target="" description="" tilt="-13.48" url="{node27}" id="Point02"/>
+      <hotspot pan="-312.83" skinid="Airpin" title="Установки комплексной подготовки газа -6" target="" description="" tilt="6.95" url="{node26}" id="Point01"/>
+      <hotspot pan="-3.35" skinid="Redpin" title="Резервуарный парк Цеха переработки газа -2" target="" description="" tilt="-13.48" url="{node27}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -820,7 +820,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-178.75" skinid="Airpin" title="" target="21.5/-3.4/70.0" description="" tilt="37.48" url="{node26}" id="Point01"/>
+      <hotspot pan="-178.75" skinid="Airpin" title="Установки комплексной подготовки газа -6" target="21.5/-3.4/70.0" description="" tilt="37.48" url="{node26}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -848,7 +848,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-296.36" skinid="Airpin" title="" target="" description="" tilt="8.64" url="{node1}" id="Point01"/>
+      <hotspot pan="-296.36" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="8.64" url="{node1}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -876,8 +876,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-89.05" skinid="Airpin" title="" target="" description="" tilt="38.28" url="{node31}" id="Point01"/>
-      <hotspot pan="-40.12" skinid="Redpin" title="" target="0.0/0.0/70.0" description="" tilt="-0.99" url="{node30}" id="Point02"/>
+      <hotspot pan="-89.05" skinid="Airpin" title="Установка подготовки сернистой нефти и газа" target="" description="" tilt="38.28" url="{node31}" id="Point01"/>
+      <hotspot pan="-40.12" skinid="Redpin" title="Установка подготовки сернистой нефти и газа" target="0.0/0.0/70.0" description="" tilt="-0.99" url="{node30}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -905,8 +905,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-53.84" skinid="Redpin" title="" target="" description="" tilt="1.34" url="{node29}" id="Point01"/>
-      <hotspot pan="-273.16" skinid="Airpin" title="" target="" description="" tilt="38.32" url="{node31}" id="Point02"/>
+      <hotspot pan="-53.84" skinid="Redpin" title="Установка подготовки сернистой нефти и газа" target="" description="" tilt="1.34" url="{node29}" id="Point01"/>
+      <hotspot pan="-273.16" skinid="Airpin" title="Установка подготовки сернистой нефти и газа" target="" description="" tilt="38.32" url="{node31}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -933,10 +933,10 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-226.96" skinid="Airpin" title="" target="" description="" tilt="9.33" url="{node1}" id="Point01"/>
-      <hotspot pan="-341.49" skinid="Redpin" title="" target="" description="" tilt="-18.78" url="{node33}" id="Point02"/>
-      <hotspot pan="-34.06" skinid="Redpin" title="" target="-165.7/-9.9/70.0" description="" tilt="-21.26" url="{node34}" id="Point03"/>
-      <hotspot pan="-330.11" skinid="Redpin" title="" target="-114.5/4.8/70.0" description="" tilt="-17.1" url="{node32}" id="Point04"/>
+      <hotspot pan="-226.96" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="9.33" url="{node1}" id="Point01"/>
+      <hotspot pan="-341.49" skinid="Redpin" title="Энергокомплекс установки подготовки нефти" target="" description="" tilt="-18.78" url="{node33}" id="Point02"/>
+      <hotspot pan="-34.06" skinid="Redpin" title="Энергокомплекс установки подготовки нефти" target="-165.7/-9.9/70.0" description="" tilt="-21.26" url="{node34}" id="Point03"/>
+      <hotspot pan="-330.11" skinid="Redpin" title="Энергокомплекс установки подготовки нефти" target="-114.5/4.8/70.0" description="" tilt="-17.1" url="{node32}" id="Point04"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -964,8 +964,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-98.48" skinid="Airpin" title="" target="" description="" tilt="34.07" url="{node35}" id="Point01"/>
-      <hotspot pan="-323.88" skinid="Redpin" title="" target="" description="" tilt="-3.05" url="{node33}" id="Point02"/>
+      <hotspot pan="-98.48" skinid="Airpin" title="Энергокомплекс установки подготовки нефти" target="" description="" tilt="34.07" url="{node35}" id="Point01"/>
+      <hotspot pan="-323.88" skinid="Redpin" title="Энергокомплекс установки подготовки нефти" target="" description="" tilt="-3.05" url="{node33}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -993,7 +993,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-1.29" skinid="Airpin" title="" target="" description="" tilt="40.14" url="{node35}" id="Point01"/>
+      <hotspot pan="-1.29" skinid="Airpin" title="Энергокомплекс установки подготовки нефти" target="" description="" tilt="40.14" url="{node35}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1021,7 +1021,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-297.38" skinid="Airpin" title="" target="" description="" tilt="26.44" url="{node35}" id="Point01"/>
+      <hotspot pan="-297.38" skinid="Airpin" title="Энергокомплекс установки подготовки нефти" target="" description="" tilt="26.44" url="{node35}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1049,10 +1049,10 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-158.01" skinid="Airpin" title="" target="" description="" tilt="12.47" url="{node26}" id="Point01"/>
-      <hotspot pan="-344.9" skinid="Airpin" title="" target="" description="" tilt="8.26" url="{node1}" id="Point02"/>
-      <hotspot pan="-123.96" skinid="Redpin" title="" target="-140.8/-10.2/70.0" description="" tilt="-77.82" url="{node36}" id="Point03"/>
-      <hotspot pan="-288.04" skinid="Redpin" title="" target="178.0/-5.7/70.0" description="" tilt="-25.67" url="{node37}" id="Point04"/>
+      <hotspot pan="-158.01" skinid="Airpin" title="Установки комплексной подготовки газа -6" target="" description="" tilt="12.47" url="{node26}" id="Point01"/>
+      <hotspot pan="-344.9" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="8.26" url="{node1}" id="Point02"/>
+      <hotspot pan="-123.96" skinid="Redpin" title="Гелиевый завод" target="-140.8/-10.2/70.0" description="" tilt="-77.82" url="{node36}" id="Point03"/>
+      <hotspot pan="-288.04" skinid="Redpin" title="Гелиевый завод" target="178.0/-5.7/70.0" description="" tilt="-25.67" url="{node37}" id="Point04"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1080,8 +1080,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-294.19" skinid="Airpin" title="" target="" description="" tilt="86.68" url="{node38}" id="Point01"/>
-      <hotspot pan="-95.56" skinid="Redpin" title="" target="" description="" tilt="-1.33" url="{node37}" id="Point02"/>
+      <hotspot pan="-294.19" skinid="Airpin" title="Гелиевый завод" target="" description="" tilt="86.68" url="{node38}" id="Point01"/>
+      <hotspot pan="-95.56" skinid="Redpin" title="Гелиевый завод" target="" description="" tilt="-1.33" url="{node37}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1109,8 +1109,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-263.64" skinid="Redpin" title="" target="" description="" tilt="0.89" url="{node36}" id="Point01"/>
-      <hotspot pan="-262.55" skinid="Airpin" title="" target="" description="" tilt="52.67" url="{node38}" id="Point02"/>
+      <hotspot pan="-263.64" skinid="Redpin" title="Гелиевый завод" target="" description="" tilt="0.89" url="{node36}" id="Point01"/>
+      <hotspot pan="-262.55" skinid="Airpin" title="Гелиевый завод" target="" description="" tilt="52.67" url="{node38}" id="Point02"/>
     </hotspots>
     <media>
       <lensflare pan="-207.64" alpha="80" type="4" blinding="50" tilt="32.4" color="0xffffff" id="Lensflare01"/>
@@ -1139,8 +1139,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-138.65" skinid="Airpin" title="" target="" description="" tilt="26.88" url="{node1}" id="Point01"/>
-      <hotspot pan="-53.78" skinid="Redpin" title="" target="" description="" tilt="-5.79" url="{node39}" id="Point02"/>
+      <hotspot pan="-138.65" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="26.88" url="{node1}" id="Point01"/>
+      <hotspot pan="-53.78" skinid="Redpin" title="Скважина для закачки газа в пласт" target="" description="" tilt="-5.79" url="{node39}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1168,7 +1168,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-179.68" skinid="Airpin" title="" target="" description="" tilt="31.44" url="{node1}" id="Point01"/>
+      <hotspot pan="-179.68" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="31.44" url="{node1}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1196,13 +1196,13 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-282.6" skinid="Redpin" title="" target="-48.9/-0.5/70.0" description="" tilt="-18.1" url="{node42}" id="Point01"/>
-      <hotspot pan="-317.52" skinid="Redpin" title="" target="" description="" tilt="-18.37" url="{node45}" id="Point02"/>
-      <hotspot pan="-41.46" skinid="Redpin" title="" target="55.6/-8.3/70.0" description="" tilt="-5.8" url="{node44}" id="Point03"/>
-      <hotspot pan="-60.43" skinid="Bigpin" title="" target="" description="" tilt="10.8" url="{node1}" id="Point04"/>
-      <hotspot pan="-27.42" skinid="Airpin" title="" target="3.7/-50.5/70.0" description="" tilt="11.68" url="{node26}" id="Point05"/>
-      <hotspot pan="-106.24" skinid="Bigpin" title="" target="33.3/-26.0/70.0" description="" tilt="11.64" url="{node51}" id="Point06"/>
-      <hotspot pan="-176.4" skinid="Bigpin" title="" target="22.3/-6.0/70.0" description="" tilt="11.07" url="{node63}" id="Point07"/>
+      <hotspot pan="-282.6" skinid="Redpin" title="Ичёдинское месторождение" target="-48.9/-0.5/70.0" description="" tilt="-18.1" url="{node42}" id="Point01"/>
+      <hotspot pan="-317.52" skinid="Redpin" title="Ичёдинское месторождение" target="" description="" tilt="-18.37" url="{node45}" id="Point02"/>
+      <hotspot pan="-41.46" skinid="Redpin" title="Энергокомплекс" target="55.6/-8.3/70.0" description="" tilt="-5.8" url="{node44}" id="Point03"/>
+      <hotspot pan="-60.43" skinid="Bigpin" title="Ярактинское месторождение" target="" description="" tilt="10.8" url="{node1}" id="Point04"/>
+      <hotspot pan="-27.42" skinid="Airpin" title="Установки комплексной подготовки газа -6" target="3.7/-50.5/70.0" description="" tilt="11.68" url="{node26}" id="Point05"/>
+      <hotspot pan="-106.24" skinid="Bigpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="33.3/-26.0/70.0" description="" tilt="11.64" url="{node51}" id="Point06"/>
+      <hotspot pan="-176.4" skinid="Bigpin" title="Иркутский завод полимеров" target="22.3/-6.0/70.0" description="" tilt="11.07" url="{node63}" id="Point07"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1230,7 +1230,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-225.34" skinid="Airpin" title="" target="" description="" tilt="31.95" url="{node43}" id="Point01"/>
+      <hotspot pan="-225.34" skinid="Airpin" title="Ичёдинское месторождение" target="" description="" tilt="31.95" url="{node43}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1258,7 +1258,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-165.24" skinid="Airpin" title="" target="" description="" tilt="64.7" url="{node43}" id="Point01"/>
+      <hotspot pan="-165.24" skinid="Airpin" title="Ичёдинское месторождение" target="" description="" tilt="64.7" url="{node43}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1286,7 +1286,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-238.82" skinid="Airpin" title="" target="0.0/-2.6/70.0" description="" tilt="22.15" url="{node43}" id="Point01"/>
+      <hotspot pan="-238.82" skinid="Airpin" title="Ичёдинское месторождение" target="0.0/-2.6/70.0" description="" tilt="22.15" url="{node43}" id="Point01"/>
     </hotspots>
     <media>
       <lensflare pan="-323.13" alpha="80" type="4" blinding="50" tilt="23.05" color="0xffffff" id="Lensflare01"/>
@@ -1316,14 +1316,14 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-204.97" skinid="ht_node" title="" target="22.3/-0.7/70.0" description="" tilt="-9.25" url="{node50}" id="Point01"/>
-      <hotspot pan="-277.02" skinid="ht_node" title="" target="178.9/-26.3/70.0" description="" tilt="-15.24" url="{node49}" id="Point02"/>
-      <hotspot pan="-352.12" skinid="ht_node" title="" target="126.7/-14.5/70.0" description="" tilt="-4.75" url="{node46}" id="Point03"/>
-      <hotspot pan="-346.57" skinid="ht_node" title="" target="175.6/4.2/70.0" description="" tilt="-6.47" url="{node47}" id="Point04"/>
-      <hotspot pan="-341.77" skinid="ht_node" title="" target="-88.1/-9.3/70.0" description="" tilt="-6.55" url="{node48}" id="Point05"/>
-      <hotspot pan="-180.29" skinid="Redpin" title="" target="84.1/-20.4/48.8" description="" tilt="0.42" url="{node77}" id="21"/>
-      <hotspot pan="-334.68" skinid="Airpin" title="" target="" description="" tilt="6.62" url="{node1}" id="1"/>
-      <hotspot pan="-224.17" skinid="Airpin" title="" target="" description="" tilt="7.24" url="{node41}" id="Point06"/>
+      <hotspot pan="-204.97" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="22.3/-0.7/70.0" description="" tilt="-9.25" url="{node50}" id="Point01"/>
+      <hotspot pan="-277.02" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="178.9/-26.3/70.0" description="" tilt="-15.24" url="{node49}" id="Point02"/>
+      <hotspot pan="-352.12" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="126.7/-14.5/70.0" description="" tilt="-4.75" url="{node46}" id="Point03"/>
+      <hotspot pan="-346.57" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="175.6/4.2/70.0" description="" tilt="-6.47" url="{node47}" id="Point04"/>
+      <hotspot pan="-341.77" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-88.1/-9.3/70.0" description="" tilt="-6.55" url="{node48}" id="Point05"/>
+      <hotspot pan="-180.29" skinid="Redpin" title="Установка комплексной подготовки газа -6" target="84.1/-20.4/48.8" description="" tilt="0.42" url="{node77}" id="21"/>
+      <hotspot pan="-334.68" skinid="Airpin" title="Ярактинское месторождение" target="" description="" tilt="6.62" url="{node1}" id="1"/>
+      <hotspot pan="-224.17" skinid="Airpin" title="Причал на реке Лене, вблизи города Усть-Кута" target="" description="" tilt="7.24" url="{node41}" id="Point06"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1351,9 +1351,9 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-344.5" skinid="ht_node" title="" target="-66.3/-32.0/70.0" description="" tilt="-35.65" url="{node48}" id="Point01"/>
-      <hotspot pan="-68.49" skinid="ht_node" title="" target="-70.0/-8.2/70.0" description="" tilt="-5.01" url="{node47}" id="Point02"/>
-      <hotspot pan="-72.7" skinid="Redpin" title="" target="-116.8/-35.2/70.0" description="" tilt="4.61" url="{node51}" id="Point03"/>
+      <hotspot pan="-344.5" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-66.3/-32.0/70.0" description="" tilt="-35.65" url="{node48}" id="Point01"/>
+      <hotspot pan="-68.49" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-70.0/-8.2/70.0" description="" tilt="-5.01" url="{node47}" id="Point02"/>
+      <hotspot pan="-72.7" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-116.8/-35.2/70.0" description="" tilt="4.61" url="{node51}" id="Point03"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1381,8 +1381,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-133.99" skinid="Airpin" title="" target="" description="" tilt="28.92" url="{node51}" id="Point01"/>
-      <hotspot pan="-330.4" skinid="Airpin" title="" target="-101.6/-24.2/70.0" description="" tilt="19.96" url="{node46}" id="Point02"/>
+      <hotspot pan="-133.99" skinid="Airpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="" description="" tilt="28.92" url="{node51}" id="Point01"/>
+      <hotspot pan="-330.4" skinid="Airpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-101.6/-24.2/70.0" description="" tilt="19.96" url="{node46}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1410,7 +1410,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-116.81" skinid="Airpin" title="" target="" description="" tilt="18.04" url="{node51}" id="Point01"/>
+      <hotspot pan="-116.81" skinid="Airpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="" description="" tilt="18.04" url="{node51}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1438,8 +1438,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-123.98" skinid="Airpin" title="" target="0.0/-0.2/70.0" description="" tilt="19.11" url="{node51}" id="Point01"/>
-      <hotspot pan="-203.84" skinid="Redpin" title="" target="-176.5/-4.6/70.0" description="" tilt="-1.23" url="{node50}" id="Point02"/>
+      <hotspot pan="-123.98" skinid="Airpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="0.0/-0.2/70.0" description="" tilt="19.11" url="{node51}" id="Point01"/>
+      <hotspot pan="-203.84" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-176.5/-4.6/70.0" description="" tilt="-1.23" url="{node50}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1467,8 +1467,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-291.35" skinid="Redpin" title="" target="" description="" tilt="-2.69" url="{node49}" id="Point01"/>
-      <hotspot pan="-294.99" skinid="Airpin" title="" target="0.0/-0.2/70.0" description="" tilt="20.77" url="{node51}" id="Point02"/>
+      <hotspot pan="-291.35" skinid="Redpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="" description="" tilt="-2.69" url="{node49}" id="Point01"/>
+      <hotspot pan="-294.99" skinid="Airpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="0.0/-0.2/70.0" description="" tilt="20.77" url="{node51}" id="Point02"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1496,15 +1496,15 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-240.74" skinid="Redpin" title="" target="-157.8/-6.8/70.0" description="" tilt="-5.55" url="{node41}" id="Point01"/>
-      <hotspot pan="-282.02" skinid="Redpin" title="" target="148.0/-24.0/70.0" description="" tilt="1.16" url="{node52}" id="Point02"/>
-      <hotspot pan="-239.57" skinid="Redpin" title="" target="31.0/-0.5/70.0" description="" tilt="-2.25" url="{node69}" id="Point03"/>
-      <hotspot pan="-244.01" skinid="Redpin" title="" target="27.5/-0.2/70.0" description="" tilt="-1.09" url="{node73}" id="Point04"/>
-      <hotspot pan="-241.82" skinid="Redpin" title="" target="-68.6/-27.0/70.0" description="" tilt="-1.75" url="{node64}" id="Point05"/>
-      <hotspot pan="-9.76" skinid="Redpin" title="" target="" description="" tilt="-0.39" url="{node1}" id="Point06"/>
-      <hotspot pan="-26.55" skinid="Redpin" title="" target="" description="" tilt="-0.71" url="{node74}" id="Point07"/>
-      <hotspot pan="-346.77" skinid="Redpin" title="" target="" description="" tilt="0.73" url="{node43}" id="Point08"/>
-      <hotspot pan="-358.18" skinid="Redpin" title="" target="" description="" tilt="0.23" url="{node26}" id="Point09"/>
+      <hotspot pan="-240.74" skinid="Redpin" title="Причал на реке Лене, вблизи города Усть-Кута" target="-157.8/-6.8/70.0" description="" tilt="-5.55" url="{node41}" id="Point01"/>
+      <hotspot pan="-282.02" skinid="Redpin" title="Иркутский завод полимеров" target="148.0/-24.0/70.0" description="" tilt="1.16" url="{node52}" id="Point02"/>
+      <hotspot pan="-239.57" skinid="Redpin" title="Комплекс приема, хранения и отгрузки СГиК" target="31.0/-0.5/70.0" description="" tilt="-2.25" url="{node69}" id="Point03"/>
+      <hotspot pan="-244.01" skinid="Redpin" title="Газофракционирующая установка" target="27.5/-0.2/70.0" description="" tilt="-1.09" url="{node73}" id="Point04"/>
+      <hotspot pan="-241.82" skinid="Redpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="-68.6/-27.0/70.0" description="" tilt="-1.75" url="{node64}" id="Point05"/>
+      <hotspot pan="-9.76" skinid="Redpin" title="Ярактинское месторождение" target="" description="" tilt="-0.39" url="{node1}" id="Point06"/>
+      <hotspot pan="-26.55" skinid="Redpin" title="Установка комплексной подготовки газа -6" target="" description="" tilt="-0.71" url="{node74}" id="Point07"/>
+      <hotspot pan="-346.77" skinid="Redpin" title="Ичёдинское месторождение" target="" description="" tilt="0.73" url="{node43}" id="Point08"/>
+      <hotspot pan="-358.18" skinid="Redpin" title="Установки комплексной подготовки газа -6" target="" description="" tilt="0.23" url="{node26}" id="Point09"/>
     </hotspots>
     <media>
       <lensflare pan="-128.59" alpha="80" type="2" blinding="50" tilt="33.03" color="0xffffff" id="Lensflare01"/>
@@ -1534,7 +1534,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-155.04" skinid="Airpin" title="" target="" description="" tilt="8.28" url="{node63}" id="Point01"/>
+      <hotspot pan="-155.04" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="8.28" url="{node63}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1562,19 +1562,19 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-334.23" skinid="Redpin" title="" target="" description="" tilt="1.61" url="{node63}" id="Point01"/>
-      <hotspot pan="-59.34" skinid="Redpin" title="" target="" description="" tilt="1.1" url="{node64}" id="Point02"/>
-      <hotspot pan="-83.15" skinid="Redpin" title="" target="" description="" tilt="1.42" url="{node73}" id="Point03"/>
-      <hotspot pan="-240.55" skinid="Redpin" title="" target="-4.5/-20.2/70.0" description="" tilt="-20" url="{node53}" id="Point04"/>
-      <hotspot pan="-296.96" skinid="Redpin" title="" target="" description="" tilt="-11.87" url="{node54}" id="Point05"/>
-      <hotspot pan="-307.25" skinid="Redpin" title="" target="" description="" tilt="-4.93" url="{node55}" id="Point06"/>
-      <hotspot pan="-331.42" skinid="Redpin" title="" target="" description="" tilt="-4.39" url="{node56}" id="Point07"/>
-      <hotspot pan="-198.42" skinid="Redpin" title="" target="" description="" tilt="-10.12" url="{node57}" id="Point08"/>
-      <hotspot pan="-181.16" skinid="Redpin" title="" target="2.9/-15.5/70.0" description="" tilt="-7.91" url="{node58}" id="Point09"/>
-      <hotspot pan="-193.38" skinid="Redpin" title="" target="-84.9/-61.2/70.0" description="" tilt="-5.75" url="{node59}" id="Point10"/>
-      <hotspot pan="-170.8" skinid="Redpin" title="" target="180.0/19.1/70.0" description="" tilt="-11.25" url="{node60}" id="Point11"/>
-      <hotspot pan="-32.66" skinid="Redpin" title="" target="" description="" tilt="-49.61" url="{node61}" id="Point12"/>
-      <hotspot pan="-324.37" skinid="Redpin" title="" target="50.4/0.3/70.0" description="" tilt="-7.37" url="{node62}" id="Point13"/>
+      <hotspot pan="-334.23" skinid="Redpin" title="Иркутский завод полимеров" target="" description="" tilt="1.61" url="{node63}" id="Point01"/>
+      <hotspot pan="-59.34" skinid="Redpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="" description="" tilt="1.1" url="{node64}" id="Point02"/>
+      <hotspot pan="-83.15" skinid="Redpin" title="Газофракционирующая установка" target="" description="" tilt="1.42" url="{node73}" id="Point03"/>
+      <hotspot pan="-240.55" skinid="Redpin" title="Иркутский завод полимеров" target="-4.5/-20.2/70.0" description="" tilt="-20" url="{node53}" id="Point04"/>
+      <hotspot pan="-296.96" skinid="Redpin" title="Иркутский завод полимеров" target="" description="" tilt="-11.87" url="{node54}" id="Point05"/>
+      <hotspot pan="-307.25" skinid="Redpin" title="Иркутский завод полимеров" target="" description="" tilt="-4.93" url="{node55}" id="Point06"/>
+      <hotspot pan="-331.42" skinid="Redpin" title="Иркутский завод полимеров" target="" description="" tilt="-4.39" url="{node56}" id="Point07"/>
+      <hotspot pan="-198.42" skinid="Redpin" title="Иркутский завод полимеров" target="" description="" tilt="-10.12" url="{node57}" id="Point08"/>
+      <hotspot pan="-181.16" skinid="Redpin" title="Иркутский завод полимеров" target="2.9/-15.5/70.0" description="" tilt="-7.91" url="{node58}" id="Point09"/>
+      <hotspot pan="-193.38" skinid="Redpin" title="Иркутский завод полимеров" target="-84.9/-61.2/70.0" description="" tilt="-5.75" url="{node59}" id="Point10"/>
+      <hotspot pan="-170.8" skinid="Redpin" title="Иркутский завод полимеров" target="180.0/19.1/70.0" description="" tilt="-11.25" url="{node60}" id="Point11"/>
+      <hotspot pan="-32.66" skinid="Redpin" title="Иркутский завод полимеров" target="" description="" tilt="-49.61" url="{node61}" id="Point12"/>
+      <hotspot pan="-324.37" skinid="Redpin" title="Иркутский завод полимеров" target="50.4/0.3/70.0" description="" tilt="-7.37" url="{node62}" id="Point13"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1602,7 +1602,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-321.09" skinid="Airpin" title="" target="" description="" tilt="15.37" url="{node52}" id="Point01"/>
+      <hotspot pan="-321.09" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="15.37" url="{node52}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1630,7 +1630,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-250.4" skinid="Airpin" title="" target="" description="" tilt="18.53" url="{node52}" id="Point01"/>
+      <hotspot pan="-250.4" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="18.53" url="{node52}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1658,7 +1658,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-263.53" skinid="Airpin" title="" target="" description="" tilt="10.56" url="{node52}" id="Point01"/>
+      <hotspot pan="-263.53" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="10.56" url="{node52}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1686,7 +1686,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-297.8" skinid="Airpin" title="" target="" description="" tilt="11.36" url="{node52}" id="Point01"/>
+      <hotspot pan="-297.8" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="11.36" url="{node52}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1714,7 +1714,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-79.82" skinid="Airpin" title="" target="" description="" tilt="10.27" url="{node52}" id="Point01"/>
+      <hotspot pan="-79.82" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="10.27" url="{node52}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1742,7 +1742,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-126.23" skinid="Airpin" title="" target="" description="" tilt="22.25" url="{node52}" id="Point01"/>
+      <hotspot pan="-126.23" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="22.25" url="{node52}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1770,7 +1770,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-21.36" skinid="Airpin" title="" target="" description="" tilt="8.66" url="{node52}" id="Point01"/>
+      <hotspot pan="-21.36" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="8.66" url="{node52}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1798,7 +1798,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-53.76" skinid="Airpin" title="" target="" description="" tilt="27.16" url="{node52}" id="Point01"/>
+      <hotspot pan="-53.76" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="27.16" url="{node52}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1826,7 +1826,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-359.92" skinid="Airpin" title="" target="" description="" tilt="61.8" url="{node52}" id="Point01"/>
+      <hotspot pan="-359.92" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="61.8" url="{node52}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1854,7 +1854,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-210.01" skinid="Airpin" title="" target="" description="" tilt="21.32" url="{node56}" id="Point01"/>
+      <hotspot pan="-210.01" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="21.32" url="{node56}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1882,7 +1882,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-352.88" skinid="Airpin" title="" target="" description="" tilt="10.53" url="{node63}" id="Point01"/>
+      <hotspot pan="-352.88" skinid="Airpin" title="Иркутский завод полимеров" target="" description="" tilt="10.53" url="{node63}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1910,11 +1910,11 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-238.87" skinid="Redpin" title="" target="" description="" tilt="0.13" url="{node69}" id="Point01"/>
-      <hotspot pan="-66.37" skinid="Redpin" title="" target="" description="" tilt="-61.2" url="{node65}" id="Point02"/>
-      <hotspot pan="-225.47" skinid="Redpin" title="" target="45.8/1.1/70.0" description="" tilt="-6.69" url="{node66}" id="Point03"/>
-      <hotspot pan="-247.21" skinid="Redpin" title="" target="-116.8/-3.5/70.0" description="" tilt="-6.67" url="{node67}" id="Point04"/>
-      <hotspot pan="-328.8" skinid="Redpin" title="" target="-28.6/0.8/70.0" description="" tilt="-18.83" url="{node68}" id="Point05"/>
+      <hotspot pan="-238.87" skinid="Redpin" title="Комплекс приема, хранения и отгрузки СГиК" target="" description="" tilt="0.13" url="{node69}" id="Point01"/>
+      <hotspot pan="-66.37" skinid="Redpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="" description="" tilt="-61.2" url="{node65}" id="Point02"/>
+      <hotspot pan="-225.47" skinid="Redpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="45.8/1.1/70.0" description="" tilt="-6.69" url="{node66}" id="Point03"/>
+      <hotspot pan="-247.21" skinid="Redpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="-116.8/-3.5/70.0" description="" tilt="-6.67" url="{node67}" id="Point04"/>
+      <hotspot pan="-328.8" skinid="Redpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="-28.6/0.8/70.0" description="" tilt="-18.83" url="{node68}" id="Point05"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1942,7 +1942,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-289.38" skinid="Airpin" title="" target="" description="" tilt="33.94" url="{node64}" id="Point01"/>
+      <hotspot pan="-289.38" skinid="Airpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="" description="" tilt="33.94" url="{node64}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -1970,7 +1970,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-89.13" skinid="Airpin" title="" target="" description="" tilt="23.3" url="{node64}" id="Point01"/>
+      <hotspot pan="-89.13" skinid="Airpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="" description="" tilt="23.3" url="{node64}" id="Point01"/>
     </hotspots>
     <media>
       <lensflare pan="-294.87" alpha="80" type="4" blinding="50" tilt="42.11" color="0xffffff" id="Lensflare01"/>
@@ -2000,7 +2000,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-269.36" skinid="Airpin" title="" target="" description="" tilt="25.75" url="{node64}" id="Point01"/>
+      <hotspot pan="-269.36" skinid="Airpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="" description="" tilt="25.75" url="{node64}" id="Point01"/>
     </hotspots>
     <media>
       <lensflare pan="-122.32" alpha="80" type="4" blinding="50" tilt="45.1" color="0xffffff" id="Lensflare01"/>
@@ -2030,7 +2030,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-237.17" skinid="Airpin" title="" target="" description="" tilt="27.97" url="{node64}" id="Point01"/>
+      <hotspot pan="-237.17" skinid="Airpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="" description="" tilt="27.97" url="{node64}" id="Point01"/>
     </hotspots>
     <media>
       <lensflare pan="-14.43" alpha="80" type="4" blinding="50" tilt="43.72" color="0xffffff" id="Lensflare01"/>
@@ -2060,11 +2060,11 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-243.18" skinid="Redpin" title="" target="" description="" tilt="2.46" url="{node70}" id="Point01"/>
-      <hotspot pan="-152.88" skinid="Redpin" title="" target="" description="" tilt="9.41" url="{node64}" id="Point02"/>
-      <hotspot pan="-69.72" skinid="Redpin" title="" target="24.5/-24.6/70.0" description="" tilt="13.08" url="{node52}" id="Point03"/>
-      <hotspot pan="-313" skinid="Redpin" title="" target="-4.1/12.2/70.0" description="" tilt="1.99" url="{node71}" id="Point04"/>
-      <hotspot pan="-255.1" skinid="Redpin" title="" target="" description="" tilt="-12.76" url="{node72}" id="Point05"/>
+      <hotspot pan="-243.18" skinid="Redpin" title="Газофракционирующая установка" target="" description="" tilt="2.46" url="{node70}" id="Point01"/>
+      <hotspot pan="-152.88" skinid="Redpin" title="Комплекс приема, ранения и отгрузки СУГ и СГК" target="" description="" tilt="9.41" url="{node64}" id="Point02"/>
+      <hotspot pan="-69.72" skinid="Redpin" title="Иркутский завод полимеров" target="24.5/-24.6/70.0" description="" tilt="13.08" url="{node52}" id="Point03"/>
+      <hotspot pan="-313" skinid="Redpin" title="Газофракционирующая установка" target="-4.1/12.2/70.0" description="" tilt="1.99" url="{node71}" id="Point04"/>
+      <hotspot pan="-255.1" skinid="Redpin" title="Газофракционирующая установка" target="" description="" tilt="-12.76" url="{node72}" id="Point05"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -2092,7 +2092,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-38.5" skinid="Airpin" title="" target="" description="" tilt="20.74" url="{node73}" id="Point01"/>
+      <hotspot pan="-38.5" skinid="Airpin" title="Газофракционирующая установка" target="" description="" tilt="20.74" url="{node73}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -2120,7 +2120,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-24.12" skinid="Airpin" title="" target="" description="" tilt="26.44" url="{node73}" id="Point01"/>
+      <hotspot pan="-24.12" skinid="Airpin" title="Газофракционирующая установка" target="" description="" tilt="26.44" url="{node73}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -2148,7 +2148,7 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-353.99" skinid="Airpin" title="" target="0.0/-0.2/70.0" description="" tilt="42.63" url="{node73}" id="Point01"/>
+      <hotspot pan="-353.99" skinid="Airpin" title="Газофракционирующая установка" target="0.0/-0.2/70.0" description="" tilt="42.63" url="{node73}" id="Point01"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -2176,10 +2176,10 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-73.05" skinid="Redpin" title="" target="" description="" tilt="-10.32" url="{node74}" id="Point01"/>
-      <hotspot pan="-42.35" skinid="Redpin" title="" target="100.2/-15.7/70.0" description="" tilt="-10.23" url="{node75}" id="Point02"/>
-      <hotspot pan="-105.81" skinid="Redpin" title="" target="81.9/-40.4/70.0" description="" tilt="-13.21" url="{node76}" id="Point03"/>
-      <hotspot pan="-360" skinid="Airpin" title="" target="0.0/-0.2/70.0" description="" tilt="14" url="{node51}" id="Point04"/>
+      <hotspot pan="-73.05" skinid="Redpin" title="Установка комплексной подготовки газа -6" target="" description="" tilt="-10.32" url="{node74}" id="Point01"/>
+      <hotspot pan="-42.35" skinid="Redpin" title="Установка комплексной подготовки газа -6" target="100.2/-15.7/70.0" description="" tilt="-10.23" url="{node75}" id="Point02"/>
+      <hotspot pan="-105.81" skinid="Redpin" title="Установка комплексной подготовки газа -6" target="81.9/-40.4/70.0" description="" tilt="-13.21" url="{node76}" id="Point03"/>
+      <hotspot pan="-360" skinid="Airpin" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="0.0/-0.2/70.0" description="" tilt="14" url="{node51}" id="Point04"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -2207,9 +2207,9 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-27.98" skinid="Airpin" title="" target="" description="" tilt="4.8" url="{node77}" id="Point01"/>
-      <hotspot pan="-81.67" skinid="Redpin" title="" target="-49.2/12.0/70.0" description="" tilt="-23.79" url="{node75}" id="Point02"/>
-      <hotspot pan="-332.95" skinid="Redpin" title="" target="-116.5/-8.4/70.0" description="" tilt="-14.83" url="{node76}" id="Point03"/>
+      <hotspot pan="-27.98" skinid="Airpin" title="Установка комплексной подготовки газа -6" target="" description="" tilt="4.8" url="{node77}" id="Point01"/>
+      <hotspot pan="-81.67" skinid="Redpin" title="Установка комплексной подготовки газа -6" target="-49.2/12.0/70.0" description="" tilt="-23.79" url="{node75}" id="Point02"/>
+      <hotspot pan="-332.95" skinid="Redpin" title="Установка комплексной подготовки газа -6" target="-116.5/-8.4/70.0" description="" tilt="-14.83" url="{node76}" id="Point03"/>
     </hotspots>
     <media/>
     <transition zoomin="0" softedge="0" blendcolor="0x000000" blendtime="1" type="crossdissolve" zoomoutpause="1" enabled="1" zoomfov="20" zoomout="0" zoomspeed="2"/>
@@ -2237,8 +2237,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-316.67" skinid="Airpin" title="" target="-13.6/-31.1/70.0" description="" tilt="32.96" url="{node74}" id="Point01"/>
-      <hotspot pan="-224.98" skinid="Airpin" title="" target="-18.4/-5.1/70.0" description="" tilt="25.73" url="{node77}" id="Point02"/>
+      <hotspot pan="-316.67" skinid="Airpin" title="Установка комплексной подготовки газа -6" target="-13.6/-31.1/70.0" description="" tilt="32.96" url="{node74}" id="Point01"/>
+      <hotspot pan="-224.98" skinid="Airpin" title="Установка комплексной подготовки газа -6" target="-18.4/-5.1/70.0" description="" tilt="25.73" url="{node77}" id="Point02"/>
     </hotspots>
     <media>
       <lensflare pan="-101.28" alpha="80" type="4" blinding="50" tilt="46.97" color="0xffffff" id="Lensflare01"/>
@@ -2268,8 +2268,8 @@
     <hotspots wordwrap="1" width="180" height="20">
       <label border="1" wordwrap="1" textalpha="1" bordercolor="0x000000" width="180" backgroundcolor="0xffffff" background="1" height="20" borderradius="1" enabled="1" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
       <polystyle handcursor="1" mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" borderalpha="1"/>
-      <hotspot pan="-177.4" skinid="Airpin" title="" target="-2.5/-24.8/70.0" description="" tilt="20.51" url="{node77}" id="Point01"/>
-      <hotspot pan="-238.22" skinid="Airpin" title="" target="1.4/-16.4/70.0" description="" tilt="19.8" url="{node74}" id="Point02"/>
+      <hotspot pan="-177.4" skinid="Airpin" title="Установка комплексной подготовки газа -6" target="-2.5/-24.8/70.0" description="" tilt="20.51" url="{node77}" id="Point01"/>
+      <hotspot pan="-238.22" skinid="Airpin" title="Установка комплексной подготовки газа -6" target="1.4/-16.4/70.0" description="" tilt="19.8" url="{node74}" id="Point02"/>
     </hotspots>
     <media>
       <lensflare pan="-284.31" alpha="80" type="4" blinding="50" tilt="45.99" color="0xffffff" id="Lensflare01"/>
