@@ -91,8 +91,9 @@
 }
 .s-title{
     font-family: 'Navigo';
-    font-weight: bold;
+    font-weight: normal;
     mix-blend-mode: overlay;
+    text-shadow: 0 0 1px black;
 }
 
 .menu-container {
