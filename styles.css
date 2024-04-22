@@ -102,13 +102,13 @@
     border-radius:76px;
 }
 
-#inf-wnd{
+#inf-wnd, #help-wnd{
 
     backdrop-filter: blur(15px); 
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255,255,255, 0.3);
     border-radius:20px;
-    padding:40px;
+    padding:0 40px 40px 40px;
     font-family:"Navigo", Navigo;
     font-size: 16px;
     line-height:20px;
@@ -117,7 +117,7 @@
     position: relative;
 }
 
-#inf-wnd:after{
+#inf-wnd:after, #help-wnd:after{
 content: ' ';
 cursor: pointer;
 display: block;
@@ -129,12 +129,12 @@ top: 20px;
 right: 20px;
 z-index: 2;
 }
-#inf-wnd:hover:after{
+#inf-wnd:hover:after, #help-wnd:hover:after{
     background: transparent url("images/up-button-hover.svg") no-repeat center center;
 
 }
 
-#inf-wnd h2{
+#inf-wnd h2, #help-wnd h2{
     color:#2b5e4a;
     font-weight:500;
     font-size: 28px;
