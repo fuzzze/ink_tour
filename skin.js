@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Tue Apr 23 04:34:25 2024
+// Generated Tue Apr 23 04:47:27 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "index");
@@ -238,13 +238,14 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='z-index: -1;';
-		hs+='height : 31px;';
-		hs+='left : 60px;';
+		hs+='height : 27px;';
+		hs+='left : 56px;';
 		hs+='position : absolute;';
 		hs+='top : 65px;';
 		hs+='visibility : inherit;';
 		hs+='width : 154px;';
 		hs+='pointer-events:auto;';
+		hs+='backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='0% 0%';
 		hs ='position:absolute;';
@@ -262,7 +263,7 @@ function pano2vrSkin(player,base) {
 		hs+='white-space: nowrap;';
 		hs+='padding: 12px 21px 12px 21px;';
 		hs+='overflow: hidden;';
-		hs+="border-radius:0 0 20px 20px; overflow: hidden; background: #7dbcca; color:white; padding: 12px 16px;";
+		hs+="border-radius:0 0 20px 20px; overflow: hidden; background: rgba(255,255,255,0.15); color:white; text-shadow: 0 0 1px black; padding: 12px 16px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); font-family:\"Navigo\", Navigo; font-weight: 400; font-size: 18px;";
 		els.setAttribute('style',hs);
 		me._subtitle.ggUpdateText=function() {
 			var hs=me.ggUserdata.information;
@@ -4418,10 +4419,11 @@ function pano2vrSkin(player,base) {
 		hs+='height : 56px;';
 		hs+='left : 55px;';
 		hs+='position : absolute;';
-		hs+='top : -1px;';
+		hs+='top : 0px;';
 		hs+='visibility : inherit;';
 		hs+='width : 55px;';
 		hs+='pointer-events:auto;';
+		hs+='backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._arrow_right.ggIsActive=function() {
