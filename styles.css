@@ -108,7 +108,7 @@
     border-radius:112px;
 }
 
-#inf-wnd, #help-wnd{
+#inf-wnd{
 
     backdrop-filter: blur(15px); 
     -webkit-backdrop-filter: blur(15px);
@@ -127,10 +127,10 @@
     -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255,255,255, 0.3);
     border-radius:20px;
-    padding:0 40px 40px 40px;
+    padding:0 60px 40px 60px;
     font-family:"Navigo", Navigo;
     font-size: 16px;
-    line-height:20px;
+    line-height:22px;
     background: white;
     padding: 36px;
     position: relative;
