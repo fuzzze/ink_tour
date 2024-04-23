@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Tue Apr 23 04:47:27 2024
+// Generated Tue Apr 23 12:08:22 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "index");
@@ -122,7 +122,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
-		hs+='height : 64px;';
+		hs+='height : 70px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
@@ -175,10 +175,10 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='height : 33px;';
-		hs+='left : 56px;';
-		hs+='opacity : 0.79999;';
+		hs+='opacity : 0.89999;';
 		hs+='position : absolute;';
-		hs+='top : 15px;';
+		hs+='right : 106px;';
+		hs+='top : 16px;';
 		hs+='visibility : inherit;';
 		hs+='width : 90%;';
 		hs+='pointer-events:auto;';
@@ -188,7 +188,7 @@ function pano2vrSkin(player,base) {
 		hs ='position:absolute;';
 		hs += 'box-sizing: border-box;';
 		hs+='cursor: default;';
-		hs+='left: 0px;';
+		hs+='right: 0px;';
 		hs+='top:  0px;';
 		hs+='width: 100%;';
 		hs+='height: 33px;';
@@ -196,7 +196,7 @@ function pano2vrSkin(player,base) {
 		hs+='color: rgba(255,255,255,1);';
 		hs+='font-size: 32px;';
 		hs+='font-weight: bold;';
-		hs+='text-align: left;';
+		hs+='text-align: right;';
 		hs+='white-space: pre-wrap;';
 		hs+='padding: 0px 1px 0px 1px;';
 		hs+='overflow: hidden;';
@@ -238,30 +238,30 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='z-index: -1;';
-		hs+='height : 27px;';
-		hs+='left : 56px;';
+		hs+='height : 25px;';
 		hs+='position : absolute;';
-		hs+='top : 65px;';
+		hs+='right : 104px;';
+		hs+='top : 72px;';
 		hs+='visibility : inherit;';
 		hs+='width : 154px;';
 		hs+='pointer-events:auto;';
 		hs+='backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);';
 		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='0% 0%';
+		el.style[domTransform + 'Origin']='100% 0%';
 		hs ='position:absolute;';
 		hs += 'box-sizing: border-box;';
 		hs+='cursor: default;';
-		hs+='left: 0px;';
+		hs+='right: 0px;';
 		hs+='top:  0px;';
 		hs+='width: auto;';
 		hs+='height: auto;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: rgba(255,255,255,1);';
 		hs+='font-size: 16px;';
-		hs+='font-weight: inherit;';
-		hs+='text-align: left;';
+		hs+='font-weight: 500;';
+		hs+='text-align: right;';
 		hs+='white-space: nowrap;';
-		hs+='padding: 12px 21px 12px 21px;';
+		hs+='padding: 10px 17px 10px 17px;';
 		hs+='overflow: hidden;';
 		hs+="border-radius:0 0 20px 20px; overflow: hidden; background: rgba(255,255,255,0.15); color:white; text-shadow: 0 0 1px black; padding: 12px 16px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); font-family:\"Navigo\", Navigo; font-weight: 400; font-size: 18px;";
 		els.setAttribute('style',hs);
@@ -4246,7 +4246,6 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 112px;';
 		hs+='pointer-events:none;';
-		hs+='backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius:112px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='0% 100%';
 		me._arrow_menu.ggIsActive=function() {
@@ -4286,7 +4285,6 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 112px;';
 		hs+='pointer-events:auto;';
-		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px); border-radius:120px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._navmenu_bg.ggIsActive=function() {
@@ -4947,7 +4945,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='bottom : 168px;';
-		hs+='height : 459px;';
+		hs+='height : 618px;';
 		hs+='left : 170px;';
 		hs+='position : absolute;';
 		hs+='visibility : hidden;';
@@ -8014,12 +8012,6 @@ function pano2vrSkin(player,base) {
 		me.skinKeyPressed = key;
 		if (!player.getLockedKeyboard()) {
 			switch(key) {
-				case 18:
-					me._helpwindow.ggVisible = !me._helpwindow.ggVisible;
-var flag=me._helpwindow.ggVisible;
-me._helpwindow.style[domTransition]='none';
-me._helpwindow.style.visibility=((flag)&&(Number(me._helpwindow.style.opacity)>0||!me._helpwindow.style.opacity))?'inherit':'hidden';
-					break;
 				case 70:
 					player.toggleFullscreen();
 					break;

@@ -102,6 +102,12 @@
     border-radius:76px;
 }
 
+#arrow_menu, .arrow_menus {
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:112px;
+}
+
 #inf-wnd, #help-wnd{
 
     backdrop-filter: blur(15px); 
@@ -129,7 +135,15 @@ top: 20px;
 right: 20px;
 z-index: 2;
 }
-#inf-wnd:hover:after, #help-wnd:hover:after{
+#help-wnd:after{
+    background:transparent url("images/help.svg") no-repeat center center;
+}
+#inf-wnd:hover:after{
+    background: transparent url("images/up-button-hover.svg") no-repeat center center;
+
+}
+
+#inf-wnd:hover:after{
     background: transparent url("images/up-button-hover.svg") no-repeat center center;
 
 }
@@ -145,6 +159,5 @@ z-index: 2;
 .subtitle{
     border-radius:20px;
     overflow: hidden;
-    background: #7dbcca;
-    color:white;
+
 }
