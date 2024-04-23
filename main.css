@@ -108,7 +108,7 @@
     border-radius:112px;
 }
 
-#inf-wnd, #help-wnd{
+#inf-wnd{
 
     backdrop-filter: blur(15px); 
     -webkit-backdrop-filter: blur(15px);
@@ -122,8 +122,21 @@
     padding: 36px;
     position: relative;
 }
+#help-wnd{
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255, 0.3);
+    border-radius:20px;
+    padding:0 60px 40px 60px;
+    font-family:"Navigo", Navigo;
+    font-size: 16px;
+    line-height:22px;
+    background: white;
+    padding: 36px;
+    position: relative;
+}
 
-#inf-wnd:after, #help-wnd:after{
+#inf-wnd:after{
 content: ' ';
 cursor: pointer;
 display: block;
@@ -135,9 +148,7 @@ top: 20px;
 right: 20px;
 z-index: 2;
 }
-#help-wnd:after{
-    background:transparent url("images/help.svg") no-repeat center center;
-}
+
 #inf-wnd:hover:after{
     background: transparent url("images/up-button-hover.svg") no-repeat center center;
 

@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Tue Apr 23 15:38:47 2024
+// Generated Tue Apr 23 17:16:50 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "1");
@@ -2984,10 +2984,10 @@ function pano2vrSkin(player,base) {
 			return player.getCurrentNode();
 		}
 		me._map_button.onclick=function (e) {
-			me._helpwindow.ggVisible = !me._helpwindow.ggVisible;
-			var flag=me._helpwindow.ggVisible;
-			me._helpwindow.style[domTransition]='none';
-			me._helpwindow.style.visibility=((flag)&&(Number(me._helpwindow.style.opacity)>0||!me._helpwindow.style.opacity))?'inherit':'hidden';
+			me._help.ggVisible = !me._help.ggVisible;
+			var flag=me._help.ggVisible;
+			me._help.style[domTransition]='none';
+			me._help.style.visibility=((flag)&&(Number(me._help.style.opacity)>0||!me._help.style.opacity))?'inherit':'hidden';
 		}
 		me._map_button.onmouseover=function (e) {
 			me._map_button__img.style.visibility='hidden';
@@ -5022,22 +5022,139 @@ function pano2vrSkin(player,base) {
 		me._abouttext.ggUpdatePosition=function (useTransition) {
 		}
 		me.divSkin.appendChild(me._abouttext);
+		el=me._help=document.createElement('div');
+		el.ggId="help";
+		el.ggDx=0;
+		el.ggDy=0;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=false;
+		el.className="ggskin ggskin_container ";
+		el.ggType='container';
+		hs ='';
+		hs+='height : 100%;';
+		hs+='left : -10000px;';
+		hs+='position : absolute;';
+		hs+='top : -10000px;';
+		hs+='visibility : hidden;';
+		hs+='width : 100%;';
+		hs+='pointer-events:none;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._help.ggIsActive=function() {
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			return player.getCurrentNode();
+		}
+		me._help.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				(player.getVariableValue('titleShow') == true)
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else if (
+				(player.getVariableValue('titleShow') == false)
+			)
+			{
+				newLogicStateVisible = 1;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._help.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._help.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._help.style[domTransition]='';
+				if (me._help.ggCurrentLogicStateVisible == 0) {
+					me._help.style.visibility=(Number(me._help.style.opacity)>0||!me._help.style.opacity)?'inherit':'hidden';
+					me._help.ggVisible=true;
+				}
+				else if (me._help.ggCurrentLogicStateVisible == 1) {
+					me._help.style.visibility="hidden";
+					me._help.ggVisible=false;
+				}
+				else {
+					me._help.style.visibility="hidden";
+					me._help.ggVisible=false;
+				}
+			}
+		}
+		me._help.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth;
+					this.style.left=((this.ggDx * pw)/100.0 + pw/2 - w/2) + 'px';
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=((this.ggDy * ph)/100.0 + ph/2 - h/2) + 'px';
+			}
+		}
+		el=me._helpback=document.createElement('div');
+		el.ggId="help-back";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
+		hs ='';
+		hs+='background : rgba(0,0,0,0.588235);';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : default;';
+		hs+='height : 100%;';
+		hs+='left : 0px;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : inherit;';
+		hs+='width : 100%;';
+		hs+='pointer-events:auto;';
+		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._helpback.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._helpback.onclick=function (e) {
+			me._help.style[domTransition]='none';
+			me._help.style.visibility='hidden';
+			me._help.ggVisible=false;
+		}
+		me._helpback.ggUpdatePosition=function (useTransition) {
+		}
+		me._help.appendChild(me._helpback);
 		el=me._helpwindow=document.createElement('div');
 		els=me._helpwindow__text=document.createElement('div');
 		el.className='ggskin ggskin_textdiv';
 		el.ggTextDiv=els;
 		el.ggId="help-window";
+		el.ggDx=0;
+		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=false;
+		el.ggVisible=true;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='bottom : 168px;';
-		hs+='height : 618px;';
-		hs+='left : 170px;';
+		hs+='z-index: 4;';
+		hs+='height : 60%;';
+		hs+='left : -10000px;';
 		hs+='position : absolute;';
-		hs+='visibility : hidden;';
-		hs+='width : 940px;';
+		hs+='top : -10000px;';
+		hs+='visibility : inherit;';
+		hs+='width : 60%;';
 		hs+='pointer-events:auto;';
 		hs+='overflow:hidden;';
 		el.setAttribute('style',hs);
@@ -5046,9 +5163,9 @@ function pano2vrSkin(player,base) {
 		hs += 'box-sizing: border-box;';
 		hs+='cursor: default;';
 		hs+='left: 0px;';
-		hs+='bottom:  0px;';
-		hs+='width: 940px;';
-		hs+='height: auto;';
+		hs+='top:  0px;';
+		hs+='width: 100%;';
+		hs+='height: 100%;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: #000000;';
 		hs+='text-align: left;';
@@ -5056,12 +5173,18 @@ function pano2vrSkin(player,base) {
 		hs+='padding: 0px 1px 0px 1px;';
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
-		els.innerHTML="<div id=\"help-wnd\"><br\/><h2>\u041f\u0430\u043d\u043e\u0440\u0430\u043c\u043d\u044b\u0439 \u0442\u0443\u0440 \u0433\u0440\u0443\u043f\u043f\u044b \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0439 \u0418\u041d\u041a<\/h2><br\/><p>\u0413\u0440\u0443\u043f\u043f\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0439 \u0418\u041d\u041a \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442\u0441\u044f \u0433\u0435\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u0438\u0437\u0443\u0447\u0435\u043d\u0438\u0435\u043c, \u0440\u0430\u0437\u0432\u0435\u0434\u043a\u043e\u0439, \u0434\u043e\u0431\u044b\u0447\u0435\u0439 \u0438 \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u043e\u0439 \u0443\u0433\u043b\u0435\u0432\u043e\u0434\u043e\u0440\u043e\u0434\u043d\u043e\u0433\u043e \u0441\u044b\u0440\u044c\u044f \u043d\u0430 53 \u0443\u0447\u0430\u0441\u0442\u043a\u0430\u0445 \u043d\u0435\u0434\u0440 \u0432 \u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u0439 \u0421\u0438\u0431\u0438\u0440\u0438 - \u0418\u0440\u043a\u0443\u0442\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438, \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0435 \u0421\u0430\u0445\u0430 (\u042f\u043a\u0443\u0442\u0438\u044f) \u0438 \u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a\u043e\u043c \u043a\u0440\u0430\u0435. \u0412 \u043f\u0440\u0435\u0434\u0435\u043b\u0430\u0445 \u0443\u0447\u0430\u0441\u0442\u043a\u043e\u0432 \u043d\u0435\u0434\u0440 \u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u044b 25 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0439 \u0443\u0433\u043b\u0435\u0432\u043e\u0434\u043e\u0440\u043e\u0434\u043d\u043e\u0433\u043e \u0441\u044b\u0440\u044c\u044f. <\/p><br\/><\/div>";
+		els.innerHTML="<div id=\"help-wnd\"><br\/><h2>\u041f\u0430\u043d\u043e\u0440\u0430\u043c\u043d\u044b\u0439 \u0442\u0443\u0440 \u0433\u0440\u0443\u043f\u043f\u044b \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0439 \u0418\u041d\u041a<\/h2><br\/><p>\u0413\u0440\u0443\u043f\u043f\u0430 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0439 \u0418\u041d\u041a \u0437\u0430\u043d\u0438\u043c\u0430\u0435\u0442\u0441\u044f \u0433\u0435\u043e\u043b\u043e\u0433\u0438\u0447\u0435\u0441\u043a\u0438\u043c \u0438\u0437\u0443\u0447\u0435\u043d\u0438\u0435\u043c, \u0440\u0430\u0437\u0432\u0435\u0434\u043a\u043e\u0439, \u0434\u043e\u0431\u044b\u0447\u0435\u0439 \u0438 \u043f\u0435\u0440\u0435\u0440\u0430\u0431\u043e\u0442\u043a\u043e\u0439 \u0443\u0433\u043b\u0435\u0432\u043e\u0434\u043e\u0440\u043e\u0434\u043d\u043e\u0433\u043e \u0441\u044b\u0440\u044c\u044f \u043d\u0430 53 \u0443\u0447\u0430\u0441\u0442\u043a\u0430\u0445 \u043d\u0435\u0434\u0440 \u0432 \u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u0439 \u0421\u0438\u0431\u0438\u0440\u0438 - \u0418\u0440\u043a\u0443\u0442\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438, \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0435 \u0421\u0430\u0445\u0430 (\u042f\u043a\u0443\u0442\u0438\u044f) \u0438 \u041a\u0440\u0430\u0441\u043d\u043e\u044f\u0440\u0441\u043a\u043e\u043c \u043a\u0440\u0430\u0435. \u0412 \u043f\u0440\u0435\u0434\u0435\u043b\u0430\u0445 \u0443\u0447\u0430\u0441\u0442\u043a\u043e\u0432 \u043d\u0435\u0434\u0440 \u0440\u0430\u0441\u043f\u043e\u043b\u043e\u0436\u0435\u043d\u044b 25 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0439 \u0443\u0433\u043b\u0435\u0432\u043e\u0434\u043e\u0440\u043e\u0434\u043d\u043e\u0433\u043e \u0441\u044b\u0440\u044c\u044f. <\/p><p><br\/><br\/>3D-\u0442\u0443\u0440 \u2013 \u044d\u0442\u043e \u0441\u043f\u043e\u0441\u043e\u0431 \u043f\u043e\u0437\u043d\u0430\u043a\u043e\u043c\u0438\u0442\u044c \u0448\u0438\u0440\u043e\u043a\u0443\u044e \u0430\u0443\u0434\u0438\u0442\u043e\u0440\u0438\u044e \u2013 \u043e\u0442 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u043a\u043e\u0432 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u0434\u043e \u0448\u043a\u043e\u043b\u044c\u043d\u0438\u043a\u043e\u0432 \u0438 \u0441\u0442\u0443\u0434\u0435\u043d\u0442\u043e\u0432 \u2013 \u0441 \u043f\u0440\u043e\u0438\u0437\u0432\u043e\u0434\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u043c\u0438 \u043e\u0431\u044a\u0435\u043a\u0442\u0430\u043c\u0438 \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438. \u0412 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u0432\u043e\u0448\u043b\u0438 77 \u043f\u0430\u043d\u043e\u0440\u0430\u043c \u0432 \u0447\u0435\u0442\u044b\u0440\u0435\u0445 \u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445 \u043b\u043e\u043a\u0430\u0446\u0438\u044f\u0445 \u0418\u041d\u041a \u043d\u0430 \u0441\u0435\u0432\u0435\u0440\u0435 \u0418\u0440\u043a\u0443\u0442\u0441\u043a\u043e\u0439 \u043e\u0431\u043b\u0430\u0441\u0442\u0438: \u042f\u0440\u0430\u043a\u0442\u0438\u043d\u0441\u043a\u043e\u043c, \u0418\u0447\u0451\u0434\u0438\u043d\u0441\u043a\u043e\u043c, \u041c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u043e\u043c \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f\u0445 \u0438 \u0433\u043e\u0440\u043e\u0434\u0435 \u0423\u0441\u0442\u044c-\u041a\u0443\u0442\u0435. <br\/><\/p><p><br\/>\u041f\u0440\u0438\u0433\u043b\u0430\u0448\u0430\u0435\u043c \u0432\u0430\u0441 \u0432 \u0432\u0438\u0440\u0442\u0443\u0430\u043b\u044c\u043d\u043e\u0435 \u043f\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043f\u043e \u0438\u043d\u0434\u0443\u0441\u0442\u0440\u0438\u0430\u043b\u044c\u043d\u044b\u043c \u043e\u0431\u044a\u0435\u043a\u0442\u0430\u043c \u0432 \u0441\u0430\u043c\u043e\u043c \u0441\u0435\u0440\u0434\u0446\u0435 \u0412\u043e\u0441\u0442\u043e\u0447\u043d\u043e\u0439 \u0421\u0438\u0431\u0438\u0440\u0438!<br\/><\/p><p><br\/>\u0414\u043b\u044f \u043d\u0430\u0432\u0438\u0433\u0430\u0446\u0438\u0438 \u043f\u043e \u043c\u0430\u0440\u0448\u0440\u0443\u0442\u0443 \u043c\u043e\u0436\u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u044c \u043f\u0430\u043d\u0435\u043b\u044c \u0443\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0441\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043c\u0435\u0442\u043a\u0438 \u0432\u043d\u0443\u0442\u0440\u0438 \u043f\u0430\u043d\u043e\u0440\u0430\u043c: <br\/><br\/><\/p><br\/><\/div>";
 		el.appendChild(els);
 		me._helpwindow.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
 			return false;
 		}
 		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
 			return player.getCurrentNode();
 		}
 		me._helpwindow.logicBlock_scaling = function() {
@@ -5091,14 +5214,24 @@ function pano2vrSkin(player,base) {
 				}
 			}
 		}
-		me._helpwindow.onclick=function (e) {
-			me._helpwindow.style[domTransition]='none';
-			me._helpwindow.style.visibility='hidden';
-			me._helpwindow.ggVisible=false;
-		}
 		me._helpwindow.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth;
+					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+				var ph=this.parentNode.clientHeight;
+				var h=this.offsetHeight;
+					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
+			}
 		}
-		me.divSkin.appendChild(me._helpwindow);
+		me._help.appendChild(me._helpwindow);
+		me.divSkin.appendChild(me._help);
 		el=me._cover=document.createElement('div');
 		el.ggId="cover";
 		el.ggDx=0;
@@ -6710,7 +6843,7 @@ function pano2vrSkin(player,base) {
 		el.ggType='text';
 		hs ='';
 		hs+='bottom : 44px;';
-		hs+='height : 26px;';
+		hs+='height : 20px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0;';
 		hs+='position : absolute;';
@@ -8278,10 +8411,12 @@ function pano2vrSkin(player,base) {
 	me._thumbnail_menu1.logicBlock_visible();
 	me._thumbnail_menu0.logicBlock_visible();
 	me._abouttext.logicBlock_visible();
+	me._help.logicBlock_visible();
 	me._gyro.logicBlock_visible();
 	player.addListener('sizechanged', function(args) { me._top_menu.logicBlock_scaling();me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_scaling();me._toggle2.logicBlock_scaling();me._abouttext.logicBlock_scaling();me._helpwindow.logicBlock_scaling();me._container_1.logicBlock_scaling(); });
-	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._thumbnail_menu4.logicBlock_visible();me._thumbnail_menu3.logicBlock_visible();me._thumbnail_menu2.logicBlock_visible();me._thumbnail_menu1.logicBlock_visible();me._thumbnail_menu0.logicBlock_visible();me._abouttext.logicBlock_visible(); });
+	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._thumbnail_menu4.logicBlock_visible();me._thumbnail_menu3.logicBlock_visible();me._thumbnail_menu2.logicBlock_visible();me._thumbnail_menu1.logicBlock_visible();me._thumbnail_menu0.logicBlock_visible();me._abouttext.logicBlock_visible();me._help.logicBlock_visible(); });
 	player.addListener('configloaded', function(args) { me._gyro.logicBlock_visible(); });
+	player.addListener('varchanged_titleShow', function(args) { me._help.logicBlock_visible(); });
 	player.addListener('changenodeid', function(args) { me._thumbnail_cloner_4.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_3.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_2.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_1.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_0.callChildLogicBlocks_changenodeid(); });
 	player.addListener('mouseover', function(args) { me._thumbnail_cloner_4.callChildLogicBlocks_mouseover();me._thumbnail_cloner_3.callChildLogicBlocks_mouseover();me._thumbnail_cloner_2.callChildLogicBlocks_mouseover();me._thumbnail_cloner_1.callChildLogicBlocks_mouseover();me._thumbnail_cloner_0.callChildLogicBlocks_mouseover(); });
 	player.addListener('changenodeid', function(args) { me._thumbnail_cloner_4.callChildLogicBlocks_active();me._thumbnail_cloner_3.callChildLogicBlocks_active();me._thumbnail_cloner_2.callChildLogicBlocks_active();me._thumbnail_cloner_1.callChildLogicBlocks_active();me._thumbnail_cloner_0.callChildLogicBlocks_active(); });
