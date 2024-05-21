@@ -1,11 +1,12 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Tue May 21 15:11:22 2024
+// Generated Tue May 21 15:51:03 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "1");
 	player.addVariable('titleShow', 2, false);
+	player.addVariable('coverShow', 2, true);
 	var me=this;
 	var skin=this;
 	var flag=false;
@@ -3369,6 +3370,22 @@ function pano2vrSkin(player,base) {
 			me._linkwindow.style[domTransition]='none';
 			me._linkwindow.style.visibility=(Number(me._linkwindow.style.opacity)>0||!me._linkwindow.style.opacity)?'inherit':'hidden';
 			me._linkwindow.ggVisible=true;
+			me._gyro.ggText="https:\/\/fuzzze.github.io\/ink_tour\/index.html#"+player.getCurrentNode()+","+player.getPanN().toFixed(1)+","+player.getTilt().toFixed(1)+","+player.getFov().toFixed(1)+",4";
+			me._gyro.ggTextDiv.innerHTML=me._gyro.ggText;
+			if (me._gyro.ggUpdateText) {
+				me._gyro.ggUpdateText=function() {
+					var hs="https:\/\/fuzzze.github.io\/ink_tour\/index.html#"+player.getCurrentNode()+","+player.getPanN().toFixed(1)+","+player.getTilt().toFixed(1)+","+player.getFov().toFixed(1)+",4";
+					if (hs!=this.ggText) {
+						this.ggText=hs;
+						this.ggTextDiv.innerHTML=hs;
+						if (this.ggUpdatePosition) this.ggUpdatePosition();
+					}
+				}
+			}
+			if (me._gyro.ggUpdatePosition) {
+				me._gyro.ggUpdatePosition();
+			}
+			me._gyro.ggTextDiv.scrollTop = 0;
 		}
 		me._gyro.onmouseover=function (e) {
 			me._gyro__img.style.visibility='hidden';
@@ -5378,6 +5395,40 @@ function pano2vrSkin(player,base) {
 		}
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
+		}
+		me._cover.logicBlock_visible = function() {
+			var newLogicStateVisible;
+			if (
+				(player.getVariableValue('coverShow') == false)
+			)
+			{
+				newLogicStateVisible = 0;
+			}
+			else if (
+				(player.getVariableValue('coverShow') == true)
+			)
+			{
+				newLogicStateVisible = 1;
+			}
+			else {
+				newLogicStateVisible = -1;
+			}
+			if (me._cover.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._cover.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._cover.style[domTransition]='';
+				if (me._cover.ggCurrentLogicStateVisible == 0) {
+					me._cover.style.visibility="hidden";
+					me._cover.ggVisible=false;
+				}
+				else if (me._cover.ggCurrentLogicStateVisible == 1) {
+					me._cover.style.visibility=(Number(me._cover.style.opacity)>0||!me._cover.style.opacity)?'inherit':'hidden';
+					me._cover.ggVisible=true;
+				}
+				else {
+					me._cover.style.visibility=(Number(me._cover.style.opacity)>0||!me._cover.style.opacity)?'inherit':'hidden';
+					me._cover.ggVisible=true;
+				}
+			}
 		}
 		me._cover.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
@@ -8536,11 +8587,13 @@ function pano2vrSkin(player,base) {
 	me._thumbnail_menu0.logicBlock_visible();
 	me._abouttext.logicBlock_visible();
 	me._help.logicBlock_visible();
+	me._cover.logicBlock_visible();
 	me._gyro.logicBlock_visible();
 	player.addListener('sizechanged', function(args) { me._top_menu.logicBlock_scaling();me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_scaling();me._toggle2.logicBlock_scaling();me._abouttext.logicBlock_scaling();me._linkwindow.logicBlock_scaling();me._container_1.logicBlock_scaling(); });
-	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._thumbnail_menu4.logicBlock_visible();me._thumbnail_menu3.logicBlock_visible();me._thumbnail_menu2.logicBlock_visible();me._thumbnail_menu1.logicBlock_visible();me._thumbnail_menu0.logicBlock_visible();me._abouttext.logicBlock_visible();me._help.logicBlock_visible(); });
+	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._thumbnail_menu4.logicBlock_visible();me._thumbnail_menu3.logicBlock_visible();me._thumbnail_menu2.logicBlock_visible();me._thumbnail_menu1.logicBlock_visible();me._thumbnail_menu0.logicBlock_visible();me._abouttext.logicBlock_visible();me._help.logicBlock_visible();me._cover.logicBlock_visible(); });
 	player.addListener('configloaded', function(args) { me._gyro.logicBlock_visible(); });
 	player.addListener('varchanged_titleShow', function(args) { me._help.logicBlock_visible(); });
+	player.addListener('varchanged_coverShow', function(args) { me._cover.logicBlock_visible(); });
 	player.addListener('changenodeid', function(args) { me._thumbnail_cloner_4.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_3.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_2.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_1.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_0.callChildLogicBlocks_changenodeid(); });
 	player.addListener('mouseover', function(args) { me._thumbnail_cloner_4.callChildLogicBlocks_mouseover();me._thumbnail_cloner_3.callChildLogicBlocks_mouseover();me._thumbnail_cloner_2.callChildLogicBlocks_mouseover();me._thumbnail_cloner_1.callChildLogicBlocks_mouseover();me._thumbnail_cloner_0.callChildLogicBlocks_mouseover(); });
 	player.addListener('changenodeid', function(args) { me._thumbnail_cloner_4.callChildLogicBlocks_active();me._thumbnail_cloner_3.callChildLogicBlocks_active();me._thumbnail_cloner_2.callChildLogicBlocks_active();me._thumbnail_cloner_1.callChildLogicBlocks_active();me._thumbnail_cloner_0.callChildLogicBlocks_active(); });
@@ -8571,6 +8624,22 @@ me._cover.style.visibility=me._cover.ggVisible?'inherit':'hidden';
 					me._linkwindow.style[domTransition]='none';
 me._linkwindow.style.visibility=(Number(me._linkwindow.style.opacity)>0||!me._linkwindow.style.opacity)?'inherit':'hidden';
 me._linkwindow.ggVisible=true;
+me._gyro.ggText="https:\/\/fuzzze.github.io\/ink_tour\/index.html#"+player.getCurrentNode()+","+player.getPanN().toFixed(1)+","+player.getTilt().toFixed(1)+","+player.getFov().toFixed(1)+",4";
+me._gyro.ggTextDiv.innerHTML=me._gyro.ggText;
+if (me._gyro.ggUpdateText) {
+	me._gyro.ggUpdateText=function() {
+		var hs="https:\/\/fuzzze.github.io\/ink_tour\/index.html#"+player.getCurrentNode()+","+player.getPanN().toFixed(1)+","+player.getTilt().toFixed(1)+","+player.getFov().toFixed(1)+",4";
+		if (hs!=this.ggText) {
+			this.ggText=hs;
+			this.ggTextDiv.innerHTML=hs;
+			if (this.ggUpdatePosition) this.ggUpdatePosition();
+		}
+	}
+}
+if (me._gyro.ggUpdatePosition) {
+	me._gyro.ggUpdatePosition();
+}
+me._gyro.ggTextDiv.scrollTop = 0;
 					break;
 				case 82:
 					player.toggleAutorotate();
