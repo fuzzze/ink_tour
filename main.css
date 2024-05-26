@@ -143,7 +143,7 @@
     padding:0 20px 20px 20px;
 }
 
-.inf-wnd:after{
+/* .inf-wnd:after{
 content: ' ';
 cursor: pointer;
 display: block;
@@ -159,7 +159,7 @@ z-index: 2;
 .inf-wnd:hover:after{
     background: transparent url("images/up-button-hover.svg") no-repeat center center;
 
-}
+} */
 
 
 .inf-wnd h2, #help-wnd h2{
@@ -168,6 +168,8 @@ z-index: 2;
     font-size: 28px;
     line-height: 36px;
     font-family:"Navigo", Navigo;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .subtitle{

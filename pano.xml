@@ -168,7 +168,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="2_0301|Ярактинское месторождение" customnodeid="p2_0301" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 20:05" comment="Ярактинское месторождение" title="Вахтовый жилой комплекс" source="" latitude="57.988078" longitude="106.791534"/>
+    <userdata tags="2_0301|Ярактинское месторождение" customnodeid="p2_0301" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 20:05" comment="Ярактинское месторождение" title="Вахтовый жилой комплекс" source="" latitude="57.988078" longitude="106.791534"/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -266,7 +266,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="3-2|Ярактинское месторождение" customnodeid="p3_2" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="08.08.2023 10:04" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="" longitude=""/>
+    <userdata tags="3-2|Ярактинское месторождение" customnodeid="p3_2" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="08.08.2023 10:04" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -292,7 +292,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="3-3|Ярактинское месторождение" customnodeid="p3_3" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 18:08" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="57.973393" longitude="106.802650"/>
+    <userdata tags="3-3|Ярактинское месторождение" customnodeid="p3_3" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 18:08" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="57.973393" longitude="106.802650"/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -323,7 +323,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="3-4|Ярактинское месторождение" customnodeid="p3_4" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 17:28" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="" longitude=""/>
+    <userdata tags="3-4|Ярактинское месторождение" customnodeid="p3_4" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 17:28" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -351,7 +351,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="3-5|Ярактинское месторождение" customnodeid="p3_5" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 17:37" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="" longitude=""/>
+    <userdata tags="3-5|Ярактинское месторождение" customnodeid="p3_5" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 17:37" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -378,7 +378,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="3-6|Ярактинское месторождение" customnodeid="p3_6" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 17:49" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="" longitude=""/>
+    <userdata tags="3-6|Ярактинское месторождение" customnodeid="p3_6" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 17:49" comment="Ярактинское месторождение" title="Дожимная компрессорная станция" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -463,7 +463,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="5-2|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 15:40" comment="Ярактинское месторождение" title="Установка подготовки нефти" source="" latitude="" longitude=""/>
+    <userdata tags="5-2|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 15:40" comment="Ярактинское месторождение" title="Установка подготовки нефти" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -491,7 +491,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="5-3|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 14:56" comment="Ярактинское месторождение" title="Установка подготовки нефти" source="" latitude="" longitude=""/>
+    <userdata tags="5-3|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 14:56" comment="Ярактинское месторождение" title="Установка подготовки нефти" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -545,7 +545,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="6-1|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 18:38" comment="Ярактинское месторождение" title="Установка подготовки дизельного топлива" source="" latitude="" longitude=""/>
+    <userdata tags="6-1|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 18:38" comment="Ярактинское месторождение" title="Установка подготовки дизельного топлива" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -573,7 +573,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="6-2|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 18:50" comment="Ярактинское месторождение" title="Установка подготовки дизельного топлива" source="" latitude="" longitude=""/>
+    <userdata tags="6-2|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 18:50" comment="Ярактинское месторождение" title="Установка подготовки дизельного топлива" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -692,7 +692,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="8-6052|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="07.08.2023 15:04" comment="Ярактинское месторождение" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" source="" latitude="" longitude=""/>
+    <userdata tags="8-6052|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="07.08.2023 15:04" comment="Ярактинское месторождение" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -721,7 +721,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="8-6128|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="07.08.2023 15:22" comment="Ярактинское месторождение" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" source="" latitude="" longitude=""/>
+    <userdata tags="8-6128|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="07.08.2023 15:22" comment="Ярактинское месторождение" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -750,7 +750,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="8-7149|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="08.08.2023 13:20" comment="Ярактинское месторождение" title="Дожимная компрессорная станция (ДКС)" source="" latitude="" longitude=""/>
+    <userdata tags="8-7149|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="08.08.2023 13:20" comment="Ярактинское месторождение" title="Дожимная компрессорная станция (ДКС)" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -887,7 +887,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="10-2|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 16:35" comment="Ярактинское месторождение" title="Установка подготовки сернистой нефти и газа" source="" latitude="" longitude=""/>
+    <userdata tags="10-2|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 16:35" comment="Ярактинское месторождение" title="Установка подготовки сернистой нефти и газа" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -944,7 +944,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="11-1|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 12:17" comment="Ярактинское месторождение" title="Энергокомплекс 72 МВт" source="" latitude="" longitude=""/>
+    <userdata tags="11-1|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 12:17" comment="Ярактинское месторождение" title="Энергокомплекс 72 МВт" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -972,7 +972,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="11-2|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 12:27" comment="Ярактинское месторождение" title="Энергокомплекс 72 МВт" source="" latitude="" longitude=""/>
+    <userdata tags="11-2|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 12:27" comment="Ярактинское месторождение" title="Энергокомплекс 72 МВт" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -999,7 +999,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="11-3|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 12:41" comment="Ярактинское месторождение" title="Энергокомплекс 72 МВт" source="" latitude="" longitude=""/>
+    <userdata tags="11-3|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 12:41" comment="Ярактинское месторождение" title="Энергокомплекс 72 МВт" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1059,7 +1059,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="12-1|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="07.08.2023 16:02" comment="Ярактинское месторождение" title="Установка по производству сжиженного гелия" source="" latitude="" longitude=""/>
+    <userdata tags="12-1|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="07.08.2023 16:02" comment="Ярактинское месторождение" title="Установка по производству сжиженного гелия" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1087,7 +1087,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="12-2|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="07.08.2023 16:28" comment="Ярактинское месторождение" title="Установка по производству сжиженного гелия" source="" latitude="" longitude=""/>
+    <userdata tags="12-2|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="07.08.2023 16:28" comment="Ярактинское месторождение" title="Установка по производству сжиженного гелия" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1116,7 +1116,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="13|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 10:06" comment="Ярактинское месторождение" title="Скважина для закачки газа в пласт" source="" latitude="58.150631" longitude="106.530852"/>
+    <userdata tags="13|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 10:06" comment="Ярактинское месторождение" title="Скважина для закачки газа в пласт" source="" latitude="58.150631" longitude="106.530852"/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1144,7 +1144,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="13-1|Ярактинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 09:49" comment="Ярактинское месторождение" title="Скважина для закачки газа в пласт" source="" latitude="" longitude=""/>
+    <userdata tags="13-1|Ярактинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ярактинское месторождение" datetime="09.08.2023 09:49" comment="Ярактинское месторождение" title="Скважина для закачки газа в пласт" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1258,7 +1258,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="16-1|Ичёдинское месторождение" customnodeid="" description="+" author="" copyright="" info="Ичёдинское месторождение" datetime="08.08.2023 17:47" comment="Ичёдинское месторождение" title="Энергокомплекс" source="" latitude="" longitude=""/>
+    <userdata tags="16-1|Ичёдинское месторождение" customnodeid="" description=" " author="" copyright="" info="Ичёдинское месторождение" datetime="08.08.2023 17:47" comment="Ичёдинское месторождение" title="Энергокомплекс" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1322,7 +1322,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="17-1|Марковское месторождение" customnodeid="" description="+" author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 13:25" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="57.530721" longitude="107.039131"/>
+    <userdata tags="17-1|Марковское месторождение" customnodeid="" description=" " author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 13:25" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="57.530721" longitude="107.039131"/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1351,7 +1351,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="17-2|Марковское месторождение" customnodeid="" description="+" author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 13:03" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="" longitude=""/>
+    <userdata tags="17-2|Марковское месторождение" customnodeid="" description=" " author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 13:03" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1379,7 +1379,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="17-3|Марковское месторождение" customnodeid="" description="+" author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 13:14" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="" longitude=""/>
+    <userdata tags="17-3|Марковское месторождение" customnodeid="" description=" " author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 13:14" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1406,7 +1406,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="17-4|Марковское месторождение" customnodeid="" description="+" author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 11:22" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="" longitude=""/>
+    <userdata tags="17-4|Марковское месторождение" customnodeid="" description=" " author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 11:22" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1434,7 +1434,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="17-5|Марковское месторождение" customnodeid="" description="+" author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 11:44" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="" longitude=""/>
+    <userdata tags="17-5|Марковское месторождение" customnodeid="" description=" " author="" copyright="" info="Марковское месторождение" datetime="10.08.2023 11:44" comment="Марковское месторождение" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1591,7 +1591,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="18-4|г. Усть-Кут" customnodeid="" description="+" author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 17:19" comment="г. Усть-Кут" title="Насосная технической и противопожарной воды  " source="" latitude="" longitude=""/>
+    <userdata tags="18-4|г. Усть-Кут" customnodeid="" description=" " author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 17:19" comment="г. Усть-Кут" title="Насосная технической и противопожарной воды  " source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1618,7 +1618,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="18-5|г. Усть-Кут" customnodeid="" description="+" author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 17:21" comment="г. Усть-Кут" title="Комплекс очистных сооружений" source="" latitude="" longitude=""/>
+    <userdata tags="18-5|г. Усть-Кут" customnodeid="" description=" " author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 17:21" comment="г. Усть-Кут" title="Комплекс очистных сооружений" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1861,7 +1861,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="19-1|г. Усть-Кут" customnodeid="" description="+" author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 12:01" comment="г. Усть-Кут" title="Комплекс приема, ранения и отгрузки СУГ и СГК" source="" latitude="56.821121" longitude="106.017906"/>
+    <userdata tags="19-1|г. Усть-Кут" customnodeid="" description=" " author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 12:01" comment="г. Усть-Кут" title="Комплекс приема, ранения и отгрузки СУГ и СГК" source="" latitude="56.821121" longitude="106.017906"/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1893,7 +1893,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="19-0144|г. Усть-Кут" customnodeid="" description="+" author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 10:32" comment="г. Усть-Кут" title="Комплекс приема, ранения и отгрузки СУГ и СГК" source="" latitude="" longitude=""/>
+    <userdata tags="19-0144|г. Усть-Кут" customnodeid="" description=" " author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 10:32" comment="г. Усть-Кут" title="Комплекс приема, ранения и отгрузки СУГ и СГК" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1920,7 +1920,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="19-0232|г. Усть-Кут" customnodeid="" description="+" author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 10:51" comment="г. Усть-Кут" title="Комплекс приема,  хранения и отгрузки СУГ и СГК" source="" latitude="" longitude=""/>
+    <userdata tags="19-0232|г. Усть-Кут" customnodeid="" description=" " author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 10:51" comment="г. Усть-Кут" title="Комплекс приема,  хранения и отгрузки СУГ и СГК" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -1978,7 +1978,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="19-0412|г. Усть-Кут" customnodeid="" description="+" author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 11:34" comment="г. Усть-Кут" title="Узел приема и хранения газового конденсата (УПХиГК) " source="" latitude="" longitude=""/>
+    <userdata tags="19-0412|г. Усть-Кут" customnodeid="" description=" " author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 11:34" comment="г. Усть-Кут" title="Узел приема и хранения газового конденсата (УПХиГК) " source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -2038,7 +2038,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="20-1|г. Усть-Кут" customnodeid="" description="+" author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 13:28" comment="г. Усть-Кут" title="Газофракционирующая установка" source="" latitude="56.825520" longitude="106.009839"/>
+    <userdata tags="20-1|г. Усть-Кут" customnodeid="" description=" " author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 13:28" comment="г. Усть-Кут" title="Газофракционирующая установка" source="" latitude="56.825520" longitude="106.009839"/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -2065,7 +2065,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="20-2|г. Усть-Кут" customnodeid="" description="+" author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 12:56" comment="г. Усть-Кут" title="Газофракционирующая установка" source="" latitude="" longitude=""/>
+    <userdata tags="20-2|г. Усть-Кут" customnodeid="" description=" " author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 12:56" comment="г. Усть-Кут" title="Газофракционирующая установка" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -2092,7 +2092,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="20-3|г. Усть-Кут" customnodeid="" description="+" author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 13:05" comment="г. Усть-Кут" title="Газофракционирующая установка" source="" latitude="" longitude=""/>
+    <userdata tags="20-3|г. Усть-Кут" customnodeid="" description=" " author="" copyright="" info="г. Усть-Кут" datetime="11.08.2023 13:05" comment="г. Усть-Кут" title="Газофракционирующая установка" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -2150,7 +2150,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="34.8" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="21-1|Марковское месторождение" customnodeid="" description="+" author="" copyright="" info="Марковское месторождение" datetime="07.08.2023 12:30" comment="Марковское месторождение" title="Установка комплексной подготовки газа -6" source="" latitude="" longitude=""/>
+    <userdata tags="21-1|Марковское месторождение" customnodeid="" description=" " author="" copyright="" info="Марковское месторождение" datetime="07.08.2023 12:30" comment="Марковское месторождение" title="Установка комплексной подготовки газа -6" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -2180,7 +2180,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="21-2|Марковское месторождение" customnodeid="" description="+" author="" copyright="" info="Марковское месторождение" datetime="07.08.2023 11:39" comment="Марковское месторождение" title="Установка комплексной подготовки газа -6" source="" latitude="" longitude=""/>
+    <userdata tags="21-2|Марковское месторождение" customnodeid="" description=" " author="" copyright="" info="Марковское месторождение" datetime="07.08.2023 11:39" comment="Марковское месторождение" title="Установка комплексной подготовки газа -6" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
@@ -2210,7 +2210,7 @@
       <min tilt="-90" fovpixel="2" pan="0"/>
       <max fovfisheye="360" tilt="90" fov="120" fovstereographic="270" pan="360" scaletofit="1"/>
     </view>
-    <userdata tags="21-3|Марковское месторождение" customnodeid="" description="+" author="" copyright="" info="Марковское месторождение" datetime="07.08.2023 11:56" comment="Марковское месторождение" title="Установка комплексной подготовки газа -6" source="" latitude="" longitude=""/>
+    <userdata tags="21-3|Марковское месторождение" customnodeid="" description=" " author="" copyright="" info="Марковское месторождение" datetime="07.08.2023 11:56" comment="Марковское месторождение" title="Установка комплексной подготовки газа -6" source="" latitude="" longitude=""/>
     <hotspots wordwrap="1" height="20" width="180">
       <label bordercolor="0x000000" enabled="1" textalpha="1" backgroundalpha="1" wordwrap="1" borderalpha="1" border="1" height="20" backgroundcolor="0xffffff" background="1" width="180" textcolor="0x000000" borderradius="1"/>
       <polystyle bordercolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.2509803921568627" borderalpha="1" backgroundcolor="0x0000ff"/>
