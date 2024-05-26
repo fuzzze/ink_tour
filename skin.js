@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Fri May 24 07:48:18 2024
+// Generated Sun May 26 23:10:35 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "1");
@@ -387,16 +387,21 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+='border : 0px solid #000000;';
-		hs+='bottom : 24px;';
+		hs+=cssPrefix + 'background-clip : padding-box;';
+		hs+='background-clip : padding-box;';
+		hs+=cssPrefix + 'border-radius : 16px;';
+		hs+='border-radius : 16px;';
+		hs+='background : rgba(0,0,0,0.0784314);';
+		hs+='border : 1px solid rgba(255,255,255,0.196078);';
+		hs+='bottom : 16px;';
 		hs+='cursor : default;';
-		hs+='height : 120px;';
-		hs+='left : 164px;';
-		hs+='opacity : 0.8;';
+		hs+='height : 40%;';
 		hs+='position : absolute;';
+		hs+='right : 16px;';
 		hs+='visibility : inherit;';
-		hs+='width : 100%;';
+		hs+='width : 500px;';
 		hs+='pointer-events:auto;';
+		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._map_bg.ggIsActive=function() {
@@ -434,8 +439,8 @@ function pano2vrSkin(player,base) {
 		}
 		me._map_bg.ggUpdatePosition=function (useTransition) {
 		}
-		el=me._thumbnail_uk=document.createElement('div');
-		els=me._thumbnail_uk__content=document.createElement('div');
+		el=me._scrollarea_uk=document.createElement('div');
+		els=me._scrollarea_uk__content=document.createElement('div');
 		el.ggContent=els;
 		el.appendChild(els);
 		el.ggHorScrollVisible = false;
@@ -443,128 +448,128 @@ function pano2vrSkin(player,base) {
 		el.ggContentLeftOffset = 0;
 		el.ggContentTopOffset = 0;
 		hs ='';
-		hs+='height : 93px;';
+		hs+='height : 87px;';
 		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 87px;';
+		hs+='width : 449px;';
 		hs+="";
 		els.setAttribute('style',hs);
-		me._thumbnail_uk.ggScrollByX = function(diffX) {
-			if(!me._thumbnail_uk.ggHorScrollVisible || diffX == 0) return;
-			me._thumbnail_uk.ggScrollPosX = (me._thumbnail_uk__horScrollFg.offsetLeft + diffX);
-			me._thumbnail_uk.ggScrollPosX = Math.max(me._thumbnail_uk.ggScrollPosX, 0);
-			me._thumbnail_uk.ggScrollPosX = Math.min(me._thumbnail_uk.ggScrollPosX, me._thumbnail_uk__horScrollBg.clientWidth - me._thumbnail_uk__horScrollFg.clientWidth);
-			me._thumbnail_uk__horScrollFg.style.left = me._thumbnail_uk.ggScrollPosX + 'px';
-			me._thumbnail_uk__content.style.left = -(Math.round(me._thumbnail_uk.ggScrollPosX / me._thumbnail_uk.ggHPercentVisible)) + me._thumbnail_uk.ggContentLeftOffset + 'px';
-			me._thumbnail_uk.ggScrollPosXPercent = (me._thumbnail_uk__horScrollFg.offsetLeft / me._thumbnail_uk__horScrollBg.clientWidth);
+		me._scrollarea_uk.ggScrollByX = function(diffX) {
+			if(!me._scrollarea_uk.ggHorScrollVisible || diffX == 0) return;
+			me._scrollarea_uk.ggScrollPosX = (me._scrollarea_uk__horScrollFg.offsetLeft + diffX);
+			me._scrollarea_uk.ggScrollPosX = Math.max(me._scrollarea_uk.ggScrollPosX, 0);
+			me._scrollarea_uk.ggScrollPosX = Math.min(me._scrollarea_uk.ggScrollPosX, me._scrollarea_uk__horScrollBg.clientWidth - me._scrollarea_uk__horScrollFg.clientWidth);
+			me._scrollarea_uk__horScrollFg.style.left = me._scrollarea_uk.ggScrollPosX + 'px';
+			me._scrollarea_uk__content.style.left = -(Math.round(me._scrollarea_uk.ggScrollPosX / me._scrollarea_uk.ggHPercentVisible)) + me._scrollarea_uk.ggContentLeftOffset + 'px';
+			me._scrollarea_uk.ggScrollPosXPercent = (me._scrollarea_uk__horScrollFg.offsetLeft / me._scrollarea_uk__horScrollBg.clientWidth);
 		}
-		me._thumbnail_uk.ggScrollByXSmooth = function(diffX) {
-			if(!me._thumbnail_uk.ggHorScrollVisible || diffX == 0) return;
+		me._scrollarea_uk.ggScrollByXSmooth = function(diffX) {
+			if(!me._scrollarea_uk.ggHorScrollVisible || diffX == 0) return;
 			var scrollPerInterval = diffX / 25;
 			var scrollCurrX = 0;
 			var id = setInterval(function() {
 				scrollCurrX += scrollPerInterval;
-				me._thumbnail_uk.ggScrollPosX += scrollPerInterval;
-				if (diffX > 0 && (scrollCurrX >= diffX || me._thumbnail_uk.ggScrollPosX >= me._thumbnail_uk__horScrollBg.clientWidth - me._thumbnail_uk__horScrollFg.clientWidth)) {
-					me._thumbnail_uk.ggScrollPosX = Math.min(me._thumbnail_uk.ggScrollPosX, me._thumbnail_uk__horScrollBg.clientWidth - me._thumbnail_uk__horScrollFg.clientWidth);
+				me._scrollarea_uk.ggScrollPosX += scrollPerInterval;
+				if (diffX > 0 && (scrollCurrX >= diffX || me._scrollarea_uk.ggScrollPosX >= me._scrollarea_uk__horScrollBg.clientWidth - me._scrollarea_uk__horScrollFg.clientWidth)) {
+					me._scrollarea_uk.ggScrollPosX = Math.min(me._scrollarea_uk.ggScrollPosX, me._scrollarea_uk__horScrollBg.clientWidth - me._scrollarea_uk__horScrollFg.clientWidth);
 					clearInterval(id);
 				}
-				if (diffX < 0 && (scrollCurrX <= diffX || me._thumbnail_uk.ggScrollPosX <= 0)) {
-					me._thumbnail_uk.ggScrollPosX = Math.max(me._thumbnail_uk.ggScrollPosX, 0);
+				if (diffX < 0 && (scrollCurrX <= diffX || me._scrollarea_uk.ggScrollPosX <= 0)) {
+					me._scrollarea_uk.ggScrollPosX = Math.max(me._scrollarea_uk.ggScrollPosX, 0);
 					clearInterval(id);
 				}
-			me._thumbnail_uk__horScrollFg.style.left = me._thumbnail_uk.ggScrollPosX + 'px';
-			me._thumbnail_uk__content.style.left = -(Math.round(me._thumbnail_uk.ggScrollPosX / me._thumbnail_uk.ggHPercentVisible)) + me._thumbnail_uk.ggContentLeftOffset + 'px';
-			me._thumbnail_uk.ggScrollPosXPercent = (me._thumbnail_uk__horScrollFg.offsetLeft / me._thumbnail_uk__horScrollBg.clientWidth);
+			me._scrollarea_uk__horScrollFg.style.left = me._scrollarea_uk.ggScrollPosX + 'px';
+			me._scrollarea_uk__content.style.left = -(Math.round(me._scrollarea_uk.ggScrollPosX / me._scrollarea_uk.ggHPercentVisible)) + me._scrollarea_uk.ggContentLeftOffset + 'px';
+			me._scrollarea_uk.ggScrollPosXPercent = (me._scrollarea_uk__horScrollFg.offsetLeft / me._scrollarea_uk__horScrollBg.clientWidth);
 			}, 10);
 		}
-		me._thumbnail_uk.ggScrollByY = function(diffY) {
-			if(!me._thumbnail_uk.ggVertScrollVisible || diffY == 0) return;
-			me._thumbnail_uk.ggScrollPosY = (me._thumbnail_uk__vertScrollFg.offsetTop + diffY);
-			me._thumbnail_uk.ggScrollPosY = Math.max(me._thumbnail_uk.ggScrollPosY, 0);
-			me._thumbnail_uk.ggScrollPosY = Math.min(me._thumbnail_uk.ggScrollPosY, me._thumbnail_uk__vertScrollBg.clientHeight - me._thumbnail_uk__vertScrollFg.clientHeight);
-			me._thumbnail_uk__vertScrollFg.style.top = me._thumbnail_uk.ggScrollPosY + 'px';
-			me._thumbnail_uk__content.style.top = -(Math.round(me._thumbnail_uk.ggScrollPosY / me._thumbnail_uk.ggVPercentVisible)) + me._thumbnail_uk.ggContentTopOffset + 'px';
-			me._thumbnail_uk.ggScrollPosYPercent = (me._thumbnail_uk__vertScrollFg.offsetTop / me._thumbnail_uk__vertScrollBg.clientHeight);
+		me._scrollarea_uk.ggScrollByY = function(diffY) {
+			if(!me._scrollarea_uk.ggVertScrollVisible || diffY == 0) return;
+			me._scrollarea_uk.ggScrollPosY = (me._scrollarea_uk__vertScrollFg.offsetTop + diffY);
+			me._scrollarea_uk.ggScrollPosY = Math.max(me._scrollarea_uk.ggScrollPosY, 0);
+			me._scrollarea_uk.ggScrollPosY = Math.min(me._scrollarea_uk.ggScrollPosY, me._scrollarea_uk__vertScrollBg.clientHeight - me._scrollarea_uk__vertScrollFg.clientHeight);
+			me._scrollarea_uk__vertScrollFg.style.top = me._scrollarea_uk.ggScrollPosY + 'px';
+			me._scrollarea_uk__content.style.top = -(Math.round(me._scrollarea_uk.ggScrollPosY / me._scrollarea_uk.ggVPercentVisible)) + me._scrollarea_uk.ggContentTopOffset + 'px';
+			me._scrollarea_uk.ggScrollPosYPercent = (me._scrollarea_uk__vertScrollFg.offsetTop / me._scrollarea_uk__vertScrollBg.clientHeight);
 		}
-		me._thumbnail_uk.ggScrollByYSmooth = function(diffY) {
-			if(!me._thumbnail_uk.ggVertScrollVisible || diffY == 0) return;
+		me._scrollarea_uk.ggScrollByYSmooth = function(diffY) {
+			if(!me._scrollarea_uk.ggVertScrollVisible || diffY == 0) return;
 			var scrollPerInterval = diffY / 25;
 			var scrollCurrY = 0;
 			var id = setInterval(function() {
 				scrollCurrY += scrollPerInterval;
-				me._thumbnail_uk.ggScrollPosY += scrollPerInterval;
-				if (diffY > 0 && (scrollCurrY >= diffY || me._thumbnail_uk.ggScrollPosY >= me._thumbnail_uk__vertScrollBg.clientHeight - me._thumbnail_uk__vertScrollFg.clientHeight)) {
-					me._thumbnail_uk.ggScrollPosY = Math.min(me._thumbnail_uk.ggScrollPosY, me._thumbnail_uk__vertScrollBg.clientHeight - me._thumbnail_uk__vertScrollFg.clientHeight);
+				me._scrollarea_uk.ggScrollPosY += scrollPerInterval;
+				if (diffY > 0 && (scrollCurrY >= diffY || me._scrollarea_uk.ggScrollPosY >= me._scrollarea_uk__vertScrollBg.clientHeight - me._scrollarea_uk__vertScrollFg.clientHeight)) {
+					me._scrollarea_uk.ggScrollPosY = Math.min(me._scrollarea_uk.ggScrollPosY, me._scrollarea_uk__vertScrollBg.clientHeight - me._scrollarea_uk__vertScrollFg.clientHeight);
 					clearInterval(id);
 				}
-				if (diffY < 0 && (scrollCurrY <= diffY || me._thumbnail_uk.ggScrollPosY <= 0)) {
-					me._thumbnail_uk.ggScrollPosY = Math.max(me._thumbnail_uk.ggScrollPosY, 0);
+				if (diffY < 0 && (scrollCurrY <= diffY || me._scrollarea_uk.ggScrollPosY <= 0)) {
+					me._scrollarea_uk.ggScrollPosY = Math.max(me._scrollarea_uk.ggScrollPosY, 0);
 					clearInterval(id);
 				}
-			me._thumbnail_uk__vertScrollFg.style.top = me._thumbnail_uk.ggScrollPosY + 'px';
-			me._thumbnail_uk__content.style.top = -(Math.round(me._thumbnail_uk.ggScrollPosY / me._thumbnail_uk.ggVPercentVisible)) + me._thumbnail_uk.ggContentTopOffset + 'px';
-			me._thumbnail_uk.ggScrollPosYPercent = (me._thumbnail_uk__vertScrollFg.offsetTop / me._thumbnail_uk__vertScrollBg.clientHeight);
+			me._scrollarea_uk__vertScrollFg.style.top = me._scrollarea_uk.ggScrollPosY + 'px';
+			me._scrollarea_uk__content.style.top = -(Math.round(me._scrollarea_uk.ggScrollPosY / me._scrollarea_uk.ggVPercentVisible)) + me._scrollarea_uk.ggContentTopOffset + 'px';
+			me._scrollarea_uk.ggScrollPosYPercent = (me._scrollarea_uk__vertScrollFg.offsetTop / me._scrollarea_uk__vertScrollBg.clientHeight);
 			}, 10);
 		}
-		me._thumbnail_uk.ggScrollIntoView = function(posX, posY, width, height) {
-			if (me._thumbnail_uk.ggHorScrollVisible) {
+		me._scrollarea_uk.ggScrollIntoView = function(posX, posY, width, height) {
+			if (me._scrollarea_uk.ggHorScrollVisible) {
 				if (posX < 0) {
-					var diffX = Math.floor(posX * me._thumbnail_uk.ggHPercentVisible);
-					me._thumbnail_uk.ggScrollByXSmooth(diffX);
-				} else if (posX + width > me._thumbnail_uk.clientWidth - (me._thumbnail_uk.ggVertScrollVisible ? 15 : 0)) {
-					var diffX = Math.ceil(((posX + width) - (me._thumbnail_uk.clientWidth - (me._thumbnail_uk.ggVertScrollVisible ? 15 : 0))) * me._thumbnail_uk.ggHPercentVisible);
-					me._thumbnail_uk.ggScrollByXSmooth(diffX);
+					var diffX = Math.floor(posX * me._scrollarea_uk.ggHPercentVisible);
+					me._scrollarea_uk.ggScrollByXSmooth(diffX);
+				} else if (posX + width > me._scrollarea_uk.clientWidth - (me._scrollarea_uk.ggVertScrollVisible ? 15 : 0)) {
+					var diffX = Math.ceil(((posX + width) - (me._scrollarea_uk.clientWidth - (me._scrollarea_uk.ggVertScrollVisible ? 15 : 0))) * me._scrollarea_uk.ggHPercentVisible);
+					me._scrollarea_uk.ggScrollByXSmooth(diffX);
 				}
 			}
-			if (me._thumbnail_uk.ggVertScrollVisible) {
+			if (me._scrollarea_uk.ggVertScrollVisible) {
 				if (posY < 0) {
-					var diffY = Math.floor(posY * me._thumbnail_uk.ggVPercentVisible);
-					me._thumbnail_uk.ggScrollByYSmooth(diffY);
-				} else if (posY + height > me._thumbnail_uk.clientHeight - (me._thumbnail_uk.ggHorScrollVisible ? 15 : 0)) {
-					var diffY = Math.ceil(((posY + height) - (me._thumbnail_uk.clientHeight - (me._thumbnail_uk.ggHorScrollVisible ? 15 : 0))) * me._thumbnail_uk.ggVPercentVisible);
-					me._thumbnail_uk.ggScrollByYSmooth(diffY);
+					var diffY = Math.floor(posY * me._scrollarea_uk.ggVPercentVisible);
+					me._scrollarea_uk.ggScrollByYSmooth(diffY);
+				} else if (posY + height > me._scrollarea_uk.clientHeight - (me._scrollarea_uk.ggHorScrollVisible ? 15 : 0)) {
+					var diffY = Math.ceil(((posY + height) - (me._scrollarea_uk.clientHeight - (me._scrollarea_uk.ggHorScrollVisible ? 15 : 0))) * me._scrollarea_uk.ggVPercentVisible);
+					me._scrollarea_uk.ggScrollByYSmooth(diffY);
 				}
 			}
 		}
 		els.ontouchstart = function(e) {
 			e = e || window.event;
 			var t = e.touches;
-			me._thumbnail_uk.ggDragLastX = t[0].clientX;
-			me._thumbnail_uk.ggDragLastY = t[0].clientY;
-			me._thumbnail_uk__content.ontouchend = function() {
-				me._thumbnail_uk__content.ontouchend = null;
-				me._thumbnail_uk__content.ontouchmove = null;
+			me._scrollarea_uk.ggDragLastX = t[0].clientX;
+			me._scrollarea_uk.ggDragLastY = t[0].clientY;
+			me._scrollarea_uk__content.ontouchend = function() {
+				me._scrollarea_uk__content.ontouchend = null;
+				me._scrollarea_uk__content.ontouchmove = null;
 			}
-			me._thumbnail_uk__content.ontouchmove = function(e) {
+			me._scrollarea_uk__content.ontouchmove = function(e) {
 				e = e || window.event;
 				e.preventDefault();
 			var t = e.touches;
-				var diffX = t[0].clientX - me._thumbnail_uk.ggDragLastX;
-				var diffY = t[0].clientY - me._thumbnail_uk.ggDragLastY;
-				me._thumbnail_uk.ggDragLastX = t[0].clientX;
-				me._thumbnail_uk.ggDragLastY = t[0].clientY;
-				me._thumbnail_uk.ggScrollByX(-diffX);
-				me._thumbnail_uk.ggScrollByY(-diffY);
+				var diffX = t[0].clientX - me._scrollarea_uk.ggDragLastX;
+				var diffY = t[0].clientY - me._scrollarea_uk.ggDragLastY;
+				me._scrollarea_uk.ggDragLastX = t[0].clientX;
+				me._scrollarea_uk.ggDragLastY = t[0].clientY;
+				me._scrollarea_uk.ggScrollByX(-diffX);
+				me._scrollarea_uk.ggScrollByY(-diffY);
 			}
 		}
-		elHorScrollBg = me._thumbnail_uk__horScrollBg = document.createElement('div');
-		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 1536px; height: 15px; background-color: rgba(128,128,128,0.470588); pointer-events: auto;');
-		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
-		elHorScrollFg = me._thumbnail_uk__horScrollFg = document.createElement('div');
-		elHorScrollBg.appendChild(elHorScrollFg);
-		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 1536px; height: 15px; background-color: rgba(192,192,192,0.784314); pointer-events: auto;');
-		me._thumbnail_uk.ggScrollPosX = 0;
-		me._thumbnail_uk.ggScrollPosXPercent = 0.0;
-		elHorScrollFg.onmousedown = function(e) {
+		elVertScrollBg = me._scrollarea_uk__vertScrollBg = document.createElement('div');
+		el.appendChild(elVertScrollBg);
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 406px; background-color: rgba(255,255,255,0.117647); pointer-events: auto;');
+		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
+		elVertScrollFg = me._scrollarea_uk__vertScrollFg = document.createElement('div');
+		elVertScrollBg.appendChild(elVertScrollFg);
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 406px; background-color: rgba(255,255,255,0.784314); pointer-events: auto;');
+		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
+		me._scrollarea_uk.ggScrollPosY = 0;
+		me._scrollarea_uk.ggScrollPosYPercent = 0.0;
+		elVertScrollFg.onmousedown = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
-			me._thumbnail_uk.ggDragLastX = e.clientX;
+			me._scrollarea_uk.ggDragLastY = e.clientY;
 			document.onmouseup = function() {
 				document.onmouseup = null;
 				document.onmousemove = null;
@@ -572,17 +577,17 @@ function pano2vrSkin(player,base) {
 			document.onmousemove = function(e) {
 				e = e || window.event;
 				e.preventDefault();
-				var diffX = e.clientX - me._thumbnail_uk.ggDragLastX;
-				me._thumbnail_uk.ggDragLastX = e.clientX;
-				me._thumbnail_uk.ggScrollByX(diffX);
+				var diffY = e.clientY - me._scrollarea_uk.ggDragLastY;
+				me._scrollarea_uk.ggDragLastY = e.clientY;
+				me._scrollarea_uk.ggScrollByY(diffY);
 			}
 		}
-		elHorScrollFg.ontouchstart = function(e) {
+		elVertScrollFg.ontouchstart = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
 			var t = e.touches;
-			me._thumbnail_uk.ggDragLastX = t[0].clientX;
+			me._scrollarea_uk.ggDragLastY = t[0].clientY;
 			document.ontouchend = function() {
 				document.ontouchend = null;
 				document.ontouchmove = null;
@@ -591,59 +596,61 @@ function pano2vrSkin(player,base) {
 				e = e || window.event;
 				e.preventDefault();
 			var t = e.touches;
-				var diffX = t[0].clientX - me._thumbnail_uk.ggDragLastX;
-				me._thumbnail_uk.ggDragLastX = t[0].clientX;
-				me._thumbnail_uk.ggScrollByX(diffX);
+				var diffY = t[0].clientY - me._scrollarea_uk.ggDragLastY;
+				me._scrollarea_uk.ggDragLastY = t[0].clientY;
+				me._scrollarea_uk.ggScrollByY(diffY);
 			}
 		}
-		elHorScrollBg.onmousedown = function(e) {
+		elVertScrollBg.onmousedown = function(e) {
 			e = e || window.event;
 			e.preventDefault();
-			var diffX = me._thumbnail_uk.ggScrollWidth;
-			if (e.offsetX < me._thumbnail_uk.ggScrollPosX) {
-				diffX = diffX * -1;
+			var diffY = me._scrollarea_uk.ggScrollHeight;
+			if (e.offsetY < me._scrollarea_uk.ggScrollPosY) {
+				diffY = diffY * -1;
 			}
-			me._thumbnail_uk.ggScrollByXSmooth(diffX);
+			me._scrollarea_uk.ggScrollByYSmooth(diffY);
 		}
-		elHorScrollBg.ontouchstart = function(e) {
+		elVertScrollBg.ontouchstart = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
 			var t = e.touches;
-			var rect = me._thumbnail_uk__horScrollBg.getBoundingClientRect();
-			var diffX = me._thumbnail_uk.ggScrollWidth;
-			if ((t[0].clientX - rect.left) < me._thumbnail_uk.ggScrollPosX) {
-				diffX = diffX * -1;
+			var rect = me._scrollarea_uk__vertScrollBg.getBoundingClientRect();
+			var diffY = me._scrollarea_uk.ggScrollHeight;
+			if ((t[0].clientY - rect.top) < me._scrollarea_uk.ggScrollPosY) {
+				diffY = diffY * -1;
 			}
-			me._thumbnail_uk.ggScrollByXSmooth(diffX);
+			me._scrollarea_uk.ggScrollByYSmooth(diffY);
 		}
 		el.addEventListener('wheel', function(e) {
-			var wheelDelta = Math.sign(e.deltaX);
-			me._thumbnail_uk.ggScrollByXSmooth(20 * wheelDelta);
+			var wheelDelta = Math.sign(e.deltaY);
+			me._scrollarea_uk.ggScrollByYSmooth(20 * wheelDelta);
 		});
-		elCornerBg = me._thumbnail_uk__cornerBg = document.createElement('div');
+		elCornerBg = me._scrollarea_uk__cornerBg = document.createElement('div');
 		el.appendChild(elCornerBg);
 		elCornerBg.setAttribute('style', 'position: absolute; right: 0px; bottom: 0px; visibility: hidden; width: 15px; height: 15px; background-color: rgba(255,255,255,1);');
 		elCornerBg.className='ggskin ggskin_scrollarea_scrollcorner';
-		el.ggId="Thumbnail uk";
+		el.ggId="Scrollarea uk";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_scrollarea ";
 		el.ggType='scrollarea';
 		hs ='';
 		hs+='border : 1px solid rgba(0, 0, 0, 0);';
-		hs+='bottom : 0px;';
-		hs+='height : 114px;';
-		hs+='left : 0px;';
+		hs+='cursor : pointer;';
+		hs+='height : 93.9815%;';
+		hs+='left : 16px;';
+		hs+='opacity : 0.89999;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
+		hs+='top : 12px;';
 		hs+='visibility : hidden;';
-		hs+='width : 80%;';
+		hs+='width : 464px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:80px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);';
+		hs+='padding-right:8px; margin-bottom: 16px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_uk.ggIsActive=function() {
+		me._scrollarea_uk.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -655,7 +662,7 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_uk.logicBlock_visible = function() {
+		me._scrollarea_uk.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
 				(me.ggUserdata.comment == "\u0433. \u0423\u0441\u0442\u044c-\u041a\u0443\u0442")
@@ -664,7 +671,7 @@ function pano2vrSkin(player,base) {
 				newLogicStateVisible = 0;
 			}
 			else if (
-				(me.ggUserdata.comment == "\u0433. \u0423\u0441\u0442\u044c-\u041a\u0443\u0442")
+				(me.ggUserdata.comment != "\u0433. \u0423\u0441\u0442\u044c-\u041a\u0443\u0442")
 			)
 			{
 				newLogicStateVisible = 1;
@@ -672,24 +679,24 @@ function pano2vrSkin(player,base) {
 			else {
 				newLogicStateVisible = -1;
 			}
-			if (me._thumbnail_uk.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._thumbnail_uk.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._thumbnail_uk.style[domTransition]='';
-				if (me._thumbnail_uk.ggCurrentLogicStateVisible == 0) {
-					me._thumbnail_uk.style.visibility=(Number(me._thumbnail_uk.style.opacity)>0||!me._thumbnail_uk.style.opacity)?'inherit':'hidden';
-					me._thumbnail_uk.ggVisible=true;
+			if (me._scrollarea_uk.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._scrollarea_uk.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._scrollarea_uk.style[domTransition]='';
+				if (me._scrollarea_uk.ggCurrentLogicStateVisible == 0) {
+					me._scrollarea_uk.style.visibility=(Number(me._scrollarea_uk.style.opacity)>0||!me._scrollarea_uk.style.opacity)?'inherit':'hidden';
+					me._scrollarea_uk.ggVisible=true;
 				}
-				else if (me._thumbnail_uk.ggCurrentLogicStateVisible == 1) {
-					me._thumbnail_uk.style.visibility="hidden";
-					me._thumbnail_uk.ggVisible=false;
+				else if (me._scrollarea_uk.ggCurrentLogicStateVisible == 1) {
+					me._scrollarea_uk.style.visibility="hidden";
+					me._scrollarea_uk.ggVisible=false;
 				}
 				else {
-					me._thumbnail_uk.style.visibility="hidden";
-					me._thumbnail_uk.ggVisible=false;
+					me._scrollarea_uk.style.visibility="hidden";
+					me._scrollarea_uk.ggVisible=false;
 				}
 			}
 		}
-		me._thumbnail_uk.ggUpdatePosition=function (useTransition) {
+		me._scrollarea_uk.ggUpdatePosition=function (useTransition) {
 			{
 				this.ggContent.style.left = '0px';
 				this.ggContent.style.top = '0px';
@@ -725,85 +732,98 @@ function pano2vrSkin(player,base) {
 				var contentHeight = maxY - minY;
 				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.top = this.ggContentTopOffset + 'px';
-				this.ggContent.style.left = -(Math.round(me._thumbnail_uk.ggScrollPosX / me._thumbnail_uk.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.marginLeft = '0px';
-				this.ggContent.style.top = this.ggContentTopOffset + 'px';
+				this.ggContent.style.top = -(Math.round(me._scrollarea_uk.ggScrollPosY / me._scrollarea_uk.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				this.ggContent.style.marginTop = '0px';
-				if (contentWidth > this.clientWidth) {
-					me._thumbnail_uk__horScrollBg.style.visibility = 'inherit';
-					me._thumbnail_uk__horScrollFg.style.visibility = 'inherit';
-					me._thumbnail_uk.ggHorScrollVisible = true;
+				if ((me._scrollarea_uk.ggHorScrollVisible && contentHeight > this.clientHeight - 15) || (!me._scrollarea_uk.ggHorScrollVisible && contentHeight > this.clientHeight)) {
+					me._scrollarea_uk__vertScrollBg.style.visibility = 'inherit';
+					me._scrollarea_uk__vertScrollFg.style.visibility = 'inherit';
+					me._scrollarea_uk.ggVertScrollVisible = true;
 				} else {
-					me._thumbnail_uk__horScrollBg.style.visibility = 'hidden';
-					me._thumbnail_uk__horScrollFg.style.visibility = 'hidden';
-					me._thumbnail_uk.ggHorScrollVisible = false;
+					me._scrollarea_uk__vertScrollBg.style.visibility = 'hidden';
+					me._scrollarea_uk__vertScrollFg.style.visibility = 'hidden';
+					me._scrollarea_uk.ggVertScrollVisible = false;
 				}
-				if(me._thumbnail_uk.ggHorScrollVisible) {
-					if (me._thumbnail_uk.ggVertScrollVisible) {
-						me._thumbnail_uk.ggAvailableWidth = me._thumbnail_uk.clientWidth - 15;
+				if(me._scrollarea_uk.ggVertScrollVisible) {
+					if (me._scrollarea_uk.ggHorScrollVisible) {
+						me._scrollarea_uk.ggAvailableHeight = me._scrollarea_uk.clientHeight - 15;
+						me._scrollarea_uk__cornerBg.style.visibility = 'inherit';
 					} else {
-						me._thumbnail_uk.ggAvailableWidth = me._thumbnail_uk.clientWidth;
+						me._scrollarea_uk.ggAvailableHeight = me._scrollarea_uk.clientHeight;
+						me._scrollarea_uk__cornerBg.style.visibility = 'hidden';
 					}
-					me._thumbnail_uk__horScrollBg.style.width = me._thumbnail_uk.ggAvailableWidth + 'px';
-					me._thumbnail_uk.ggHPercentVisible = me._thumbnail_uk.ggAvailableWidth / contentWidth;
-					if (me._thumbnail_uk.ggHPercentVisible > 1.0) me._thumbnail_uk.ggHPercentVisible = 1.0;
-					me._thumbnail_uk.ggScrollWidth = Math.round(me._thumbnail_uk__horScrollBg.clientWidth * me._thumbnail_uk.ggHPercentVisible);
-					me._thumbnail_uk__horScrollFg.style.width = me._thumbnail_uk.ggScrollWidth + 'px';
-					me._thumbnail_uk.ggScrollPosX = me._thumbnail_uk.ggScrollPosXPercent * me._thumbnail_uk.ggAvailableWidth;
-					me._thumbnail_uk.ggScrollPosX = Math.min(me._thumbnail_uk.ggScrollPosX, me._thumbnail_uk__horScrollBg.clientWidth - me._thumbnail_uk__horScrollFg.clientWidth);
-					me._thumbnail_uk__horScrollFg.style.left = me._thumbnail_uk.ggScrollPosX + 'px';
-					me._thumbnail_uk__content.style.left = -(Math.round(me._thumbnail_uk.ggScrollPosX / me._thumbnail_uk.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+					me._scrollarea_uk__vertScrollBg.style.height = me._scrollarea_uk.ggAvailableHeight + 'px';
+					me._scrollarea_uk.ggVPercentVisible = me._scrollarea_uk.ggAvailableHeight / contentHeight;
+					if (me._scrollarea_uk.ggVPercentVisible > 1.0) me._scrollarea_uk.ggVPercentVisible = 1.0;
+					me._scrollarea_uk.ggScrollHeight =  Math.round(me._scrollarea_uk__vertScrollBg.clientHeight * me._scrollarea_uk.ggVPercentVisible);
+					me._scrollarea_uk__vertScrollFg.style.height = me._scrollarea_uk.ggScrollHeight + 'px';
+					me._scrollarea_uk.ggScrollPosY = me._scrollarea_uk.ggScrollPosYPercent * me._scrollarea_uk.ggAvailableHeight;
+					me._scrollarea_uk.ggScrollPosY = Math.min(me._scrollarea_uk.ggScrollPosY, me._scrollarea_uk__vertScrollBg.clientHeight - me._scrollarea_uk__vertScrollFg.clientHeight);
+					me._scrollarea_uk__vertScrollFg.style.top = me._scrollarea_uk.ggScrollPosY + 'px';
+					me._scrollarea_uk__content.style.top = -(Math.round(me._scrollarea_uk.ggScrollPosY / me._scrollarea_uk.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				} else {
-					me._thumbnail_uk.ggScrollPosX = 0;
-					me._thumbnail_uk.ggScrollPosXPercent = 0.0;
-					me._thumbnail_uk__content.style.left = this.ggContentLeftOffset + 'px';
+					me._scrollarea_uk.ggScrollPosY = 0;
+					me._scrollarea_uk.ggScrollPosYPercent = 0.0;
+					me._scrollarea_uk__content.style.top = this.ggContentTopOffset + 'px';
+					me._scrollarea_uk__cornerBg.style.visibility = 'hidden';
 				}
 			}
 		}
-		el=me._thumbnail_cloner_uk=document.createElement('div');
+		el=me._dropdown_cloner_uk=document.createElement('div');
 		el.ggNumRepeat = 1;
-		el.ggWidth = 88;
-		el.ggHeight = 82;
+		el.ggWidth = 450;
+		el.ggHeight = 88;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggInstances = [];
-		me._thumbnail_cloner_uk.callChildLogicBlocks_changenodeid = function(){
-			if(me._thumbnail_cloner_uk.ggInstances) {
+		me._dropdown_cloner_uk.callChildLogicBlocks_changenodeid = function(){
+			if(me._dropdown_cloner_uk.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_uk.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_uk.ggInstances[i]._checkmark_tick_uk && me._thumbnail_cloner_uk.ggInstances[i]._checkmark_tick_uk.logicBlock_visible) {
-						me._thumbnail_cloner_uk.ggInstances[i]._checkmark_tick_uk.logicBlock_visible();
+				for(i = 0; i < me._dropdown_cloner_uk.ggInstances.length; i++) {
+					if (me._dropdown_cloner_uk.ggInstances[i]._checkmark_tick_uk && me._dropdown_cloner_uk.ggInstances[i]._checkmark_tick_uk.logicBlock_visible) {
+						me._dropdown_cloner_uk.ggInstances[i]._checkmark_tick_uk.logicBlock_visible();
 					}
 				}
 			}
 		}
-		me._thumbnail_cloner_uk.callChildLogicBlocks_mouseover = function(){
-			if(me._thumbnail_cloner_uk.ggInstances) {
+		me._dropdown_cloner_uk.callChildLogicBlocks_mouseover = function(){
+			if(me._dropdown_cloner_uk.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_uk.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_uk.ggInstances[i]._thumbnail_active_uk && me._thumbnail_cloner_uk.ggInstances[i]._thumbnail_active_uk.logicBlock_bordercolor) {
-						me._thumbnail_cloner_uk.ggInstances[i]._thumbnail_active_uk.logicBlock_bordercolor();
+				for(i = 0; i < me._dropdown_cloner_uk.ggInstances.length; i++) {
+					if (me._dropdown_cloner_uk.ggInstances[i]._itembg_uk && me._dropdown_cloner_uk.ggInstances[i]._itembg_uk.logicBlock_backgroundcolor) {
+						me._dropdown_cloner_uk.ggInstances[i]._itembg_uk.logicBlock_backgroundcolor();
 					}
 				}
 			}
 		}
-		me._thumbnail_cloner_uk.callChildLogicBlocks_active = function(){
-			if(me._thumbnail_cloner_uk.ggInstances) {
+		me._dropdown_cloner_uk.callChildLogicBlocks_mouseover = function(){
+			if(me._dropdown_cloner_uk.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_uk.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_uk.ggInstances[i]._checkmark_tick_uk && me._thumbnail_cloner_uk.ggInstances[i]._checkmark_tick_uk.logicBlock_visible) {
-						me._thumbnail_cloner_uk.ggInstances[i]._checkmark_tick_uk.logicBlock_visible();
+				for(i = 0; i < me._dropdown_cloner_uk.ggInstances.length; i++) {
+					if (me._dropdown_cloner_uk.ggInstances[i]._dropdown_menu_text_uk && me._dropdown_cloner_uk.ggInstances[i]._dropdown_menu_text_uk.logicBlock_textcolor) {
+						me._dropdown_cloner_uk.ggInstances[i]._dropdown_menu_text_uk.logicBlock_textcolor();
 					}
-					if (me._thumbnail_cloner_uk.ggInstances[i]._thumbnail_active_uk && me._thumbnail_cloner_uk.ggInstances[i]._thumbnail_active_uk.logicBlock_bordercolor) {
-						me._thumbnail_cloner_uk.ggInstances[i]._thumbnail_active_uk.logicBlock_bordercolor();
+				}
+			}
+		}
+		me._dropdown_cloner_uk.callChildLogicBlocks_active = function(){
+			if(me._dropdown_cloner_uk.ggInstances) {
+				var i;
+				for(i = 0; i < me._dropdown_cloner_uk.ggInstances.length; i++) {
+					if (me._dropdown_cloner_uk.ggInstances[i]._itembg_uk && me._dropdown_cloner_uk.ggInstances[i]._itembg_uk.logicBlock_backgroundcolor) {
+						me._dropdown_cloner_uk.ggInstances[i]._itembg_uk.logicBlock_backgroundcolor();
+					}
+					if (me._dropdown_cloner_uk.ggInstances[i]._dropdown_menu_text_uk && me._dropdown_cloner_uk.ggInstances[i]._dropdown_menu_text_uk.logicBlock_textcolor) {
+						me._dropdown_cloner_uk.ggInstances[i]._dropdown_menu_text_uk.logicBlock_textcolor();
 					}
 				}
 			}
 		}
 		el.ggUpdate = function(filter) {
-			if(me._thumbnail_cloner_uk.ggUpdating == true) return;
-			me._thumbnail_cloner_uk.ggUpdating = true;
-			var el=me._thumbnail_cloner_uk;
+			if(me._dropdown_cloner_uk.ggUpdating == true) return;
+			me._dropdown_cloner_uk.ggUpdating = true;
+			var el=me._dropdown_cloner_uk;
 			el.ggInstances = [];
 			if (typeof filter=='object') {
 				el.ggFilter = filter;
@@ -820,8 +840,8 @@ function pano2vrSkin(player,base) {
 			var tourNodes = player.getNodeIds();
 			var row = 0;
 			var column = 0;
-			var numRows = el.ggNumRepeat;
-			if (numRows < 1) numRows = 1;
+			var numCols = me._dropdown_cloner_uk.ggNumRepeat;
+			if (numCols < 1) numCols = 1;
 			for (var i=0; i < tourNodes.length; i++) {
 				var nodeId = tourNodes[i];
 				var passed = true;
@@ -833,46 +853,46 @@ function pano2vrSkin(player,base) {
 				}
 				if (passed) {
 				var parameter={};
-				parameter.top=(row * me._thumbnail_cloner_uk.ggHeight) + 'px';
-				parameter.left=(column * me._thumbnail_cloner_uk.ggWidth) + 'px';
-				var inst = new SkinCloner_thumbnail_cloner_uk_Class(nodeId, me, el, parameter);
+				parameter.top=(row * me._dropdown_cloner_uk.ggHeight) + 'px';
+				parameter.left=(column * me._dropdown_cloner_uk.ggWidth) + 'px';
+				var inst = new SkinCloner_dropdown_cloner_uk_Class(nodeId, me, el, parameter);
 				el.ggInstances.push(inst);
 				el.appendChild(inst.__div);
 				inst.__div.ggObj=inst;
 				skin.updateSize(inst.__div);
-				row++;
-				if (row >= numRows) {
-					row = 0;
-					column++;
+				column++;
+				if (column >= numCols) {
+					column = 0;
+					row++;
 				}
 				}
 			}
-			me._thumbnail_cloner_uk.callChildLogicBlocks_changenodeid();
-			me._thumbnail_cloner_uk.callChildLogicBlocks_mouseover();
-			me._thumbnail_cloner_uk.callChildLogicBlocks_active();
-			me._thumbnail_cloner_uk.ggUpdating = false;
+			me._dropdown_cloner_uk.callChildLogicBlocks_changenodeid();
+			me._dropdown_cloner_uk.callChildLogicBlocks_mouseover();
+			me._dropdown_cloner_uk.callChildLogicBlocks_mouseover();
+			me._dropdown_cloner_uk.callChildLogicBlocks_active();
+			me._dropdown_cloner_uk.ggUpdating = false;
 			player.triggerEvent('clonerchanged');
 		}
 		el.ggFilter = [];
 		el.ggFilter[0] = "г. Усть-Кут";
-		el.ggId="Thumbnail Cloner uk";
+		el.ggId="Dropdown Cloner uk";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_cloner ";
 		el.ggType='cloner';
 		hs ='';
-		hs+='height : 82px;';
+		hs+='height : 88px;';
 		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
-		hs+='top : 12px;';
+		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 88px;';
+		hs+='width : 450px;';
 		hs+='pointer-events:none;';
-		hs+='border-radius:100px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_cloner_uk.ggIsActive=function() {
+		me._dropdown_cloner_uk.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -884,10 +904,10 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_cloner_uk.ggUpdateConditionNodeChange=function () {
+		me._dropdown_cloner_uk.ggUpdateConditionNodeChange=function () {
 			var cnode=player.getCurrentNode();
-			for(var i=0; i<me._thumbnail_cloner_uk.childNodes.length; i++) {
-				var child=me._thumbnail_cloner_uk.childNodes[i];
+			for(var i=0; i<me._dropdown_cloner_uk.childNodes.length; i++) {
+				var child=me._dropdown_cloner_uk.childNodes[i];
 				if (child.ggObj && child.ggObj.ggNodeId==cnode) {
 			        var childOffX = child.offsetLeft;
 			        var childOffY = child.offsetTop;
@@ -903,21 +923,21 @@ function pano2vrSkin(player,base) {
 				}
 			}
 		}
-		me._thumbnail_cloner_uk.ggUpdatePosition=function (useTransition) {
+		me._dropdown_cloner_uk.ggUpdatePosition=function (useTransition) {
 			var w=player.getViewerSize().width;
 			var h=player.getViewerSize().height
-			if ((!me._thumbnail_cloner_uk.ggLastSize) || (me._thumbnail_cloner_uk.ggLastSize.w!=w) || (me._thumbnail_cloner_uk.ggLastSize.h!=h)) {
-				me._thumbnail_cloner_uk.ggLastSize={ w:w, h:h };
-				me._thumbnail_cloner_uk.ggUpdate();
+			if ((!me._dropdown_cloner_uk.ggLastSize) || (me._dropdown_cloner_uk.ggLastSize.w!=w) || (me._dropdown_cloner_uk.ggLastSize.h!=h)) {
+				me._dropdown_cloner_uk.ggLastSize={ w:w, h:h };
+				me._dropdown_cloner_uk.ggUpdate();
 			}
 		}
-		me._thumbnail_cloner_uk.ggNodeChange=function () {
-			me._thumbnail_cloner_uk.ggUpdateConditionNodeChange();
+		me._dropdown_cloner_uk.ggNodeChange=function () {
+			me._dropdown_cloner_uk.ggUpdateConditionNodeChange();
 		}
-		me._thumbnail_uk__content.appendChild(me._thumbnail_cloner_uk);
-		me._map_bg.appendChild(me._thumbnail_uk);
-		el=me._thumbnail_icho=document.createElement('div');
-		els=me._thumbnail_icho__content=document.createElement('div');
+		me._scrollarea_uk__content.appendChild(me._dropdown_cloner_uk);
+		me._map_bg.appendChild(me._scrollarea_uk);
+		el=me._scrollarea_icho=document.createElement('div');
+		els=me._scrollarea_icho__content=document.createElement('div');
 		el.ggContent=els;
 		el.appendChild(els);
 		el.ggHorScrollVisible = false;
@@ -925,128 +945,128 @@ function pano2vrSkin(player,base) {
 		el.ggContentLeftOffset = 0;
 		el.ggContentTopOffset = 0;
 		hs ='';
-		hs+='height : 93px;';
+		hs+='height : 87px;';
 		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 87px;';
+		hs+='width : 449px;';
 		hs+="";
 		els.setAttribute('style',hs);
-		me._thumbnail_icho.ggScrollByX = function(diffX) {
-			if(!me._thumbnail_icho.ggHorScrollVisible || diffX == 0) return;
-			me._thumbnail_icho.ggScrollPosX = (me._thumbnail_icho__horScrollFg.offsetLeft + diffX);
-			me._thumbnail_icho.ggScrollPosX = Math.max(me._thumbnail_icho.ggScrollPosX, 0);
-			me._thumbnail_icho.ggScrollPosX = Math.min(me._thumbnail_icho.ggScrollPosX, me._thumbnail_icho__horScrollBg.clientWidth - me._thumbnail_icho__horScrollFg.clientWidth);
-			me._thumbnail_icho__horScrollFg.style.left = me._thumbnail_icho.ggScrollPosX + 'px';
-			me._thumbnail_icho__content.style.left = -(Math.round(me._thumbnail_icho.ggScrollPosX / me._thumbnail_icho.ggHPercentVisible)) + me._thumbnail_icho.ggContentLeftOffset + 'px';
-			me._thumbnail_icho.ggScrollPosXPercent = (me._thumbnail_icho__horScrollFg.offsetLeft / me._thumbnail_icho__horScrollBg.clientWidth);
+		me._scrollarea_icho.ggScrollByX = function(diffX) {
+			if(!me._scrollarea_icho.ggHorScrollVisible || diffX == 0) return;
+			me._scrollarea_icho.ggScrollPosX = (me._scrollarea_icho__horScrollFg.offsetLeft + diffX);
+			me._scrollarea_icho.ggScrollPosX = Math.max(me._scrollarea_icho.ggScrollPosX, 0);
+			me._scrollarea_icho.ggScrollPosX = Math.min(me._scrollarea_icho.ggScrollPosX, me._scrollarea_icho__horScrollBg.clientWidth - me._scrollarea_icho__horScrollFg.clientWidth);
+			me._scrollarea_icho__horScrollFg.style.left = me._scrollarea_icho.ggScrollPosX + 'px';
+			me._scrollarea_icho__content.style.left = -(Math.round(me._scrollarea_icho.ggScrollPosX / me._scrollarea_icho.ggHPercentVisible)) + me._scrollarea_icho.ggContentLeftOffset + 'px';
+			me._scrollarea_icho.ggScrollPosXPercent = (me._scrollarea_icho__horScrollFg.offsetLeft / me._scrollarea_icho__horScrollBg.clientWidth);
 		}
-		me._thumbnail_icho.ggScrollByXSmooth = function(diffX) {
-			if(!me._thumbnail_icho.ggHorScrollVisible || diffX == 0) return;
+		me._scrollarea_icho.ggScrollByXSmooth = function(diffX) {
+			if(!me._scrollarea_icho.ggHorScrollVisible || diffX == 0) return;
 			var scrollPerInterval = diffX / 25;
 			var scrollCurrX = 0;
 			var id = setInterval(function() {
 				scrollCurrX += scrollPerInterval;
-				me._thumbnail_icho.ggScrollPosX += scrollPerInterval;
-				if (diffX > 0 && (scrollCurrX >= diffX || me._thumbnail_icho.ggScrollPosX >= me._thumbnail_icho__horScrollBg.clientWidth - me._thumbnail_icho__horScrollFg.clientWidth)) {
-					me._thumbnail_icho.ggScrollPosX = Math.min(me._thumbnail_icho.ggScrollPosX, me._thumbnail_icho__horScrollBg.clientWidth - me._thumbnail_icho__horScrollFg.clientWidth);
+				me._scrollarea_icho.ggScrollPosX += scrollPerInterval;
+				if (diffX > 0 && (scrollCurrX >= diffX || me._scrollarea_icho.ggScrollPosX >= me._scrollarea_icho__horScrollBg.clientWidth - me._scrollarea_icho__horScrollFg.clientWidth)) {
+					me._scrollarea_icho.ggScrollPosX = Math.min(me._scrollarea_icho.ggScrollPosX, me._scrollarea_icho__horScrollBg.clientWidth - me._scrollarea_icho__horScrollFg.clientWidth);
 					clearInterval(id);
 				}
-				if (diffX < 0 && (scrollCurrX <= diffX || me._thumbnail_icho.ggScrollPosX <= 0)) {
-					me._thumbnail_icho.ggScrollPosX = Math.max(me._thumbnail_icho.ggScrollPosX, 0);
+				if (diffX < 0 && (scrollCurrX <= diffX || me._scrollarea_icho.ggScrollPosX <= 0)) {
+					me._scrollarea_icho.ggScrollPosX = Math.max(me._scrollarea_icho.ggScrollPosX, 0);
 					clearInterval(id);
 				}
-			me._thumbnail_icho__horScrollFg.style.left = me._thumbnail_icho.ggScrollPosX + 'px';
-			me._thumbnail_icho__content.style.left = -(Math.round(me._thumbnail_icho.ggScrollPosX / me._thumbnail_icho.ggHPercentVisible)) + me._thumbnail_icho.ggContentLeftOffset + 'px';
-			me._thumbnail_icho.ggScrollPosXPercent = (me._thumbnail_icho__horScrollFg.offsetLeft / me._thumbnail_icho__horScrollBg.clientWidth);
+			me._scrollarea_icho__horScrollFg.style.left = me._scrollarea_icho.ggScrollPosX + 'px';
+			me._scrollarea_icho__content.style.left = -(Math.round(me._scrollarea_icho.ggScrollPosX / me._scrollarea_icho.ggHPercentVisible)) + me._scrollarea_icho.ggContentLeftOffset + 'px';
+			me._scrollarea_icho.ggScrollPosXPercent = (me._scrollarea_icho__horScrollFg.offsetLeft / me._scrollarea_icho__horScrollBg.clientWidth);
 			}, 10);
 		}
-		me._thumbnail_icho.ggScrollByY = function(diffY) {
-			if(!me._thumbnail_icho.ggVertScrollVisible || diffY == 0) return;
-			me._thumbnail_icho.ggScrollPosY = (me._thumbnail_icho__vertScrollFg.offsetTop + diffY);
-			me._thumbnail_icho.ggScrollPosY = Math.max(me._thumbnail_icho.ggScrollPosY, 0);
-			me._thumbnail_icho.ggScrollPosY = Math.min(me._thumbnail_icho.ggScrollPosY, me._thumbnail_icho__vertScrollBg.clientHeight - me._thumbnail_icho__vertScrollFg.clientHeight);
-			me._thumbnail_icho__vertScrollFg.style.top = me._thumbnail_icho.ggScrollPosY + 'px';
-			me._thumbnail_icho__content.style.top = -(Math.round(me._thumbnail_icho.ggScrollPosY / me._thumbnail_icho.ggVPercentVisible)) + me._thumbnail_icho.ggContentTopOffset + 'px';
-			me._thumbnail_icho.ggScrollPosYPercent = (me._thumbnail_icho__vertScrollFg.offsetTop / me._thumbnail_icho__vertScrollBg.clientHeight);
+		me._scrollarea_icho.ggScrollByY = function(diffY) {
+			if(!me._scrollarea_icho.ggVertScrollVisible || diffY == 0) return;
+			me._scrollarea_icho.ggScrollPosY = (me._scrollarea_icho__vertScrollFg.offsetTop + diffY);
+			me._scrollarea_icho.ggScrollPosY = Math.max(me._scrollarea_icho.ggScrollPosY, 0);
+			me._scrollarea_icho.ggScrollPosY = Math.min(me._scrollarea_icho.ggScrollPosY, me._scrollarea_icho__vertScrollBg.clientHeight - me._scrollarea_icho__vertScrollFg.clientHeight);
+			me._scrollarea_icho__vertScrollFg.style.top = me._scrollarea_icho.ggScrollPosY + 'px';
+			me._scrollarea_icho__content.style.top = -(Math.round(me._scrollarea_icho.ggScrollPosY / me._scrollarea_icho.ggVPercentVisible)) + me._scrollarea_icho.ggContentTopOffset + 'px';
+			me._scrollarea_icho.ggScrollPosYPercent = (me._scrollarea_icho__vertScrollFg.offsetTop / me._scrollarea_icho__vertScrollBg.clientHeight);
 		}
-		me._thumbnail_icho.ggScrollByYSmooth = function(diffY) {
-			if(!me._thumbnail_icho.ggVertScrollVisible || diffY == 0) return;
+		me._scrollarea_icho.ggScrollByYSmooth = function(diffY) {
+			if(!me._scrollarea_icho.ggVertScrollVisible || diffY == 0) return;
 			var scrollPerInterval = diffY / 25;
 			var scrollCurrY = 0;
 			var id = setInterval(function() {
 				scrollCurrY += scrollPerInterval;
-				me._thumbnail_icho.ggScrollPosY += scrollPerInterval;
-				if (diffY > 0 && (scrollCurrY >= diffY || me._thumbnail_icho.ggScrollPosY >= me._thumbnail_icho__vertScrollBg.clientHeight - me._thumbnail_icho__vertScrollFg.clientHeight)) {
-					me._thumbnail_icho.ggScrollPosY = Math.min(me._thumbnail_icho.ggScrollPosY, me._thumbnail_icho__vertScrollBg.clientHeight - me._thumbnail_icho__vertScrollFg.clientHeight);
+				me._scrollarea_icho.ggScrollPosY += scrollPerInterval;
+				if (diffY > 0 && (scrollCurrY >= diffY || me._scrollarea_icho.ggScrollPosY >= me._scrollarea_icho__vertScrollBg.clientHeight - me._scrollarea_icho__vertScrollFg.clientHeight)) {
+					me._scrollarea_icho.ggScrollPosY = Math.min(me._scrollarea_icho.ggScrollPosY, me._scrollarea_icho__vertScrollBg.clientHeight - me._scrollarea_icho__vertScrollFg.clientHeight);
 					clearInterval(id);
 				}
-				if (diffY < 0 && (scrollCurrY <= diffY || me._thumbnail_icho.ggScrollPosY <= 0)) {
-					me._thumbnail_icho.ggScrollPosY = Math.max(me._thumbnail_icho.ggScrollPosY, 0);
+				if (diffY < 0 && (scrollCurrY <= diffY || me._scrollarea_icho.ggScrollPosY <= 0)) {
+					me._scrollarea_icho.ggScrollPosY = Math.max(me._scrollarea_icho.ggScrollPosY, 0);
 					clearInterval(id);
 				}
-			me._thumbnail_icho__vertScrollFg.style.top = me._thumbnail_icho.ggScrollPosY + 'px';
-			me._thumbnail_icho__content.style.top = -(Math.round(me._thumbnail_icho.ggScrollPosY / me._thumbnail_icho.ggVPercentVisible)) + me._thumbnail_icho.ggContentTopOffset + 'px';
-			me._thumbnail_icho.ggScrollPosYPercent = (me._thumbnail_icho__vertScrollFg.offsetTop / me._thumbnail_icho__vertScrollBg.clientHeight);
+			me._scrollarea_icho__vertScrollFg.style.top = me._scrollarea_icho.ggScrollPosY + 'px';
+			me._scrollarea_icho__content.style.top = -(Math.round(me._scrollarea_icho.ggScrollPosY / me._scrollarea_icho.ggVPercentVisible)) + me._scrollarea_icho.ggContentTopOffset + 'px';
+			me._scrollarea_icho.ggScrollPosYPercent = (me._scrollarea_icho__vertScrollFg.offsetTop / me._scrollarea_icho__vertScrollBg.clientHeight);
 			}, 10);
 		}
-		me._thumbnail_icho.ggScrollIntoView = function(posX, posY, width, height) {
-			if (me._thumbnail_icho.ggHorScrollVisible) {
+		me._scrollarea_icho.ggScrollIntoView = function(posX, posY, width, height) {
+			if (me._scrollarea_icho.ggHorScrollVisible) {
 				if (posX < 0) {
-					var diffX = Math.floor(posX * me._thumbnail_icho.ggHPercentVisible);
-					me._thumbnail_icho.ggScrollByXSmooth(diffX);
-				} else if (posX + width > me._thumbnail_icho.clientWidth - (me._thumbnail_icho.ggVertScrollVisible ? 15 : 0)) {
-					var diffX = Math.ceil(((posX + width) - (me._thumbnail_icho.clientWidth - (me._thumbnail_icho.ggVertScrollVisible ? 15 : 0))) * me._thumbnail_icho.ggHPercentVisible);
-					me._thumbnail_icho.ggScrollByXSmooth(diffX);
+					var diffX = Math.floor(posX * me._scrollarea_icho.ggHPercentVisible);
+					me._scrollarea_icho.ggScrollByXSmooth(diffX);
+				} else if (posX + width > me._scrollarea_icho.clientWidth - (me._scrollarea_icho.ggVertScrollVisible ? 15 : 0)) {
+					var diffX = Math.ceil(((posX + width) - (me._scrollarea_icho.clientWidth - (me._scrollarea_icho.ggVertScrollVisible ? 15 : 0))) * me._scrollarea_icho.ggHPercentVisible);
+					me._scrollarea_icho.ggScrollByXSmooth(diffX);
 				}
 			}
-			if (me._thumbnail_icho.ggVertScrollVisible) {
+			if (me._scrollarea_icho.ggVertScrollVisible) {
 				if (posY < 0) {
-					var diffY = Math.floor(posY * me._thumbnail_icho.ggVPercentVisible);
-					me._thumbnail_icho.ggScrollByYSmooth(diffY);
-				} else if (posY + height > me._thumbnail_icho.clientHeight - (me._thumbnail_icho.ggHorScrollVisible ? 15 : 0)) {
-					var diffY = Math.ceil(((posY + height) - (me._thumbnail_icho.clientHeight - (me._thumbnail_icho.ggHorScrollVisible ? 15 : 0))) * me._thumbnail_icho.ggVPercentVisible);
-					me._thumbnail_icho.ggScrollByYSmooth(diffY);
+					var diffY = Math.floor(posY * me._scrollarea_icho.ggVPercentVisible);
+					me._scrollarea_icho.ggScrollByYSmooth(diffY);
+				} else if (posY + height > me._scrollarea_icho.clientHeight - (me._scrollarea_icho.ggHorScrollVisible ? 15 : 0)) {
+					var diffY = Math.ceil(((posY + height) - (me._scrollarea_icho.clientHeight - (me._scrollarea_icho.ggHorScrollVisible ? 15 : 0))) * me._scrollarea_icho.ggVPercentVisible);
+					me._scrollarea_icho.ggScrollByYSmooth(diffY);
 				}
 			}
 		}
 		els.ontouchstart = function(e) {
 			e = e || window.event;
 			var t = e.touches;
-			me._thumbnail_icho.ggDragLastX = t[0].clientX;
-			me._thumbnail_icho.ggDragLastY = t[0].clientY;
-			me._thumbnail_icho__content.ontouchend = function() {
-				me._thumbnail_icho__content.ontouchend = null;
-				me._thumbnail_icho__content.ontouchmove = null;
+			me._scrollarea_icho.ggDragLastX = t[0].clientX;
+			me._scrollarea_icho.ggDragLastY = t[0].clientY;
+			me._scrollarea_icho__content.ontouchend = function() {
+				me._scrollarea_icho__content.ontouchend = null;
+				me._scrollarea_icho__content.ontouchmove = null;
 			}
-			me._thumbnail_icho__content.ontouchmove = function(e) {
+			me._scrollarea_icho__content.ontouchmove = function(e) {
 				e = e || window.event;
 				e.preventDefault();
 			var t = e.touches;
-				var diffX = t[0].clientX - me._thumbnail_icho.ggDragLastX;
-				var diffY = t[0].clientY - me._thumbnail_icho.ggDragLastY;
-				me._thumbnail_icho.ggDragLastX = t[0].clientX;
-				me._thumbnail_icho.ggDragLastY = t[0].clientY;
-				me._thumbnail_icho.ggScrollByX(-diffX);
-				me._thumbnail_icho.ggScrollByY(-diffY);
+				var diffX = t[0].clientX - me._scrollarea_icho.ggDragLastX;
+				var diffY = t[0].clientY - me._scrollarea_icho.ggDragLastY;
+				me._scrollarea_icho.ggDragLastX = t[0].clientX;
+				me._scrollarea_icho.ggDragLastY = t[0].clientY;
+				me._scrollarea_icho.ggScrollByX(-diffX);
+				me._scrollarea_icho.ggScrollByY(-diffY);
 			}
 		}
-		elHorScrollBg = me._thumbnail_icho__horScrollBg = document.createElement('div');
-		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 1536px; height: 15px; background-color: rgba(128,128,128,0.470588); pointer-events: auto;');
-		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
-		elHorScrollFg = me._thumbnail_icho__horScrollFg = document.createElement('div');
-		elHorScrollBg.appendChild(elHorScrollFg);
-		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 1536px; height: 15px; background-color: rgba(192,192,192,0.784314); pointer-events: auto;');
-		me._thumbnail_icho.ggScrollPosX = 0;
-		me._thumbnail_icho.ggScrollPosXPercent = 0.0;
-		elHorScrollFg.onmousedown = function(e) {
+		elVertScrollBg = me._scrollarea_icho__vertScrollBg = document.createElement('div');
+		el.appendChild(elVertScrollBg);
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 406px; background-color: rgba(255,255,255,0.117647); pointer-events: auto;');
+		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
+		elVertScrollFg = me._scrollarea_icho__vertScrollFg = document.createElement('div');
+		elVertScrollBg.appendChild(elVertScrollFg);
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 406px; background-color: rgba(255,255,255,0.784314); pointer-events: auto;');
+		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
+		me._scrollarea_icho.ggScrollPosY = 0;
+		me._scrollarea_icho.ggScrollPosYPercent = 0.0;
+		elVertScrollFg.onmousedown = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
-			me._thumbnail_icho.ggDragLastX = e.clientX;
+			me._scrollarea_icho.ggDragLastY = e.clientY;
 			document.onmouseup = function() {
 				document.onmouseup = null;
 				document.onmousemove = null;
@@ -1054,17 +1074,17 @@ function pano2vrSkin(player,base) {
 			document.onmousemove = function(e) {
 				e = e || window.event;
 				e.preventDefault();
-				var diffX = e.clientX - me._thumbnail_icho.ggDragLastX;
-				me._thumbnail_icho.ggDragLastX = e.clientX;
-				me._thumbnail_icho.ggScrollByX(diffX);
+				var diffY = e.clientY - me._scrollarea_icho.ggDragLastY;
+				me._scrollarea_icho.ggDragLastY = e.clientY;
+				me._scrollarea_icho.ggScrollByY(diffY);
 			}
 		}
-		elHorScrollFg.ontouchstart = function(e) {
+		elVertScrollFg.ontouchstart = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
 			var t = e.touches;
-			me._thumbnail_icho.ggDragLastX = t[0].clientX;
+			me._scrollarea_icho.ggDragLastY = t[0].clientY;
 			document.ontouchend = function() {
 				document.ontouchend = null;
 				document.ontouchmove = null;
@@ -1073,59 +1093,61 @@ function pano2vrSkin(player,base) {
 				e = e || window.event;
 				e.preventDefault();
 			var t = e.touches;
-				var diffX = t[0].clientX - me._thumbnail_icho.ggDragLastX;
-				me._thumbnail_icho.ggDragLastX = t[0].clientX;
-				me._thumbnail_icho.ggScrollByX(diffX);
+				var diffY = t[0].clientY - me._scrollarea_icho.ggDragLastY;
+				me._scrollarea_icho.ggDragLastY = t[0].clientY;
+				me._scrollarea_icho.ggScrollByY(diffY);
 			}
 		}
-		elHorScrollBg.onmousedown = function(e) {
+		elVertScrollBg.onmousedown = function(e) {
 			e = e || window.event;
 			e.preventDefault();
-			var diffX = me._thumbnail_icho.ggScrollWidth;
-			if (e.offsetX < me._thumbnail_icho.ggScrollPosX) {
-				diffX = diffX * -1;
+			var diffY = me._scrollarea_icho.ggScrollHeight;
+			if (e.offsetY < me._scrollarea_icho.ggScrollPosY) {
+				diffY = diffY * -1;
 			}
-			me._thumbnail_icho.ggScrollByXSmooth(diffX);
+			me._scrollarea_icho.ggScrollByYSmooth(diffY);
 		}
-		elHorScrollBg.ontouchstart = function(e) {
+		elVertScrollBg.ontouchstart = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
 			var t = e.touches;
-			var rect = me._thumbnail_icho__horScrollBg.getBoundingClientRect();
-			var diffX = me._thumbnail_icho.ggScrollWidth;
-			if ((t[0].clientX - rect.left) < me._thumbnail_icho.ggScrollPosX) {
-				diffX = diffX * -1;
+			var rect = me._scrollarea_icho__vertScrollBg.getBoundingClientRect();
+			var diffY = me._scrollarea_icho.ggScrollHeight;
+			if ((t[0].clientY - rect.top) < me._scrollarea_icho.ggScrollPosY) {
+				diffY = diffY * -1;
 			}
-			me._thumbnail_icho.ggScrollByXSmooth(diffX);
+			me._scrollarea_icho.ggScrollByYSmooth(diffY);
 		}
 		el.addEventListener('wheel', function(e) {
-			var wheelDelta = Math.sign(e.deltaX);
-			me._thumbnail_icho.ggScrollByXSmooth(20 * wheelDelta);
+			var wheelDelta = Math.sign(e.deltaY);
+			me._scrollarea_icho.ggScrollByYSmooth(20 * wheelDelta);
 		});
-		elCornerBg = me._thumbnail_icho__cornerBg = document.createElement('div');
+		elCornerBg = me._scrollarea_icho__cornerBg = document.createElement('div');
 		el.appendChild(elCornerBg);
 		elCornerBg.setAttribute('style', 'position: absolute; right: 0px; bottom: 0px; visibility: hidden; width: 15px; height: 15px; background-color: rgba(255,255,255,1);');
 		elCornerBg.className='ggskin ggskin_scrollarea_scrollcorner';
-		el.ggId="Thumbnail icho";
+		el.ggId="Scrollarea icho";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_scrollarea ";
 		el.ggType='scrollarea';
 		hs ='';
 		hs+='border : 1px solid rgba(0, 0, 0, 0);';
-		hs+='bottom : 0px;';
-		hs+='height : 114px;';
-		hs+='left : 0px;';
+		hs+='cursor : pointer;';
+		hs+='height : 93.9815%;';
+		hs+='left : 16px;';
+		hs+='opacity : 0.89999;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
+		hs+='top : 12px;';
 		hs+='visibility : hidden;';
-		hs+='width : 80%;';
+		hs+='width : 464px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:80px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);';
+		hs+='padding-right:8px; margin-bottom: 16px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_icho.ggIsActive=function() {
+		me._scrollarea_icho.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -1137,7 +1159,7 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_icho.logicBlock_visible = function() {
+		me._scrollarea_icho.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
 				(me.ggUserdata.comment == "\u0418\u0447\u0451\u0434\u0438\u043d\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
@@ -1146,7 +1168,7 @@ function pano2vrSkin(player,base) {
 				newLogicStateVisible = 0;
 			}
 			else if (
-				(me.ggUserdata.comment == "\u0418\u0447\u0451\u0434\u0438\u043d\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
+				(me.ggUserdata.comment != "\u0418\u0447\u0451\u0434\u0438\u043d\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
 			)
 			{
 				newLogicStateVisible = 1;
@@ -1154,24 +1176,24 @@ function pano2vrSkin(player,base) {
 			else {
 				newLogicStateVisible = -1;
 			}
-			if (me._thumbnail_icho.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._thumbnail_icho.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._thumbnail_icho.style[domTransition]='';
-				if (me._thumbnail_icho.ggCurrentLogicStateVisible == 0) {
-					me._thumbnail_icho.style.visibility=(Number(me._thumbnail_icho.style.opacity)>0||!me._thumbnail_icho.style.opacity)?'inherit':'hidden';
-					me._thumbnail_icho.ggVisible=true;
+			if (me._scrollarea_icho.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._scrollarea_icho.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._scrollarea_icho.style[domTransition]='';
+				if (me._scrollarea_icho.ggCurrentLogicStateVisible == 0) {
+					me._scrollarea_icho.style.visibility=(Number(me._scrollarea_icho.style.opacity)>0||!me._scrollarea_icho.style.opacity)?'inherit':'hidden';
+					me._scrollarea_icho.ggVisible=true;
 				}
-				else if (me._thumbnail_icho.ggCurrentLogicStateVisible == 1) {
-					me._thumbnail_icho.style.visibility="hidden";
-					me._thumbnail_icho.ggVisible=false;
+				else if (me._scrollarea_icho.ggCurrentLogicStateVisible == 1) {
+					me._scrollarea_icho.style.visibility="hidden";
+					me._scrollarea_icho.ggVisible=false;
 				}
 				else {
-					me._thumbnail_icho.style.visibility="hidden";
-					me._thumbnail_icho.ggVisible=false;
+					me._scrollarea_icho.style.visibility="hidden";
+					me._scrollarea_icho.ggVisible=false;
 				}
 			}
 		}
-		me._thumbnail_icho.ggUpdatePosition=function (useTransition) {
+		me._scrollarea_icho.ggUpdatePosition=function (useTransition) {
 			{
 				this.ggContent.style.left = '0px';
 				this.ggContent.style.top = '0px';
@@ -1207,85 +1229,98 @@ function pano2vrSkin(player,base) {
 				var contentHeight = maxY - minY;
 				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.top = this.ggContentTopOffset + 'px';
-				this.ggContent.style.left = -(Math.round(me._thumbnail_icho.ggScrollPosX / me._thumbnail_icho.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.marginLeft = '0px';
-				this.ggContent.style.top = this.ggContentTopOffset + 'px';
+				this.ggContent.style.top = -(Math.round(me._scrollarea_icho.ggScrollPosY / me._scrollarea_icho.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				this.ggContent.style.marginTop = '0px';
-				if (contentWidth > this.clientWidth) {
-					me._thumbnail_icho__horScrollBg.style.visibility = 'inherit';
-					me._thumbnail_icho__horScrollFg.style.visibility = 'inherit';
-					me._thumbnail_icho.ggHorScrollVisible = true;
+				if ((me._scrollarea_icho.ggHorScrollVisible && contentHeight > this.clientHeight - 15) || (!me._scrollarea_icho.ggHorScrollVisible && contentHeight > this.clientHeight)) {
+					me._scrollarea_icho__vertScrollBg.style.visibility = 'inherit';
+					me._scrollarea_icho__vertScrollFg.style.visibility = 'inherit';
+					me._scrollarea_icho.ggVertScrollVisible = true;
 				} else {
-					me._thumbnail_icho__horScrollBg.style.visibility = 'hidden';
-					me._thumbnail_icho__horScrollFg.style.visibility = 'hidden';
-					me._thumbnail_icho.ggHorScrollVisible = false;
+					me._scrollarea_icho__vertScrollBg.style.visibility = 'hidden';
+					me._scrollarea_icho__vertScrollFg.style.visibility = 'hidden';
+					me._scrollarea_icho.ggVertScrollVisible = false;
 				}
-				if(me._thumbnail_icho.ggHorScrollVisible) {
-					if (me._thumbnail_icho.ggVertScrollVisible) {
-						me._thumbnail_icho.ggAvailableWidth = me._thumbnail_icho.clientWidth - 15;
+				if(me._scrollarea_icho.ggVertScrollVisible) {
+					if (me._scrollarea_icho.ggHorScrollVisible) {
+						me._scrollarea_icho.ggAvailableHeight = me._scrollarea_icho.clientHeight - 15;
+						me._scrollarea_icho__cornerBg.style.visibility = 'inherit';
 					} else {
-						me._thumbnail_icho.ggAvailableWidth = me._thumbnail_icho.clientWidth;
+						me._scrollarea_icho.ggAvailableHeight = me._scrollarea_icho.clientHeight;
+						me._scrollarea_icho__cornerBg.style.visibility = 'hidden';
 					}
-					me._thumbnail_icho__horScrollBg.style.width = me._thumbnail_icho.ggAvailableWidth + 'px';
-					me._thumbnail_icho.ggHPercentVisible = me._thumbnail_icho.ggAvailableWidth / contentWidth;
-					if (me._thumbnail_icho.ggHPercentVisible > 1.0) me._thumbnail_icho.ggHPercentVisible = 1.0;
-					me._thumbnail_icho.ggScrollWidth = Math.round(me._thumbnail_icho__horScrollBg.clientWidth * me._thumbnail_icho.ggHPercentVisible);
-					me._thumbnail_icho__horScrollFg.style.width = me._thumbnail_icho.ggScrollWidth + 'px';
-					me._thumbnail_icho.ggScrollPosX = me._thumbnail_icho.ggScrollPosXPercent * me._thumbnail_icho.ggAvailableWidth;
-					me._thumbnail_icho.ggScrollPosX = Math.min(me._thumbnail_icho.ggScrollPosX, me._thumbnail_icho__horScrollBg.clientWidth - me._thumbnail_icho__horScrollFg.clientWidth);
-					me._thumbnail_icho__horScrollFg.style.left = me._thumbnail_icho.ggScrollPosX + 'px';
-					me._thumbnail_icho__content.style.left = -(Math.round(me._thumbnail_icho.ggScrollPosX / me._thumbnail_icho.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+					me._scrollarea_icho__vertScrollBg.style.height = me._scrollarea_icho.ggAvailableHeight + 'px';
+					me._scrollarea_icho.ggVPercentVisible = me._scrollarea_icho.ggAvailableHeight / contentHeight;
+					if (me._scrollarea_icho.ggVPercentVisible > 1.0) me._scrollarea_icho.ggVPercentVisible = 1.0;
+					me._scrollarea_icho.ggScrollHeight =  Math.round(me._scrollarea_icho__vertScrollBg.clientHeight * me._scrollarea_icho.ggVPercentVisible);
+					me._scrollarea_icho__vertScrollFg.style.height = me._scrollarea_icho.ggScrollHeight + 'px';
+					me._scrollarea_icho.ggScrollPosY = me._scrollarea_icho.ggScrollPosYPercent * me._scrollarea_icho.ggAvailableHeight;
+					me._scrollarea_icho.ggScrollPosY = Math.min(me._scrollarea_icho.ggScrollPosY, me._scrollarea_icho__vertScrollBg.clientHeight - me._scrollarea_icho__vertScrollFg.clientHeight);
+					me._scrollarea_icho__vertScrollFg.style.top = me._scrollarea_icho.ggScrollPosY + 'px';
+					me._scrollarea_icho__content.style.top = -(Math.round(me._scrollarea_icho.ggScrollPosY / me._scrollarea_icho.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				} else {
-					me._thumbnail_icho.ggScrollPosX = 0;
-					me._thumbnail_icho.ggScrollPosXPercent = 0.0;
-					me._thumbnail_icho__content.style.left = this.ggContentLeftOffset + 'px';
+					me._scrollarea_icho.ggScrollPosY = 0;
+					me._scrollarea_icho.ggScrollPosYPercent = 0.0;
+					me._scrollarea_icho__content.style.top = this.ggContentTopOffset + 'px';
+					me._scrollarea_icho__cornerBg.style.visibility = 'hidden';
 				}
 			}
 		}
-		el=me._thumbnail_cloner_icho=document.createElement('div');
+		el=me._dropdown_cloner_icho=document.createElement('div');
 		el.ggNumRepeat = 1;
-		el.ggWidth = 88;
-		el.ggHeight = 82;
+		el.ggWidth = 450;
+		el.ggHeight = 88;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggInstances = [];
-		me._thumbnail_cloner_icho.callChildLogicBlocks_changenodeid = function(){
-			if(me._thumbnail_cloner_icho.ggInstances) {
+		me._dropdown_cloner_icho.callChildLogicBlocks_changenodeid = function(){
+			if(me._dropdown_cloner_icho.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_icho.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_icho.ggInstances[i]._checkmark_tick_icho && me._thumbnail_cloner_icho.ggInstances[i]._checkmark_tick_icho.logicBlock_visible) {
-						me._thumbnail_cloner_icho.ggInstances[i]._checkmark_tick_icho.logicBlock_visible();
+				for(i = 0; i < me._dropdown_cloner_icho.ggInstances.length; i++) {
+					if (me._dropdown_cloner_icho.ggInstances[i]._checkmark_tick_icho && me._dropdown_cloner_icho.ggInstances[i]._checkmark_tick_icho.logicBlock_visible) {
+						me._dropdown_cloner_icho.ggInstances[i]._checkmark_tick_icho.logicBlock_visible();
 					}
 				}
 			}
 		}
-		me._thumbnail_cloner_icho.callChildLogicBlocks_mouseover = function(){
-			if(me._thumbnail_cloner_icho.ggInstances) {
+		me._dropdown_cloner_icho.callChildLogicBlocks_mouseover = function(){
+			if(me._dropdown_cloner_icho.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_icho.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_icho.ggInstances[i]._thumbnail_active_icho && me._thumbnail_cloner_icho.ggInstances[i]._thumbnail_active_icho.logicBlock_bordercolor) {
-						me._thumbnail_cloner_icho.ggInstances[i]._thumbnail_active_icho.logicBlock_bordercolor();
+				for(i = 0; i < me._dropdown_cloner_icho.ggInstances.length; i++) {
+					if (me._dropdown_cloner_icho.ggInstances[i]._itembg_icho && me._dropdown_cloner_icho.ggInstances[i]._itembg_icho.logicBlock_backgroundcolor) {
+						me._dropdown_cloner_icho.ggInstances[i]._itembg_icho.logicBlock_backgroundcolor();
 					}
 				}
 			}
 		}
-		me._thumbnail_cloner_icho.callChildLogicBlocks_active = function(){
-			if(me._thumbnail_cloner_icho.ggInstances) {
+		me._dropdown_cloner_icho.callChildLogicBlocks_mouseover = function(){
+			if(me._dropdown_cloner_icho.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_icho.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_icho.ggInstances[i]._checkmark_tick_icho && me._thumbnail_cloner_icho.ggInstances[i]._checkmark_tick_icho.logicBlock_visible) {
-						me._thumbnail_cloner_icho.ggInstances[i]._checkmark_tick_icho.logicBlock_visible();
+				for(i = 0; i < me._dropdown_cloner_icho.ggInstances.length; i++) {
+					if (me._dropdown_cloner_icho.ggInstances[i]._dropdown_menu_text_icho && me._dropdown_cloner_icho.ggInstances[i]._dropdown_menu_text_icho.logicBlock_textcolor) {
+						me._dropdown_cloner_icho.ggInstances[i]._dropdown_menu_text_icho.logicBlock_textcolor();
 					}
-					if (me._thumbnail_cloner_icho.ggInstances[i]._thumbnail_active_icho && me._thumbnail_cloner_icho.ggInstances[i]._thumbnail_active_icho.logicBlock_bordercolor) {
-						me._thumbnail_cloner_icho.ggInstances[i]._thumbnail_active_icho.logicBlock_bordercolor();
+				}
+			}
+		}
+		me._dropdown_cloner_icho.callChildLogicBlocks_active = function(){
+			if(me._dropdown_cloner_icho.ggInstances) {
+				var i;
+				for(i = 0; i < me._dropdown_cloner_icho.ggInstances.length; i++) {
+					if (me._dropdown_cloner_icho.ggInstances[i]._itembg_icho && me._dropdown_cloner_icho.ggInstances[i]._itembg_icho.logicBlock_backgroundcolor) {
+						me._dropdown_cloner_icho.ggInstances[i]._itembg_icho.logicBlock_backgroundcolor();
+					}
+					if (me._dropdown_cloner_icho.ggInstances[i]._dropdown_menu_text_icho && me._dropdown_cloner_icho.ggInstances[i]._dropdown_menu_text_icho.logicBlock_textcolor) {
+						me._dropdown_cloner_icho.ggInstances[i]._dropdown_menu_text_icho.logicBlock_textcolor();
 					}
 				}
 			}
 		}
 		el.ggUpdate = function(filter) {
-			if(me._thumbnail_cloner_icho.ggUpdating == true) return;
-			me._thumbnail_cloner_icho.ggUpdating = true;
-			var el=me._thumbnail_cloner_icho;
+			if(me._dropdown_cloner_icho.ggUpdating == true) return;
+			me._dropdown_cloner_icho.ggUpdating = true;
+			var el=me._dropdown_cloner_icho;
 			el.ggInstances = [];
 			if (typeof filter=='object') {
 				el.ggFilter = filter;
@@ -1302,8 +1337,8 @@ function pano2vrSkin(player,base) {
 			var tourNodes = player.getNodeIds();
 			var row = 0;
 			var column = 0;
-			var numRows = el.ggNumRepeat;
-			if (numRows < 1) numRows = 1;
+			var numCols = me._dropdown_cloner_icho.ggNumRepeat;
+			if (numCols < 1) numCols = 1;
 			for (var i=0; i < tourNodes.length; i++) {
 				var nodeId = tourNodes[i];
 				var passed = true;
@@ -1315,46 +1350,46 @@ function pano2vrSkin(player,base) {
 				}
 				if (passed) {
 				var parameter={};
-				parameter.top=(row * me._thumbnail_cloner_icho.ggHeight) + 'px';
-				parameter.left=(column * me._thumbnail_cloner_icho.ggWidth) + 'px';
-				var inst = new SkinCloner_thumbnail_cloner_icho_Class(nodeId, me, el, parameter);
+				parameter.top=(row * me._dropdown_cloner_icho.ggHeight) + 'px';
+				parameter.left=(column * me._dropdown_cloner_icho.ggWidth) + 'px';
+				var inst = new SkinCloner_dropdown_cloner_icho_Class(nodeId, me, el, parameter);
 				el.ggInstances.push(inst);
 				el.appendChild(inst.__div);
 				inst.__div.ggObj=inst;
 				skin.updateSize(inst.__div);
-				row++;
-				if (row >= numRows) {
-					row = 0;
-					column++;
+				column++;
+				if (column >= numCols) {
+					column = 0;
+					row++;
 				}
 				}
 			}
-			me._thumbnail_cloner_icho.callChildLogicBlocks_changenodeid();
-			me._thumbnail_cloner_icho.callChildLogicBlocks_mouseover();
-			me._thumbnail_cloner_icho.callChildLogicBlocks_active();
-			me._thumbnail_cloner_icho.ggUpdating = false;
+			me._dropdown_cloner_icho.callChildLogicBlocks_changenodeid();
+			me._dropdown_cloner_icho.callChildLogicBlocks_mouseover();
+			me._dropdown_cloner_icho.callChildLogicBlocks_mouseover();
+			me._dropdown_cloner_icho.callChildLogicBlocks_active();
+			me._dropdown_cloner_icho.ggUpdating = false;
 			player.triggerEvent('clonerchanged');
 		}
 		el.ggFilter = [];
 		el.ggFilter[0] = "Ичёдинское месторождение";
-		el.ggId="Thumbnail Cloner icho";
+		el.ggId="Dropdown Cloner icho";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_cloner ";
 		el.ggType='cloner';
 		hs ='';
-		hs+='height : 82px;';
+		hs+='height : 88px;';
 		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
-		hs+='top : 12px;';
+		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 88px;';
+		hs+='width : 450px;';
 		hs+='pointer-events:none;';
-		hs+='border-radius:100px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_cloner_icho.ggIsActive=function() {
+		me._dropdown_cloner_icho.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -1366,10 +1401,10 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_cloner_icho.ggUpdateConditionNodeChange=function () {
+		me._dropdown_cloner_icho.ggUpdateConditionNodeChange=function () {
 			var cnode=player.getCurrentNode();
-			for(var i=0; i<me._thumbnail_cloner_icho.childNodes.length; i++) {
-				var child=me._thumbnail_cloner_icho.childNodes[i];
+			for(var i=0; i<me._dropdown_cloner_icho.childNodes.length; i++) {
+				var child=me._dropdown_cloner_icho.childNodes[i];
 				if (child.ggObj && child.ggObj.ggNodeId==cnode) {
 			        var childOffX = child.offsetLeft;
 			        var childOffY = child.offsetTop;
@@ -1385,21 +1420,21 @@ function pano2vrSkin(player,base) {
 				}
 			}
 		}
-		me._thumbnail_cloner_icho.ggUpdatePosition=function (useTransition) {
+		me._dropdown_cloner_icho.ggUpdatePosition=function (useTransition) {
 			var w=player.getViewerSize().width;
 			var h=player.getViewerSize().height
-			if ((!me._thumbnail_cloner_icho.ggLastSize) || (me._thumbnail_cloner_icho.ggLastSize.w!=w) || (me._thumbnail_cloner_icho.ggLastSize.h!=h)) {
-				me._thumbnail_cloner_icho.ggLastSize={ w:w, h:h };
-				me._thumbnail_cloner_icho.ggUpdate();
+			if ((!me._dropdown_cloner_icho.ggLastSize) || (me._dropdown_cloner_icho.ggLastSize.w!=w) || (me._dropdown_cloner_icho.ggLastSize.h!=h)) {
+				me._dropdown_cloner_icho.ggLastSize={ w:w, h:h };
+				me._dropdown_cloner_icho.ggUpdate();
 			}
 		}
-		me._thumbnail_cloner_icho.ggNodeChange=function () {
-			me._thumbnail_cloner_icho.ggUpdateConditionNodeChange();
+		me._dropdown_cloner_icho.ggNodeChange=function () {
+			me._dropdown_cloner_icho.ggUpdateConditionNodeChange();
 		}
-		me._thumbnail_icho__content.appendChild(me._thumbnail_cloner_icho);
-		me._map_bg.appendChild(me._thumbnail_icho);
-		el=me._thumbnail_mark=document.createElement('div');
-		els=me._thumbnail_mark__content=document.createElement('div');
+		me._scrollarea_icho__content.appendChild(me._dropdown_cloner_icho);
+		me._map_bg.appendChild(me._scrollarea_icho);
+		el=me._scrollarea_mark=document.createElement('div');
+		els=me._scrollarea_mark__content=document.createElement('div');
 		el.ggContent=els;
 		el.appendChild(els);
 		el.ggHorScrollVisible = false;
@@ -1407,128 +1442,128 @@ function pano2vrSkin(player,base) {
 		el.ggContentLeftOffset = 0;
 		el.ggContentTopOffset = 0;
 		hs ='';
-		hs+='height : 93px;';
+		hs+='height : 87px;';
 		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 87px;';
+		hs+='width : 449px;';
 		hs+="";
 		els.setAttribute('style',hs);
-		me._thumbnail_mark.ggScrollByX = function(diffX) {
-			if(!me._thumbnail_mark.ggHorScrollVisible || diffX == 0) return;
-			me._thumbnail_mark.ggScrollPosX = (me._thumbnail_mark__horScrollFg.offsetLeft + diffX);
-			me._thumbnail_mark.ggScrollPosX = Math.max(me._thumbnail_mark.ggScrollPosX, 0);
-			me._thumbnail_mark.ggScrollPosX = Math.min(me._thumbnail_mark.ggScrollPosX, me._thumbnail_mark__horScrollBg.clientWidth - me._thumbnail_mark__horScrollFg.clientWidth);
-			me._thumbnail_mark__horScrollFg.style.left = me._thumbnail_mark.ggScrollPosX + 'px';
-			me._thumbnail_mark__content.style.left = -(Math.round(me._thumbnail_mark.ggScrollPosX / me._thumbnail_mark.ggHPercentVisible)) + me._thumbnail_mark.ggContentLeftOffset + 'px';
-			me._thumbnail_mark.ggScrollPosXPercent = (me._thumbnail_mark__horScrollFg.offsetLeft / me._thumbnail_mark__horScrollBg.clientWidth);
+		me._scrollarea_mark.ggScrollByX = function(diffX) {
+			if(!me._scrollarea_mark.ggHorScrollVisible || diffX == 0) return;
+			me._scrollarea_mark.ggScrollPosX = (me._scrollarea_mark__horScrollFg.offsetLeft + diffX);
+			me._scrollarea_mark.ggScrollPosX = Math.max(me._scrollarea_mark.ggScrollPosX, 0);
+			me._scrollarea_mark.ggScrollPosX = Math.min(me._scrollarea_mark.ggScrollPosX, me._scrollarea_mark__horScrollBg.clientWidth - me._scrollarea_mark__horScrollFg.clientWidth);
+			me._scrollarea_mark__horScrollFg.style.left = me._scrollarea_mark.ggScrollPosX + 'px';
+			me._scrollarea_mark__content.style.left = -(Math.round(me._scrollarea_mark.ggScrollPosX / me._scrollarea_mark.ggHPercentVisible)) + me._scrollarea_mark.ggContentLeftOffset + 'px';
+			me._scrollarea_mark.ggScrollPosXPercent = (me._scrollarea_mark__horScrollFg.offsetLeft / me._scrollarea_mark__horScrollBg.clientWidth);
 		}
-		me._thumbnail_mark.ggScrollByXSmooth = function(diffX) {
-			if(!me._thumbnail_mark.ggHorScrollVisible || diffX == 0) return;
+		me._scrollarea_mark.ggScrollByXSmooth = function(diffX) {
+			if(!me._scrollarea_mark.ggHorScrollVisible || diffX == 0) return;
 			var scrollPerInterval = diffX / 25;
 			var scrollCurrX = 0;
 			var id = setInterval(function() {
 				scrollCurrX += scrollPerInterval;
-				me._thumbnail_mark.ggScrollPosX += scrollPerInterval;
-				if (diffX > 0 && (scrollCurrX >= diffX || me._thumbnail_mark.ggScrollPosX >= me._thumbnail_mark__horScrollBg.clientWidth - me._thumbnail_mark__horScrollFg.clientWidth)) {
-					me._thumbnail_mark.ggScrollPosX = Math.min(me._thumbnail_mark.ggScrollPosX, me._thumbnail_mark__horScrollBg.clientWidth - me._thumbnail_mark__horScrollFg.clientWidth);
+				me._scrollarea_mark.ggScrollPosX += scrollPerInterval;
+				if (diffX > 0 && (scrollCurrX >= diffX || me._scrollarea_mark.ggScrollPosX >= me._scrollarea_mark__horScrollBg.clientWidth - me._scrollarea_mark__horScrollFg.clientWidth)) {
+					me._scrollarea_mark.ggScrollPosX = Math.min(me._scrollarea_mark.ggScrollPosX, me._scrollarea_mark__horScrollBg.clientWidth - me._scrollarea_mark__horScrollFg.clientWidth);
 					clearInterval(id);
 				}
-				if (diffX < 0 && (scrollCurrX <= diffX || me._thumbnail_mark.ggScrollPosX <= 0)) {
-					me._thumbnail_mark.ggScrollPosX = Math.max(me._thumbnail_mark.ggScrollPosX, 0);
+				if (diffX < 0 && (scrollCurrX <= diffX || me._scrollarea_mark.ggScrollPosX <= 0)) {
+					me._scrollarea_mark.ggScrollPosX = Math.max(me._scrollarea_mark.ggScrollPosX, 0);
 					clearInterval(id);
 				}
-			me._thumbnail_mark__horScrollFg.style.left = me._thumbnail_mark.ggScrollPosX + 'px';
-			me._thumbnail_mark__content.style.left = -(Math.round(me._thumbnail_mark.ggScrollPosX / me._thumbnail_mark.ggHPercentVisible)) + me._thumbnail_mark.ggContentLeftOffset + 'px';
-			me._thumbnail_mark.ggScrollPosXPercent = (me._thumbnail_mark__horScrollFg.offsetLeft / me._thumbnail_mark__horScrollBg.clientWidth);
+			me._scrollarea_mark__horScrollFg.style.left = me._scrollarea_mark.ggScrollPosX + 'px';
+			me._scrollarea_mark__content.style.left = -(Math.round(me._scrollarea_mark.ggScrollPosX / me._scrollarea_mark.ggHPercentVisible)) + me._scrollarea_mark.ggContentLeftOffset + 'px';
+			me._scrollarea_mark.ggScrollPosXPercent = (me._scrollarea_mark__horScrollFg.offsetLeft / me._scrollarea_mark__horScrollBg.clientWidth);
 			}, 10);
 		}
-		me._thumbnail_mark.ggScrollByY = function(diffY) {
-			if(!me._thumbnail_mark.ggVertScrollVisible || diffY == 0) return;
-			me._thumbnail_mark.ggScrollPosY = (me._thumbnail_mark__vertScrollFg.offsetTop + diffY);
-			me._thumbnail_mark.ggScrollPosY = Math.max(me._thumbnail_mark.ggScrollPosY, 0);
-			me._thumbnail_mark.ggScrollPosY = Math.min(me._thumbnail_mark.ggScrollPosY, me._thumbnail_mark__vertScrollBg.clientHeight - me._thumbnail_mark__vertScrollFg.clientHeight);
-			me._thumbnail_mark__vertScrollFg.style.top = me._thumbnail_mark.ggScrollPosY + 'px';
-			me._thumbnail_mark__content.style.top = -(Math.round(me._thumbnail_mark.ggScrollPosY / me._thumbnail_mark.ggVPercentVisible)) + me._thumbnail_mark.ggContentTopOffset + 'px';
-			me._thumbnail_mark.ggScrollPosYPercent = (me._thumbnail_mark__vertScrollFg.offsetTop / me._thumbnail_mark__vertScrollBg.clientHeight);
+		me._scrollarea_mark.ggScrollByY = function(diffY) {
+			if(!me._scrollarea_mark.ggVertScrollVisible || diffY == 0) return;
+			me._scrollarea_mark.ggScrollPosY = (me._scrollarea_mark__vertScrollFg.offsetTop + diffY);
+			me._scrollarea_mark.ggScrollPosY = Math.max(me._scrollarea_mark.ggScrollPosY, 0);
+			me._scrollarea_mark.ggScrollPosY = Math.min(me._scrollarea_mark.ggScrollPosY, me._scrollarea_mark__vertScrollBg.clientHeight - me._scrollarea_mark__vertScrollFg.clientHeight);
+			me._scrollarea_mark__vertScrollFg.style.top = me._scrollarea_mark.ggScrollPosY + 'px';
+			me._scrollarea_mark__content.style.top = -(Math.round(me._scrollarea_mark.ggScrollPosY / me._scrollarea_mark.ggVPercentVisible)) + me._scrollarea_mark.ggContentTopOffset + 'px';
+			me._scrollarea_mark.ggScrollPosYPercent = (me._scrollarea_mark__vertScrollFg.offsetTop / me._scrollarea_mark__vertScrollBg.clientHeight);
 		}
-		me._thumbnail_mark.ggScrollByYSmooth = function(diffY) {
-			if(!me._thumbnail_mark.ggVertScrollVisible || diffY == 0) return;
+		me._scrollarea_mark.ggScrollByYSmooth = function(diffY) {
+			if(!me._scrollarea_mark.ggVertScrollVisible || diffY == 0) return;
 			var scrollPerInterval = diffY / 25;
 			var scrollCurrY = 0;
 			var id = setInterval(function() {
 				scrollCurrY += scrollPerInterval;
-				me._thumbnail_mark.ggScrollPosY += scrollPerInterval;
-				if (diffY > 0 && (scrollCurrY >= diffY || me._thumbnail_mark.ggScrollPosY >= me._thumbnail_mark__vertScrollBg.clientHeight - me._thumbnail_mark__vertScrollFg.clientHeight)) {
-					me._thumbnail_mark.ggScrollPosY = Math.min(me._thumbnail_mark.ggScrollPosY, me._thumbnail_mark__vertScrollBg.clientHeight - me._thumbnail_mark__vertScrollFg.clientHeight);
+				me._scrollarea_mark.ggScrollPosY += scrollPerInterval;
+				if (diffY > 0 && (scrollCurrY >= diffY || me._scrollarea_mark.ggScrollPosY >= me._scrollarea_mark__vertScrollBg.clientHeight - me._scrollarea_mark__vertScrollFg.clientHeight)) {
+					me._scrollarea_mark.ggScrollPosY = Math.min(me._scrollarea_mark.ggScrollPosY, me._scrollarea_mark__vertScrollBg.clientHeight - me._scrollarea_mark__vertScrollFg.clientHeight);
 					clearInterval(id);
 				}
-				if (diffY < 0 && (scrollCurrY <= diffY || me._thumbnail_mark.ggScrollPosY <= 0)) {
-					me._thumbnail_mark.ggScrollPosY = Math.max(me._thumbnail_mark.ggScrollPosY, 0);
+				if (diffY < 0 && (scrollCurrY <= diffY || me._scrollarea_mark.ggScrollPosY <= 0)) {
+					me._scrollarea_mark.ggScrollPosY = Math.max(me._scrollarea_mark.ggScrollPosY, 0);
 					clearInterval(id);
 				}
-			me._thumbnail_mark__vertScrollFg.style.top = me._thumbnail_mark.ggScrollPosY + 'px';
-			me._thumbnail_mark__content.style.top = -(Math.round(me._thumbnail_mark.ggScrollPosY / me._thumbnail_mark.ggVPercentVisible)) + me._thumbnail_mark.ggContentTopOffset + 'px';
-			me._thumbnail_mark.ggScrollPosYPercent = (me._thumbnail_mark__vertScrollFg.offsetTop / me._thumbnail_mark__vertScrollBg.clientHeight);
+			me._scrollarea_mark__vertScrollFg.style.top = me._scrollarea_mark.ggScrollPosY + 'px';
+			me._scrollarea_mark__content.style.top = -(Math.round(me._scrollarea_mark.ggScrollPosY / me._scrollarea_mark.ggVPercentVisible)) + me._scrollarea_mark.ggContentTopOffset + 'px';
+			me._scrollarea_mark.ggScrollPosYPercent = (me._scrollarea_mark__vertScrollFg.offsetTop / me._scrollarea_mark__vertScrollBg.clientHeight);
 			}, 10);
 		}
-		me._thumbnail_mark.ggScrollIntoView = function(posX, posY, width, height) {
-			if (me._thumbnail_mark.ggHorScrollVisible) {
+		me._scrollarea_mark.ggScrollIntoView = function(posX, posY, width, height) {
+			if (me._scrollarea_mark.ggHorScrollVisible) {
 				if (posX < 0) {
-					var diffX = Math.floor(posX * me._thumbnail_mark.ggHPercentVisible);
-					me._thumbnail_mark.ggScrollByXSmooth(diffX);
-				} else if (posX + width > me._thumbnail_mark.clientWidth - (me._thumbnail_mark.ggVertScrollVisible ? 15 : 0)) {
-					var diffX = Math.ceil(((posX + width) - (me._thumbnail_mark.clientWidth - (me._thumbnail_mark.ggVertScrollVisible ? 15 : 0))) * me._thumbnail_mark.ggHPercentVisible);
-					me._thumbnail_mark.ggScrollByXSmooth(diffX);
+					var diffX = Math.floor(posX * me._scrollarea_mark.ggHPercentVisible);
+					me._scrollarea_mark.ggScrollByXSmooth(diffX);
+				} else if (posX + width > me._scrollarea_mark.clientWidth - (me._scrollarea_mark.ggVertScrollVisible ? 15 : 0)) {
+					var diffX = Math.ceil(((posX + width) - (me._scrollarea_mark.clientWidth - (me._scrollarea_mark.ggVertScrollVisible ? 15 : 0))) * me._scrollarea_mark.ggHPercentVisible);
+					me._scrollarea_mark.ggScrollByXSmooth(diffX);
 				}
 			}
-			if (me._thumbnail_mark.ggVertScrollVisible) {
+			if (me._scrollarea_mark.ggVertScrollVisible) {
 				if (posY < 0) {
-					var diffY = Math.floor(posY * me._thumbnail_mark.ggVPercentVisible);
-					me._thumbnail_mark.ggScrollByYSmooth(diffY);
-				} else if (posY + height > me._thumbnail_mark.clientHeight - (me._thumbnail_mark.ggHorScrollVisible ? 15 : 0)) {
-					var diffY = Math.ceil(((posY + height) - (me._thumbnail_mark.clientHeight - (me._thumbnail_mark.ggHorScrollVisible ? 15 : 0))) * me._thumbnail_mark.ggVPercentVisible);
-					me._thumbnail_mark.ggScrollByYSmooth(diffY);
+					var diffY = Math.floor(posY * me._scrollarea_mark.ggVPercentVisible);
+					me._scrollarea_mark.ggScrollByYSmooth(diffY);
+				} else if (posY + height > me._scrollarea_mark.clientHeight - (me._scrollarea_mark.ggHorScrollVisible ? 15 : 0)) {
+					var diffY = Math.ceil(((posY + height) - (me._scrollarea_mark.clientHeight - (me._scrollarea_mark.ggHorScrollVisible ? 15 : 0))) * me._scrollarea_mark.ggVPercentVisible);
+					me._scrollarea_mark.ggScrollByYSmooth(diffY);
 				}
 			}
 		}
 		els.ontouchstart = function(e) {
 			e = e || window.event;
 			var t = e.touches;
-			me._thumbnail_mark.ggDragLastX = t[0].clientX;
-			me._thumbnail_mark.ggDragLastY = t[0].clientY;
-			me._thumbnail_mark__content.ontouchend = function() {
-				me._thumbnail_mark__content.ontouchend = null;
-				me._thumbnail_mark__content.ontouchmove = null;
+			me._scrollarea_mark.ggDragLastX = t[0].clientX;
+			me._scrollarea_mark.ggDragLastY = t[0].clientY;
+			me._scrollarea_mark__content.ontouchend = function() {
+				me._scrollarea_mark__content.ontouchend = null;
+				me._scrollarea_mark__content.ontouchmove = null;
 			}
-			me._thumbnail_mark__content.ontouchmove = function(e) {
+			me._scrollarea_mark__content.ontouchmove = function(e) {
 				e = e || window.event;
 				e.preventDefault();
 			var t = e.touches;
-				var diffX = t[0].clientX - me._thumbnail_mark.ggDragLastX;
-				var diffY = t[0].clientY - me._thumbnail_mark.ggDragLastY;
-				me._thumbnail_mark.ggDragLastX = t[0].clientX;
-				me._thumbnail_mark.ggDragLastY = t[0].clientY;
-				me._thumbnail_mark.ggScrollByX(-diffX);
-				me._thumbnail_mark.ggScrollByY(-diffY);
+				var diffX = t[0].clientX - me._scrollarea_mark.ggDragLastX;
+				var diffY = t[0].clientY - me._scrollarea_mark.ggDragLastY;
+				me._scrollarea_mark.ggDragLastX = t[0].clientX;
+				me._scrollarea_mark.ggDragLastY = t[0].clientY;
+				me._scrollarea_mark.ggScrollByX(-diffX);
+				me._scrollarea_mark.ggScrollByY(-diffY);
 			}
 		}
-		elHorScrollBg = me._thumbnail_mark__horScrollBg = document.createElement('div');
-		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 1536px; height: 15px; background-color: rgba(128,128,128,0.470588); pointer-events: auto;');
-		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
-		elHorScrollFg = me._thumbnail_mark__horScrollFg = document.createElement('div');
-		elHorScrollBg.appendChild(elHorScrollFg);
-		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 1536px; height: 15px; background-color: rgba(192,192,192,0.784314); pointer-events: auto;');
-		me._thumbnail_mark.ggScrollPosX = 0;
-		me._thumbnail_mark.ggScrollPosXPercent = 0.0;
-		elHorScrollFg.onmousedown = function(e) {
+		elVertScrollBg = me._scrollarea_mark__vertScrollBg = document.createElement('div');
+		el.appendChild(elVertScrollBg);
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 406px; background-color: rgba(255,255,255,0.117647); pointer-events: auto;');
+		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
+		elVertScrollFg = me._scrollarea_mark__vertScrollFg = document.createElement('div');
+		elVertScrollBg.appendChild(elVertScrollFg);
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 406px; background-color: rgba(255,255,255,0.784314); pointer-events: auto;');
+		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
+		me._scrollarea_mark.ggScrollPosY = 0;
+		me._scrollarea_mark.ggScrollPosYPercent = 0.0;
+		elVertScrollFg.onmousedown = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
-			me._thumbnail_mark.ggDragLastX = e.clientX;
+			me._scrollarea_mark.ggDragLastY = e.clientY;
 			document.onmouseup = function() {
 				document.onmouseup = null;
 				document.onmousemove = null;
@@ -1536,17 +1571,17 @@ function pano2vrSkin(player,base) {
 			document.onmousemove = function(e) {
 				e = e || window.event;
 				e.preventDefault();
-				var diffX = e.clientX - me._thumbnail_mark.ggDragLastX;
-				me._thumbnail_mark.ggDragLastX = e.clientX;
-				me._thumbnail_mark.ggScrollByX(diffX);
+				var diffY = e.clientY - me._scrollarea_mark.ggDragLastY;
+				me._scrollarea_mark.ggDragLastY = e.clientY;
+				me._scrollarea_mark.ggScrollByY(diffY);
 			}
 		}
-		elHorScrollFg.ontouchstart = function(e) {
+		elVertScrollFg.ontouchstart = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
 			var t = e.touches;
-			me._thumbnail_mark.ggDragLastX = t[0].clientX;
+			me._scrollarea_mark.ggDragLastY = t[0].clientY;
 			document.ontouchend = function() {
 				document.ontouchend = null;
 				document.ontouchmove = null;
@@ -1555,59 +1590,61 @@ function pano2vrSkin(player,base) {
 				e = e || window.event;
 				e.preventDefault();
 			var t = e.touches;
-				var diffX = t[0].clientX - me._thumbnail_mark.ggDragLastX;
-				me._thumbnail_mark.ggDragLastX = t[0].clientX;
-				me._thumbnail_mark.ggScrollByX(diffX);
+				var diffY = t[0].clientY - me._scrollarea_mark.ggDragLastY;
+				me._scrollarea_mark.ggDragLastY = t[0].clientY;
+				me._scrollarea_mark.ggScrollByY(diffY);
 			}
 		}
-		elHorScrollBg.onmousedown = function(e) {
+		elVertScrollBg.onmousedown = function(e) {
 			e = e || window.event;
 			e.preventDefault();
-			var diffX = me._thumbnail_mark.ggScrollWidth;
-			if (e.offsetX < me._thumbnail_mark.ggScrollPosX) {
-				diffX = diffX * -1;
+			var diffY = me._scrollarea_mark.ggScrollHeight;
+			if (e.offsetY < me._scrollarea_mark.ggScrollPosY) {
+				diffY = diffY * -1;
 			}
-			me._thumbnail_mark.ggScrollByXSmooth(diffX);
+			me._scrollarea_mark.ggScrollByYSmooth(diffY);
 		}
-		elHorScrollBg.ontouchstart = function(e) {
+		elVertScrollBg.ontouchstart = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
 			var t = e.touches;
-			var rect = me._thumbnail_mark__horScrollBg.getBoundingClientRect();
-			var diffX = me._thumbnail_mark.ggScrollWidth;
-			if ((t[0].clientX - rect.left) < me._thumbnail_mark.ggScrollPosX) {
-				diffX = diffX * -1;
+			var rect = me._scrollarea_mark__vertScrollBg.getBoundingClientRect();
+			var diffY = me._scrollarea_mark.ggScrollHeight;
+			if ((t[0].clientY - rect.top) < me._scrollarea_mark.ggScrollPosY) {
+				diffY = diffY * -1;
 			}
-			me._thumbnail_mark.ggScrollByXSmooth(diffX);
+			me._scrollarea_mark.ggScrollByYSmooth(diffY);
 		}
 		el.addEventListener('wheel', function(e) {
-			var wheelDelta = Math.sign(e.deltaX);
-			me._thumbnail_mark.ggScrollByXSmooth(20 * wheelDelta);
+			var wheelDelta = Math.sign(e.deltaY);
+			me._scrollarea_mark.ggScrollByYSmooth(20 * wheelDelta);
 		});
-		elCornerBg = me._thumbnail_mark__cornerBg = document.createElement('div');
+		elCornerBg = me._scrollarea_mark__cornerBg = document.createElement('div');
 		el.appendChild(elCornerBg);
 		elCornerBg.setAttribute('style', 'position: absolute; right: 0px; bottom: 0px; visibility: hidden; width: 15px; height: 15px; background-color: rgba(255,255,255,1);');
 		elCornerBg.className='ggskin ggskin_scrollarea_scrollcorner';
-		el.ggId="Thumbnail mark";
+		el.ggId="Scrollarea mark";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_scrollarea ";
 		el.ggType='scrollarea';
 		hs ='';
 		hs+='border : 1px solid rgba(0, 0, 0, 0);';
-		hs+='bottom : 0px;';
-		hs+='height : 114px;';
-		hs+='left : 0px;';
+		hs+='cursor : pointer;';
+		hs+='height : 93.9815%;';
+		hs+='left : 16px;';
+		hs+='opacity : 0.89999;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
+		hs+='top : 12px;';
 		hs+='visibility : hidden;';
-		hs+='width : 80%;';
+		hs+='width : 464px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:80px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);';
+		hs+='padding-right:8px; margin-bottom: 16px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_mark.ggIsActive=function() {
+		me._scrollarea_mark.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -1619,7 +1656,7 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_mark.logicBlock_visible = function() {
+		me._scrollarea_mark.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
 				(me.ggUserdata.comment == "\u041c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
@@ -1628,7 +1665,7 @@ function pano2vrSkin(player,base) {
 				newLogicStateVisible = 0;
 			}
 			else if (
-				(me.ggUserdata.comment == "\u041c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
+				(me.ggUserdata.comment != "\u041c\u0430\u0440\u043a\u043e\u0432\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
 			)
 			{
 				newLogicStateVisible = 1;
@@ -1636,24 +1673,24 @@ function pano2vrSkin(player,base) {
 			else {
 				newLogicStateVisible = -1;
 			}
-			if (me._thumbnail_mark.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._thumbnail_mark.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._thumbnail_mark.style[domTransition]='';
-				if (me._thumbnail_mark.ggCurrentLogicStateVisible == 0) {
-					me._thumbnail_mark.style.visibility=(Number(me._thumbnail_mark.style.opacity)>0||!me._thumbnail_mark.style.opacity)?'inherit':'hidden';
-					me._thumbnail_mark.ggVisible=true;
+			if (me._scrollarea_mark.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._scrollarea_mark.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._scrollarea_mark.style[domTransition]='';
+				if (me._scrollarea_mark.ggCurrentLogicStateVisible == 0) {
+					me._scrollarea_mark.style.visibility=(Number(me._scrollarea_mark.style.opacity)>0||!me._scrollarea_mark.style.opacity)?'inherit':'hidden';
+					me._scrollarea_mark.ggVisible=true;
 				}
-				else if (me._thumbnail_mark.ggCurrentLogicStateVisible == 1) {
-					me._thumbnail_mark.style.visibility="hidden";
-					me._thumbnail_mark.ggVisible=false;
+				else if (me._scrollarea_mark.ggCurrentLogicStateVisible == 1) {
+					me._scrollarea_mark.style.visibility="hidden";
+					me._scrollarea_mark.ggVisible=false;
 				}
 				else {
-					me._thumbnail_mark.style.visibility="hidden";
-					me._thumbnail_mark.ggVisible=false;
+					me._scrollarea_mark.style.visibility="hidden";
+					me._scrollarea_mark.ggVisible=false;
 				}
 			}
 		}
-		me._thumbnail_mark.ggUpdatePosition=function (useTransition) {
+		me._scrollarea_mark.ggUpdatePosition=function (useTransition) {
 			{
 				this.ggContent.style.left = '0px';
 				this.ggContent.style.top = '0px';
@@ -1689,85 +1726,98 @@ function pano2vrSkin(player,base) {
 				var contentHeight = maxY - minY;
 				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.top = this.ggContentTopOffset + 'px';
-				this.ggContent.style.left = -(Math.round(me._thumbnail_mark.ggScrollPosX / me._thumbnail_mark.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.marginLeft = '0px';
-				this.ggContent.style.top = this.ggContentTopOffset + 'px';
+				this.ggContent.style.top = -(Math.round(me._scrollarea_mark.ggScrollPosY / me._scrollarea_mark.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				this.ggContent.style.marginTop = '0px';
-				if (contentWidth > this.clientWidth) {
-					me._thumbnail_mark__horScrollBg.style.visibility = 'inherit';
-					me._thumbnail_mark__horScrollFg.style.visibility = 'inherit';
-					me._thumbnail_mark.ggHorScrollVisible = true;
+				if ((me._scrollarea_mark.ggHorScrollVisible && contentHeight > this.clientHeight - 15) || (!me._scrollarea_mark.ggHorScrollVisible && contentHeight > this.clientHeight)) {
+					me._scrollarea_mark__vertScrollBg.style.visibility = 'inherit';
+					me._scrollarea_mark__vertScrollFg.style.visibility = 'inherit';
+					me._scrollarea_mark.ggVertScrollVisible = true;
 				} else {
-					me._thumbnail_mark__horScrollBg.style.visibility = 'hidden';
-					me._thumbnail_mark__horScrollFg.style.visibility = 'hidden';
-					me._thumbnail_mark.ggHorScrollVisible = false;
+					me._scrollarea_mark__vertScrollBg.style.visibility = 'hidden';
+					me._scrollarea_mark__vertScrollFg.style.visibility = 'hidden';
+					me._scrollarea_mark.ggVertScrollVisible = false;
 				}
-				if(me._thumbnail_mark.ggHorScrollVisible) {
-					if (me._thumbnail_mark.ggVertScrollVisible) {
-						me._thumbnail_mark.ggAvailableWidth = me._thumbnail_mark.clientWidth - 15;
+				if(me._scrollarea_mark.ggVertScrollVisible) {
+					if (me._scrollarea_mark.ggHorScrollVisible) {
+						me._scrollarea_mark.ggAvailableHeight = me._scrollarea_mark.clientHeight - 15;
+						me._scrollarea_mark__cornerBg.style.visibility = 'inherit';
 					} else {
-						me._thumbnail_mark.ggAvailableWidth = me._thumbnail_mark.clientWidth;
+						me._scrollarea_mark.ggAvailableHeight = me._scrollarea_mark.clientHeight;
+						me._scrollarea_mark__cornerBg.style.visibility = 'hidden';
 					}
-					me._thumbnail_mark__horScrollBg.style.width = me._thumbnail_mark.ggAvailableWidth + 'px';
-					me._thumbnail_mark.ggHPercentVisible = me._thumbnail_mark.ggAvailableWidth / contentWidth;
-					if (me._thumbnail_mark.ggHPercentVisible > 1.0) me._thumbnail_mark.ggHPercentVisible = 1.0;
-					me._thumbnail_mark.ggScrollWidth = Math.round(me._thumbnail_mark__horScrollBg.clientWidth * me._thumbnail_mark.ggHPercentVisible);
-					me._thumbnail_mark__horScrollFg.style.width = me._thumbnail_mark.ggScrollWidth + 'px';
-					me._thumbnail_mark.ggScrollPosX = me._thumbnail_mark.ggScrollPosXPercent * me._thumbnail_mark.ggAvailableWidth;
-					me._thumbnail_mark.ggScrollPosX = Math.min(me._thumbnail_mark.ggScrollPosX, me._thumbnail_mark__horScrollBg.clientWidth - me._thumbnail_mark__horScrollFg.clientWidth);
-					me._thumbnail_mark__horScrollFg.style.left = me._thumbnail_mark.ggScrollPosX + 'px';
-					me._thumbnail_mark__content.style.left = -(Math.round(me._thumbnail_mark.ggScrollPosX / me._thumbnail_mark.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+					me._scrollarea_mark__vertScrollBg.style.height = me._scrollarea_mark.ggAvailableHeight + 'px';
+					me._scrollarea_mark.ggVPercentVisible = me._scrollarea_mark.ggAvailableHeight / contentHeight;
+					if (me._scrollarea_mark.ggVPercentVisible > 1.0) me._scrollarea_mark.ggVPercentVisible = 1.0;
+					me._scrollarea_mark.ggScrollHeight =  Math.round(me._scrollarea_mark__vertScrollBg.clientHeight * me._scrollarea_mark.ggVPercentVisible);
+					me._scrollarea_mark__vertScrollFg.style.height = me._scrollarea_mark.ggScrollHeight + 'px';
+					me._scrollarea_mark.ggScrollPosY = me._scrollarea_mark.ggScrollPosYPercent * me._scrollarea_mark.ggAvailableHeight;
+					me._scrollarea_mark.ggScrollPosY = Math.min(me._scrollarea_mark.ggScrollPosY, me._scrollarea_mark__vertScrollBg.clientHeight - me._scrollarea_mark__vertScrollFg.clientHeight);
+					me._scrollarea_mark__vertScrollFg.style.top = me._scrollarea_mark.ggScrollPosY + 'px';
+					me._scrollarea_mark__content.style.top = -(Math.round(me._scrollarea_mark.ggScrollPosY / me._scrollarea_mark.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				} else {
-					me._thumbnail_mark.ggScrollPosX = 0;
-					me._thumbnail_mark.ggScrollPosXPercent = 0.0;
-					me._thumbnail_mark__content.style.left = this.ggContentLeftOffset + 'px';
+					me._scrollarea_mark.ggScrollPosY = 0;
+					me._scrollarea_mark.ggScrollPosYPercent = 0.0;
+					me._scrollarea_mark__content.style.top = this.ggContentTopOffset + 'px';
+					me._scrollarea_mark__cornerBg.style.visibility = 'hidden';
 				}
 			}
 		}
-		el=me._thumbnail_cloner_mark=document.createElement('div');
+		el=me._dropdown_cloner_mark=document.createElement('div');
 		el.ggNumRepeat = 1;
-		el.ggWidth = 88;
-		el.ggHeight = 82;
+		el.ggWidth = 450;
+		el.ggHeight = 88;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggInstances = [];
-		me._thumbnail_cloner_mark.callChildLogicBlocks_changenodeid = function(){
-			if(me._thumbnail_cloner_mark.ggInstances) {
+		me._dropdown_cloner_mark.callChildLogicBlocks_changenodeid = function(){
+			if(me._dropdown_cloner_mark.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_mark.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_mark.ggInstances[i]._checkmark_tick_mark && me._thumbnail_cloner_mark.ggInstances[i]._checkmark_tick_mark.logicBlock_visible) {
-						me._thumbnail_cloner_mark.ggInstances[i]._checkmark_tick_mark.logicBlock_visible();
+				for(i = 0; i < me._dropdown_cloner_mark.ggInstances.length; i++) {
+					if (me._dropdown_cloner_mark.ggInstances[i]._checkmark_tick_mark && me._dropdown_cloner_mark.ggInstances[i]._checkmark_tick_mark.logicBlock_visible) {
+						me._dropdown_cloner_mark.ggInstances[i]._checkmark_tick_mark.logicBlock_visible();
 					}
 				}
 			}
 		}
-		me._thumbnail_cloner_mark.callChildLogicBlocks_mouseover = function(){
-			if(me._thumbnail_cloner_mark.ggInstances) {
+		me._dropdown_cloner_mark.callChildLogicBlocks_mouseover = function(){
+			if(me._dropdown_cloner_mark.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_mark.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_mark.ggInstances[i]._thumbnail_active_mark && me._thumbnail_cloner_mark.ggInstances[i]._thumbnail_active_mark.logicBlock_bordercolor) {
-						me._thumbnail_cloner_mark.ggInstances[i]._thumbnail_active_mark.logicBlock_bordercolor();
+				for(i = 0; i < me._dropdown_cloner_mark.ggInstances.length; i++) {
+					if (me._dropdown_cloner_mark.ggInstances[i]._itembg_mark && me._dropdown_cloner_mark.ggInstances[i]._itembg_mark.logicBlock_backgroundcolor) {
+						me._dropdown_cloner_mark.ggInstances[i]._itembg_mark.logicBlock_backgroundcolor();
 					}
 				}
 			}
 		}
-		me._thumbnail_cloner_mark.callChildLogicBlocks_active = function(){
-			if(me._thumbnail_cloner_mark.ggInstances) {
+		me._dropdown_cloner_mark.callChildLogicBlocks_mouseover = function(){
+			if(me._dropdown_cloner_mark.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_mark.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_mark.ggInstances[i]._checkmark_tick_mark && me._thumbnail_cloner_mark.ggInstances[i]._checkmark_tick_mark.logicBlock_visible) {
-						me._thumbnail_cloner_mark.ggInstances[i]._checkmark_tick_mark.logicBlock_visible();
+				for(i = 0; i < me._dropdown_cloner_mark.ggInstances.length; i++) {
+					if (me._dropdown_cloner_mark.ggInstances[i]._dropdown_menu_text_mark && me._dropdown_cloner_mark.ggInstances[i]._dropdown_menu_text_mark.logicBlock_textcolor) {
+						me._dropdown_cloner_mark.ggInstances[i]._dropdown_menu_text_mark.logicBlock_textcolor();
 					}
-					if (me._thumbnail_cloner_mark.ggInstances[i]._thumbnail_active_mark && me._thumbnail_cloner_mark.ggInstances[i]._thumbnail_active_mark.logicBlock_bordercolor) {
-						me._thumbnail_cloner_mark.ggInstances[i]._thumbnail_active_mark.logicBlock_bordercolor();
+				}
+			}
+		}
+		me._dropdown_cloner_mark.callChildLogicBlocks_active = function(){
+			if(me._dropdown_cloner_mark.ggInstances) {
+				var i;
+				for(i = 0; i < me._dropdown_cloner_mark.ggInstances.length; i++) {
+					if (me._dropdown_cloner_mark.ggInstances[i]._itembg_mark && me._dropdown_cloner_mark.ggInstances[i]._itembg_mark.logicBlock_backgroundcolor) {
+						me._dropdown_cloner_mark.ggInstances[i]._itembg_mark.logicBlock_backgroundcolor();
+					}
+					if (me._dropdown_cloner_mark.ggInstances[i]._dropdown_menu_text_mark && me._dropdown_cloner_mark.ggInstances[i]._dropdown_menu_text_mark.logicBlock_textcolor) {
+						me._dropdown_cloner_mark.ggInstances[i]._dropdown_menu_text_mark.logicBlock_textcolor();
 					}
 				}
 			}
 		}
 		el.ggUpdate = function(filter) {
-			if(me._thumbnail_cloner_mark.ggUpdating == true) return;
-			me._thumbnail_cloner_mark.ggUpdating = true;
-			var el=me._thumbnail_cloner_mark;
+			if(me._dropdown_cloner_mark.ggUpdating == true) return;
+			me._dropdown_cloner_mark.ggUpdating = true;
+			var el=me._dropdown_cloner_mark;
 			el.ggInstances = [];
 			if (typeof filter=='object') {
 				el.ggFilter = filter;
@@ -1784,8 +1834,8 @@ function pano2vrSkin(player,base) {
 			var tourNodes = player.getNodeIds();
 			var row = 0;
 			var column = 0;
-			var numRows = el.ggNumRepeat;
-			if (numRows < 1) numRows = 1;
+			var numCols = me._dropdown_cloner_mark.ggNumRepeat;
+			if (numCols < 1) numCols = 1;
 			for (var i=0; i < tourNodes.length; i++) {
 				var nodeId = tourNodes[i];
 				var passed = true;
@@ -1797,46 +1847,46 @@ function pano2vrSkin(player,base) {
 				}
 				if (passed) {
 				var parameter={};
-				parameter.top=(row * me._thumbnail_cloner_mark.ggHeight) + 'px';
-				parameter.left=(column * me._thumbnail_cloner_mark.ggWidth) + 'px';
-				var inst = new SkinCloner_thumbnail_cloner_mark_Class(nodeId, me, el, parameter);
+				parameter.top=(row * me._dropdown_cloner_mark.ggHeight) + 'px';
+				parameter.left=(column * me._dropdown_cloner_mark.ggWidth) + 'px';
+				var inst = new SkinCloner_dropdown_cloner_mark_Class(nodeId, me, el, parameter);
 				el.ggInstances.push(inst);
 				el.appendChild(inst.__div);
 				inst.__div.ggObj=inst;
 				skin.updateSize(inst.__div);
-				row++;
-				if (row >= numRows) {
-					row = 0;
-					column++;
+				column++;
+				if (column >= numCols) {
+					column = 0;
+					row++;
 				}
 				}
 			}
-			me._thumbnail_cloner_mark.callChildLogicBlocks_changenodeid();
-			me._thumbnail_cloner_mark.callChildLogicBlocks_mouseover();
-			me._thumbnail_cloner_mark.callChildLogicBlocks_active();
-			me._thumbnail_cloner_mark.ggUpdating = false;
+			me._dropdown_cloner_mark.callChildLogicBlocks_changenodeid();
+			me._dropdown_cloner_mark.callChildLogicBlocks_mouseover();
+			me._dropdown_cloner_mark.callChildLogicBlocks_mouseover();
+			me._dropdown_cloner_mark.callChildLogicBlocks_active();
+			me._dropdown_cloner_mark.ggUpdating = false;
 			player.triggerEvent('clonerchanged');
 		}
 		el.ggFilter = [];
 		el.ggFilter[0] = "Марковское месторождение";
-		el.ggId="Thumbnail Cloner mark";
+		el.ggId="Dropdown Cloner mark";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_cloner ";
 		el.ggType='cloner';
 		hs ='';
-		hs+='height : 82px;';
+		hs+='height : 88px;';
 		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
-		hs+='top : 12px;';
+		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 88px;';
+		hs+='width : 450px;';
 		hs+='pointer-events:none;';
-		hs+='border-radius:100px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_cloner_mark.ggIsActive=function() {
+		me._dropdown_cloner_mark.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -1848,10 +1898,10 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_cloner_mark.ggUpdateConditionNodeChange=function () {
+		me._dropdown_cloner_mark.ggUpdateConditionNodeChange=function () {
 			var cnode=player.getCurrentNode();
-			for(var i=0; i<me._thumbnail_cloner_mark.childNodes.length; i++) {
-				var child=me._thumbnail_cloner_mark.childNodes[i];
+			for(var i=0; i<me._dropdown_cloner_mark.childNodes.length; i++) {
+				var child=me._dropdown_cloner_mark.childNodes[i];
 				if (child.ggObj && child.ggObj.ggNodeId==cnode) {
 			        var childOffX = child.offsetLeft;
 			        var childOffY = child.offsetTop;
@@ -1867,21 +1917,21 @@ function pano2vrSkin(player,base) {
 				}
 			}
 		}
-		me._thumbnail_cloner_mark.ggUpdatePosition=function (useTransition) {
+		me._dropdown_cloner_mark.ggUpdatePosition=function (useTransition) {
 			var w=player.getViewerSize().width;
 			var h=player.getViewerSize().height
-			if ((!me._thumbnail_cloner_mark.ggLastSize) || (me._thumbnail_cloner_mark.ggLastSize.w!=w) || (me._thumbnail_cloner_mark.ggLastSize.h!=h)) {
-				me._thumbnail_cloner_mark.ggLastSize={ w:w, h:h };
-				me._thumbnail_cloner_mark.ggUpdate();
+			if ((!me._dropdown_cloner_mark.ggLastSize) || (me._dropdown_cloner_mark.ggLastSize.w!=w) || (me._dropdown_cloner_mark.ggLastSize.h!=h)) {
+				me._dropdown_cloner_mark.ggLastSize={ w:w, h:h };
+				me._dropdown_cloner_mark.ggUpdate();
 			}
 		}
-		me._thumbnail_cloner_mark.ggNodeChange=function () {
-			me._thumbnail_cloner_mark.ggUpdateConditionNodeChange();
+		me._dropdown_cloner_mark.ggNodeChange=function () {
+			me._dropdown_cloner_mark.ggUpdateConditionNodeChange();
 		}
-		me._thumbnail_mark__content.appendChild(me._thumbnail_cloner_mark);
-		me._map_bg.appendChild(me._thumbnail_mark);
-		el=me._thumbnail_ya=document.createElement('div');
-		els=me._thumbnail_ya__content=document.createElement('div');
+		me._scrollarea_mark__content.appendChild(me._dropdown_cloner_mark);
+		me._map_bg.appendChild(me._scrollarea_mark);
+		el=me._scrollarea_ya=document.createElement('div');
+		els=me._scrollarea_ya__content=document.createElement('div');
 		el.ggContent=els;
 		el.appendChild(els);
 		el.ggHorScrollVisible = false;
@@ -1889,128 +1939,128 @@ function pano2vrSkin(player,base) {
 		el.ggContentLeftOffset = 0;
 		el.ggContentTopOffset = 0;
 		hs ='';
-		hs+='height : 93px;';
+		hs+='height : 87px;';
 		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
-		hs+='width : 87px;';
+		hs+='width : 449px;';
 		hs+="";
 		els.setAttribute('style',hs);
-		me._thumbnail_ya.ggScrollByX = function(diffX) {
-			if(!me._thumbnail_ya.ggHorScrollVisible || diffX == 0) return;
-			me._thumbnail_ya.ggScrollPosX = (me._thumbnail_ya__horScrollFg.offsetLeft + diffX);
-			me._thumbnail_ya.ggScrollPosX = Math.max(me._thumbnail_ya.ggScrollPosX, 0);
-			me._thumbnail_ya.ggScrollPosX = Math.min(me._thumbnail_ya.ggScrollPosX, me._thumbnail_ya__horScrollBg.clientWidth - me._thumbnail_ya__horScrollFg.clientWidth);
-			me._thumbnail_ya__horScrollFg.style.left = me._thumbnail_ya.ggScrollPosX + 'px';
-			me._thumbnail_ya__content.style.left = -(Math.round(me._thumbnail_ya.ggScrollPosX / me._thumbnail_ya.ggHPercentVisible)) + me._thumbnail_ya.ggContentLeftOffset + 'px';
-			me._thumbnail_ya.ggScrollPosXPercent = (me._thumbnail_ya__horScrollFg.offsetLeft / me._thumbnail_ya__horScrollBg.clientWidth);
+		me._scrollarea_ya.ggScrollByX = function(diffX) {
+			if(!me._scrollarea_ya.ggHorScrollVisible || diffX == 0) return;
+			me._scrollarea_ya.ggScrollPosX = (me._scrollarea_ya__horScrollFg.offsetLeft + diffX);
+			me._scrollarea_ya.ggScrollPosX = Math.max(me._scrollarea_ya.ggScrollPosX, 0);
+			me._scrollarea_ya.ggScrollPosX = Math.min(me._scrollarea_ya.ggScrollPosX, me._scrollarea_ya__horScrollBg.clientWidth - me._scrollarea_ya__horScrollFg.clientWidth);
+			me._scrollarea_ya__horScrollFg.style.left = me._scrollarea_ya.ggScrollPosX + 'px';
+			me._scrollarea_ya__content.style.left = -(Math.round(me._scrollarea_ya.ggScrollPosX / me._scrollarea_ya.ggHPercentVisible)) + me._scrollarea_ya.ggContentLeftOffset + 'px';
+			me._scrollarea_ya.ggScrollPosXPercent = (me._scrollarea_ya__horScrollFg.offsetLeft / me._scrollarea_ya__horScrollBg.clientWidth);
 		}
-		me._thumbnail_ya.ggScrollByXSmooth = function(diffX) {
-			if(!me._thumbnail_ya.ggHorScrollVisible || diffX == 0) return;
+		me._scrollarea_ya.ggScrollByXSmooth = function(diffX) {
+			if(!me._scrollarea_ya.ggHorScrollVisible || diffX == 0) return;
 			var scrollPerInterval = diffX / 25;
 			var scrollCurrX = 0;
 			var id = setInterval(function() {
 				scrollCurrX += scrollPerInterval;
-				me._thumbnail_ya.ggScrollPosX += scrollPerInterval;
-				if (diffX > 0 && (scrollCurrX >= diffX || me._thumbnail_ya.ggScrollPosX >= me._thumbnail_ya__horScrollBg.clientWidth - me._thumbnail_ya__horScrollFg.clientWidth)) {
-					me._thumbnail_ya.ggScrollPosX = Math.min(me._thumbnail_ya.ggScrollPosX, me._thumbnail_ya__horScrollBg.clientWidth - me._thumbnail_ya__horScrollFg.clientWidth);
+				me._scrollarea_ya.ggScrollPosX += scrollPerInterval;
+				if (diffX > 0 && (scrollCurrX >= diffX || me._scrollarea_ya.ggScrollPosX >= me._scrollarea_ya__horScrollBg.clientWidth - me._scrollarea_ya__horScrollFg.clientWidth)) {
+					me._scrollarea_ya.ggScrollPosX = Math.min(me._scrollarea_ya.ggScrollPosX, me._scrollarea_ya__horScrollBg.clientWidth - me._scrollarea_ya__horScrollFg.clientWidth);
 					clearInterval(id);
 				}
-				if (diffX < 0 && (scrollCurrX <= diffX || me._thumbnail_ya.ggScrollPosX <= 0)) {
-					me._thumbnail_ya.ggScrollPosX = Math.max(me._thumbnail_ya.ggScrollPosX, 0);
+				if (diffX < 0 && (scrollCurrX <= diffX || me._scrollarea_ya.ggScrollPosX <= 0)) {
+					me._scrollarea_ya.ggScrollPosX = Math.max(me._scrollarea_ya.ggScrollPosX, 0);
 					clearInterval(id);
 				}
-			me._thumbnail_ya__horScrollFg.style.left = me._thumbnail_ya.ggScrollPosX + 'px';
-			me._thumbnail_ya__content.style.left = -(Math.round(me._thumbnail_ya.ggScrollPosX / me._thumbnail_ya.ggHPercentVisible)) + me._thumbnail_ya.ggContentLeftOffset + 'px';
-			me._thumbnail_ya.ggScrollPosXPercent = (me._thumbnail_ya__horScrollFg.offsetLeft / me._thumbnail_ya__horScrollBg.clientWidth);
+			me._scrollarea_ya__horScrollFg.style.left = me._scrollarea_ya.ggScrollPosX + 'px';
+			me._scrollarea_ya__content.style.left = -(Math.round(me._scrollarea_ya.ggScrollPosX / me._scrollarea_ya.ggHPercentVisible)) + me._scrollarea_ya.ggContentLeftOffset + 'px';
+			me._scrollarea_ya.ggScrollPosXPercent = (me._scrollarea_ya__horScrollFg.offsetLeft / me._scrollarea_ya__horScrollBg.clientWidth);
 			}, 10);
 		}
-		me._thumbnail_ya.ggScrollByY = function(diffY) {
-			if(!me._thumbnail_ya.ggVertScrollVisible || diffY == 0) return;
-			me._thumbnail_ya.ggScrollPosY = (me._thumbnail_ya__vertScrollFg.offsetTop + diffY);
-			me._thumbnail_ya.ggScrollPosY = Math.max(me._thumbnail_ya.ggScrollPosY, 0);
-			me._thumbnail_ya.ggScrollPosY = Math.min(me._thumbnail_ya.ggScrollPosY, me._thumbnail_ya__vertScrollBg.clientHeight - me._thumbnail_ya__vertScrollFg.clientHeight);
-			me._thumbnail_ya__vertScrollFg.style.top = me._thumbnail_ya.ggScrollPosY + 'px';
-			me._thumbnail_ya__content.style.top = -(Math.round(me._thumbnail_ya.ggScrollPosY / me._thumbnail_ya.ggVPercentVisible)) + me._thumbnail_ya.ggContentTopOffset + 'px';
-			me._thumbnail_ya.ggScrollPosYPercent = (me._thumbnail_ya__vertScrollFg.offsetTop / me._thumbnail_ya__vertScrollBg.clientHeight);
+		me._scrollarea_ya.ggScrollByY = function(diffY) {
+			if(!me._scrollarea_ya.ggVertScrollVisible || diffY == 0) return;
+			me._scrollarea_ya.ggScrollPosY = (me._scrollarea_ya__vertScrollFg.offsetTop + diffY);
+			me._scrollarea_ya.ggScrollPosY = Math.max(me._scrollarea_ya.ggScrollPosY, 0);
+			me._scrollarea_ya.ggScrollPosY = Math.min(me._scrollarea_ya.ggScrollPosY, me._scrollarea_ya__vertScrollBg.clientHeight - me._scrollarea_ya__vertScrollFg.clientHeight);
+			me._scrollarea_ya__vertScrollFg.style.top = me._scrollarea_ya.ggScrollPosY + 'px';
+			me._scrollarea_ya__content.style.top = -(Math.round(me._scrollarea_ya.ggScrollPosY / me._scrollarea_ya.ggVPercentVisible)) + me._scrollarea_ya.ggContentTopOffset + 'px';
+			me._scrollarea_ya.ggScrollPosYPercent = (me._scrollarea_ya__vertScrollFg.offsetTop / me._scrollarea_ya__vertScrollBg.clientHeight);
 		}
-		me._thumbnail_ya.ggScrollByYSmooth = function(diffY) {
-			if(!me._thumbnail_ya.ggVertScrollVisible || diffY == 0) return;
+		me._scrollarea_ya.ggScrollByYSmooth = function(diffY) {
+			if(!me._scrollarea_ya.ggVertScrollVisible || diffY == 0) return;
 			var scrollPerInterval = diffY / 25;
 			var scrollCurrY = 0;
 			var id = setInterval(function() {
 				scrollCurrY += scrollPerInterval;
-				me._thumbnail_ya.ggScrollPosY += scrollPerInterval;
-				if (diffY > 0 && (scrollCurrY >= diffY || me._thumbnail_ya.ggScrollPosY >= me._thumbnail_ya__vertScrollBg.clientHeight - me._thumbnail_ya__vertScrollFg.clientHeight)) {
-					me._thumbnail_ya.ggScrollPosY = Math.min(me._thumbnail_ya.ggScrollPosY, me._thumbnail_ya__vertScrollBg.clientHeight - me._thumbnail_ya__vertScrollFg.clientHeight);
+				me._scrollarea_ya.ggScrollPosY += scrollPerInterval;
+				if (diffY > 0 && (scrollCurrY >= diffY || me._scrollarea_ya.ggScrollPosY >= me._scrollarea_ya__vertScrollBg.clientHeight - me._scrollarea_ya__vertScrollFg.clientHeight)) {
+					me._scrollarea_ya.ggScrollPosY = Math.min(me._scrollarea_ya.ggScrollPosY, me._scrollarea_ya__vertScrollBg.clientHeight - me._scrollarea_ya__vertScrollFg.clientHeight);
 					clearInterval(id);
 				}
-				if (diffY < 0 && (scrollCurrY <= diffY || me._thumbnail_ya.ggScrollPosY <= 0)) {
-					me._thumbnail_ya.ggScrollPosY = Math.max(me._thumbnail_ya.ggScrollPosY, 0);
+				if (diffY < 0 && (scrollCurrY <= diffY || me._scrollarea_ya.ggScrollPosY <= 0)) {
+					me._scrollarea_ya.ggScrollPosY = Math.max(me._scrollarea_ya.ggScrollPosY, 0);
 					clearInterval(id);
 				}
-			me._thumbnail_ya__vertScrollFg.style.top = me._thumbnail_ya.ggScrollPosY + 'px';
-			me._thumbnail_ya__content.style.top = -(Math.round(me._thumbnail_ya.ggScrollPosY / me._thumbnail_ya.ggVPercentVisible)) + me._thumbnail_ya.ggContentTopOffset + 'px';
-			me._thumbnail_ya.ggScrollPosYPercent = (me._thumbnail_ya__vertScrollFg.offsetTop / me._thumbnail_ya__vertScrollBg.clientHeight);
+			me._scrollarea_ya__vertScrollFg.style.top = me._scrollarea_ya.ggScrollPosY + 'px';
+			me._scrollarea_ya__content.style.top = -(Math.round(me._scrollarea_ya.ggScrollPosY / me._scrollarea_ya.ggVPercentVisible)) + me._scrollarea_ya.ggContentTopOffset + 'px';
+			me._scrollarea_ya.ggScrollPosYPercent = (me._scrollarea_ya__vertScrollFg.offsetTop / me._scrollarea_ya__vertScrollBg.clientHeight);
 			}, 10);
 		}
-		me._thumbnail_ya.ggScrollIntoView = function(posX, posY, width, height) {
-			if (me._thumbnail_ya.ggHorScrollVisible) {
+		me._scrollarea_ya.ggScrollIntoView = function(posX, posY, width, height) {
+			if (me._scrollarea_ya.ggHorScrollVisible) {
 				if (posX < 0) {
-					var diffX = Math.floor(posX * me._thumbnail_ya.ggHPercentVisible);
-					me._thumbnail_ya.ggScrollByXSmooth(diffX);
-				} else if (posX + width > me._thumbnail_ya.clientWidth - (me._thumbnail_ya.ggVertScrollVisible ? 15 : 0)) {
-					var diffX = Math.ceil(((posX + width) - (me._thumbnail_ya.clientWidth - (me._thumbnail_ya.ggVertScrollVisible ? 15 : 0))) * me._thumbnail_ya.ggHPercentVisible);
-					me._thumbnail_ya.ggScrollByXSmooth(diffX);
+					var diffX = Math.floor(posX * me._scrollarea_ya.ggHPercentVisible);
+					me._scrollarea_ya.ggScrollByXSmooth(diffX);
+				} else if (posX + width > me._scrollarea_ya.clientWidth - (me._scrollarea_ya.ggVertScrollVisible ? 15 : 0)) {
+					var diffX = Math.ceil(((posX + width) - (me._scrollarea_ya.clientWidth - (me._scrollarea_ya.ggVertScrollVisible ? 15 : 0))) * me._scrollarea_ya.ggHPercentVisible);
+					me._scrollarea_ya.ggScrollByXSmooth(diffX);
 				}
 			}
-			if (me._thumbnail_ya.ggVertScrollVisible) {
+			if (me._scrollarea_ya.ggVertScrollVisible) {
 				if (posY < 0) {
-					var diffY = Math.floor(posY * me._thumbnail_ya.ggVPercentVisible);
-					me._thumbnail_ya.ggScrollByYSmooth(diffY);
-				} else if (posY + height > me._thumbnail_ya.clientHeight - (me._thumbnail_ya.ggHorScrollVisible ? 15 : 0)) {
-					var diffY = Math.ceil(((posY + height) - (me._thumbnail_ya.clientHeight - (me._thumbnail_ya.ggHorScrollVisible ? 15 : 0))) * me._thumbnail_ya.ggVPercentVisible);
-					me._thumbnail_ya.ggScrollByYSmooth(diffY);
+					var diffY = Math.floor(posY * me._scrollarea_ya.ggVPercentVisible);
+					me._scrollarea_ya.ggScrollByYSmooth(diffY);
+				} else if (posY + height > me._scrollarea_ya.clientHeight - (me._scrollarea_ya.ggHorScrollVisible ? 15 : 0)) {
+					var diffY = Math.ceil(((posY + height) - (me._scrollarea_ya.clientHeight - (me._scrollarea_ya.ggHorScrollVisible ? 15 : 0))) * me._scrollarea_ya.ggVPercentVisible);
+					me._scrollarea_ya.ggScrollByYSmooth(diffY);
 				}
 			}
 		}
 		els.ontouchstart = function(e) {
 			e = e || window.event;
 			var t = e.touches;
-			me._thumbnail_ya.ggDragLastX = t[0].clientX;
-			me._thumbnail_ya.ggDragLastY = t[0].clientY;
-			me._thumbnail_ya__content.ontouchend = function() {
-				me._thumbnail_ya__content.ontouchend = null;
-				me._thumbnail_ya__content.ontouchmove = null;
+			me._scrollarea_ya.ggDragLastX = t[0].clientX;
+			me._scrollarea_ya.ggDragLastY = t[0].clientY;
+			me._scrollarea_ya__content.ontouchend = function() {
+				me._scrollarea_ya__content.ontouchend = null;
+				me._scrollarea_ya__content.ontouchmove = null;
 			}
-			me._thumbnail_ya__content.ontouchmove = function(e) {
+			me._scrollarea_ya__content.ontouchmove = function(e) {
 				e = e || window.event;
 				e.preventDefault();
 			var t = e.touches;
-				var diffX = t[0].clientX - me._thumbnail_ya.ggDragLastX;
-				var diffY = t[0].clientY - me._thumbnail_ya.ggDragLastY;
-				me._thumbnail_ya.ggDragLastX = t[0].clientX;
-				me._thumbnail_ya.ggDragLastY = t[0].clientY;
-				me._thumbnail_ya.ggScrollByX(-diffX);
-				me._thumbnail_ya.ggScrollByY(-diffY);
+				var diffX = t[0].clientX - me._scrollarea_ya.ggDragLastX;
+				var diffY = t[0].clientY - me._scrollarea_ya.ggDragLastY;
+				me._scrollarea_ya.ggDragLastX = t[0].clientX;
+				me._scrollarea_ya.ggDragLastY = t[0].clientY;
+				me._scrollarea_ya.ggScrollByX(-diffX);
+				me._scrollarea_ya.ggScrollByY(-diffY);
 			}
 		}
-		elHorScrollBg = me._thumbnail_ya__horScrollBg = document.createElement('div');
-		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 1536px; height: 15px; background-color: rgba(128,128,128,0.470588); pointer-events: auto;');
-		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
-		elHorScrollFg = me._thumbnail_ya__horScrollFg = document.createElement('div');
-		elHorScrollBg.appendChild(elHorScrollFg);
-		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 1536px; height: 15px; background-color: rgba(192,192,192,0.784314); pointer-events: auto;');
-		me._thumbnail_ya.ggScrollPosX = 0;
-		me._thumbnail_ya.ggScrollPosXPercent = 0.0;
-		elHorScrollFg.onmousedown = function(e) {
+		elVertScrollBg = me._scrollarea_ya__vertScrollBg = document.createElement('div');
+		el.appendChild(elVertScrollBg);
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 406px; background-color: rgba(255,255,255,0.117647); pointer-events: auto;');
+		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
+		elVertScrollFg = me._scrollarea_ya__vertScrollFg = document.createElement('div');
+		elVertScrollBg.appendChild(elVertScrollFg);
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 406px; background-color: rgba(255,255,255,0.784314); pointer-events: auto;');
+		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
+		me._scrollarea_ya.ggScrollPosY = 0;
+		me._scrollarea_ya.ggScrollPosYPercent = 0.0;
+		elVertScrollFg.onmousedown = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
-			me._thumbnail_ya.ggDragLastX = e.clientX;
+			me._scrollarea_ya.ggDragLastY = e.clientY;
 			document.onmouseup = function() {
 				document.onmouseup = null;
 				document.onmousemove = null;
@@ -2018,17 +2068,17 @@ function pano2vrSkin(player,base) {
 			document.onmousemove = function(e) {
 				e = e || window.event;
 				e.preventDefault();
-				var diffX = e.clientX - me._thumbnail_ya.ggDragLastX;
-				me._thumbnail_ya.ggDragLastX = e.clientX;
-				me._thumbnail_ya.ggScrollByX(diffX);
+				var diffY = e.clientY - me._scrollarea_ya.ggDragLastY;
+				me._scrollarea_ya.ggDragLastY = e.clientY;
+				me._scrollarea_ya.ggScrollByY(diffY);
 			}
 		}
-		elHorScrollFg.ontouchstart = function(e) {
+		elVertScrollFg.ontouchstart = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
 			var t = e.touches;
-			me._thumbnail_ya.ggDragLastX = t[0].clientX;
+			me._scrollarea_ya.ggDragLastY = t[0].clientY;
 			document.ontouchend = function() {
 				document.ontouchend = null;
 				document.ontouchmove = null;
@@ -2037,59 +2087,61 @@ function pano2vrSkin(player,base) {
 				e = e || window.event;
 				e.preventDefault();
 			var t = e.touches;
-				var diffX = t[0].clientX - me._thumbnail_ya.ggDragLastX;
-				me._thumbnail_ya.ggDragLastX = t[0].clientX;
-				me._thumbnail_ya.ggScrollByX(diffX);
+				var diffY = t[0].clientY - me._scrollarea_ya.ggDragLastY;
+				me._scrollarea_ya.ggDragLastY = t[0].clientY;
+				me._scrollarea_ya.ggScrollByY(diffY);
 			}
 		}
-		elHorScrollBg.onmousedown = function(e) {
+		elVertScrollBg.onmousedown = function(e) {
 			e = e || window.event;
 			e.preventDefault();
-			var diffX = me._thumbnail_ya.ggScrollWidth;
-			if (e.offsetX < me._thumbnail_ya.ggScrollPosX) {
-				diffX = diffX * -1;
+			var diffY = me._scrollarea_ya.ggScrollHeight;
+			if (e.offsetY < me._scrollarea_ya.ggScrollPosY) {
+				diffY = diffY * -1;
 			}
-			me._thumbnail_ya.ggScrollByXSmooth(diffX);
+			me._scrollarea_ya.ggScrollByYSmooth(diffY);
 		}
-		elHorScrollBg.ontouchstart = function(e) {
+		elVertScrollBg.ontouchstart = function(e) {
 			e = e || window.event;
 			e.preventDefault();
 			e.stopPropagation();
 			var t = e.touches;
-			var rect = me._thumbnail_ya__horScrollBg.getBoundingClientRect();
-			var diffX = me._thumbnail_ya.ggScrollWidth;
-			if ((t[0].clientX - rect.left) < me._thumbnail_ya.ggScrollPosX) {
-				diffX = diffX * -1;
+			var rect = me._scrollarea_ya__vertScrollBg.getBoundingClientRect();
+			var diffY = me._scrollarea_ya.ggScrollHeight;
+			if ((t[0].clientY - rect.top) < me._scrollarea_ya.ggScrollPosY) {
+				diffY = diffY * -1;
 			}
-			me._thumbnail_ya.ggScrollByXSmooth(diffX);
+			me._scrollarea_ya.ggScrollByYSmooth(diffY);
 		}
 		el.addEventListener('wheel', function(e) {
-			var wheelDelta = Math.sign(e.deltaX);
-			me._thumbnail_ya.ggScrollByXSmooth(20 * wheelDelta);
+			var wheelDelta = Math.sign(e.deltaY);
+			me._scrollarea_ya.ggScrollByYSmooth(20 * wheelDelta);
 		});
-		elCornerBg = me._thumbnail_ya__cornerBg = document.createElement('div');
+		elCornerBg = me._scrollarea_ya__cornerBg = document.createElement('div');
 		el.appendChild(elCornerBg);
 		elCornerBg.setAttribute('style', 'position: absolute; right: 0px; bottom: 0px; visibility: hidden; width: 15px; height: 15px; background-color: rgba(255,255,255,1);');
 		elCornerBg.className='ggskin ggskin_scrollarea_scrollcorner';
-		el.ggId="Thumbnail ya";
+		el.ggId="Scrollarea ya";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_scrollarea ";
 		el.ggType='scrollarea';
 		hs ='';
 		hs+='border : 1px solid rgba(0, 0, 0, 0);';
-		hs+='bottom : 0px;';
-		hs+='height : 114px;';
-		hs+='left : 0px;';
+		hs+='cursor : pointer;';
+		hs+='height : 93.9815%;';
+		hs+='left : 16px;';
+		hs+='opacity : 0.89999;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
+		hs+='top : 12px;';
 		hs+='visibility : hidden;';
-		hs+='width : 80%;';
+		hs+='width : 464px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:80px; backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);';
+		hs+='padding-right:8px; margin-bottom: 16px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_ya.ggIsActive=function() {
+		me._scrollarea_ya.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -2101,7 +2153,7 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_ya.logicBlock_visible = function() {
+		me._scrollarea_ya.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
 				(me.ggUserdata.comment == "\u042f\u0440\u0430\u043a\u0442\u0438\u043d\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
@@ -2110,7 +2162,7 @@ function pano2vrSkin(player,base) {
 				newLogicStateVisible = 0;
 			}
 			else if (
-				(me.ggUserdata.comment == "\u042f\u0440\u0430\u043a\u0442\u0438\u043d\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
+				(me.ggUserdata.comment != "\u042f\u0440\u0430\u043a\u0442\u0438\u043d\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
 			)
 			{
 				newLogicStateVisible = 1;
@@ -2118,24 +2170,24 @@ function pano2vrSkin(player,base) {
 			else {
 				newLogicStateVisible = -1;
 			}
-			if (me._thumbnail_ya.ggCurrentLogicStateVisible != newLogicStateVisible) {
-				me._thumbnail_ya.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._thumbnail_ya.style[domTransition]='';
-				if (me._thumbnail_ya.ggCurrentLogicStateVisible == 0) {
-					me._thumbnail_ya.style.visibility=(Number(me._thumbnail_ya.style.opacity)>0||!me._thumbnail_ya.style.opacity)?'inherit':'hidden';
-					me._thumbnail_ya.ggVisible=true;
+			if (me._scrollarea_ya.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._scrollarea_ya.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._scrollarea_ya.style[domTransition]='';
+				if (me._scrollarea_ya.ggCurrentLogicStateVisible == 0) {
+					me._scrollarea_ya.style.visibility=(Number(me._scrollarea_ya.style.opacity)>0||!me._scrollarea_ya.style.opacity)?'inherit':'hidden';
+					me._scrollarea_ya.ggVisible=true;
 				}
-				else if (me._thumbnail_ya.ggCurrentLogicStateVisible == 1) {
-					me._thumbnail_ya.style.visibility="hidden";
-					me._thumbnail_ya.ggVisible=false;
+				else if (me._scrollarea_ya.ggCurrentLogicStateVisible == 1) {
+					me._scrollarea_ya.style.visibility="hidden";
+					me._scrollarea_ya.ggVisible=false;
 				}
 				else {
-					me._thumbnail_ya.style.visibility="hidden";
-					me._thumbnail_ya.ggVisible=false;
+					me._scrollarea_ya.style.visibility="hidden";
+					me._scrollarea_ya.ggVisible=false;
 				}
 			}
 		}
-		me._thumbnail_ya.ggUpdatePosition=function (useTransition) {
+		me._scrollarea_ya.ggUpdatePosition=function (useTransition) {
 			{
 				this.ggContent.style.left = '0px';
 				this.ggContent.style.top = '0px';
@@ -2171,85 +2223,101 @@ function pano2vrSkin(player,base) {
 				var contentHeight = maxY - minY;
 				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.top = this.ggContentTopOffset + 'px';
-				this.ggContent.style.left = -(Math.round(me._thumbnail_ya.ggScrollPosX / me._thumbnail_ya.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+				this.ggContent.style.left = this.ggContentLeftOffset + 'px';
 				this.ggContent.style.marginLeft = '0px';
-				this.ggContent.style.top = this.ggContentTopOffset + 'px';
+				this.ggContent.style.top = -(Math.round(me._scrollarea_ya.ggScrollPosY / me._scrollarea_ya.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				this.ggContent.style.marginTop = '0px';
-				if (contentWidth > this.clientWidth) {
-					me._thumbnail_ya__horScrollBg.style.visibility = 'inherit';
-					me._thumbnail_ya__horScrollFg.style.visibility = 'inherit';
-					me._thumbnail_ya.ggHorScrollVisible = true;
+				if ((me._scrollarea_ya.ggHorScrollVisible && contentHeight > this.clientHeight - 15) || (!me._scrollarea_ya.ggHorScrollVisible && contentHeight > this.clientHeight)) {
+					me._scrollarea_ya__vertScrollBg.style.visibility = 'inherit';
+					me._scrollarea_ya__vertScrollFg.style.visibility = 'inherit';
+					me._scrollarea_ya.ggVertScrollVisible = true;
 				} else {
-					me._thumbnail_ya__horScrollBg.style.visibility = 'hidden';
-					me._thumbnail_ya__horScrollFg.style.visibility = 'hidden';
-					me._thumbnail_ya.ggHorScrollVisible = false;
+					me._scrollarea_ya__vertScrollBg.style.visibility = 'hidden';
+					me._scrollarea_ya__vertScrollFg.style.visibility = 'hidden';
+					me._scrollarea_ya.ggVertScrollVisible = false;
 				}
-				if(me._thumbnail_ya.ggHorScrollVisible) {
-					if (me._thumbnail_ya.ggVertScrollVisible) {
-						me._thumbnail_ya.ggAvailableWidth = me._thumbnail_ya.clientWidth - 15;
+				if(me._scrollarea_ya.ggVertScrollVisible) {
+					if (me._scrollarea_ya.ggHorScrollVisible) {
+						me._scrollarea_ya.ggAvailableHeight = me._scrollarea_ya.clientHeight - 15;
+						me._scrollarea_ya__cornerBg.style.visibility = 'inherit';
 					} else {
-						me._thumbnail_ya.ggAvailableWidth = me._thumbnail_ya.clientWidth;
+						me._scrollarea_ya.ggAvailableHeight = me._scrollarea_ya.clientHeight;
+						me._scrollarea_ya__cornerBg.style.visibility = 'hidden';
 					}
-					me._thumbnail_ya__horScrollBg.style.width = me._thumbnail_ya.ggAvailableWidth + 'px';
-					me._thumbnail_ya.ggHPercentVisible = me._thumbnail_ya.ggAvailableWidth / contentWidth;
-					if (me._thumbnail_ya.ggHPercentVisible > 1.0) me._thumbnail_ya.ggHPercentVisible = 1.0;
-					me._thumbnail_ya.ggScrollWidth = Math.round(me._thumbnail_ya__horScrollBg.clientWidth * me._thumbnail_ya.ggHPercentVisible);
-					me._thumbnail_ya__horScrollFg.style.width = me._thumbnail_ya.ggScrollWidth + 'px';
-					me._thumbnail_ya.ggScrollPosX = me._thumbnail_ya.ggScrollPosXPercent * me._thumbnail_ya.ggAvailableWidth;
-					me._thumbnail_ya.ggScrollPosX = Math.min(me._thumbnail_ya.ggScrollPosX, me._thumbnail_ya__horScrollBg.clientWidth - me._thumbnail_ya__horScrollFg.clientWidth);
-					me._thumbnail_ya__horScrollFg.style.left = me._thumbnail_ya.ggScrollPosX + 'px';
-					me._thumbnail_ya__content.style.left = -(Math.round(me._thumbnail_ya.ggScrollPosX / me._thumbnail_ya.ggHPercentVisible)) + this.ggContentLeftOffset + 'px';
+					me._scrollarea_ya__vertScrollBg.style.height = me._scrollarea_ya.ggAvailableHeight + 'px';
+					me._scrollarea_ya.ggVPercentVisible = me._scrollarea_ya.ggAvailableHeight / contentHeight;
+					if (me._scrollarea_ya.ggVPercentVisible > 1.0) me._scrollarea_ya.ggVPercentVisible = 1.0;
+					me._scrollarea_ya.ggScrollHeight =  Math.round(me._scrollarea_ya__vertScrollBg.clientHeight * me._scrollarea_ya.ggVPercentVisible);
+					me._scrollarea_ya__vertScrollFg.style.height = me._scrollarea_ya.ggScrollHeight + 'px';
+					me._scrollarea_ya.ggScrollPosY = me._scrollarea_ya.ggScrollPosYPercent * me._scrollarea_ya.ggAvailableHeight;
+					me._scrollarea_ya.ggScrollPosY = Math.min(me._scrollarea_ya.ggScrollPosY, me._scrollarea_ya__vertScrollBg.clientHeight - me._scrollarea_ya__vertScrollFg.clientHeight);
+					me._scrollarea_ya__vertScrollFg.style.top = me._scrollarea_ya.ggScrollPosY + 'px';
+					me._scrollarea_ya__content.style.top = -(Math.round(me._scrollarea_ya.ggScrollPosY / me._scrollarea_ya.ggVPercentVisible)) + this.ggContentTopOffset + 'px';
 				} else {
-					me._thumbnail_ya.ggScrollPosX = 0;
-					me._thumbnail_ya.ggScrollPosXPercent = 0.0;
-					me._thumbnail_ya__content.style.left = this.ggContentLeftOffset + 'px';
+					me._scrollarea_ya.ggScrollPosY = 0;
+					me._scrollarea_ya.ggScrollPosYPercent = 0.0;
+					me._scrollarea_ya__content.style.top = this.ggContentTopOffset + 'px';
+					me._scrollarea_ya__cornerBg.style.visibility = 'hidden';
 				}
 			}
 		}
-		el=me._thumbnail_cloner_ya=document.createElement('div');
+		el=me._dropdown_cloner_ya=document.createElement('div');
 		el.ggNumRepeat = 1;
-		el.ggWidth = 88;
-		el.ggHeight = 82;
+		el.ggWidth = 450;
+		el.ggHeight = 88;
 		el.ggUpdating = false;
 		el.ggFilter = [];
 		el.ggInstances = [];
-		me._thumbnail_cloner_ya.callChildLogicBlocks_changenodeid = function(){
-			if(me._thumbnail_cloner_ya.ggInstances) {
+		me._dropdown_cloner_ya.callChildLogicBlocks_changenodeid = function(){
+			if(me._dropdown_cloner_ya.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_ya.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_ya.ggInstances[i]._checkmark_tick_ya && me._thumbnail_cloner_ya.ggInstances[i]._checkmark_tick_ya.logicBlock_visible) {
-						me._thumbnail_cloner_ya.ggInstances[i]._checkmark_tick_ya.logicBlock_visible();
+				for(i = 0; i < me._dropdown_cloner_ya.ggInstances.length; i++) {
+					if (me._dropdown_cloner_ya.ggInstances[i]._itembg_ya && me._dropdown_cloner_ya.ggInstances[i]._itembg_ya.logicBlock_visible) {
+						me._dropdown_cloner_ya.ggInstances[i]._itembg_ya.logicBlock_visible();
+					}
+					if (me._dropdown_cloner_ya.ggInstances[i]._checkmark_tick_ya && me._dropdown_cloner_ya.ggInstances[i]._checkmark_tick_ya.logicBlock_visible) {
+						me._dropdown_cloner_ya.ggInstances[i]._checkmark_tick_ya.logicBlock_visible();
 					}
 				}
 			}
 		}
-		me._thumbnail_cloner_ya.callChildLogicBlocks_mouseover = function(){
-			if(me._thumbnail_cloner_ya.ggInstances) {
+		me._dropdown_cloner_ya.callChildLogicBlocks_mouseover = function(){
+			if(me._dropdown_cloner_ya.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_ya.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_ya.ggInstances[i]._thumbnail_active_ya && me._thumbnail_cloner_ya.ggInstances[i]._thumbnail_active_ya.logicBlock_bordercolor) {
-						me._thumbnail_cloner_ya.ggInstances[i]._thumbnail_active_ya.logicBlock_bordercolor();
+				for(i = 0; i < me._dropdown_cloner_ya.ggInstances.length; i++) {
+					if (me._dropdown_cloner_ya.ggInstances[i]._itembg_ya && me._dropdown_cloner_ya.ggInstances[i]._itembg_ya.logicBlock_backgroundcolor) {
+						me._dropdown_cloner_ya.ggInstances[i]._itembg_ya.logicBlock_backgroundcolor();
 					}
 				}
 			}
 		}
-		me._thumbnail_cloner_ya.callChildLogicBlocks_active = function(){
-			if(me._thumbnail_cloner_ya.ggInstances) {
+		me._dropdown_cloner_ya.callChildLogicBlocks_mouseover = function(){
+			if(me._dropdown_cloner_ya.ggInstances) {
 				var i;
-				for(i = 0; i < me._thumbnail_cloner_ya.ggInstances.length; i++) {
-					if (me._thumbnail_cloner_ya.ggInstances[i]._checkmark_tick_ya && me._thumbnail_cloner_ya.ggInstances[i]._checkmark_tick_ya.logicBlock_visible) {
-						me._thumbnail_cloner_ya.ggInstances[i]._checkmark_tick_ya.logicBlock_visible();
+				for(i = 0; i < me._dropdown_cloner_ya.ggInstances.length; i++) {
+					if (me._dropdown_cloner_ya.ggInstances[i]._dropdown_menu_text_ya && me._dropdown_cloner_ya.ggInstances[i]._dropdown_menu_text_ya.logicBlock_textcolor) {
+						me._dropdown_cloner_ya.ggInstances[i]._dropdown_menu_text_ya.logicBlock_textcolor();
 					}
-					if (me._thumbnail_cloner_ya.ggInstances[i]._thumbnail_active_ya && me._thumbnail_cloner_ya.ggInstances[i]._thumbnail_active_ya.logicBlock_bordercolor) {
-						me._thumbnail_cloner_ya.ggInstances[i]._thumbnail_active_ya.logicBlock_bordercolor();
+				}
+			}
+		}
+		me._dropdown_cloner_ya.callChildLogicBlocks_active = function(){
+			if(me._dropdown_cloner_ya.ggInstances) {
+				var i;
+				for(i = 0; i < me._dropdown_cloner_ya.ggInstances.length; i++) {
+					if (me._dropdown_cloner_ya.ggInstances[i]._itembg_ya && me._dropdown_cloner_ya.ggInstances[i]._itembg_ya.logicBlock_backgroundcolor) {
+						me._dropdown_cloner_ya.ggInstances[i]._itembg_ya.logicBlock_backgroundcolor();
+					}
+					if (me._dropdown_cloner_ya.ggInstances[i]._dropdown_menu_text_ya && me._dropdown_cloner_ya.ggInstances[i]._dropdown_menu_text_ya.logicBlock_textcolor) {
+						me._dropdown_cloner_ya.ggInstances[i]._dropdown_menu_text_ya.logicBlock_textcolor();
 					}
 				}
 			}
 		}
 		el.ggUpdate = function(filter) {
-			if(me._thumbnail_cloner_ya.ggUpdating == true) return;
-			me._thumbnail_cloner_ya.ggUpdating = true;
-			var el=me._thumbnail_cloner_ya;
+			if(me._dropdown_cloner_ya.ggUpdating == true) return;
+			me._dropdown_cloner_ya.ggUpdating = true;
+			var el=me._dropdown_cloner_ya;
 			el.ggInstances = [];
 			if (typeof filter=='object') {
 				el.ggFilter = filter;
@@ -2266,8 +2334,8 @@ function pano2vrSkin(player,base) {
 			var tourNodes = player.getNodeIds();
 			var row = 0;
 			var column = 0;
-			var numRows = el.ggNumRepeat;
-			if (numRows < 1) numRows = 1;
+			var numCols = me._dropdown_cloner_ya.ggNumRepeat;
+			if (numCols < 1) numCols = 1;
 			for (var i=0; i < tourNodes.length; i++) {
 				var nodeId = tourNodes[i];
 				var passed = true;
@@ -2279,46 +2347,46 @@ function pano2vrSkin(player,base) {
 				}
 				if (passed) {
 				var parameter={};
-				parameter.top=(row * me._thumbnail_cloner_ya.ggHeight) + 'px';
-				parameter.left=(column * me._thumbnail_cloner_ya.ggWidth) + 'px';
-				var inst = new SkinCloner_thumbnail_cloner_ya_Class(nodeId, me, el, parameter);
+				parameter.top=(row * me._dropdown_cloner_ya.ggHeight) + 'px';
+				parameter.left=(column * me._dropdown_cloner_ya.ggWidth) + 'px';
+				var inst = new SkinCloner_dropdown_cloner_ya_Class(nodeId, me, el, parameter);
 				el.ggInstances.push(inst);
 				el.appendChild(inst.__div);
 				inst.__div.ggObj=inst;
 				skin.updateSize(inst.__div);
-				row++;
-				if (row >= numRows) {
-					row = 0;
-					column++;
+				column++;
+				if (column >= numCols) {
+					column = 0;
+					row++;
 				}
 				}
 			}
-			me._thumbnail_cloner_ya.callChildLogicBlocks_changenodeid();
-			me._thumbnail_cloner_ya.callChildLogicBlocks_mouseover();
-			me._thumbnail_cloner_ya.callChildLogicBlocks_active();
-			me._thumbnail_cloner_ya.ggUpdating = false;
+			me._dropdown_cloner_ya.callChildLogicBlocks_changenodeid();
+			me._dropdown_cloner_ya.callChildLogicBlocks_mouseover();
+			me._dropdown_cloner_ya.callChildLogicBlocks_mouseover();
+			me._dropdown_cloner_ya.callChildLogicBlocks_active();
+			me._dropdown_cloner_ya.ggUpdating = false;
 			player.triggerEvent('clonerchanged');
 		}
 		el.ggFilter = [];
 		el.ggFilter[0] = "Ярактинское месторождение";
-		el.ggId="Thumbnail Cloner ya";
+		el.ggId="Dropdown Cloner ya";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_cloner ";
 		el.ggType='cloner';
 		hs ='';
-		hs+='height : 82px;';
+		hs+='height : 88px;';
 		hs+='left : 0px;';
 		hs+='overflow : visible;';
 		hs+='position : absolute;';
-		hs+='top : 12px;';
+		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 88px;';
+		hs+='width : 450px;';
 		hs+='pointer-events:none;';
-		hs+='border-radius:100px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_cloner_ya.ggIsActive=function() {
+		me._dropdown_cloner_ya.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -2330,10 +2398,10 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_cloner_ya.ggUpdateConditionNodeChange=function () {
+		me._dropdown_cloner_ya.ggUpdateConditionNodeChange=function () {
 			var cnode=player.getCurrentNode();
-			for(var i=0; i<me._thumbnail_cloner_ya.childNodes.length; i++) {
-				var child=me._thumbnail_cloner_ya.childNodes[i];
+			for(var i=0; i<me._dropdown_cloner_ya.childNodes.length; i++) {
+				var child=me._dropdown_cloner_ya.childNodes[i];
 				if (child.ggObj && child.ggObj.ggNodeId==cnode) {
 			        var childOffX = child.offsetLeft;
 			        var childOffY = child.offsetTop;
@@ -2349,21 +2417,22 @@ function pano2vrSkin(player,base) {
 				}
 			}
 		}
-		me._thumbnail_cloner_ya.ggUpdatePosition=function (useTransition) {
+		me._dropdown_cloner_ya.ggUpdatePosition=function (useTransition) {
 			var w=player.getViewerSize().width;
 			var h=player.getViewerSize().height
-			if ((!me._thumbnail_cloner_ya.ggLastSize) || (me._thumbnail_cloner_ya.ggLastSize.w!=w) || (me._thumbnail_cloner_ya.ggLastSize.h!=h)) {
-				me._thumbnail_cloner_ya.ggLastSize={ w:w, h:h };
-				me._thumbnail_cloner_ya.ggUpdate();
+			if ((!me._dropdown_cloner_ya.ggLastSize) || (me._dropdown_cloner_ya.ggLastSize.w!=w) || (me._dropdown_cloner_ya.ggLastSize.h!=h)) {
+				me._dropdown_cloner_ya.ggLastSize={ w:w, h:h };
+				me._dropdown_cloner_ya.ggUpdate();
 			}
 		}
-		me._thumbnail_cloner_ya.ggNodeChange=function () {
-			me._thumbnail_cloner_ya.ggUpdateConditionNodeChange();
+		me._dropdown_cloner_ya.ggNodeChange=function () {
+			me._dropdown_cloner_ya.ggUpdateConditionNodeChange();
 		}
-		me._thumbnail_ya__content.appendChild(me._thumbnail_cloner_ya);
-		me._map_bg.appendChild(me._thumbnail_ya);
+		me._scrollarea_ya__content.appendChild(me._dropdown_cloner_ya);
+		me._map_bg.appendChild(me._scrollarea_ya);
 		me.divSkin.appendChild(me._map_bg);
 		el=me._main_menu=document.createElement('div');
+		el.ggPermeable=false;
 		el.ggId="main_menu";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
@@ -2377,7 +2446,7 @@ function pano2vrSkin(player,base) {
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
 		hs+='width : 72px;';
-		hs+='pointer-events:none;';
+		hs+='pointer-events:auto;';
 		hs+='backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border-radius:76px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='0% 100%';
@@ -3997,6 +4066,7 @@ function pano2vrSkin(player,base) {
 		me._home.appendChild(me._hometimer);
 		me._main_menu.appendChild(me._home);
 		el=me._arrow_menu=document.createElement('div');
+		el.ggPermeable=false;
 		el.ggId="arrow_menu";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
@@ -4010,7 +4080,8 @@ function pano2vrSkin(player,base) {
 		hs+='top : 430px;';
 		hs+='visibility : inherit;';
 		hs+='width : 112px;';
-		hs+='pointer-events:none;';
+		hs+='pointer-events:auto;';
+		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='0% 100%';
 		me._arrow_menu.ggIsActive=function() {
@@ -4050,6 +4121,7 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 112px;';
 		hs+='pointer-events:auto;';
+		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._navmenu_bg.ggIsActive=function() {
@@ -4116,6 +4188,7 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 55px;';
 		hs+='pointer-events:auto;';
+		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._arrow_up.ggIsActive=function() {
@@ -4186,7 +4259,7 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 55px;';
 		hs+='pointer-events:auto;';
-		hs+='backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);';
+		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._arrow_right.ggIsActive=function() {
@@ -4257,6 +4330,7 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 55px;';
 		hs+='pointer-events:auto;';
+		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._arrow_left.ggIsActive=function() {
@@ -4327,6 +4401,7 @@ function pano2vrSkin(player,base) {
 		hs+='visibility : inherit;';
 		hs+='width : 55px;';
 		hs+='pointer-events:auto;';
+		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._arrow_down.ggIsActive=function() {
@@ -4486,7 +4561,7 @@ function pano2vrSkin(player,base) {
 				me._map_bg.style[domTransition]='all 500ms ease-out 0ms';
 			}
 			if (flag) {
-				me._map_bg.style.opacity='0.8';
+				me._map_bg.style.opacity='1';
 				me._map_bg.style.visibility=me._map_bg.ggVisible?'inherit':'hidden';
 			} else {
 				me._map_bg.style.opacity='0';
@@ -4594,14 +4669,13 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='height : 823px;';
+		hs+='height : 50%;';
 		hs+='position : absolute;';
 		hs+='right : 16px;';
 		hs+='top : 16px;';
 		hs+='visibility : inherit;';
-		hs+='width : 502px;';
+		hs+='width : 500px;';
 		hs+='pointer-events:auto;';
-		hs+='overflow:hidden;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='100% 0%';
 		hs ='position:absolute;';
@@ -4609,8 +4683,8 @@ function pano2vrSkin(player,base) {
 		hs+='cursor: default;';
 		hs+='right: 0px;';
 		hs+='top:  0px;';
-		hs+='width: 502px;';
-		hs+='height: 823px;';
+		hs+='width: 500px;';
+		hs+='height: 100%;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: #000000;';
 		hs+='text-align: left;';
@@ -4619,7 +4693,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
 		me._abouttext.ggUpdateText=function() {
-			var hs="<div id=\"inf-wnd\"><br\/><h2>"+me.ggUserdata.title+"<\/h2><br\/>"+me.ggUserdata.description+"<br\/><\/div>";
+			var hs="<div class=\"inf-wnd\"><h2>"+me.ggUserdata.title+"<\/h2><br\/>"+me.ggUserdata.description+"<\/div>";
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -5519,18 +5593,17 @@ function pano2vrSkin(player,base) {
 			me.updateSize(me.divSkin);
 		});
 		player.addListener('configloaded', function() {
-			player.setVariableValue('currentPan', "0");
-			player.setVariableValue('currentPan', me.ggUserdata.information);
-			me._thumbnail_cloner_uk.ggUpdate();
-			me._thumbnail_cloner_icho.ggUpdate();
-			me._thumbnail_cloner_mark.ggUpdate();
-			me._thumbnail_cloner_ya.ggUpdate();
+			player.setVariableValue('currentPan', "1");
+			me._dropdown_cloner_uk.ggUpdate();
+			me._dropdown_cloner_icho.ggUpdate();
+			me._dropdown_cloner_mark.ggUpdate();
+			me._dropdown_cloner_ya.ggUpdate();
 		});
 		player.addListener('imagesready', function() {
-			me._thumbnail_uk.ggUpdatePosition();
-			me._thumbnail_icho.ggUpdatePosition();
-			me._thumbnail_mark.ggUpdatePosition();
-			me._thumbnail_ya.ggUpdatePosition();
+			me._scrollarea_uk.ggUpdatePosition();
+			me._scrollarea_icho.ggUpdatePosition();
+			me._scrollarea_mark.ggUpdatePosition();
+			me._scrollarea_ya.ggUpdatePosition();
 		});
 		player.addListener('beforechangenode', function() {
 			player.setVariableValue('currentPan', me.ggUserdata.information);
@@ -5545,6 +5618,26 @@ function pano2vrSkin(player,base) {
 	me.hotspotProxyOver=function(id, url) {
 	}
 	me.hotspotProxyOut=function(id, url) {
+	}
+	me.callChildLogicBlocksHotspot_photopin_mouseover = function(){
+		if(hotspotTemplates['PhotoPin']) {
+			var i;
+			for(i = 0; i < hotspotTemplates['PhotoPin'].length; i++) {
+				if (hotspotTemplates['PhotoPin'][i]._redpin1 && hotspotTemplates['PhotoPin'][i]._redpin1.logicBlock_alpha) {
+					hotspotTemplates['PhotoPin'][i]._redpin1.logicBlock_alpha();
+				}
+			}
+		}
+	}
+	me.callChildLogicBlocksHotspot_photopin_mouseover = function(){
+		if(hotspotTemplates['PhotoPin']) {
+			var i;
+			for(i = 0; i < hotspotTemplates['PhotoPin'].length; i++) {
+				if (hotspotTemplates['PhotoPin'][i]._pintext0 && hotspotTemplates['PhotoPin'][i]._pintext0.logicBlock_alpha) {
+					hotspotTemplates['PhotoPin'][i]._pintext0.logicBlock_alpha();
+				}
+			}
+		}
 	}
 	me.callChildLogicBlocksHotspot_pinya_mouseover = function(){
 		if(hotspotTemplates['pin-ya']) {
@@ -5680,6 +5773,252 @@ function pano2vrSkin(player,base) {
 		}
 	};
 	player.addListener('timer', me.skinTimerEvent);
+	function SkinHotspotClass_photopin(parentScope,hotspot) {
+		var me=this;
+		var flag=false;
+		var hs='';
+		me.parentScope=parentScope;
+		me.hotspot=hotspot;
+		var nodeId=String(hotspot.url);
+		nodeId=(nodeId.charAt(0)=='{')?nodeId.substr(1, nodeId.length - 2):'';
+		me.ggUserdata=skin.player.getNodeUserdata(nodeId);
+		me.elementMouseDown=[];
+		me.elementMouseOver=[];
+		me.findElements=function(id,regex) {
+			return skin.findElements(id,regex);
+		}
+		el=me._photopin=document.createElement('div');
+		el.ggId="PhotoPin";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_hotspot ";
+		el.ggType='hotspot';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 0px;';
+		hs+='left : 284px;';
+		hs+='position : absolute;';
+		hs+='top : 328px;';
+		hs+='visibility : inherit;';
+		hs+='width : 0px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._photopin.ggIsActive=function() {
+			return player.getCurrentNode()==this.ggElementNodeId();
+		}
+		el.ggElementNodeId=function() {
+			return me.hotspot.url.substr(1, me.hotspot.url.length - 2);
+		}
+		me._photopin.onclick=function (e) {
+			skin.hotspotProxyClick(me.hotspot.id, me.hotspot.url);
+		}
+		me._photopin.ondblclick=function (e) {
+			skin.hotspotProxyDoubleClick(me.hotspot.id, me.hotspot.url);
+		}
+		me._photopin.onmouseover=function (e) {
+			player.setActiveHotspot(me.hotspot);
+			skin.hotspotProxyOver(me.hotspot.id, me.hotspot.url);
+		}
+		me._photopin.onmouseout=function (e) {
+			player.setActiveHotspot(null);
+			skin.hotspotProxyOut(me.hotspot.id, me.hotspot.url);
+		}
+		me._photopin.ggUpdatePosition=function (useTransition) {
+		}
+		el=me._redpin1=document.createElement('div');
+		els=me._redpin1__img=document.createElement('img');
+		els.className='ggskin ggskin_svg';
+		hs='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNTBweCIgaGVpZ2h0PSI2NXB4IiB2aWV3Qm94PSIwIDAgNTAgNjUiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8dGl0bGU+cGluPC90aXRsZT4KICAgIDxnIGlkPSJQYW5vVG91ciIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgaWQ9InBhbm8tMTkyMHgxMDgwIiB0cmFuc2Zvcm09InRyYW'+
+			'5zbGF0ZSgtMTIxMywgLTIzMSkiIGZpbGwtcnVsZT0ibm9uemVybyI+CiAgICAgICAgICAgIDxnIGlkPSJwaW4iIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyMTQsIDIzMikiPgogICAgICAgICAgICAgICAgPHBhdGggZD0iTTIzLjk5OTk5NjQsNjIgTDUuNTk1MzA4MzYsMzkuOTcwNzM1OCBDNS41MjU2MzU3OCwzOS44ODY0NDUzIDUuMjcyNDAwMDYsMzkuNTUzMTk1NCA0LjgzNTYwMTE5LDM4Ljk3MDk4NiBDMS42OTEzOTI5NywzNC43NjgwMDkgLTAuMDA3MzIxNjk5MTgsMjkuNjM0MjEyNiAyLjM3MjE4MTZlLTA1LDI0LjM1NzE0MjkgQzIuMzcyMTgxNmUtMDUsMTcuODk3MjI3MiAyLjUyODYwNzE2'+
+			'LDExLjcwMTg5MjUgNy4wMjk0NzA2Miw3LjEzNDA0MjQgQzExLjUzMDMzNDEsMi41NjYxOTIyNSAxNy42MzQ4MTQyLDAgMjMuOTk5OTk2NCwwIEMzMC4zNjUxNzg2LDAgMzYuNDY5NjYzOSwyLjU2NjE5MjI1IDQwLjk3MDUyNzQsNy4xMzQwNDI0IEM0NS40NzEzOTA4LDExLjcwMTg5MjUgNDcuOTk5OTczMiwxNy44OTcyMjcyIDQ3Ljk5OTk3MzIsMjQuMzU3MTQyOSBDNDguMDA3NzczNiwyOS42MzIwNTIzIDQ2LjMxMDIwOTgsMzQuNzYzOTAwMiA0My4xNjc2Njc3LDM4Ljk2NTQ0OTEgTDQzLjE2NDM5NjgsMzguOTcwOTg2IEM0Mi43MjgwMzE1LDM5LjU1MzE5NDIgNDIuNDc3MzM5OCwzOS44ODM0MT'+
+			'c0IDQyLjQxMjMyMTgsMzkuOTYxNjU1NSBMMjMuOTk5OTk2NCw2MiBaIiBmaWxsPSIjMDBBQkM3Ij48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMjMuOTk5OTk5LC0xIEMzMC42MzM1MTkyLC0xIDM2Ljk5NDQyMzgsMS42NzM5ODU4NiA0MS42ODI4Mzc4LDYuNDMyMTc3ODYgQzQ2LjM2ODQ0MDgsMTEuMTg3NTE3IDQ4Ljk5OTk5OSwxNy42MzUxMiA0OC45OTk5OTksMjQuMzU1NjY0MSBDNDkuMDA4MDkyMSwyOS44NDY2OTY4IDQ3LjI0MDgwODQsMzUuMTg5MjkyNSA0My45Njg0NTU2LDM5LjU2NDM5NzEgQzQzLjUxMDMyNDksNDAuMTc2ODE4OCA0My4yNjI5MDAxLDQwLjUwMjczODcg'+
+			'NDMuMTc5NzM2OSw0MC42MDI4MDYgTDI0Ljc2NzQxMTUsNjIuNjQxMTUwNiBMMjMuOTk5OTk5LDYzLjU1OTY5NzMgTDIzLjIzMjU4MDQsNjIuNjQxMTQ5NSBMNC44MjQ1MzIxNCw0MC42MDc4NDE4IEM0LjczOTU5NjA1LDQwLjUwNTA4NTQgNC40ODgyNzIyNSw0MC4xNzQzNTE1IDQuMDM0ODY3OTcsMzkuNTcwMDA3MSBDMC43NjA4MzIwMTIsMzUuMTkzNDg0NyAtMS4wMDc2MjE1NiwyOS44NDg5NDUgLTEuMDAwMDAwOTYsMjQuMzU3MTQyOSBDLTEuMDAwMDAwOTYsMTcuNjM1MTIwNiAxLjYzMTU1NjgyLDExLjE4NzUxNzQgNi4zMTcxNjAxNyw2LjQzMjE3Nzg2IEMxMS4wMDU1NzUsMS42NzM5ODUwMi'+
+			'AxNy4zNjY0NzQ3LC0xIDIzLjk5OTk5OSwtMSBaIE0yNCwxIEMxNy45MDMxNTQ5LDEgMTIuMDU1MDk0LDMuNDU4Mzk4NjEgNy43NDE3ODEwNiw3LjgzNTkwNjk0IEMzLjQyNTYzNzc1LDEyLjIxNjI4NzcgMSwxOC4xNTkzNjIxIDEsMjQuMzU4NTM0OCBDMC45OTI5NzgxNDEsMjkuNDE5NDk4NiAyLjYyMTk2NDg5LDM0LjM0MjU0OCA1LjYzNTUwNzY4LDM4LjM3MDg2MTMgTDUuODQ4NDc1MTIsMzguNjU0MzExNSBDNi4xNDI1NjE3NSwzOS4wNDUwNzg3IDYuMzIwOTU3MTEsMzkuMjc5MDM4MiA2LjM2MjcyNDM1LDM5LjMyOTU4NjMgTDI0LDYwLjQzOSBMNDEuNjQzMjI5MywzOS4zMjI1MTggQzQxLjY3'+
+			'ODUzODYsMzkuMjgwMDI5MyA0MS44MjI0OTM2LDM5LjA5MTUwMTkgNDIuMDU5MzYxMSwzOC43NzcwNTUzIEw0Mi4yNTQxODcxLDM4LjUxNzkyNSBMNDIuMzUyLDM4LjM4NiBMNDIuMzY2ODc5OSwzOC4zNjY1MDEgQzQ1LjI4MjQxNTMsMzQuNDY4NDU3OSA0Ni45MDA5OTExLDI5LjczMzk4NzcgNDYuOTk1NjAwNiwyNC44NDYzODggTDQ2Ljk5OTk3MzIsMjQuMzU3MTQyOSBDNDYuOTk5OTczMiwxOC4xNTkzNjE0IDQ0LjU3NDM1OTgsMTIuMjE2Mjg3MyA0MC4yNTgyMTY5LDcuODM1OTA2OTQgQzM1Ljk0NDkwNDksMy40NTgzOTk1MyAzMC4wOTY4MzkyLDEgMjQsMSBaIiBmaWxsPSIjRkZGRkZGIj48L3'+
+			'BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMjQuMDAwMDA2MiwzNS44OTQ3NDMxIEMyMS44NDIzOTE5LDM1Ljg5NDc0MzEgMTkuNzMzMjMwNSwzNS4yNTY4MDgxIDE3LjkzOTIzOTcsMzQuMDYxNjA2OCBDMTYuMTQ1MjQ4OSwzMi44NjY0MDU0IDE0Ljc0NzAwMjQsMzEuMTY3NjE4MSAxMy45MjEzMTkxLDI5LjE4MDA3MSBDMTMuMDk1NjM1OCwyNy4xOTI1MjM4IDEyLjg3OTU5OTQsMjUuMDA1NDg0MSAxMy4zMDA1MjkxLDIyLjg5NTUxNTMgQzEzLjcyMTQ1ODgsMjAuNzg1NTQ2NSAxNC43NjA0NTAxLDE4Ljg0NzQxNTcgMTYuMjg2MTEzOCwxNy4zMjYyMTI5IEMxNy44MTE3Nzc2LDE1Ljgw'+
+			'NTAxMDEgMTkuNzU1NTkyMSwxNC43NjkwNTY5IDIxLjg3MTc0ODUsMTQuMzQ5MzU4IEMyMy45ODc5MDQ5LDEzLjkyOTY1OTEgMjYuMTgxMzYwMywxNC4xNDUwNjM4IDI4LjE3NDczNiwxNC45NjgzMzI4IEMzMC4xNjgxMTE4LDE1Ljc5MTYwMTggMzEuODcxODc4OCwxNy4xODU3NTk5IDMzLjA3MDU4NTEsMTguOTc0NTA1MSBDMzQuMjY5MjkxNCwyMC43NjMyNTAzIDM0LjkwOTA5NzIsMjIuODY2MjQ0NiAzNC45MDkwOTcyLDI1LjAxNzU1MDEgQzM0LjkwNTgwNTYsMjcuOTAxMzUzNiAzMy43NTUzOTk1LDMwLjY2NjEwMjIgMzEuNzEwMjYxMywzMi43MDUyNjA1IEMyOS42NjUxMjMsMzQuNzQ0NDE4OC'+
+			'AyNi44OTIyNjY2LDM1Ljg5MTQ2MTIgMjQuMDAwMDA2MiwzNS44OTQ3NDMxIFoiIGlkPSJWZWN0b3IiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+';
+		me._redpin1__img.setAttribute('src',hs);
+		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;redpin1;');
+		els['ondragstart']=function() { return false; };
+		el.appendChild(els);
+		el.ggSubElement = els;
+		el.ggId="redpin";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_svg ";
+		el.ggType='svg';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 47px;';
+		hs+='left : -15px;';
+		hs+='opacity : 0.79999;';
+		hs+='position : absolute;';
+		hs+='top : -42px;';
+		hs+='visibility : inherit;';
+		hs+='width : 30px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._redpin1.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return me.ggNodeId;
+		}
+		me._redpin1.logicBlock_alpha = function() {
+			var newLogicStateAlpha;
+			if (
+				(me.elementMouseOver['redpin1'] == true)
+			)
+			{
+				newLogicStateAlpha = 0;
+			}
+			else {
+				newLogicStateAlpha = -1;
+			}
+			if (me._redpin1.ggCurrentLogicStateAlpha != newLogicStateAlpha) {
+				me._redpin1.ggCurrentLogicStateAlpha = newLogicStateAlpha;
+				me._redpin1.style[domTransition]='opacity 0s, visibility 0s';
+				if (me._redpin1.ggCurrentLogicStateAlpha == 0) {
+					me._redpin1.style.visibility=me._redpin1.ggVisible?'inherit':'hidden';
+					me._redpin1.style.opacity=1;
+				}
+				else {
+					me._redpin1.style.visibility=me._redpin1.ggVisible?'inherit':'hidden';
+					me._redpin1.style.opacity=0.79999;
+				}
+			}
+		}
+		me._redpin1.onclick=function (e) {
+			player.openUrl(me.hotspot.url,me.hotspot.target);
+		}
+		me._redpin1.onmouseover=function (e) {
+			me.elementMouseOver['redpin1']=true;
+			me._pintext0.logicBlock_alpha();
+			me._redpin1.logicBlock_alpha();
+		}
+		me._redpin1.onmouseout=function (e) {
+			me.elementMouseOver['redpin1']=false;
+			me._pintext0.logicBlock_alpha();
+			me._redpin1.logicBlock_alpha();
+		}
+		me._redpin1.ontouchend=function (e) {
+			me.elementMouseOver['redpin1']=false;
+			me._pintext0.logicBlock_alpha();
+			me._redpin1.logicBlock_alpha();
+		}
+		me._redpin1.ggUpdatePosition=function (useTransition) {
+		}
+		el=me._pintext0=document.createElement('div');
+		els=me._pintext0__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="pin-text";
+		el.ggDx=2;
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='bottom : 48px;';
+		hs+='height : 20px;';
+		hs+='left : -10000px;';
+		hs+='opacity : 0;';
+		hs+='position : absolute;';
+		hs+='visibility : hidden;';
+		hs+='width : 100px;';
+		hs+='pointer-events:auto;';
+		hs+='text-shadow: 0 0 1px black;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='cursor: default;';
+		hs+='left: 0px;';
+		hs+='bottom:  0px;';
+		hs+='width: auto;';
+		hs+='height: auto;';
+		hs+='background: #000000;';
+		hs+='background: rgba(0,0,0,0.117647);';
+		hs+='border: 0px solid #000000;';
+		hs+='border: 0px solid rgba(0,0,0,0.392157);';
+		hs+=cssPrefix + 'background-clip: padding-box;';
+		hs+='background-clip: padding-box;';
+		hs+='border-radius: 32px;';
+		hs+=cssPrefix + 'border-radius: 32px;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='font-size: 16px;';
+		hs+='font-weight: bold;';
+		hs+='text-align: center;';
+		hs+='white-space: nowrap;';
+		hs+='padding: 12px 17px 12px 17px;';
+		hs+='overflow: hidden;';
+		els.setAttribute('style',hs);
+		els.innerHTML=me.hotspot.title;
+		el.appendChild(els);
+		me._pintext0.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return me.ggNodeId;
+		}
+		me._pintext0.logicBlock_alpha = function() {
+			var newLogicStateAlpha;
+			if (
+				(me.elementMouseOver['redpin1'] == true)
+			)
+			{
+				newLogicStateAlpha = 0;
+			}
+			else {
+				newLogicStateAlpha = -1;
+			}
+			if (me._pintext0.ggCurrentLogicStateAlpha != newLogicStateAlpha) {
+				me._pintext0.ggCurrentLogicStateAlpha = newLogicStateAlpha;
+				me._pintext0.style[domTransition]='opacity 500ms ease 0ms, visibility 500ms ease 0ms';
+				if (me._pintext0.ggCurrentLogicStateAlpha == 0) {
+					me._pintext0.style.visibility=me._pintext0.ggVisible?'inherit':'hidden';
+					me._pintext0.style.opacity=1;
+				}
+				else {
+					me._pintext0.style.visibility="hidden";
+					me._pintext0.style.opacity=0;
+				}
+			}
+		}
+		me._pintext0.ggUpdatePosition=function (useTransition) {
+			if (useTransition==='undefined') {
+				useTransition = false;
+			}
+			if (!useTransition) {
+				this.style[domTransition]='none';
+			}
+			if (this.parentNode) {
+				var pw=this.parentNode.clientWidth;
+				var w=this.offsetWidth + 0;
+					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
+			}
+			this.style[domTransition]='left 0';
+			this.ggTextDiv.style.left=((98-this.ggTextDiv.offsetWidth)/2) + 'px';
+		}
+		me._redpin1.appendChild(me._pintext0);
+		me._photopin.appendChild(me._redpin1);
+		me.__div = me._photopin;
+	};
 	function SkinHotspotClass_justtextpin(parentScope,hotspot) {
 		var me=this;
 		var flag=false;
@@ -7069,6 +7408,16 @@ function pano2vrSkin(player,base) {
 	};
 	me.addSkinHotspot=function(hotspot) {
 		var hsinst = null;
+		if (hotspot.skinid=='PhotoPin') {
+			hotspot.skinid = 'PhotoPin';
+			hsinst = new SkinHotspotClass_photopin(me, hotspot);
+			if (!hotspotTemplates.hasOwnProperty(hotspot.skinid)) {
+				hotspotTemplates[hotspot.skinid] = [];
+			}
+			hotspotTemplates[hotspot.skinid].push(hsinst);
+			me.callChildLogicBlocksHotspot_photopin_mouseover();;
+			me.callChildLogicBlocksHotspot_photopin_mouseover();;
+		} else
 		if (hotspot.skinid=='JustTextPin') {
 			hotspot.skinid = 'JustTextPin';
 			hsinst = new SkinHotspotClass_justtextpin(me, hotspot);
@@ -7143,6 +7492,12 @@ function pano2vrSkin(player,base) {
 		return hsinst;
 	}
 	me.removeSkinHotspots=function() {
+		if(hotspotTemplates['PhotoPin']) {
+			var i;
+			for(i = 0; i < hotspotTemplates['PhotoPin'].length; i++) {
+				hotspotTemplates['PhotoPin'][i] = null;
+			}
+		}
 		if(hotspotTemplates['JustTextPin']) {
 			var i;
 			for(i = 0; i < hotspotTemplates['JustTextPin'].length; i++) {
@@ -7193,7 +7548,7 @@ function pano2vrSkin(player,base) {
 		}
 		hotspotTemplates = [];
 	}
-	function SkinCloner_thumbnail_cloner_uk_Class(nodeId, parentScope,ggParent,parameter) {
+	function SkinCloner_dropdown_cloner_uk_Class(nodeId, parentScope,ggParent,parameter) {
 		var me=this;
 		var hs='';
 		me.parentScope=parentScope;
@@ -7204,7 +7559,7 @@ function pano2vrSkin(player,base) {
 		me.elementMouseDown={};
 		me.elementMouseOver={};
 		me.__div=document.createElement('div');
-		me.__div.setAttribute('style','position: absolute;width: 88px; height: 82px; visibility: inherit; overflow: hidden;');
+		me.__div.setAttribute('style','position: absolute;width: 450px; height: 88px; visibility: inherit; overflow: hidden;');
 		me.__div.style.left=parameter.left;
 		me.__div.style.top=parameter.top;
 		me.__div.ggIsActive = function() {
@@ -7213,6 +7568,182 @@ function pano2vrSkin(player,base) {
 		me.__div.ggElementNodeId=function() {
 			return me.ggNodeId;
 		}
+		el=me._itembg_uk=document.createElement('div');
+		el.ggId="item-bg uk";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
+		hs ='';
+		hs+=cssPrefix + 'border-radius : 10px;';
+		hs+='border-radius : 10px;';
+		hs+='background : rgba(255,255,255,0.0392157);';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : pointer;';
+		hs+='height : 80px;';
+		hs+='left : 0px;';
+		hs+='position : absolute;';
+		hs+='top : 0px;';
+		hs+='visibility : inherit;';
+		hs+='width : 450px;';
+		hs+='pointer-events:auto;';
+		hs+='ovewflow:hidden !important; border-radius:10px;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._itembg_uk.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._itembg_uk.logicBlock_backgroundcolor = function() {
+			var newLogicStateBackgroundColor;
+			if (
+				(me.elementMouseOver['itembg_uk'] == true)
+			)
+			{
+				newLogicStateBackgroundColor = 0;
+			}
+			else if (
+				(me._itembg_uk.ggIsActive() == true)
+			)
+			{
+				newLogicStateBackgroundColor = 1;
+			}
+			else {
+				newLogicStateBackgroundColor = -1;
+			}
+			if (me._itembg_uk.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
+				me._itembg_uk.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
+				me._itembg_uk.style[domTransition]='background-color 500ms ease 0ms';
+				if (me._itembg_uk.ggCurrentLogicStateBackgroundColor == 0) {
+					me._itembg_uk.style.backgroundColor="rgba(255,255,255,0.392157)";
+				}
+				else if (me._itembg_uk.ggCurrentLogicStateBackgroundColor == 1) {
+					me._itembg_uk.style.backgroundColor="rgba(255,255,255,0.784314)";
+				}
+				else {
+					me._itembg_uk.style.backgroundColor="rgba(255,255,255,0.0392157)";
+				}
+			}
+		}
+		me._itembg_uk.onmouseover=function (e) {
+			me.elementMouseOver['itembg_uk']=true;
+			me._dropdown_menu_text_uk.logicBlock_textcolor();
+			me._itembg_uk.logicBlock_backgroundcolor();
+		}
+		me._itembg_uk.onmouseout=function (e) {
+			me.elementMouseOver['itembg_uk']=false;
+			me._dropdown_menu_text_uk.logicBlock_textcolor();
+			me._itembg_uk.logicBlock_backgroundcolor();
+		}
+		me._itembg_uk.ontouchend=function (e) {
+			me.elementMouseOver['itembg_uk']=false;
+			me._dropdown_menu_text_uk.logicBlock_textcolor();
+			me._itembg_uk.logicBlock_backgroundcolor();
+		}
+		me._itembg_uk.ggUpdatePosition=function (useTransition) {
+		}
+		el=me._dropdown_menu_text_uk=document.createElement('div');
+		els=me._dropdown_menu_text_uk__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="Dropdown Menu Text uk";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 65px;';
+		hs+='left : 90px;';
+		hs+='position : absolute;';
+		hs+='top : 12px;';
+		hs+='visibility : inherit;';
+		hs+='width : 350px;';
+		hs+='pointer-events:auto;';
+		hs+='font-family: \"Navigo\";';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 350px;';
+		hs+='height: 65px;';
+		hs+='border: 0px solid #848484;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='font-size: 16px;';
+		hs+='font-weight: 500;';
+		hs+='text-align: left;';
+		hs+='white-space: pre-wrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		hs+="font-family: \"Navigo\";";
+		els.setAttribute('style',hs);
+		els.innerHTML=me.ggUserdata.title;
+		el.appendChild(els);
+		me._dropdown_menu_text_uk.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._dropdown_menu_text_uk.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				(me.elementMouseOver['itembg_uk'] == true)
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else if (
+				(me._dropdown_menu_text_uk.ggIsActive() == true)
+			)
+			{
+				newLogicStateTextColor = 1;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me._dropdown_menu_text_uk.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me._dropdown_menu_text_uk.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me._dropdown_menu_text_uk__text.style[domTransition]='color 0s';
+				if (me._dropdown_menu_text_uk.ggCurrentLogicStateTextColor == 0) {
+					me._dropdown_menu_text_uk__text.style.color="rgba(255,255,255,1)";
+				}
+				else if (me._dropdown_menu_text_uk.ggCurrentLogicStateTextColor == 1) {
+					me._dropdown_menu_text_uk__text.style.color="rgba(43,94,74,1)";
+				}
+				else {
+					me._dropdown_menu_text_uk__text.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me._dropdown_menu_text_uk.onclick=function (e) {
+			if (
+				(
+					(me._dropdown_menu_text_uk.ggIsActive() == false)
+				)
+			) {
+				player.openNext("{"+me.ggNodeId+"}",player.hotspot.target);
+			}
+		}
+		me._dropdown_menu_text_uk.ggUpdatePosition=function (useTransition) {
+		}
+		me._itembg_uk.appendChild(me._dropdown_menu_text_uk);
 		el=me._thumbnail_nodeimage_uk=document.createElement('div');
 		els=me._thumbnail_nodeimage_uk__img=document.createElement('img');
 		els.className='ggskin ggskin_nodeimage';
@@ -7230,14 +7761,14 @@ function pano2vrSkin(player,base) {
 		el.ggType='nodeimage';
 		hs ='';
 		hs+='cursor : pointer;';
-		hs+='height : 82px;';
+		hs+='height : 80px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 82px;';
+		hs+='width : 80px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:100px;overflow:hidden;';
+		hs+='border-radius:10px 0 0 10px; overflow:hidden;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._thumbnail_nodeimage_uk.ggIsActive=function() {
@@ -7272,7 +7803,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
-		hs+='bottom : 6px;';
+		hs+='bottom : 26px;';
 		hs+='height : 26px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.89999;';
@@ -7297,8 +7828,7 @@ function pano2vrSkin(player,base) {
 		me._checkmark_tick_uk.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
-				(player.nodeVisited(me._checkmark_tick_uk.ggElementNodeId()) == true) && 
-				(me._checkmark_tick_uk.ggIsActive() == false)
+				(player.nodeVisited(me._checkmark_tick_uk.ggElementNodeId()) == true)
 			)
 			{
 				newLogicStateVisible = 0;
@@ -7333,30 +7863,52 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._thumbnail_nodeimage_uk.appendChild(me._checkmark_tick_uk);
-		el=me._thumbnail_active_uk=document.createElement('div');
-		el.ggId="Thumbnail Active uk";
+		me._itembg_uk.appendChild(me._thumbnail_nodeimage_uk);
+		me.__div.appendChild(me._itembg_uk);
+	};
+	function SkinCloner_dropdown_cloner_icho_Class(nodeId, parentScope,ggParent,parameter) {
+		var me=this;
+		var hs='';
+		me.parentScope=parentScope;
+		me.ggParent=ggParent;
+		me.findElements=skin.findElements;
+		me.ggNodeId=nodeId;
+		me.ggUserdata=skin.player.getNodeUserdata(me.ggNodeId);
+		me.elementMouseDown={};
+		me.elementMouseOver={};
+		me.__div=document.createElement('div');
+		me.__div.setAttribute('style','position: absolute;width: 450px; height: 88px; visibility: inherit; overflow: hidden;');
+		me.__div.style.left=parameter.left;
+		me.__div.style.top=parameter.top;
+		me.__div.ggIsActive = function() {
+			return player.getCurrentNode()==me.ggNodeId;
+		}
+		me.__div.ggElementNodeId=function() {
+			return me.ggNodeId;
+		}
+		el=me._itembg_icho=document.createElement('div');
+		el.ggId="item-bg icho";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+=cssPrefix + 'background-clip : padding-box;';
-		hs+='background-clip : padding-box;';
-		hs+=cssPrefix + 'border-radius : 100px;';
-		hs+='border-radius : 100px;';
-		hs+='border : 3px solid rgba(43,94,74,0.0784314);';
-		hs+='cursor : default;';
-		hs+='height : 76px;';
+		hs+=cssPrefix + 'border-radius : 10px;';
+		hs+='border-radius : 10px;';
+		hs+='background : rgba(255,255,255,0.0392157);';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : pointer;';
+		hs+='height : 80px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 76px;';
+		hs+='width : 450px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:100px;';
+		hs+='ovewflow:hidden !important; border-radius:10px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_active_uk.ggIsActive=function() {
+		me._itembg_icho.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -7368,74 +7920,148 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_active_uk.logicBlock_bordercolor = function() {
-			var newLogicStateBorderColor;
+		me._itembg_icho.logicBlock_backgroundcolor = function() {
+			var newLogicStateBackgroundColor;
 			if (
-				(me._thumbnail_active_uk.ggIsActive() == true)
+				(me.elementMouseOver['itembg_icho'] == true)
 			)
 			{
-				newLogicStateBorderColor = 0;
+				newLogicStateBackgroundColor = 0;
 			}
 			else if (
-				(me.elementMouseOver['thumbnail_active_uk'] == true)
+				(me._itembg_icho.ggIsActive() == true)
 			)
 			{
-				newLogicStateBorderColor = 1;
+				newLogicStateBackgroundColor = 1;
 			}
 			else {
-				newLogicStateBorderColor = -1;
+				newLogicStateBackgroundColor = -1;
 			}
-			if (me._thumbnail_active_uk.ggCurrentLogicStateBorderColor != newLogicStateBorderColor) {
-				me._thumbnail_active_uk.ggCurrentLogicStateBorderColor = newLogicStateBorderColor;
-				me._thumbnail_active_uk.style[domTransition]='border-color 300ms ease 0ms';
-				if (me._thumbnail_active_uk.ggCurrentLogicStateBorderColor == 0) {
-					me._thumbnail_active_uk.style.borderColor="rgba(255,255,255,1)";
+			if (me._itembg_icho.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
+				me._itembg_icho.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
+				me._itembg_icho.style[domTransition]='background-color 500ms ease 0ms';
+				if (me._itembg_icho.ggCurrentLogicStateBackgroundColor == 0) {
+					me._itembg_icho.style.backgroundColor="rgba(255,255,255,0.392157)";
 				}
-				else if (me._thumbnail_active_uk.ggCurrentLogicStateBorderColor == 1) {
-					me._thumbnail_active_uk.style.borderColor="rgba(255,255,255,0.27451)";
+				else if (me._itembg_icho.ggCurrentLogicStateBackgroundColor == 1) {
+					me._itembg_icho.style.backgroundColor="rgba(255,255,255,0.784314)";
 				}
 				else {
-					me._thumbnail_active_uk.style.borderColor="rgba(43,94,74,0.0784314)";
+					me._itembg_icho.style.backgroundColor="rgba(255,255,255,0.0392157)";
 				}
 			}
 		}
-		me._thumbnail_active_uk.onmouseover=function (e) {
-			me.elementMouseOver['thumbnail_active_uk']=true;
-			me._thumbnail_active_uk.logicBlock_bordercolor();
+		me._itembg_icho.onmouseover=function (e) {
+			me.elementMouseOver['itembg_icho']=true;
+			me._dropdown_menu_text_icho.logicBlock_textcolor();
+			me._itembg_icho.logicBlock_backgroundcolor();
 		}
-		me._thumbnail_active_uk.onmouseout=function (e) {
-			me.elementMouseOver['thumbnail_active_uk']=false;
-			me._thumbnail_active_uk.logicBlock_bordercolor();
+		me._itembg_icho.onmouseout=function (e) {
+			me.elementMouseOver['itembg_icho']=false;
+			me._dropdown_menu_text_icho.logicBlock_textcolor();
+			me._itembg_icho.logicBlock_backgroundcolor();
 		}
-		me._thumbnail_active_uk.ontouchend=function (e) {
-			me.elementMouseOver['thumbnail_active_uk']=false;
-			me._thumbnail_active_uk.logicBlock_bordercolor();
+		me._itembg_icho.ontouchend=function (e) {
+			me.elementMouseOver['itembg_icho']=false;
+			me._dropdown_menu_text_icho.logicBlock_textcolor();
+			me._itembg_icho.logicBlock_backgroundcolor();
 		}
-		me._thumbnail_active_uk.ggUpdatePosition=function (useTransition) {
+		me._itembg_icho.ggUpdatePosition=function (useTransition) {
 		}
-		me._thumbnail_nodeimage_uk.appendChild(me._thumbnail_active_uk);
-		me.__div.appendChild(me._thumbnail_nodeimage_uk);
-	};
-	function SkinCloner_thumbnail_cloner_icho_Class(nodeId, parentScope,ggParent,parameter) {
-		var me=this;
-		var hs='';
-		me.parentScope=parentScope;
-		me.ggParent=ggParent;
-		me.findElements=skin.findElements;
-		me.ggNodeId=nodeId;
-		me.ggUserdata=skin.player.getNodeUserdata(me.ggNodeId);
-		me.elementMouseDown={};
-		me.elementMouseOver={};
-		me.__div=document.createElement('div');
-		me.__div.setAttribute('style','position: absolute;width: 88px; height: 82px; visibility: inherit; overflow: hidden;');
-		me.__div.style.left=parameter.left;
-		me.__div.style.top=parameter.top;
-		me.__div.ggIsActive = function() {
-			return player.getCurrentNode()==me.ggNodeId;
+		el=me._dropdown_menu_text_icho=document.createElement('div');
+		els=me._dropdown_menu_text_icho__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="Dropdown Menu Text icho";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 65px;';
+		hs+='left : 90px;';
+		hs+='position : absolute;';
+		hs+='top : 12px;';
+		hs+='visibility : inherit;';
+		hs+='width : 350px;';
+		hs+='pointer-events:auto;';
+		hs+='font-family: \"Navigo\";';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 350px;';
+		hs+='height: 65px;';
+		hs+='border: 0px solid #848484;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='font-size: 16px;';
+		hs+='font-weight: 500;';
+		hs+='text-align: left;';
+		hs+='white-space: pre-wrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		hs+="font-family: \"Navigo\";";
+		els.setAttribute('style',hs);
+		els.innerHTML=me.ggUserdata.title;
+		el.appendChild(els);
+		me._dropdown_menu_text_icho.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
 		}
-		me.__div.ggElementNodeId=function() {
-			return me.ggNodeId;
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
 		}
+		me._dropdown_menu_text_icho.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				(me.elementMouseOver['itembg_icho'] == true)
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else if (
+				(me._dropdown_menu_text_icho.ggIsActive() == true)
+			)
+			{
+				newLogicStateTextColor = 1;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me._dropdown_menu_text_icho.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me._dropdown_menu_text_icho.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me._dropdown_menu_text_icho__text.style[domTransition]='color 0s';
+				if (me._dropdown_menu_text_icho.ggCurrentLogicStateTextColor == 0) {
+					me._dropdown_menu_text_icho__text.style.color="rgba(255,255,255,1)";
+				}
+				else if (me._dropdown_menu_text_icho.ggCurrentLogicStateTextColor == 1) {
+					me._dropdown_menu_text_icho__text.style.color="rgba(43,94,74,1)";
+				}
+				else {
+					me._dropdown_menu_text_icho__text.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me._dropdown_menu_text_icho.onclick=function (e) {
+			if (
+				(
+					(me._dropdown_menu_text_icho.ggIsActive() == false)
+				)
+			) {
+				player.openNext("{"+me.ggNodeId+"}",player.hotspot.target);
+			}
+		}
+		me._dropdown_menu_text_icho.ggUpdatePosition=function (useTransition) {
+		}
+		me._itembg_icho.appendChild(me._dropdown_menu_text_icho);
 		el=me._thumbnail_nodeimage_icho=document.createElement('div');
 		els=me._thumbnail_nodeimage_icho__img=document.createElement('img');
 		els.className='ggskin ggskin_nodeimage';
@@ -7453,14 +8079,14 @@ function pano2vrSkin(player,base) {
 		el.ggType='nodeimage';
 		hs ='';
 		hs+='cursor : pointer;';
-		hs+='height : 82px;';
+		hs+='height : 80px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 82px;';
+		hs+='width : 80px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:100px;overflow:hidden;';
+		hs+='border-radius:10px 0 0 10px; overflow:hidden;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._thumbnail_nodeimage_icho.ggIsActive=function() {
@@ -7495,7 +8121,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
-		hs+='bottom : 6px;';
+		hs+='bottom : 26px;';
 		hs+='height : 26px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.89999;';
@@ -7520,8 +8146,7 @@ function pano2vrSkin(player,base) {
 		me._checkmark_tick_icho.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
-				(player.nodeVisited(me._checkmark_tick_icho.ggElementNodeId()) == true) && 
-				(me._checkmark_tick_icho.ggIsActive() == false)
+				(player.nodeVisited(me._checkmark_tick_icho.ggElementNodeId()) == true)
 			)
 			{
 				newLogicStateVisible = 0;
@@ -7556,30 +8181,52 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._thumbnail_nodeimage_icho.appendChild(me._checkmark_tick_icho);
-		el=me._thumbnail_active_icho=document.createElement('div');
-		el.ggId="Thumbnail Active icho";
+		me._itembg_icho.appendChild(me._thumbnail_nodeimage_icho);
+		me.__div.appendChild(me._itembg_icho);
+	};
+	function SkinCloner_dropdown_cloner_mark_Class(nodeId, parentScope,ggParent,parameter) {
+		var me=this;
+		var hs='';
+		me.parentScope=parentScope;
+		me.ggParent=ggParent;
+		me.findElements=skin.findElements;
+		me.ggNodeId=nodeId;
+		me.ggUserdata=skin.player.getNodeUserdata(me.ggNodeId);
+		me.elementMouseDown={};
+		me.elementMouseOver={};
+		me.__div=document.createElement('div');
+		me.__div.setAttribute('style','position: absolute;width: 450px; height: 88px; visibility: inherit; overflow: hidden;');
+		me.__div.style.left=parameter.left;
+		me.__div.style.top=parameter.top;
+		me.__div.ggIsActive = function() {
+			return player.getCurrentNode()==me.ggNodeId;
+		}
+		me.__div.ggElementNodeId=function() {
+			return me.ggNodeId;
+		}
+		el=me._itembg_mark=document.createElement('div');
+		el.ggId="item-bg mark";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+=cssPrefix + 'background-clip : padding-box;';
-		hs+='background-clip : padding-box;';
-		hs+=cssPrefix + 'border-radius : 100px;';
-		hs+='border-radius : 100px;';
-		hs+='border : 3px solid rgba(43,94,74,0.0784314);';
-		hs+='cursor : default;';
-		hs+='height : 76px;';
+		hs+=cssPrefix + 'border-radius : 10px;';
+		hs+='border-radius : 10px;';
+		hs+='background : rgba(255,255,255,0.0392157);';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : pointer;';
+		hs+='height : 80px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 76px;';
+		hs+='width : 450px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:100px;';
+		hs+='ovewflow:hidden !important; border-radius:10px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_active_icho.ggIsActive=function() {
+		me._itembg_mark.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -7591,74 +8238,148 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_active_icho.logicBlock_bordercolor = function() {
-			var newLogicStateBorderColor;
+		me._itembg_mark.logicBlock_backgroundcolor = function() {
+			var newLogicStateBackgroundColor;
 			if (
-				(me._thumbnail_active_icho.ggIsActive() == true)
+				(me.elementMouseOver['itembg_mark'] == true)
 			)
 			{
-				newLogicStateBorderColor = 0;
+				newLogicStateBackgroundColor = 0;
 			}
 			else if (
-				(me.elementMouseOver['thumbnail_active_icho'] == true)
+				(me._itembg_mark.ggIsActive() == true)
 			)
 			{
-				newLogicStateBorderColor = 1;
+				newLogicStateBackgroundColor = 1;
 			}
 			else {
-				newLogicStateBorderColor = -1;
+				newLogicStateBackgroundColor = -1;
 			}
-			if (me._thumbnail_active_icho.ggCurrentLogicStateBorderColor != newLogicStateBorderColor) {
-				me._thumbnail_active_icho.ggCurrentLogicStateBorderColor = newLogicStateBorderColor;
-				me._thumbnail_active_icho.style[domTransition]='border-color 300ms ease 0ms';
-				if (me._thumbnail_active_icho.ggCurrentLogicStateBorderColor == 0) {
-					me._thumbnail_active_icho.style.borderColor="rgba(255,255,255,1)";
+			if (me._itembg_mark.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
+				me._itembg_mark.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
+				me._itembg_mark.style[domTransition]='background-color 500ms ease 0ms';
+				if (me._itembg_mark.ggCurrentLogicStateBackgroundColor == 0) {
+					me._itembg_mark.style.backgroundColor="rgba(255,255,255,0.392157)";
 				}
-				else if (me._thumbnail_active_icho.ggCurrentLogicStateBorderColor == 1) {
-					me._thumbnail_active_icho.style.borderColor="rgba(255,255,255,0.27451)";
+				else if (me._itembg_mark.ggCurrentLogicStateBackgroundColor == 1) {
+					me._itembg_mark.style.backgroundColor="rgba(255,255,255,0.784314)";
 				}
 				else {
-					me._thumbnail_active_icho.style.borderColor="rgba(43,94,74,0.0784314)";
+					me._itembg_mark.style.backgroundColor="rgba(255,255,255,0.0392157)";
 				}
 			}
 		}
-		me._thumbnail_active_icho.onmouseover=function (e) {
-			me.elementMouseOver['thumbnail_active_icho']=true;
-			me._thumbnail_active_icho.logicBlock_bordercolor();
+		me._itembg_mark.onmouseover=function (e) {
+			me.elementMouseOver['itembg_mark']=true;
+			me._dropdown_menu_text_mark.logicBlock_textcolor();
+			me._itembg_mark.logicBlock_backgroundcolor();
 		}
-		me._thumbnail_active_icho.onmouseout=function (e) {
-			me.elementMouseOver['thumbnail_active_icho']=false;
-			me._thumbnail_active_icho.logicBlock_bordercolor();
+		me._itembg_mark.onmouseout=function (e) {
+			me.elementMouseOver['itembg_mark']=false;
+			me._dropdown_menu_text_mark.logicBlock_textcolor();
+			me._itembg_mark.logicBlock_backgroundcolor();
 		}
-		me._thumbnail_active_icho.ontouchend=function (e) {
-			me.elementMouseOver['thumbnail_active_icho']=false;
-			me._thumbnail_active_icho.logicBlock_bordercolor();
+		me._itembg_mark.ontouchend=function (e) {
+			me.elementMouseOver['itembg_mark']=false;
+			me._dropdown_menu_text_mark.logicBlock_textcolor();
+			me._itembg_mark.logicBlock_backgroundcolor();
 		}
-		me._thumbnail_active_icho.ggUpdatePosition=function (useTransition) {
+		me._itembg_mark.ggUpdatePosition=function (useTransition) {
 		}
-		me._thumbnail_nodeimage_icho.appendChild(me._thumbnail_active_icho);
-		me.__div.appendChild(me._thumbnail_nodeimage_icho);
-	};
-	function SkinCloner_thumbnail_cloner_mark_Class(nodeId, parentScope,ggParent,parameter) {
-		var me=this;
-		var hs='';
-		me.parentScope=parentScope;
-		me.ggParent=ggParent;
-		me.findElements=skin.findElements;
-		me.ggNodeId=nodeId;
-		me.ggUserdata=skin.player.getNodeUserdata(me.ggNodeId);
-		me.elementMouseDown={};
-		me.elementMouseOver={};
-		me.__div=document.createElement('div');
-		me.__div.setAttribute('style','position: absolute;width: 88px; height: 82px; visibility: inherit; overflow: hidden;');
-		me.__div.style.left=parameter.left;
-		me.__div.style.top=parameter.top;
-		me.__div.ggIsActive = function() {
-			return player.getCurrentNode()==me.ggNodeId;
+		el=me._dropdown_menu_text_mark=document.createElement('div');
+		els=me._dropdown_menu_text_mark__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="Dropdown Menu Text mark";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 65px;';
+		hs+='left : 90px;';
+		hs+='position : absolute;';
+		hs+='top : 12px;';
+		hs+='visibility : inherit;';
+		hs+='width : 350px;';
+		hs+='pointer-events:auto;';
+		hs+='font-family: \"Navigo\";';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 350px;';
+		hs+='height: 65px;';
+		hs+='border: 0px solid #848484;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='font-size: 16px;';
+		hs+='font-weight: 500;';
+		hs+='text-align: left;';
+		hs+='white-space: pre-wrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		hs+="font-family: \"Navigo\";";
+		els.setAttribute('style',hs);
+		els.innerHTML=me.ggUserdata.title;
+		el.appendChild(els);
+		me._dropdown_menu_text_mark.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
 		}
-		me.__div.ggElementNodeId=function() {
-			return me.ggNodeId;
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
 		}
+		me._dropdown_menu_text_mark.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				(me.elementMouseOver['itembg_mark'] == true)
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else if (
+				(me._dropdown_menu_text_mark.ggIsActive() == true)
+			)
+			{
+				newLogicStateTextColor = 1;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me._dropdown_menu_text_mark.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me._dropdown_menu_text_mark.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me._dropdown_menu_text_mark__text.style[domTransition]='color 0s';
+				if (me._dropdown_menu_text_mark.ggCurrentLogicStateTextColor == 0) {
+					me._dropdown_menu_text_mark__text.style.color="rgba(255,255,255,1)";
+				}
+				else if (me._dropdown_menu_text_mark.ggCurrentLogicStateTextColor == 1) {
+					me._dropdown_menu_text_mark__text.style.color="rgba(43,94,74,1)";
+				}
+				else {
+					me._dropdown_menu_text_mark__text.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me._dropdown_menu_text_mark.onclick=function (e) {
+			if (
+				(
+					(me._dropdown_menu_text_mark.ggIsActive() == false)
+				)
+			) {
+				player.openNext("{"+me.ggNodeId+"}",player.hotspot.target);
+			}
+		}
+		me._dropdown_menu_text_mark.ggUpdatePosition=function (useTransition) {
+		}
+		me._itembg_mark.appendChild(me._dropdown_menu_text_mark);
 		el=me._thumbnail_nodeimage_mark=document.createElement('div');
 		els=me._thumbnail_nodeimage_mark__img=document.createElement('img');
 		els.className='ggskin ggskin_nodeimage';
@@ -7676,14 +8397,14 @@ function pano2vrSkin(player,base) {
 		el.ggType='nodeimage';
 		hs ='';
 		hs+='cursor : pointer;';
-		hs+='height : 82px;';
+		hs+='height : 80px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 82px;';
+		hs+='width : 80px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:100px;overflow:hidden;';
+		hs+='border-radius:10px 0 0 10px; overflow:hidden;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
 		me._thumbnail_nodeimage_mark.ggIsActive=function() {
@@ -7711,14 +8432,14 @@ function pano2vrSkin(player,base) {
 		els['ondragstart']=function() { return false; };
 		el.appendChild(els);
 		el.ggSubElement = els;
-		el.ggId="checkmark_tick_mark";
+		el.ggId="checkmark_tick mark";
 		el.ggDx=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=false;
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
-		hs+='bottom : 6px;';
+		hs+='bottom : 26px;';
 		hs+='height : 26px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.89999;';
@@ -7743,8 +8464,7 @@ function pano2vrSkin(player,base) {
 		me._checkmark_tick_mark.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
-				(player.nodeVisited(me._checkmark_tick_mark.ggElementNodeId()) == true) && 
-				(me._checkmark_tick_mark.ggIsActive() == false)
+				(player.nodeVisited(me._checkmark_tick_mark.ggElementNodeId()) == true)
 			)
 			{
 				newLogicStateVisible = 0;
@@ -7779,30 +8499,52 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._thumbnail_nodeimage_mark.appendChild(me._checkmark_tick_mark);
-		el=me._thumbnail_active_mark=document.createElement('div');
-		el.ggId="Thumbnail Active mark";
+		me._itembg_mark.appendChild(me._thumbnail_nodeimage_mark);
+		me.__div.appendChild(me._itembg_mark);
+	};
+	function SkinCloner_dropdown_cloner_ya_Class(nodeId, parentScope,ggParent,parameter) {
+		var me=this;
+		var hs='';
+		me.parentScope=parentScope;
+		me.ggParent=ggParent;
+		me.findElements=skin.findElements;
+		me.ggNodeId=nodeId;
+		me.ggUserdata=skin.player.getNodeUserdata(me.ggNodeId);
+		me.elementMouseDown={};
+		me.elementMouseOver={};
+		me.__div=document.createElement('div');
+		me.__div.setAttribute('style','position: absolute;width: 450px; height: 88px; visibility: inherit; overflow: hidden;');
+		me.__div.style.left=parameter.left;
+		me.__div.style.top=parameter.top;
+		me.__div.ggIsActive = function() {
+			return player.getCurrentNode()==me.ggNodeId;
+		}
+		me.__div.ggElementNodeId=function() {
+			return me.ggNodeId;
+		}
+		el=me._itembg_ya=document.createElement('div');
+		el.ggId="item-bg ya";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_rectangle ";
 		el.ggType='rectangle';
 		hs ='';
-		hs+=cssPrefix + 'background-clip : padding-box;';
-		hs+='background-clip : padding-box;';
-		hs+=cssPrefix + 'border-radius : 100px;';
-		hs+='border-radius : 100px;';
-		hs+='border : 3px solid rgba(43,94,74,0.0784314);';
-		hs+='cursor : default;';
-		hs+='height : 76px;';
+		hs+=cssPrefix + 'border-radius : 10px;';
+		hs+='border-radius : 10px;';
+		hs+='background : rgba(255,255,255,0.0392157);';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : pointer;';
+		hs+='height : 80px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 76px;';
+		hs+='width : 450px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:100px;';
+		hs+='ovewflow:hidden !important; border-radius:10px;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_active_mark.ggIsActive=function() {
+		me._itembg_ya.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -7814,112 +8556,210 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._thumbnail_active_mark.logicBlock_bordercolor = function() {
-			var newLogicStateBorderColor;
+		me._itembg_ya.logicBlock_visible = function() {
+			var newLogicStateVisible;
 			if (
-				(me._thumbnail_active_mark.ggIsActive() == true)
+				(me.ggUserdata.comment == "\u042f\u0440\u0430\u043a\u0442\u0438\u043d\u0441\u043a\u043e\u0435 \u043c\u0435\u0441\u0442\u043e\u0440\u043e\u0436\u0434\u0435\u043d\u0438\u0435")
 			)
 			{
-				newLogicStateBorderColor = 0;
-			}
-			else if (
-				(me.elementMouseOver['thumbnail_active_mark'] == true)
-			)
-			{
-				newLogicStateBorderColor = 1;
+				newLogicStateVisible = 0;
 			}
 			else {
-				newLogicStateBorderColor = -1;
+				newLogicStateVisible = -1;
 			}
-			if (me._thumbnail_active_mark.ggCurrentLogicStateBorderColor != newLogicStateBorderColor) {
-				me._thumbnail_active_mark.ggCurrentLogicStateBorderColor = newLogicStateBorderColor;
-				me._thumbnail_active_mark.style[domTransition]='border-color 300ms ease 0ms';
-				if (me._thumbnail_active_mark.ggCurrentLogicStateBorderColor == 0) {
-					me._thumbnail_active_mark.style.borderColor="rgba(255,255,255,1)";
-				}
-				else if (me._thumbnail_active_mark.ggCurrentLogicStateBorderColor == 1) {
-					me._thumbnail_active_mark.style.borderColor="rgba(255,255,255,0.27451)";
+			if (me._itembg_ya.ggCurrentLogicStateVisible != newLogicStateVisible) {
+				me._itembg_ya.ggCurrentLogicStateVisible = newLogicStateVisible;
+				me._itembg_ya.style[domTransition]='background-color 500ms ease 0ms';
+				if (me._itembg_ya.ggCurrentLogicStateVisible == 0) {
+					me._itembg_ya.style.visibility=(Number(me._itembg_ya.style.opacity)>0||!me._itembg_ya.style.opacity)?'inherit':'hidden';
+					me._itembg_ya.ggVisible=true;
 				}
 				else {
-					me._thumbnail_active_mark.style.borderColor="rgba(43,94,74,0.0784314)";
+					me._itembg_ya.style.visibility=(Number(me._itembg_ya.style.opacity)>0||!me._itembg_ya.style.opacity)?'inherit':'hidden';
+					me._itembg_ya.ggVisible=true;
 				}
 			}
 		}
-		me._thumbnail_active_mark.onmouseover=function (e) {
-			me.elementMouseOver['thumbnail_active_mark']=true;
-			me._thumbnail_active_mark.logicBlock_bordercolor();
+		me._itembg_ya.logicBlock_backgroundcolor = function() {
+			var newLogicStateBackgroundColor;
+			if (
+				(me.elementMouseOver['itembg_ya'] == true)
+			)
+			{
+				newLogicStateBackgroundColor = 0;
+			}
+			else if (
+				(me._itembg_ya.ggIsActive() == true)
+			)
+			{
+				newLogicStateBackgroundColor = 1;
+			}
+			else {
+				newLogicStateBackgroundColor = -1;
+			}
+			if (me._itembg_ya.ggCurrentLogicStateBackgroundColor != newLogicStateBackgroundColor) {
+				me._itembg_ya.ggCurrentLogicStateBackgroundColor = newLogicStateBackgroundColor;
+				me._itembg_ya.style[domTransition]='background-color 500ms ease 0ms';
+				if (me._itembg_ya.ggCurrentLogicStateBackgroundColor == 0) {
+					me._itembg_ya.style.backgroundColor="rgba(255,255,255,0.392157)";
+				}
+				else if (me._itembg_ya.ggCurrentLogicStateBackgroundColor == 1) {
+					me._itembg_ya.style.backgroundColor="rgba(255,255,255,0.784314)";
+				}
+				else {
+					me._itembg_ya.style.backgroundColor="rgba(255,255,255,0.0392157)";
+				}
+			}
 		}
-		me._thumbnail_active_mark.onmouseout=function (e) {
-			me.elementMouseOver['thumbnail_active_mark']=false;
-			me._thumbnail_active_mark.logicBlock_bordercolor();
+		me._itembg_ya.onmouseover=function (e) {
+			me.elementMouseOver['itembg_ya']=true;
+			me._dropdown_menu_text_ya.logicBlock_textcolor();
+			me._itembg_ya.logicBlock_backgroundcolor();
 		}
-		me._thumbnail_active_mark.ontouchend=function (e) {
-			me.elementMouseOver['thumbnail_active_mark']=false;
-			me._thumbnail_active_mark.logicBlock_bordercolor();
+		me._itembg_ya.onmouseout=function (e) {
+			me.elementMouseOver['itembg_ya']=false;
+			me._dropdown_menu_text_ya.logicBlock_textcolor();
+			me._itembg_ya.logicBlock_backgroundcolor();
 		}
-		me._thumbnail_active_mark.ggUpdatePosition=function (useTransition) {
+		me._itembg_ya.ontouchend=function (e) {
+			me.elementMouseOver['itembg_ya']=false;
+			me._dropdown_menu_text_ya.logicBlock_textcolor();
+			me._itembg_ya.logicBlock_backgroundcolor();
 		}
-		me._thumbnail_nodeimage_mark.appendChild(me._thumbnail_active_mark);
-		me.__div.appendChild(me._thumbnail_nodeimage_mark);
-	};
-	function SkinCloner_thumbnail_cloner_ya_Class(nodeId, parentScope,ggParent,parameter) {
-		var me=this;
-		var hs='';
-		me.parentScope=parentScope;
-		me.ggParent=ggParent;
-		me.findElements=skin.findElements;
-		me.ggNodeId=nodeId;
-		me.ggUserdata=skin.player.getNodeUserdata(me.ggNodeId);
-		me.elementMouseDown={};
-		me.elementMouseOver={};
-		me.__div=document.createElement('div');
-		me.__div.setAttribute('style','position: absolute;width: 88px; height: 82px; visibility: inherit; overflow: hidden;');
-		me.__div.style.left=parameter.left;
-		me.__div.style.top=parameter.top;
-		me.__div.ggIsActive = function() {
-			return player.getCurrentNode()==me.ggNodeId;
+		me._itembg_ya.ggUpdatePosition=function (useTransition) {
 		}
-		me.__div.ggElementNodeId=function() {
-			return me.ggNodeId;
+		el=me._dropdown_menu_text_ya=document.createElement('div');
+		els=me._dropdown_menu_text_ya__text=document.createElement('div');
+		el.className='ggskin ggskin_textdiv';
+		el.ggTextDiv=els;
+		el.ggId="Dropdown Menu Text ya";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_text ";
+		el.ggType='text';
+		hs ='';
+		hs+='cursor : pointer;';
+		hs+='height : 65px;';
+		hs+='left : 90px;';
+		hs+='position : absolute;';
+		hs+='top : 12px;';
+		hs+='visibility : inherit;';
+		hs+='width : 350px;';
+		hs+='pointer-events:auto;';
+		hs+='font-family: \"Navigo\";';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		hs ='position:absolute;';
+		hs += 'box-sizing: border-box;';
+		hs+='left: 0px;';
+		hs+='top:  0px;';
+		hs+='width: 350px;';
+		hs+='height: 65px;';
+		hs+='border: 0px solid #848484;';
+		hs+='color: rgba(255,255,255,1);';
+		hs+='font-size: 16px;';
+		hs+='font-weight: 500;';
+		hs+='text-align: left;';
+		hs+='white-space: pre-wrap;';
+		hs+='padding: 0px 1px 0px 1px;';
+		hs+='overflow: hidden;';
+		hs+="font-family: \"Navigo\";";
+		els.setAttribute('style',hs);
+		els.innerHTML=me.ggUserdata.title;
+		el.appendChild(els);
+		me._dropdown_menu_text_ya.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
 		}
-		el=me._thumbnail_nodeimage_ya=document.createElement('div');
-		els=me._thumbnail_nodeimage_ya__img=document.createElement('img');
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._dropdown_menu_text_ya.logicBlock_textcolor = function() {
+			var newLogicStateTextColor;
+			if (
+				(me.elementMouseOver['itembg_ya'] == true)
+			)
+			{
+				newLogicStateTextColor = 0;
+			}
+			else if (
+				(me._dropdown_menu_text_ya.ggIsActive() == true)
+			)
+			{
+				newLogicStateTextColor = 1;
+			}
+			else {
+				newLogicStateTextColor = -1;
+			}
+			if (me._dropdown_menu_text_ya.ggCurrentLogicStateTextColor != newLogicStateTextColor) {
+				me._dropdown_menu_text_ya.ggCurrentLogicStateTextColor = newLogicStateTextColor;
+				me._dropdown_menu_text_ya__text.style[domTransition]='color 0s';
+				if (me._dropdown_menu_text_ya.ggCurrentLogicStateTextColor == 0) {
+					me._dropdown_menu_text_ya__text.style.color="rgba(255,255,255,1)";
+				}
+				else if (me._dropdown_menu_text_ya.ggCurrentLogicStateTextColor == 1) {
+					me._dropdown_menu_text_ya__text.style.color="rgba(43,94,74,1)";
+				}
+				else {
+					me._dropdown_menu_text_ya__text.style.color="rgba(255,255,255,1)";
+				}
+			}
+		}
+		me._dropdown_menu_text_ya.onclick=function (e) {
+			if (
+				(
+					(me._dropdown_menu_text_ya.ggIsActive() == false)
+				)
+			) {
+				player.openNext("{"+me.ggNodeId+"}",player.hotspot.target);
+			}
+		}
+		me._dropdown_menu_text_ya.ggUpdatePosition=function (useTransition) {
+		}
+		me._itembg_ya.appendChild(me._dropdown_menu_text_ya);
+		el=me._thumbnail_nodeimage_ya2=document.createElement('div');
+		els=me._thumbnail_nodeimage_ya2__img=document.createElement('img');
 		els.className='ggskin ggskin_nodeimage';
 		els.setAttribute('src',basePath + "images/thumbnail_nodeimage_icho_" + nodeId + ".jpg");
 		el.ggNodeId=nodeId;
-		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;thumbnail_nodeimage_ya;');
+		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;thumbnail_nodeimage_ya2;');
 		els.className='ggskin ggskin_nodeimage';
 		els['ondragstart']=function() { return false; };
 		el.appendChild(els);
 		el.ggSubElement = els;
-		el.ggId="Thumbnail NodeImage ya";
+		el.ggId="Thumbnail NodeImage ya2";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_nodeimage ";
 		el.ggType='nodeimage';
 		hs ='';
 		hs+='cursor : pointer;';
-		hs+='height : 82px;';
+		hs+='height : 80px;';
 		hs+='left : 0px;';
 		hs+='position : absolute;';
 		hs+='top : 0px;';
 		hs+='visibility : inherit;';
-		hs+='width : 82px;';
+		hs+='width : 80px;';
 		hs+='pointer-events:auto;';
-		hs+='border-radius:100px;overflow:hidden;';
+		hs+='border-radius:10px 0 0 10px; overflow:hidden;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_nodeimage_ya.ggIsActive=function() {
+		me._thumbnail_nodeimage_ya2.ggIsActive=function() {
 			return player.getCurrentNode()==this.ggElementNodeId();
 		}
 		el.ggElementNodeId=function() {
 			return this.ggNodeId;
 		}
-		me._thumbnail_nodeimage_ya.onclick=function (e) {
+		me._thumbnail_nodeimage_ya2.onclick=function (e) {
 			player.openNext("{"+me.ggNodeId+"}",player.hotspot.target);
 			player.setVariableValue('currentPan', "{"+me.ggNodeId+"}");
 		}
-		me._thumbnail_nodeimage_ya.ggUpdatePosition=function (useTransition) {
+		me._thumbnail_nodeimage_ya2.ggUpdatePosition=function (useTransition) {
 		}
 		el=me._checkmark_tick_ya=document.createElement('div');
 		els=me._checkmark_tick_ya__img=document.createElement('img');
@@ -7941,7 +8781,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_svg ";
 		el.ggType='svg';
 		hs ='';
-		hs+='bottom : 6px;';
+		hs+='bottom : 26px;';
 		hs+='height : 26px;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0.89999;';
@@ -7966,8 +8806,7 @@ function pano2vrSkin(player,base) {
 		me._checkmark_tick_ya.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
-				(player.nodeVisited(me._checkmark_tick_ya.ggElementNodeId()) == true) && 
-				(me._checkmark_tick_ya.ggIsActive() == false)
+				(player.nodeVisited(me._checkmark_tick_ya.ggElementNodeId()) == true)
 			)
 			{
 				newLogicStateVisible = 0;
@@ -8001,89 +8840,9 @@ function pano2vrSkin(player,base) {
 					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
 			}
 		}
-		me._thumbnail_nodeimage_ya.appendChild(me._checkmark_tick_ya);
-		el=me._thumbnail_active_ya=document.createElement('div');
-		el.ggId="Thumbnail Active ya";
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_rectangle ";
-		el.ggType='rectangle';
-		hs ='';
-		hs+=cssPrefix + 'background-clip : padding-box;';
-		hs+='background-clip : padding-box;';
-		hs+=cssPrefix + 'border-radius : 100px;';
-		hs+='border-radius : 100px;';
-		hs+='border : 3px solid rgba(43,94,74,0.0784314);';
-		hs+='cursor : default;';
-		hs+='height : 76px;';
-		hs+='left : 0px;';
-		hs+='position : absolute;';
-		hs+='top : 0px;';
-		hs+='visibility : inherit;';
-		hs+='width : 76px;';
-		hs+='pointer-events:auto;';
-		hs+='border-radius:100px;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		me._thumbnail_active_ya.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._thumbnail_active_ya.logicBlock_bordercolor = function() {
-			var newLogicStateBorderColor;
-			if (
-				(me._thumbnail_active_ya.ggIsActive() == true)
-			)
-			{
-				newLogicStateBorderColor = 0;
-			}
-			else if (
-				(me.elementMouseOver['thumbnail_active_ya'] == true)
-			)
-			{
-				newLogicStateBorderColor = 1;
-			}
-			else {
-				newLogicStateBorderColor = -1;
-			}
-			if (me._thumbnail_active_ya.ggCurrentLogicStateBorderColor != newLogicStateBorderColor) {
-				me._thumbnail_active_ya.ggCurrentLogicStateBorderColor = newLogicStateBorderColor;
-				me._thumbnail_active_ya.style[domTransition]='border-color 300ms ease 0ms';
-				if (me._thumbnail_active_ya.ggCurrentLogicStateBorderColor == 0) {
-					me._thumbnail_active_ya.style.borderColor="rgba(255,255,255,1)";
-				}
-				else if (me._thumbnail_active_ya.ggCurrentLogicStateBorderColor == 1) {
-					me._thumbnail_active_ya.style.borderColor="rgba(255,255,255,0.27451)";
-				}
-				else {
-					me._thumbnail_active_ya.style.borderColor="rgba(43,94,74,0.0784314)";
-				}
-			}
-		}
-		me._thumbnail_active_ya.onmouseover=function (e) {
-			me.elementMouseOver['thumbnail_active_ya']=true;
-			me._thumbnail_active_ya.logicBlock_bordercolor();
-		}
-		me._thumbnail_active_ya.onmouseout=function (e) {
-			me.elementMouseOver['thumbnail_active_ya']=false;
-			me._thumbnail_active_ya.logicBlock_bordercolor();
-		}
-		me._thumbnail_active_ya.ontouchend=function (e) {
-			me.elementMouseOver['thumbnail_active_ya']=false;
-			me._thumbnail_active_ya.logicBlock_bordercolor();
-		}
-		me._thumbnail_active_ya.ggUpdatePosition=function (useTransition) {
-		}
-		me._thumbnail_nodeimage_ya.appendChild(me._thumbnail_active_ya);
-		me.__div.appendChild(me._thumbnail_nodeimage_ya);
+		me._thumbnail_nodeimage_ya2.appendChild(me._checkmark_tick_ya);
+		me._itembg_ya.appendChild(me._thumbnail_nodeimage_ya2);
+		me.__div.appendChild(me._itembg_ya);
 	};
 	me.addSkin();
 	me._top_menu.logicBlock_scaling();
@@ -8093,22 +8852,23 @@ function pano2vrSkin(player,base) {
 	me._abouttext.logicBlock_scaling();
 	me._container_1.logicBlock_scaling();
 	me._top_menu.logicBlock_visible();
-	me._thumbnail_uk.logicBlock_visible();
-	me._thumbnail_icho.logicBlock_visible();
-	me._thumbnail_mark.logicBlock_visible();
-	me._thumbnail_ya.logicBlock_visible();
+	me._scrollarea_uk.logicBlock_visible();
+	me._scrollarea_icho.logicBlock_visible();
+	me._scrollarea_mark.logicBlock_visible();
+	me._scrollarea_ya.logicBlock_visible();
 	me._abouttext.logicBlock_visible();
 	me._help.logicBlock_visible();
 	me._cover.logicBlock_visible();
 	player.addListener('sizechanged', function(args) { me._top_menu.logicBlock_scaling();me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_scaling();me._toggle2.logicBlock_scaling();me._abouttext.logicBlock_scaling();me._container_1.logicBlock_scaling(); });
-	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._thumbnail_uk.logicBlock_visible();me._thumbnail_icho.logicBlock_visible();me._thumbnail_mark.logicBlock_visible();me._thumbnail_ya.logicBlock_visible();me._abouttext.logicBlock_visible();me._help.logicBlock_visible();me._cover.logicBlock_visible(); });
+	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._scrollarea_uk.logicBlock_visible();me._scrollarea_icho.logicBlock_visible();me._scrollarea_mark.logicBlock_visible();me._scrollarea_ya.logicBlock_visible();me._abouttext.logicBlock_visible();me._help.logicBlock_visible();me._cover.logicBlock_visible(); });
 	player.addListener('varchanged_titleShow', function(args) { me._help.logicBlock_visible(); });
 	player.addListener('varchanged_coverShow', function(args) { me._cover.logicBlock_visible(); });
-	player.addListener('changenodeid', function(args) { me._thumbnail_cloner_uk.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_icho.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_mark.callChildLogicBlocks_changenodeid();me._thumbnail_cloner_ya.callChildLogicBlocks_changenodeid(); });
-	player.addListener('mouseover', function(args) { me._thumbnail_cloner_uk.callChildLogicBlocks_mouseover();me._thumbnail_cloner_icho.callChildLogicBlocks_mouseover();me._thumbnail_cloner_mark.callChildLogicBlocks_mouseover();me._thumbnail_cloner_ya.callChildLogicBlocks_mouseover(); });
-	player.addListener('changenodeid', function(args) { me._thumbnail_cloner_uk.callChildLogicBlocks_active();me._thumbnail_cloner_icho.callChildLogicBlocks_active();me._thumbnail_cloner_mark.callChildLogicBlocks_active();me._thumbnail_cloner_ya.callChildLogicBlocks_active(); });
-	player.addListener('mouseover', function(args) { me.callChildLogicBlocksHotspot_pinya_mouseover();me.callChildLogicBlocksHotspot_pinicho_mouseover();me.callChildLogicBlocksHotspot_pinmar_mouseover();me.callChildLogicBlocksHotspot_pinuk_mouseover();me.callChildLogicBlocksHotspot_redpin_mouseover(); });
-	player.addListener('mouseover', function(args) { me.callChildLogicBlocksHotspot_airpin_mouseover();me.callChildLogicBlocksHotspot_redpin_mouseover(); });
+	player.addListener('changenodeid', function(args) { me._dropdown_cloner_uk.callChildLogicBlocks_changenodeid();me._dropdown_cloner_icho.callChildLogicBlocks_changenodeid();me._dropdown_cloner_mark.callChildLogicBlocks_changenodeid();me._dropdown_cloner_ya.callChildLogicBlocks_changenodeid(); });
+	player.addListener('mouseover', function(args) { me._dropdown_cloner_uk.callChildLogicBlocks_mouseover();me._dropdown_cloner_icho.callChildLogicBlocks_mouseover();me._dropdown_cloner_mark.callChildLogicBlocks_mouseover();me._dropdown_cloner_ya.callChildLogicBlocks_mouseover(); });
+	player.addListener('mouseover', function(args) { me._dropdown_cloner_uk.callChildLogicBlocks_mouseover();me._dropdown_cloner_icho.callChildLogicBlocks_mouseover();me._dropdown_cloner_mark.callChildLogicBlocks_mouseover();me._dropdown_cloner_ya.callChildLogicBlocks_mouseover(); });
+	player.addListener('changenodeid', function(args) { me._dropdown_cloner_uk.callChildLogicBlocks_active();me._dropdown_cloner_icho.callChildLogicBlocks_active();me._dropdown_cloner_mark.callChildLogicBlocks_active();me._dropdown_cloner_ya.callChildLogicBlocks_active(); });
+	player.addListener('mouseover', function(args) { me.callChildLogicBlocksHotspot_photopin_mouseover();me.callChildLogicBlocksHotspot_pinya_mouseover();me.callChildLogicBlocksHotspot_pinicho_mouseover();me.callChildLogicBlocksHotspot_pinmar_mouseover();me.callChildLogicBlocksHotspot_pinuk_mouseover();me.callChildLogicBlocksHotspot_redpin_mouseover(); });
+	player.addListener('mouseover', function(args) { me.callChildLogicBlocksHotspot_photopin_mouseover();me.callChildLogicBlocksHotspot_airpin_mouseover();me.callChildLogicBlocksHotspot_redpin_mouseover(); });
 	player.addListener('hotspotsremoved', function(args) { me.removeSkinHotspots(); });
 	document.addEventListener('keydown', function(e) {
 		var key = e.which || e.keyCode;
