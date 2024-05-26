@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Sun May 26 23:10:35 2024
+// Generated Sun May 26 23:44:45 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "1");
@@ -403,7 +403,7 @@ function pano2vrSkin(player,base) {
 		hs+='pointer-events:auto;';
 		hs+='backdrop-filter: blur(15px); -webkit-backdrop-filter: blur(15px);';
 		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
+		el.style[domTransform + 'Origin']='100% 100%';
 		me._map_bg.ggIsActive=function() {
 			return false;
 		}
@@ -2456,6 +2456,31 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
+		me._main_menu.logicBlock_position = function() {
+			var newLogicStatePosition;
+			if (
+				(player.getViewerSize().width <= 640) || 
+				(player.getViewerSize().height <= 640)
+			)
+			{
+				newLogicStatePosition = 0;
+			}
+			else {
+				newLogicStatePosition = -1;
+			}
+			if (me._main_menu.ggCurrentLogicStatePosition != newLogicStatePosition) {
+				me._main_menu.ggCurrentLogicStatePosition = newLogicStatePosition;
+				me._main_menu.style[domTransition]='left 0s, bottom 0s, ' + cssPrefix + 'transform 0s';
+				if (me._main_menu.ggCurrentLogicStatePosition == 0) {
+					me._main_menu.style.left='34px';
+					me._main_menu.style.bottom='98px';
+				}
+				else {
+					me._main_menu.style.left='54px';
+					me._main_menu.style.bottom='168px';
+				}
+			}
+		}
 		me._main_menu.logicBlock_scaling = function() {
 			var newLogicStateScaling;
 			if (
@@ -2470,7 +2495,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._main_menu.ggCurrentLogicStateScaling != newLogicStateScaling) {
 				me._main_menu.ggCurrentLogicStateScaling = newLogicStateScaling;
-				me._main_menu.style[domTransition]='' + cssPrefix + 'transform 0s';
+				me._main_menu.style[domTransition]='left 0s, bottom 0s, ' + cssPrefix + 'transform 0s';
 				if (me._main_menu.ggCurrentLogicStateScaling == 0) {
 					me._main_menu.ggParameter.sx = 0.6;
 					me._main_menu.ggParameter.sy = 0.6;
@@ -4477,18 +4502,43 @@ function pano2vrSkin(player,base) {
 		hs+='width : 56px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
+		el.style[domTransform + 'Origin']='0% 100%';
 		me._toggle2.ggIsActive=function() {
 			return false;
 		}
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
+		me._toggle2.logicBlock_position = function() {
+			var newLogicStatePosition;
+			if (
+				(player.getViewerSize().width <= 640) || 
+				(player.getViewerSize().height <= 640)
+			)
+			{
+				newLogicStatePosition = 0;
+			}
+			else {
+				newLogicStatePosition = -1;
+			}
+			if (me._toggle2.ggCurrentLogicStatePosition != newLogicStatePosition) {
+				me._toggle2.ggCurrentLogicStatePosition = newLogicStatePosition;
+				me._toggle2.style[domTransition]='left 0s, bottom 0s, ' + cssPrefix + 'transform 0s';
+				if (me._toggle2.ggCurrentLogicStatePosition == 0) {
+					me._toggle2.style.left='40px';
+					me._toggle2.style.bottom='34px';
+				}
+				else {
+					me._toggle2.style.left='62px';
+					me._toggle2.style.bottom='62px';
+				}
+			}
+		}
 		me._toggle2.logicBlock_scaling = function() {
 			var newLogicStateScaling;
 			if (
 				(player.getViewerSize().width <= 640) || 
-				(player.getViewerSize().height == 640)
+				(player.getViewerSize().height <= 640)
 			)
 			{
 				newLogicStateScaling = 0;
@@ -4498,7 +4548,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._toggle2.ggCurrentLogicStateScaling != newLogicStateScaling) {
 				me._toggle2.ggCurrentLogicStateScaling = newLogicStateScaling;
-				me._toggle2.style[domTransition]='' + cssPrefix + 'transform 0s';
+				me._toggle2.style[domTransition]='left 0s, bottom 0s, ' + cssPrefix + 'transform 0s';
 				if (me._toggle2.ggCurrentLogicStateScaling == 0) {
 					me._toggle2.ggParameter.sx = 0.6;
 					me._toggle2.ggParameter.sy = 0.6;
@@ -4712,7 +4762,7 @@ function pano2vrSkin(player,base) {
 			var newLogicStateScaling;
 			if (
 				(player.getViewerSize().width <= 640) || 
-				(player.getViewerSize().width <= 640)
+				(player.getViewerSize().height <= 640)
 			)
 			{
 				newLogicStateScaling = 0;
@@ -8847,7 +8897,9 @@ function pano2vrSkin(player,base) {
 	me.addSkin();
 	me._top_menu.logicBlock_scaling();
 	me._map_bg.logicBlock_scaling();
+	me._main_menu.logicBlock_position();
 	me._main_menu.logicBlock_scaling();
+	me._toggle2.logicBlock_position();
 	me._toggle2.logicBlock_scaling();
 	me._abouttext.logicBlock_scaling();
 	me._container_1.logicBlock_scaling();
@@ -8859,7 +8911,7 @@ function pano2vrSkin(player,base) {
 	me._abouttext.logicBlock_visible();
 	me._help.logicBlock_visible();
 	me._cover.logicBlock_visible();
-	player.addListener('sizechanged', function(args) { me._top_menu.logicBlock_scaling();me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_scaling();me._toggle2.logicBlock_scaling();me._abouttext.logicBlock_scaling();me._container_1.logicBlock_scaling(); });
+	player.addListener('sizechanged', function(args) { me._top_menu.logicBlock_scaling();me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_position();me._main_menu.logicBlock_scaling();me._toggle2.logicBlock_position();me._toggle2.logicBlock_scaling();me._abouttext.logicBlock_scaling();me._container_1.logicBlock_scaling(); });
 	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._scrollarea_uk.logicBlock_visible();me._scrollarea_icho.logicBlock_visible();me._scrollarea_mark.logicBlock_visible();me._scrollarea_ya.logicBlock_visible();me._abouttext.logicBlock_visible();me._help.logicBlock_visible();me._cover.logicBlock_visible(); });
 	player.addListener('varchanged_titleShow', function(args) { me._help.logicBlock_visible(); });
 	player.addListener('varchanged_coverShow', function(args) { me._cover.logicBlock_visible(); });
