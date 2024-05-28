@@ -1,12 +1,13 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Mon May 27 05:50:56 2024
+// Generated Tue May 28 07:37:43 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "1");
 	player.addVariable('titleShow', 2, false);
 	player.addVariable('coverShow', 2, true);
+	player.addVariable('baseURL', 0, "https:\/\/fuzzze.github.io\/ink_tour\/index.html");
 	var me=this;
 	var skin=this;
 	var flag=false;
@@ -148,6 +149,13 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateScaling = 0;
 			}
+			else if (
+				(player.getViewerSize().width <= 1200) || 
+				(player.getViewerSize().height <= 800)
+			)
+			{
+				newLogicStateScaling = 1;
+			}
 			else {
 				newLogicStateScaling = -1;
 			}
@@ -157,6 +165,11 @@ function pano2vrSkin(player,base) {
 				if (me._top_menu.ggCurrentLogicStateScaling == 0) {
 					me._top_menu.ggParameter.sx = 0.6;
 					me._top_menu.ggParameter.sy = 0.6;
+					me._top_menu.style[domTransform]=parameterToTransform(me._top_menu.ggParameter);
+				}
+				else if (me._top_menu.ggCurrentLogicStateScaling == 1) {
+					me._top_menu.ggParameter.sx = 0.8;
+					me._top_menu.ggParameter.sy = 0.8;
 					me._top_menu.style[domTransform]=parameterToTransform(me._top_menu.ggParameter);
 				}
 				else {
@@ -305,7 +318,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='height : 51px;';
+		hs+='height : 58px;';
 		hs+='left : 36px;';
 		hs+='position : absolute;';
 		hs+='top : 8px;';
@@ -320,7 +333,7 @@ function pano2vrSkin(player,base) {
 		hs+='left: 0px;';
 		hs+='top:  0px;';
 		hs+='width: 100%;';
-		hs+='height: 51px;';
+		hs+='height: 58px;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: rgba(255,255,255,1);';
 		hs+='font-size: 32px;';
@@ -459,6 +472,13 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateScaling = 0;
 			}
+			else if (
+				(player.getViewerSize().width <= 1200) || 
+				(player.getViewerSize().height <= 800)
+			)
+			{
+				newLogicStateScaling = 1;
+			}
 			else {
 				newLogicStateScaling = -1;
 			}
@@ -468,6 +488,11 @@ function pano2vrSkin(player,base) {
 				if (me._map_bg.ggCurrentLogicStateScaling == 0) {
 					me._map_bg.ggParameter.sx = 0.6;
 					me._map_bg.ggParameter.sy = 0.6;
+					me._map_bg.style[domTransform]=parameterToTransform(me._map_bg.ggParameter);
+				}
+				else if (me._map_bg.ggCurrentLogicStateScaling == 1) {
+					me._map_bg.ggParameter.sx = 0.8;
+					me._map_bg.ggParameter.sy = 0.8;
 					me._map_bg.style[domTransform]=parameterToTransform(me._map_bg.ggParameter);
 				}
 				else {
@@ -2530,6 +2555,13 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateScaling = 0;
 			}
+			else if (
+				(player.getViewerSize().width <= 1200) || 
+				(player.getViewerSize().height <= 800)
+			)
+			{
+				newLogicStateScaling = 1;
+			}
 			else {
 				newLogicStateScaling = -1;
 			}
@@ -2539,6 +2571,11 @@ function pano2vrSkin(player,base) {
 				if (me._main_menu.ggCurrentLogicStateScaling == 0) {
 					me._main_menu.ggParameter.sx = 0.6;
 					me._main_menu.ggParameter.sy = 0.6;
+					me._main_menu.style[domTransform]=parameterToTransform(me._main_menu.ggParameter);
+				}
+				else if (me._main_menu.ggCurrentLogicStateScaling == 1) {
+					me._main_menu.ggParameter.sx = 0.8;
+					me._main_menu.ggParameter.sy = 0.8;
 					me._main_menu.style[domTransform]=parameterToTransform(me._main_menu.ggParameter);
 				}
 				else {
@@ -2967,7 +3004,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
 		me._gyro2.ggUpdateText=function() {
-			var hs="<button class=\"btn\" data-clipboard-action=\"copy\"  data-clipboard-text=\"https:\/\/fuzzze.github.io\/ink_tour\/index.html?coverShow=false#"+player.getCurrentNode()+","+player.getPanN().toFixed(1)+","+player.getTilt().toFixed(1)+","+player.getFov().toFixed(1)+",4\"><\/button>";
+			var hs="<button class=\"btn\" data-clipboard-action=\"copy\"  data-clipboard-text=\""+player.getVariableValue('baseURL')+"?coverShow=false#"+player.getCurrentNode()+","+player.getPanN().toFixed(1)+","+player.getTilt().toFixed(1)+","+player.getFov().toFixed(1)+",4,false\"><\/button>";
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -4558,6 +4595,13 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStatePosition = 0;
 			}
+			else if (
+				(player.getViewerSize().width <= 1200) || 
+				(player.getViewerSize().height <= 800)
+			)
+			{
+				newLogicStatePosition = 1;
+			}
 			else {
 				newLogicStatePosition = -1;
 			}
@@ -4567,6 +4611,10 @@ function pano2vrSkin(player,base) {
 				if (me._toggle2.ggCurrentLogicStatePosition == 0) {
 					me._toggle2.style.left='40px';
 					me._toggle2.style.bottom='34px';
+				}
+				else if (me._toggle2.ggCurrentLogicStatePosition == 1) {
+					me._toggle2.style.left='60px';
+					me._toggle2.style.bottom='82px';
 				}
 				else {
 					me._toggle2.style.left='62px';
@@ -4583,6 +4631,13 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateScaling = 0;
 			}
+			else if (
+				(player.getViewerSize().width <= 1200) || 
+				(player.getViewerSize().height <= 800)
+			)
+			{
+				newLogicStateScaling = 1;
+			}
 			else {
 				newLogicStateScaling = -1;
 			}
@@ -4592,6 +4647,11 @@ function pano2vrSkin(player,base) {
 				if (me._toggle2.ggCurrentLogicStateScaling == 0) {
 					me._toggle2.ggParameter.sx = 0.6;
 					me._toggle2.ggParameter.sy = 0.6;
+					me._toggle2.style[domTransform]=parameterToTransform(me._toggle2.ggParameter);
+				}
+				else if (me._toggle2.ggCurrentLogicStateScaling == 1) {
+					me._toggle2.ggParameter.sx = 0.8;
+					me._toggle2.ggParameter.sy = 0.8;
 					me._toggle2.style[domTransform]=parameterToTransform(me._toggle2.ggParameter);
 				}
 				else {
@@ -4690,7 +4750,7 @@ function pano2vrSkin(player,base) {
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
-		hs+='height : 50%;';
+		hs+='height : 520px;';
 		hs+='position : absolute;';
 		hs+='right : 16px;';
 		hs+='top : 16px;';
@@ -4705,7 +4765,7 @@ function pano2vrSkin(player,base) {
 		hs+='right: 0px;';
 		hs+='top:  0px;';
 		hs+='width: 500px;';
-		hs+='height: 100%;';
+		hs+='height: 520px;';
 		hs+='border: 0px solid #000000;';
 		hs+='color: #000000;';
 		hs+='text-align: left;';
@@ -4714,7 +4774,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
 		me._abouttext.ggUpdateText=function() {
-			var hs="<div class=\"inf-wnd\"><h2>"+me.ggUserdata.title+"<\/h2>"+me.ggUserdata.description+"<\/div>";
+			var hs="<div class=\"inf-wnd\"><h2>"+me.ggUserdata.title+"<\/h2><h4>"+me.ggUserdata.information+"<\/h4>"+me.ggUserdata.description+"<\/div>";
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
@@ -4738,6 +4798,13 @@ function pano2vrSkin(player,base) {
 			{
 				newLogicStateScaling = 0;
 			}
+			else if (
+				(player.getViewerSize().width <= 1200) || 
+				(player.getViewerSize().height <= 800)
+			)
+			{
+				newLogicStateScaling = 1;
+			}
 			else {
 				newLogicStateScaling = -1;
 			}
@@ -4747,6 +4814,11 @@ function pano2vrSkin(player,base) {
 				if (me._abouttext.ggCurrentLogicStateScaling == 0) {
 					me._abouttext.ggParameter.sx = 0.6;
 					me._abouttext.ggParameter.sy = 0.6;
+					me._abouttext.style[domTransform]=parameterToTransform(me._abouttext.ggParameter);
+				}
+				else if (me._abouttext.ggCurrentLogicStateScaling == 1) {
+					me._abouttext.ggParameter.sx = 0.8;
+					me._abouttext.ggParameter.sy = 0.8;
 					me._abouttext.style[domTransform]=parameterToTransform(me._abouttext.ggParameter);
 				}
 				else {
@@ -4815,6 +4887,45 @@ function pano2vrSkin(player,base) {
 		el.ggElementNodeId=function() {
 			return player.getCurrentNode();
 		}
+		me._help.logicBlock_scaling = function() {
+			var newLogicStateScaling;
+			if (
+				(player.getViewerSize().width <= 640) || 
+				(player.getViewerSize().height <= 640)
+			)
+			{
+				newLogicStateScaling = 0;
+			}
+			else if (
+				(player.getViewerSize().width <= 1200) || 
+				(player.getViewerSize().height <= 800)
+			)
+			{
+				newLogicStateScaling = 1;
+			}
+			else {
+				newLogicStateScaling = -1;
+			}
+			if (me._help.ggCurrentLogicStateScaling != newLogicStateScaling) {
+				me._help.ggCurrentLogicStateScaling = newLogicStateScaling;
+				me._help.style[domTransition]='' + cssPrefix + 'transform 0s';
+				if (me._help.ggCurrentLogicStateScaling == 0) {
+					me._help.ggParameter.sx = 0.6;
+					me._help.ggParameter.sy = 0.6;
+					me._help.style[domTransform]=parameterToTransform(me._help.ggParameter);
+				}
+				else if (me._help.ggCurrentLogicStateScaling == 1) {
+					me._help.ggParameter.sx = 0.8;
+					me._help.ggParameter.sy = 0.8;
+					me._help.style[domTransform]=parameterToTransform(me._help.ggParameter);
+				}
+				else {
+					me._help.ggParameter.sx = 1;
+					me._help.ggParameter.sy = 1;
+					me._help.style[domTransform]=parameterToTransform(me._help.ggParameter);
+				}
+			}
+		}
 		me._help.logicBlock_visible = function() {
 			var newLogicStateVisible;
 			if (
@@ -4834,7 +4945,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._help.ggCurrentLogicStateVisible != newLogicStateVisible) {
 				me._help.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._help.style[domTransition]='';
+				me._help.style[domTransition]='' + cssPrefix + 'transform 0s';
 				if (me._help.ggCurrentLogicStateVisible == 0) {
 					me._help.style.visibility=(Number(me._help.style.opacity)>0||!me._help.style.opacity)?'inherit':'hidden';
 					me._help.ggVisible=true;
@@ -5032,7 +5143,7 @@ function pano2vrSkin(player,base) {
 		el.ggDx=0;
 		el.ggDy=0;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
+		el.ggVisible=false;
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
@@ -5040,7 +5151,7 @@ function pano2vrSkin(player,base) {
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
 		hs+='top : -10000px;';
-		hs+='visibility : inherit;';
+		hs+='visibility : hidden;';
 		hs+='width : 100%;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
@@ -5080,8 +5191,8 @@ function pano2vrSkin(player,base) {
 					me._cover.ggVisible=true;
 				}
 				else {
-					me._cover.style.visibility=(Number(me._cover.style.opacity)>0||!me._cover.style.opacity)?'inherit':'hidden';
-					me._cover.ggVisible=true;
+					me._cover.style.visibility="hidden";
+					me._cover.ggVisible=false;
 				}
 			}
 		}
@@ -5139,91 +5250,6 @@ function pano2vrSkin(player,base) {
 		me._coverback.ggUpdatePosition=function (useTransition) {
 		}
 		me._cover.appendChild(me._coverback);
-		el=me._container_1=document.createElement('div');
-		el.ggId="Container 1";
-		el.ggDx=0;
-		el.ggDy=70;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_container ";
-		el.ggType='container';
-		hs ='';
-		hs+='height : 400px;';
-		hs+='left : -10000px;';
-		hs+='position : absolute;';
-		hs+='top : -10000px;';
-		hs+='visibility : inherit;';
-		hs+='width : 1240px;';
-		hs+='pointer-events:none;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		me._container_1.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._container_1.logicBlock_scaling = function() {
-			var newLogicStateScaling;
-			if (
-				(player.getViewerSize().width <= 1200) || 
-				(player.getViewerSize().height <= 800)
-			)
-			{
-				newLogicStateScaling = 0;
-			}
-			else if (
-				(player.getViewerSize().width <= 600) || 
-				(player.getViewerSize().height <= 600)
-			)
-			{
-				newLogicStateScaling = 1;
-			}
-			else {
-				newLogicStateScaling = -1;
-			}
-			if (me._container_1.ggCurrentLogicStateScaling != newLogicStateScaling) {
-				me._container_1.ggCurrentLogicStateScaling = newLogicStateScaling;
-				me._container_1.style[domTransition]='' + cssPrefix + 'transform 500ms ease 0ms';
-				if (me._container_1.ggCurrentLogicStateScaling == 0) {
-					me._container_1.ggParameter.sx = 0.6;
-					me._container_1.ggParameter.sy = 0.6;
-					me._container_1.style[domTransform]=parameterToTransform(me._container_1.ggParameter);
-				}
-				else if (me._container_1.ggCurrentLogicStateScaling == 1) {
-					me._container_1.ggParameter.sx = 0.4;
-					me._container_1.ggParameter.sy = 0.4;
-					me._container_1.style[domTransform]=parameterToTransform(me._container_1.ggParameter);
-				}
-				else {
-					me._container_1.ggParameter.sx = 1;
-					me._container_1.ggParameter.sy = 1;
-					me._container_1.style[domTransform]=parameterToTransform(me._container_1.ggParameter);
-				}
-			}
-		}
-		me._container_1.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-				var ph=this.parentNode.clientHeight;
-				var h=this.offsetHeight;
-					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
-			}
-		}
 		el=me._image_1=document.createElement('div');
 		els=me._image_1__img=document.createElement('img');
 		els.className='ggskin ggskin_image_1';
@@ -5237,19 +5263,19 @@ function pano2vrSkin(player,base) {
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="Image 1";
-		el.ggDx=-488;
-		el.ggDy=0;
+		el.ggDx=0;
+		el.ggDy=164;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_image ";
 		el.ggType='image';
 		hs ='';
-		hs+='height : 400px;';
+		hs+='height : 936px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
 		hs+='top : -10000px;';
 		hs+='visibility : inherit;';
-		hs+='width : 262px;';
+		hs+='width : 1484px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -5265,28 +5291,32 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._image_1.onclick=function (e) {
-			player.setVariableValue('currentPan', "1");
-			player.setVariableValue('coverShow', false);
-			player.openNext("{node1}","");
-		}
-		me._image_1.onmouseover=function (e) {
-			if (player.transitionsDisabled) {
-				me._image_1.style[domTransition]='none';
-			} else {
-				me._image_1.style[domTransition]='all 500ms ease-out 0ms';
+		me._image_1.logicBlock_scaling = function() {
+			var newLogicStateScaling;
+			if (
+				(player.getViewerSize().width <= 640) || 
+				(player.getViewerSize().height <= 640)
+			)
+			{
+				newLogicStateScaling = 0;
 			}
-			me._image_1.ggParameter.sx=1.05;me._image_1.ggParameter.sy=1.05;
-			me._image_1.style[domTransform]=parameterToTransform(me._image_1.ggParameter);
-		}
-		me._image_1.onmouseout=function (e) {
-			if (player.transitionsDisabled) {
-				me._image_1.style[domTransition]='none';
-			} else {
-				me._image_1.style[domTransition]='all 500ms ease-out 0ms';
+			else {
+				newLogicStateScaling = -1;
 			}
-			me._image_1.ggParameter.sx=1;me._image_1.ggParameter.sy=1;
-			me._image_1.style[domTransform]=parameterToTransform(me._image_1.ggParameter);
+			if (me._image_1.ggCurrentLogicStateScaling != newLogicStateScaling) {
+				me._image_1.ggCurrentLogicStateScaling = newLogicStateScaling;
+				me._image_1.style[domTransition]='' + cssPrefix + 'transform 0s';
+				if (me._image_1.ggCurrentLogicStateScaling == 0) {
+					me._image_1.ggParameter.sx = 0.6;
+					me._image_1.ggParameter.sy = 0.6;
+					me._image_1.style[domTransform]=parameterToTransform(me._image_1.ggParameter);
+				}
+				else {
+					me._image_1.ggParameter.sx = 1;
+					me._image_1.ggParameter.sy = 1;
+					me._image_1.style[domTransform]=parameterToTransform(me._image_1.ggParameter);
+				}
+			}
 		}
 		me._image_1.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
@@ -5304,37 +5334,25 @@ function pano2vrSkin(player,base) {
 					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
 			}
 		}
-		me._container_1.appendChild(me._image_1);
-		el=me._image_2=document.createElement('div');
-		els=me._image_2__img=document.createElement('img');
-		els.className='ggskin ggskin_image_2';
-		hs=basePath + 'images/image_2.png';
-		els.setAttribute('src',hs);
-		els.ggNormalSrc=hs;
-		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
-		els.className='ggskin ggskin_image';
-		els['ondragstart']=function() { return false; };
-		player.checkLoaded.push(els);
-		el.appendChild(els);
-		el.ggSubElement = els;
-		el.ggId="Image 2";
-		el.ggDx=-163;
-		el.ggDy=1;
+		el=me._btn_icho=document.createElement('div');
+		el.ggId="btn icho";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
-		el.className="ggskin ggskin_image ";
-		el.ggType='image';
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
 		hs ='';
-		hs+='height : 400px;';
-		hs+='left : -10000px;';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : default;';
+		hs+='height : 241px;';
+		hs+='left : 404px;';
 		hs+='position : absolute;';
-		hs+='top : -10000px;';
+		hs+='top : 194px;';
 		hs+='visibility : inherit;';
-		hs+='width : 262px;';
+		hs+='width : 165px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._image_2.ggIsActive=function() {
+		me._btn_icho.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -5346,157 +5364,34 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._image_2.onclick=function (e) {
-			player.setVariableValue('currentPan', "2");
-			player.setVariableValue('coverShow', false);
-			player.openNext("{node51}","");
-		}
-		me._image_2.onmouseover=function (e) {
-			if (player.transitionsDisabled) {
-				me._image_2.style[domTransition]='none';
-			} else {
-				me._image_2.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._image_2.ggParameter.sx=1.05;me._image_2.ggParameter.sy=1.05;
-			me._image_2.style[domTransform]=parameterToTransform(me._image_2.ggParameter);
-		}
-		me._image_2.onmouseout=function (e) {
-			if (player.transitionsDisabled) {
-				me._image_2.style[domTransition]='none';
-			} else {
-				me._image_2.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._image_2.ggParameter.sx=1;me._image_2.ggParameter.sy=1;
-			me._image_2.style[domTransform]=parameterToTransform(me._image_2.ggParameter);
-		}
-		me._image_2.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-				var ph=this.parentNode.clientHeight;
-				var h=this.offsetHeight;
-					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
-			}
-		}
-		me._container_1.appendChild(me._image_2);
-		el=me._image_3=document.createElement('div');
-		els=me._image_3__img=document.createElement('img');
-		els.className='ggskin ggskin_image_3';
-		hs=basePath + 'images/image_3.png';
-		els.setAttribute('src',hs);
-		els.ggNormalSrc=hs;
-		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
-		els.className='ggskin ggskin_image';
-		els['ondragstart']=function() { return false; };
-		player.checkLoaded.push(els);
-		el.appendChild(els);
-		el.ggSubElement = els;
-		el.ggId="Image 3";
-		el.ggDx=162;
-		el.ggDy=0;
-		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
-		el.className="ggskin ggskin_image ";
-		el.ggType='image';
-		hs ='';
-		hs+='height : 400px;';
-		hs+='left : -10000px;';
-		hs+='position : absolute;';
-		hs+='top : -10000px;';
-		hs+='visibility : inherit;';
-		hs+='width : 262px;';
-		hs+='pointer-events:auto;';
-		el.setAttribute('style',hs);
-		el.style[domTransform + 'Origin']='50% 50%';
-		me._image_3.ggIsActive=function() {
-			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
-				return this.parentNode.ggIsActive();
-			}
-			return false;
-		}
-		el.ggElementNodeId=function() {
-			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
-				return this.parentNode.ggElementNodeId();
-			}
-			return player.getCurrentNode();
-		}
-		me._image_3.onclick=function (e) {
-			player.setVariableValue('coverShow', false);
-			player.setVariableValue('currentPan', "3");
+		me._btn_icho.onclick=function (e) {
+			me._cover.style[domTransition]='none';
+			me._cover.style.visibility='hidden';
+			me._cover.ggVisible=false;
 			player.openNext("{node43}","");
 		}
-		me._image_3.onmouseover=function (e) {
-			if (player.transitionsDisabled) {
-				me._image_3.style[domTransition]='none';
-			} else {
-				me._image_3.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._image_3.ggParameter.sx=1.05;me._image_3.ggParameter.sy=1.05;
-			me._image_3.style[domTransform]=parameterToTransform(me._image_3.ggParameter);
+		me._btn_icho.ggUpdatePosition=function (useTransition) {
 		}
-		me._image_3.onmouseout=function (e) {
-			if (player.transitionsDisabled) {
-				me._image_3.style[domTransition]='none';
-			} else {
-				me._image_3.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._image_3.ggParameter.sx=1;me._image_3.ggParameter.sy=1;
-			me._image_3.style[domTransform]=parameterToTransform(me._image_3.ggParameter);
-		}
-		me._image_3.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-				var ph=this.parentNode.clientHeight;
-				var h=this.offsetHeight;
-					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
-			}
-		}
-		me._container_1.appendChild(me._image_3);
-		el=me._image_4=document.createElement('div');
-		els=me._image_4__img=document.createElement('img');
-		els.className='ggskin ggskin_image_4';
-		hs=basePath + 'images/image_4.png';
-		els.setAttribute('src',hs);
-		els.ggNormalSrc=hs;
-		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;;');
-		els.className='ggskin ggskin_image';
-		els['ondragstart']=function() { return false; };
-		player.checkLoaded.push(els);
-		el.appendChild(els);
-		el.ggSubElement = els;
-		el.ggId="Image 4";
-		el.ggDx=486;
-		el.ggDy=0;
+		me._image_1.appendChild(me._btn_icho);
+		el=me._btn_uk=document.createElement('div');
+		el.ggId="btn uk";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
-		el.className="ggskin ggskin_image ";
-		el.ggType='image';
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
 		hs ='';
-		hs+='height : 400px;';
-		hs+='left : -10000px;';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : default;';
+		hs+='height : 241px;';
+		hs+='left : 478px;';
 		hs+='position : absolute;';
-		hs+='top : -10000px;';
+		hs+='top : 526px;';
 		hs+='visibility : inherit;';
-		hs+='width : 262px;';
+		hs+='width : 165px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._image_4.ggIsActive=function() {
+		me._btn_uk.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -5508,72 +5403,33 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._image_4.onclick=function (e) {
-			player.setVariableValue('currentPan', "4");
-			player.openNext("{node63}","");
-			player.setVariableValue('coverShow', false);
+		me._btn_uk.onclick=function (e) {
+			me._cover.style[domTransition]='none';
+			me._cover.style.visibility='hidden';
+			me._cover.ggVisible=false;
 		}
-		me._image_4.onmouseover=function (e) {
-			if (player.transitionsDisabled) {
-				me._image_4.style[domTransition]='none';
-			} else {
-				me._image_4.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._image_4.ggParameter.sx=1.05;me._image_4.ggParameter.sy=1.05;
-			me._image_4.style[domTransform]=parameterToTransform(me._image_4.ggParameter);
+		me._btn_uk.ggUpdatePosition=function (useTransition) {
 		}
-		me._image_4.onmouseout=function (e) {
-			if (player.transitionsDisabled) {
-				me._image_4.style[domTransition]='none';
-			} else {
-				me._image_4.style[domTransition]='all 500ms ease-out 0ms';
-			}
-			me._image_4.ggParameter.sx=1;me._image_4.ggParameter.sy=1;
-			me._image_4.style[domTransform]=parameterToTransform(me._image_4.ggParameter);
-		}
-		me._image_4.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-				var ph=this.parentNode.clientHeight;
-				var h=this.offsetHeight;
-					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
-			}
-		}
-		me._container_1.appendChild(me._image_4);
-		el=me._coverlogo=document.createElement('div');
-		els=me._coverlogo__img=document.createElement('img');
-		els.className='ggskin ggskin_svg';
-		me._coverlogo__img.setAttribute('src',basePath + 'images/coverlogo.svg');
-		els.setAttribute('style','position: absolute;top: 0px;left: 0px;width: 100%;height: 100%;-webkit-user-drag:none;pointer-events:none;coverlogo;');
-		els['ondragstart']=function() { return false; };
-		el.appendChild(els);
-		el.ggSubElement = els;
-		el.ggId="cover-logo";
-		el.ggDx=0;
-		el.ggDy=-350;
+		me._image_1.appendChild(me._btn_uk);
+		el=me._btn_mark=document.createElement('div');
+		el.ggId="btn mark";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
-		el.className="ggskin ggskin_svg ";
-		el.ggType='svg';
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
 		hs ='';
-		hs+='height : 158px;';
-		hs+='left : -10000px;';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : default;';
+		hs+='height : 241px;';
+		hs+='left : 994px;';
 		hs+='position : absolute;';
-		hs+='top : -10000px;';
+		hs+='top : 470px;';
 		hs+='visibility : inherit;';
-		hs+='width : 1231px;';
+		hs+='width : 165px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
-		me._coverlogo.ggIsActive=function() {
+		me._btn_mark.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
 				return this.parentNode.ggIsActive();
 			}
@@ -5585,24 +5441,43 @@ function pano2vrSkin(player,base) {
 			}
 			return player.getCurrentNode();
 		}
-		me._coverlogo.ggUpdatePosition=function (useTransition) {
-			if (useTransition==='undefined') {
-				useTransition = false;
-			}
-			if (!useTransition) {
-				this.style[domTransition]='none';
-			}
-			if (this.parentNode) {
-				var pw=this.parentNode.clientWidth;
-				var w=this.offsetWidth;
-					this.style.left=(this.ggDx + pw/2 - w/2) + 'px';
-				var ph=this.parentNode.clientHeight;
-				var h=this.offsetHeight;
-					this.style.top=(this.ggDy + ph/2 - h/2) + 'px';
-			}
+		me._btn_mark.ggUpdatePosition=function (useTransition) {
 		}
-		me._container_1.appendChild(me._coverlogo);
-		me._cover.appendChild(me._container_1);
+		me._image_1.appendChild(me._btn_mark);
+		el=me._btn_ya=document.createElement('div');
+		el.ggId="btn ya";
+		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
+		el.ggVisible=true;
+		el.className="ggskin ggskin_rectangle ";
+		el.ggType='rectangle';
+		hs ='';
+		hs+='border : 0px solid #000000;';
+		hs+='cursor : default;';
+		hs+='height : 241px;';
+		hs+='left : 1188px;';
+		hs+='position : absolute;';
+		hs+='top : 248px;';
+		hs+='visibility : inherit;';
+		hs+='width : 165px;';
+		hs+='pointer-events:auto;';
+		el.setAttribute('style',hs);
+		el.style[domTransform + 'Origin']='50% 50%';
+		me._btn_ya.ggIsActive=function() {
+			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
+				return this.parentNode.ggIsActive();
+			}
+			return false;
+		}
+		el.ggElementNodeId=function() {
+			if ((this.parentNode) && (this.parentNode.ggElementNodeId)) {
+				return this.parentNode.ggElementNodeId();
+			}
+			return player.getCurrentNode();
+		}
+		me._btn_ya.ggUpdatePosition=function (useTransition) {
+		}
+		me._image_1.appendChild(me._btn_ya);
+		me._cover.appendChild(me._image_1);
 		me.divSkin.appendChild(me._cover);
 		me._arrow_menu.style[domTransition]='none';
 		me._arrow_menu.ggParameter.a="45.0000";
@@ -8812,7 +8687,8 @@ function pano2vrSkin(player,base) {
 	me._toggle2.logicBlock_position();
 	me._toggle2.logicBlock_scaling();
 	me._abouttext.logicBlock_scaling();
-	me._container_1.logicBlock_scaling();
+	me._help.logicBlock_scaling();
+	me._image_1.logicBlock_scaling();
 	me._top_menu.logicBlock_visible();
 	me._scrollarea_uk.logicBlock_visible();
 	me._scrollarea_icho.logicBlock_visible();
@@ -8821,7 +8697,7 @@ function pano2vrSkin(player,base) {
 	me._abouttext.logicBlock_visible();
 	me._help.logicBlock_visible();
 	me._cover.logicBlock_visible();
-	player.addListener('sizechanged', function(args) { me._top_menu.logicBlock_scaling();me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_position();me._main_menu.logicBlock_scaling();me._toggle2.logicBlock_position();me._toggle2.logicBlock_scaling();me._abouttext.logicBlock_scaling();me._container_1.logicBlock_scaling(); });
+	player.addListener('sizechanged', function(args) { me._top_menu.logicBlock_scaling();me._map_bg.logicBlock_scaling();me._main_menu.logicBlock_position();me._main_menu.logicBlock_scaling();me._toggle2.logicBlock_position();me._toggle2.logicBlock_scaling();me._abouttext.logicBlock_scaling();me._help.logicBlock_scaling();me._image_1.logicBlock_scaling(); });
 	player.addListener('changenodeid', function(args) { me._top_menu.logicBlock_visible();me._scrollarea_uk.logicBlock_visible();me._scrollarea_icho.logicBlock_visible();me._scrollarea_mark.logicBlock_visible();me._scrollarea_ya.logicBlock_visible();me._abouttext.logicBlock_visible();me._help.logicBlock_visible();me._cover.logicBlock_visible(); });
 	player.addListener('varchanged_titleShow', function(args) { me._help.logicBlock_visible(); });
 	player.addListener('varchanged_coverShow', function(args) { me._cover.logicBlock_visible(); });

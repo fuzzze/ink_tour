@@ -167,10 +167,15 @@ z-index: 2;
     color:#2b5e4a;
     font-weight:500;
     font-size: 28px;
-    line-height: 36px;
+    line-height: 32px;
     font-family:"Navigo", Navigo;
-    margin-top: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.inf-wnd h4{
+    padding: 5px 0;
+    margin:0;
 }
 
 .subtitle{
