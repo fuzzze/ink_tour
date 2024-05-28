@@ -1282,7 +1282,7 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" fov="70" tilt="0" pan="0"/>
+      <start projection="4" fov="28.1" tilt="-2.74" pan="-56.84"/>
       <flyin projection="9" fov="170" tilt="-90" pan="0"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
@@ -1297,8 +1297,8 @@
       <hotspot url="{node47}" skinid="Redpin" description="" id="Point04" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="175.6/4.2/70.0" tilt="-6.47" pan="-346.57"/>
       <hotspot url="{node48}" skinid="Redpin" description="" id="Point05" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-88.1/-9.3/70.0" tilt="-6.55" pan="-341.77"/>
       <hotspot url="{node77}" skinid="Redpin" description="" id="21" title="Установка комплексной подготовки газа" target="84.1/-20.4/48.8" tilt="0.42" pan="-180.29"/>
-      <hotspot url="{node1}" skinid="Airpin" description="" id="1" title="Ярактинское месторождение" target="" tilt="6.62" pan="-334.68"/>
-      <hotspot url="{node41}" skinid="Airpin" description="" id="Point06" title="Причал на реке Лене, вблизи города Усть-Кута" target="" tilt="7.24" pan="-224.17"/>
+      <hotspot url="{node1}" skinid="pin-ya" description="" id="1" title="Ярактинское месторождение" target="" tilt="0.46" pan="-334.41"/>
+      <hotspot url="{node63}" skinid="pin-uk" description="" id="Point06" title="Производственные объекты усть-кутской локации" target="" tilt="1.28" pan="-224.6"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point07" title="Нефтеперекачивающая станция (НПС-7) трубопроводной системы &quot;Восточная-Сибирь - Тихий Океан&quot;" target="" tilt="0.64" pan="-50.83"/>
     </hotspots>
     <media/>
