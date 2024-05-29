@@ -41,7 +41,6 @@
       <hotspot url="{node10}" skinid="Redpin" description="" id="Point22" title="Дожимная компрессорная станция на УПН" target="104.2/-4.2/70.0" tilt="-11.69" pan="-120.89"/>
       <hotspot url="{node43}" skinid="pin-icho" description="" id="Point23" title="Ичёдинское месторождение" target="" tilt="0.86" pan="90.98"/>
       <hotspot url="{node12}" skinid="Redpin" description="" id="Point24" title="Дожимная компрессорная станция&#xa;Дожимная насосная станция" target="" tilt="-0.06" pan="-244.76"/>
-      <hotspot url="{node26}" skinid="Redpin" description="" id="Point25" title="Установка комплексной подготовки газа (УКПГ-2)" target="37.2/-38.9/70.0" tilt="-0.05" pan="-299.46"/>
       <hotspot url="{node26}" skinid="Redpin" description="" id="uk" title="Установка комплексной подготовки газа (УКПГ-2)" target="0.5/-2.7/70.0" tilt="0" pan="50"/>
       <hotspot url="{node40}" skinid="Redpin" description="" id="Point27" title="Скважина для закачки газа в пласт" target="-119.9/-0.2/70.0" tilt="0" pan="40.247"/>
       <hotspot url="{node73}" skinid="Redpin" description="" id="Point28" title="Газофракционирующая установка" target="" tilt="0" pan="159.766"/>
@@ -58,7 +57,7 @@
     <media>
       <lensflare blinding="50" type="2" alpha="80" id="sun" color="0xffffff" tilt="5.12" pan="-255.24"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -87,7 +86,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="10.69" pan="-109.83"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -118,7 +117,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="7.08" pan="-294.21"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -148,7 +147,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="9.289999999999999" pan="-39.19"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -184,7 +183,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="7.4" pan="-310.74"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -204,7 +203,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="36.9" pan="360"/>
     </view>
-    <userdata customnodeid="p3" datetime="08.08.2023 10:31" copyright="" description="Панорама открывается в видом  на ДНС. На другой стороне ДКС. Предлагаю просто подписать тут названия объектов без сокращений. А по клику на след панорамы уже подробные описания (ниже).  " comment="Ярактинское месторождение" longitude="106.550384" latitude="58.034190" title="Дожимная компрессорная станция&#xa;Дожимная насосная станция" author="" tags="3|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p3" datetime="08.08.2023 10:31" copyright="" description="Панорама открывается в видом  на ДНС. На другой стороне ДКС. Предлагаю просто подписать тут названия объектов без сокращений. А по клику на след панорамы уже подробные описания (ниже).  " comment="Ярактинское месторождение" longitude="106.550384" latitude="58.034190" title="Дожимная компрессорная станция&#xa;Дожимная насосная станция" author="" tags="3|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -216,7 +215,7 @@
       <hotspot url="{node38}" skinid="pin-uk" description="" id="Point06" title="Установка по производству сжиженного гелия" target="$fwd" tilt="1.06" pan="-7.41163"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -246,7 +245,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="35.55" pan="-319.38"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -273,7 +272,7 @@
       <hotspot url="{node6}" skinid="Redpin" description="" id="Point01" title="Дожимная компрессорная станция" target="0.0/0.0/70.0" tilt="-10.8" pan="-122.24"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -303,7 +302,7 @@
     <media>
       <lensflare blinding="50" type="1" alpha="80" id="Lensflare01" color="0xffffff" tilt="12.49" pan="-100.16"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -331,7 +330,7 @@
       <hotspot url="{node8}" skinid="Airpin" description="" id="Point02" title="Дожимная компрессорная станция на УПН" target="" tilt="19.35" pan="-291.25"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -358,7 +357,7 @@
       <hotspot url="{node9}" skinid="Redpin" description="" id="Point01" title="Дожимная компрессорная станция на УПН" target="" tilt="-7.88" pan="-9.79"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -385,7 +384,7 @@
       <hotspot url="{node8}" skinid="Airpin" description="" id="Point01" title="Дожимная компрессорная станция на УПН" target="-18.0/-22.9/70.0" tilt="30.86" pan="-25.05"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -412,7 +411,7 @@
       <hotspot url="{node12}" skinid="Airpin" description="" id="Point01" title="Дожимная компрессорная станция&#xa;Дожимная насосная станция" target="-122.1/-5.5/70.0" tilt="17.97" pan="-283.46"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -432,7 +431,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 19:10" copyright="" description="Установка подготовки нефти (УПН) Ярактинского месторождения введена в эксплуатацию в 2009 году, текущая проектная мощность - 5 млн тонн сырой нефти в год. На УПН Ярактинского НГКМ направляются все потоки нефти с основных месторождений ИНК.  На установке действует классическая трехступенчатая схема очистки УВС: дегазация – предварительный сброс пластовой воды в резервуаре, обезвоживание в отстойниках , обессоливание в электродегидраторах. Режим работы УПН – непрерывный, 8 400 часов в году.&#xa;&#xa;Наряду с собственной подготовкой на УПН осуществляется промежуточное хранение нефти перед ее отправкой на приемосдаточный пункт  &quot;&quot;Марковское&quot;&quot;, являющееся единственным объектом в ИНК, на котором осуществляется централизованная сдача товарной нефти в магистральный нефтепровод &quot;&quot;Восточная Сибирь - Тихий Океан&quot;&quot; (ВСТО). " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки нефти" author="" tags="5|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="" datetime="09.08.2023 19:10" copyright="" description="Установка подготовки нефти (УПН) Ярактинского месторождения введена в эксплуатацию в 2009 году, текущая проектная мощность - 5 млн тонн сырой нефти в год. На УПН Ярактинского НГКМ направляются все потоки нефти с основных месторождений ИНК.  На установке действует классическая трехступенчатая схема очистки УВС: дегазация – предварительный сброс пластовой воды в резервуаре, обезвоживание в отстойниках , обессоливание в электродегидраторах. Режим работы УПН – непрерывный, 8 400 часов в году.&#xa;&#xa;Наряду с собственной подготовкой на УПН осуществляется промежуточное хранение нефти перед ее отправкой на приемосдаточный пункт  &quot;&quot;Марковское&quot;&quot;, являющееся единственным объектом в ИНК, на котором осуществляется централизованная сдача товарной нефти в магистральный нефтепровод &quot;&quot;Восточная Сибирь - Тихий Океан&quot;&quot; (ВСТО). " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки нефти" author="" tags="5|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -443,7 +442,7 @@
     <media>
       <lensflare blinding="50" type="3" alpha="80" id="Lensflare01" color="0xffffff" tilt="7.35" pan="-284.83"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -471,7 +470,7 @@
       <hotspot url="{node20}" skinid="Airpin" description="" id="Point02" title="Установка подготовки дизельного топлива" target="4.4/-25.6/70.0" tilt="2.19" pan="-292.1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -498,7 +497,7 @@
       <hotspot url="{node1}" skinid="Airpin" description="" id="Point01" title="Ярактинское месторождение" target="" tilt="38.94" pan="-0.9"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -518,14 +517,14 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 15:30" copyright="" description="Установка дизельного топлива (УПДТ) проектной мощностью по сырью 109,5 тыс. тонн в год (38 325 тонн в год по производству дизельного топлива) была введена в эксплуатацию в 2013 году. Сырьём установки является нефть, подготовленная на УПН Ярактинского НГКМ. Товарный продукт -  дизельное топливо различных марок, а также бензиновые и мазутные фракции. По данным на 2023 год, УПДТ, помимо 115 тонн дизельного топлива в месяц, выдает 25 тонн нафты." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки дизельного топлива" author="" tags="6|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="" datetime="09.08.2023 15:30" copyright="" description="Установка дизельного топлива (УПДТ) проектной мощностью по сырью 109,5 тыс. тонн в год (38 325 тонн в год по производству дизельного топлива) была введена в эксплуатацию в 2013 году. Сырьём установки является нефть, подготовленная на УПН Ярактинского НГКМ. Товарный продукт -  дизельное топливо различных марок, а также бензиновые и мазутные фракции. По данным на 2023 год, УПДТ, помимо 115 тонн дизельного топлива в месяц, выдает 25 тонн нафты." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки дизельного топлива" author="" tags="6|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot url="{node1}" skinid="Airpin" description="" id="Point01" title="Ярактинское месторождение" target="" tilt="6.47" pan="-264.31"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -553,7 +552,7 @@
       <hotspot url="{node1}" skinid="Airpin" description="" id="Point02" title="Ярактинское месторождение" target="" tilt="21.54" pan="-291.79"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -581,7 +580,7 @@
       <hotspot url="{node1}" skinid="Airpin" description="" id="Point02" title="Ярактинское месторождение" target="" tilt="12.97" pan="-280.83"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -601,7 +600,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 14:27" copyright="" description="Установка подготовки попутного нефтяного и природного газа (УПППНГ) на Ярактинском месторождении была запущена в работу в 2017 году. С неё началась реализация масштабного газового проекта ИНК. Объект предназначен для получения сухого отбензиненного газа (СОГ), сжиженного углеводородного газа (СУГ) и стабильного газового конденсата (СГК). Сырьем установки являются смесь природного и попутного нефтяного газов, а также НГК и ШФЛУ. Производительность УПППНГ -  3,6 млн кубометров в сутки по сырью." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ- 3,6)" author="" tags="7|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="" datetime="08.08.2023 14:27" copyright="" description="Установка подготовки попутного нефтяного и природного газа (УПППНГ) на Ярактинском месторождении была запущена в работу в 2017 году. С неё началась реализация масштабного газового проекта ИНК. Объект предназначен для получения сухого отбензиненного газа (СОГ), сжиженного углеводородного газа (СУГ) и стабильного газового конденсата (СГК). Сырьем установки являются смесь природного и попутного нефтяного газов, а также НГК и ШФЛУ. Производительность УПППНГ -  3,6 млн кубометров в сутки по сырью." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ- 3,6)" author="" tags="7|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -612,7 +611,7 @@
       <hotspot url="{node38}" skinid="Airpin" description="" id="Point05" title="Установка по производству сжиженного гелия" target="" tilt="2.23" pan="-229.31"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -639,7 +638,7 @@
       <hotspot url="{node22}" skinid="Airpin" description="" id="Point01" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ- 3,6)" target="" tilt="28.18" pan="-293.48"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -659,7 +658,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 12:21" copyright="" description="Две установки подготовки природного и попутного нефтяного газа (УПППНГ-6/1, УПППНГ-6/2) мощностью 6 млн м3 в сутки каждая. Запущены в работу в 2022 году.  В среднем выработка на одной УКПГ-6 должна составить 700 тонн по широкой фракции легких углеводородов (ШФЛУ) и 650 тонн по стабильному газовому конденсату (СГК) в сутки. &#xa;&#xa;Эти объекты являются частью проекта «Газ-2». Всего в него входит восемь заводов: УКПГ-2 (УПППНГ-6/1,2), УКПГ МНГКМ, гелиевая установка на Ярактинском месторождении, две линии ГФУ на УК ГПЗ и гелиевая линия на Марковском месторождении. Данные объекты в общей сложности могут перерабатывать порядка 23-25 млн кубометров газа в сутки. " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа (УКПГ-2)" author="" tags="8|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="" datetime="08.08.2023 12:21" copyright="" description="Две установки подготовки природного и попутного нефтяного газа (УПППНГ-6/1, УПППНГ-6/2) мощностью 6 млн м3 в сутки каждая. Запущены в работу в 2022 году.  В среднем выработка на одной УКПГ-6 должна составить 700 тонн по широкой фракции легких углеводородов (ШФЛУ) и 650 тонн по стабильному газовому конденсату (СГК) в сутки. &#xa;&#xa;Эти объекты являются частью проекта «Газ-2». Всего в него входит восемь заводов: УКПГ-2 (УПППНГ-6/1,2), УКПГ МНГКМ, гелиевая установка на Ярактинском месторождении, две линии ГФУ на УК ГПЗ и гелиевая линия на Марковском месторождении. Данные объекты в общей сложности могут перерабатывать порядка 23-25 млн кубометров газа в сутки. " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа (УКПГ-2)" author="" tags="8|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -672,7 +671,7 @@
       <hotspot url="{node25}" skinid="Redpin" description="" id="Point07" title="Дожимная компрессорная станция (ДКС)" target="96.6/-3.4/70.0" tilt="-16.11" pan="-85.42"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -701,7 +700,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="42.49" pan="-95.83"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -730,7 +729,7 @@
     <media>
       <lensflare blinding="50" type="3" alpha="80" id="Lensflare01" color="0xffffff" tilt="42.05" pan="-273.66"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -757,7 +756,7 @@
       <hotspot url="{node26}" skinid="Airpin" description="" id="Point01" title="Установка комплексной подготовки газа (УКПГ-2)" target="" tilt="37.49" pan="-359.47"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -785,7 +784,7 @@
       <hotspot url="{node27}" skinid="Redpin" description="" id="Point02" title="Парк хранения СУГ" target="" tilt="-13.48" pan="-3.35"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -812,7 +811,7 @@
       <hotspot url="{node26}" skinid="Airpin" description="" id="Point01" title="Установка комплексной подготовки газа (УКПГ-2)" target="21.5/-3.4/70.0" tilt="37.48" pan="-178.75"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -832,14 +831,14 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 16:53" copyright="" description="Установка подготовки сернистой нефти и газа (УПСГ) мощностью 1 103,6 тыс. т/год была введена в эксплуатацию в 2014 году. Строительство УПСНГ было обусловлено вовлечением в производственный процесс скважин, сырье из которых отличается повышенным содержанием сероводорода. Сернистая нефть по отдельной нитке трубопроводов поступает напрямую на УПСНГ, очищается до нормативных показателей и направляется в резервуарный парк головной УПН на Яракте, откуда прокачивается на приемо-сдаточный пункт нефти «Марковское» для дальнейшей поставки в магистральный нефтепровод «Восточная Сибирь – Тихий океан»." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки сернистой нефти и газа" author="" tags="10|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="" datetime="09.08.2023 16:53" copyright="" description="Установка подготовки сернистой нефти и газа (УПСГ) мощностью 1 103,6 тыс. т/год была введена в эксплуатацию в 2014 году. Строительство УПСНГ было обусловлено вовлечением в производственный процесс скважин, сырье из которых отличается повышенным содержанием сероводорода. Сернистая нефть по отдельной нитке трубопроводов поступает напрямую на УПСНГ, очищается до нормативных показателей и направляется в резервуарный парк головной УПН на Яракте, откуда прокачивается на приемо-сдаточный пункт нефти «Марковское» для дальнейшей поставки в магистральный нефтепровод «Восточная Сибирь – Тихий океан»." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки сернистой нефти и газа" author="" tags="10|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot url="{node1}" skinid="Airpin" description="" id="Point01" title="Ярактинское месторождение" target="" tilt="8.64" pan="-296.36"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -867,7 +866,7 @@
       <hotspot url="{node30}" skinid="Redpin" description="" id="Point02" title="Установка подготовки сернистой нефти и газа" target="0.0/0.0/70.0" tilt="-0.99" pan="-40.12"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -895,7 +894,7 @@
       <hotspot url="{node31}" skinid="Airpin" description="" id="Point02" title="Установка подготовки сернистой нефти и газа" target="" tilt="38.32" pan="-273.16"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -924,7 +923,7 @@
       <hotspot url="{node32}" skinid="Redpin" description="" id="Point04" title="Энергокомплекс 72 МВт" target="-114.5/4.8/70.0" tilt="-17.1" pan="-330.11"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -952,7 +951,7 @@
       <hotspot url="{node33}" skinid="Redpin" description="" id="Point02" title="Энергокомплекс 72 МВт" target="" tilt="-3.05" pan="-323.88"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -979,7 +978,7 @@
       <hotspot url="{node35}" skinid="Airpin" description="" id="Point01" title="Энергокомплекс 72 МВт" target="" tilt="40.14" pan="-1.29"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1006,7 +1005,7 @@
       <hotspot url="{node35}" skinid="Airpin" description="" id="Point01" title="Энергокомплекс 72 МВт" target="" tilt="26.44" pan="-297.38"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1039,7 +1038,7 @@
       <hotspot url="{node43}" skinid="pin-icho" description="" id="Point07" title="Ичёдинское месторождение" target="$fwd" tilt="0" pan="120.554"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1067,7 +1066,7 @@
       <hotspot url="{node37}" skinid="Redpin" description="" id="Point02" title="Установка по производству сжиженного гелия" target="" tilt="-1.33" pan="-95.56"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1097,7 +1096,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="32.4" pan="-207.64"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1124,7 +1123,7 @@
       <hotspot url="{node39}" skinid="Redpin" description="" id="Point02" title="Скважина для закачки газа в пласт" target="" tilt="-5.79" pan="-53.78"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1151,7 +1150,7 @@
       <hotspot url="{node1}" skinid="Airpin" description="" id="Point01" title="Ярактинское месторождение" target="" tilt="31.44" pan="-179.68"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1184,7 +1183,7 @@
       <hotspot url="{node63}" skinid="pin-uk" description="" id="Point07" title="Производственные объекты усть-кутской локации" target="22.3/-6.0/70.0" tilt="0.24" pan="-171.48"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1211,7 +1210,7 @@
       <hotspot url="{node43}" skinid="Airpin" description="" id="Point01" title="Ичёдинское месторождение" target="" tilt="31.95" pan="-225.34"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1238,7 +1237,7 @@
       <hotspot url="{node43}" skinid="Airpin" description="" id="Point01" title="Ичёдинское месторождение" target="" tilt="64.7" pan="-165.24"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1267,7 +1266,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="23.05" pan="-323.13"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1302,7 +1301,7 @@
       <hotspot url="" skinid="JustTextPin" description="" id="Point07" title="Нефтеперекачивающая станция (НПС-7) трубопроводной системы &quot;Восточная-Сибирь - Тихий Океан&quot;" target="" tilt="0.64" pan="-50.83"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1331,7 +1330,7 @@
       <hotspot url="{node51}" skinid="Redpin" description="" id="Point03" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-116.8/-35.2/70.0" tilt="4.61" pan="-72.7"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1359,7 +1358,7 @@
       <hotspot url="{node46}" skinid="Airpin" description="" id="Point02" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-101.6/-24.2/70.0" tilt="19.96" pan="-330.4"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1386,7 +1385,7 @@
       <hotspot url="{node51}" skinid="Airpin" description="" id="Point01" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="" tilt="18.04" pan="-116.81"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1414,7 +1413,7 @@
       <hotspot url="{node50}" skinid="Redpin" description="" id="Point02" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="-176.5/-4.6/70.0" tilt="-1.23" pan="-203.84"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1442,7 +1441,7 @@
       <hotspot url="{node51}" skinid="Airpin" description="" id="Point02" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="0.0/-0.2/70.0" tilt="20.77" pan="-294.99"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1478,7 +1477,7 @@
     <media>
       <lensflare blinding="50" type="2" alpha="80" id="Lensflare01" color="0xffffff" tilt="33.03" pan="-128.59"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1498,7 +1497,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 13:25" copyright="" description="Газофракционирующая установка входит в состав ООО &quot;Усть-Кутский ГПЗ&quot;.  ГФУ предназначена для разделения широкой фракции легких углеводородов (ШФЛУ), которая поступает с УКПГ-2, УПППНГ-3,6 ЯНГКМ, УКПГ МНГКМ, на составляющие компоненты. На сегодняшнем этапе из сырья извлекают пропан, бутан и стабильный газовый конденсат. Эти виды продукции реализуются конечным потребителям по железной дороге и автотранспортом. А в дальнейшем из ШФЛУ будут получать также и этан для Иркутского завода полимеров." comment="г. Усть-Кут" longitude="106.010231" latitude="56.826045" title="Газофракционирующая установка" author="" tags="20|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="" datetime="11.08.2023 13:25" copyright="" description="Газофракционирующая установка входит в состав ООО &quot;Усть-Кутский ГПЗ&quot;.  ГФУ предназначена для разделения широкой фракции легких углеводородов (ШФЛУ), которая поступает с УКПГ-2, УПППНГ-3,6 ЯНГКМ, УКПГ МНГКМ, на составляющие компоненты. На сегодняшнем этапе из сырья извлекают пропан, бутан и стабильный газовый конденсат. Эти виды продукции реализуются конечным потребителям по железной дороге и автотранспортом. А в дальнейшем из ШФЛУ будут получать также и этан для Иркутского завода полимеров." comment="г. Усть-Кут" longitude="106.010231" latitude="56.826045" title="Газофракционирующая установка" author="" tags="20|г. Усть-Кут" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1509,7 +1508,7 @@
       <hotspot url="{node72}" skinid="Redpin" description="" id="Point05" title="Газофракционирующая установка" target="" tilt="-12.76" pan="-255.1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1536,7 +1535,7 @@
       <hotspot url="{node73}" skinid="Airpin" description="" id="Point01" title="Газофракционирующая установка" target="" tilt="20.74" pan="-38.5"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1563,7 +1562,7 @@
       <hotspot url="{node73}" skinid="Airpin" description="" id="Point01" title="Газофракционирующая установка" target="" tilt="26.44" pan="-24.12"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1590,7 +1589,7 @@
       <hotspot url="{node73}" skinid="Airpin" description="" id="Point01" title="Газофракционирующая установка" target="0.0/-0.2/70.0" tilt="42.63" pan="-353.99"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1617,7 +1616,7 @@
       <hotspot url="{node63}" skinid="Airpin" description="" id="Point01" title="Производственные объекты усть-кутской локации" target="" tilt="10.53" pan="-352.88"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1646,7 +1645,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="45.1" pan="-122.32"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1675,7 +1674,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="43.72" pan="-14.43"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1707,7 +1706,7 @@
       <hotspot url="{node73}" skinid="Redpin" description="" id="Point06" title="Газофракционирующая установка" target="" tilt="4.05" pan="-89.74"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1734,7 +1733,7 @@
       <hotspot url="{node64}" skinid="Airpin" description="" id="Point01" title="Комплекс приема,  хранения и отгрузки СУГ и СГК" target="" tilt="33.94" pan="-289.38"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1763,7 +1762,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="42.11" pan="-294.87"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1790,7 +1789,7 @@
       <hotspot url="{node63}" skinid="Airpin" description="" id="Point01" title="Производственные объекты усть-кутской локации" target="" tilt="8.28" pan="-155.04"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1810,14 +1809,14 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="Иркутский завод полимеров" author="" tags="18-11|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="" datetime="" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="Иркутский завод полимеров" author="" tags="18-11|г. Усть-Кут" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="61.8" pan="-359.92"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1856,7 +1855,7 @@
       <hotspot url="{node62}" skinid="Redpin" description="" id="Point13" title="Установка водоподготовки" target="50.4/0.3/70.0" tilt="-7.37" pan="-324.37"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1883,7 +1882,7 @@
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="15.37" pan="-321.09"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1910,7 +1909,7 @@
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="18.53" pan="-250.4"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1937,7 +1936,7 @@
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="10.56" pan="-263.53"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1964,7 +1963,7 @@
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="11.36" pan="-297.8"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -1991,7 +1990,7 @@
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="10.27" pan="-79.82"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -2018,7 +2017,7 @@
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="22.25" pan="-126.23"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -2045,7 +2044,7 @@
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="8.66" pan="-21.36"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -2072,7 +2071,7 @@
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="27.16" pan="-53.76"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -2099,7 +2098,7 @@
       <hotspot url="{node56}" skinid="Airpin" description="" id="Point01" title="ТП-220 ПС" target="" tilt="21.32" pan="-210.01"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -2126,14 +2125,14 @@
       <hotspot url="{node74}" skinid="Redpin" description="" id="Point01" title="Установка комплексной подготовки газа" target="" tilt="-10.32" pan="-73.05"/>
       <hotspot url="{node75}" skinid="Redpin" description="" id="Point02" title="Установка комплексной подготовки газа" target="100.2/-15.7/70.0" tilt="-10.23" pan="-42.35"/>
       <hotspot url="{node76}" skinid="Redpin" description="" id="Point03" title="Установка комплексной подготовки газа" target="81.9/-40.4/70.0" tilt="-13.21" pan="-105.81"/>
-      <hotspot url="{node51}" skinid="pin-mar" description="" id="Point04" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="0.0/-0.2/70.0" tilt="-1.51" pan="-359.92"/>
+      <hotspot url="{node51}" skinid="Redpin" description="" id="Point04" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="0.0/-0.2/70.0" tilt="-1.51" pan="-359.92"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point05" title="Энергокомплекс" target="" tilt="0.08" pan="-250.04"/>
       <hotspot url="images/4220_koz_7510_m.jpg" skinid="ht_image" description="" id="Point06" title="Центральный пункт сбора нефти" target="" tilt="-1.05" pan="-296.02"/>
       <hotspot url="images/4220_koz_7485_m.jpg" skinid="ht_image" description="" id="Point07" title="Центральный пункт сбора нефти.  Вид сверху" target="" tilt="-1.49" pan="-298.12"/>
       <hotspot url="images/4220_koz_7391_1 .jpg" skinid="ht_image" description="" id="Point08" title="Центральный пункт сбора нефти.  Главный вход" target="" tilt="-1.26" pan="-299.83"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -2166,7 +2165,7 @@
       <hotspot url="images/4220_koz_7391_1 .jpg" skinid="ht_image" description="" id="Point07" title="Центральный пункт сбора нефти.  Главный вход" target="" tilt="-0.63" pan="-69.1"/>
     </hotspots>
     <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -2196,7 +2195,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="46.97" pan="-101.28"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
@@ -2226,7 +2225,7 @@
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="45.99" pan="-284.31"/>
     </media>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
+    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
     <flyintransition enabled="1" speed="1.00"/>
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>

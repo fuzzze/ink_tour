@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Wed May 29 08:47:54 2024
+// Generated Wed May 29 10:33:15 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "1");
@@ -2451,7 +2451,7 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius: 32px;';
 		hs+=cssPrefix + 'border-radius: 32px;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 14px;';
+		hs+='font-size: 16px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
@@ -2620,7 +2620,7 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius: 32px;';
 		hs+=cssPrefix + 'border-radius: 32px;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 14px;';
+		hs+='font-size: 16px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
@@ -2811,7 +2811,7 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius: 32px;';
 		hs+=cssPrefix + 'border-radius: 32px;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 14px;';
+		hs+='font-size: 16px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
@@ -3067,7 +3067,7 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius: 32px;';
 		hs+=cssPrefix + 'border-radius: 32px;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 14px;';
+		hs+='font-size: 16px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
@@ -3239,7 +3239,7 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius: 32px;';
 		hs+=cssPrefix + 'border-radius: 32px;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 14px;';
+		hs+='font-size: 16px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
@@ -3412,7 +3412,7 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius: 32px;';
 		hs+=cssPrefix + 'border-radius: 32px;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 14px;';
+		hs+='font-size: 16px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
@@ -3580,7 +3580,7 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius: 32px;';
 		hs+=cssPrefix + 'border-radius: 32px;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 14px;';
+		hs+='font-size: 16px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
@@ -3748,7 +3748,7 @@ function pano2vrSkin(player,base) {
 		hs+='border-radius: 32px;';
 		hs+=cssPrefix + 'border-radius: 32px;';
 		hs+='color: rgba(255,255,255,1);';
-		hs+='font-size: 14px;';
+		hs+='font-size: 16px;';
 		hs+='font-weight: inherit;';
 		hs+='text-align: left;';
 		hs+='white-space: nowrap;';
