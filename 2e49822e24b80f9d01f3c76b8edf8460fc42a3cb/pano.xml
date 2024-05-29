@@ -2128,9 +2128,9 @@
       <hotspot url="{node76}" skinid="Redpin" description="" id="Point03" title="Установка комплексной подготовки газа" target="81.9/-40.4/70.0" tilt="-13.21" pan="-105.81"/>
       <hotspot url="{node51}" skinid="pin-mar" description="" id="Point04" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="0.0/-0.2/70.0" tilt="-1.51" pan="-359.92"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point05" title="Энергокомплекс" target="" tilt="0.08" pan="-250.04"/>
-      <hotspot url="images/4220_koz_7510_m.jpg" skinid="ht_image" description="" id="Point06" title="Заголовок 1" target="" tilt="-1.05" pan="-296.02"/>
-      <hotspot url="images/4220_koz_7485_m.jpg" skinid="ht_image" description="" id="Point07" title="Заголовок 2" target="" tilt="-1.49" pan="-298.12"/>
-      <hotspot url="images/4220_koz_7391_1 .jpg" skinid="ht_image" description="" id="Point08" title="Заголовок 3" target="" tilt="-1.26" pan="-299.83"/>
+      <hotspot url="images/4220_koz_7510_m.jpg" skinid="ht_image" description="" id="Point06" title="Центральный пункт сбора нефти" target="" tilt="-1.05" pan="-296.02"/>
+      <hotspot url="images/4220_koz_7485_m.jpg" skinid="ht_image" description="" id="Point07" title="Центральный пункт сбора нефти.  Вид сверху" target="" tilt="-1.49" pan="-298.12"/>
+      <hotspot url="images/4220_koz_7391_1 .jpg" skinid="ht_image" description="" id="Point08" title="Центральный пункт сбора нефти.  Главный вход" target="" tilt="-1.26" pan="-299.83"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
@@ -2160,10 +2160,10 @@
       <hotspot url="{node77}" skinid="Airpin" description="" id="Point01" title="Установка комплексной подготовки газа" target="" tilt="4.8" pan="-27.98"/>
       <hotspot url="{node75}" skinid="Redpin" description="" id="Point02" title="Установка комплексной подготовки газа" target="-49.2/12.0/70.0" tilt="-23.79" pan="-81.67"/>
       <hotspot url="{node76}" skinid="Redpin" description="" id="Point03" title="Установка комплексной подготовки газа" target="-116.5/-8.4/70.0" tilt="-14.83" pan="-332.95"/>
-      <hotspot url="" skinid="JustTextPin" description="" id="Point04" title="Нефтеперекачивающая станция (НПС-7) трубопроводной системы &quot;Восточная-Сибирь - Тихий Океан&quot;" target="" tilt="-0.82" pan="-67.32"/>
-      <hotspot url="images/4220_koz_7510_m.jpg" skinid="ht_image" description="" id="Point05" title="Заголовок 1" target="" tilt="0.44" pan="-19.47"/>
-      <hotspot url="images/4220_koz_7485_m.jpg" skinid="ht_image" description="" id="Point06" title="Заголовок 2" target="" tilt="0.35" pan="-22.3"/>
-      <hotspot url="images/4220_koz_7391_1 .jpg" skinid="ht_image" description="" id="Point07" title="Заголовок 3" target="" tilt="0.25" pan="-24.7"/>
+      <hotspot url="" skinid="JustTextPin" description="" id="Point04" title="Нефтеперекачивающая станция (НПС-7) трубопроводной системы &quot;Восточная-Сибирь - Тихий Океан&quot;" target="" tilt="-1.2" pan="-71.42"/>
+      <hotspot url="images/4220_koz_7510_m.jpg" skinid="ht_image" description="" id="Point05" title="Центральный пункт сбора нефти" target="" tilt="-0.88" pan="-62.95"/>
+      <hotspot url="images/4220_koz_7485_m.jpg" skinid="ht_image" description="" id="Point06" title="Центральный пункт сбора нефти.  Вид сверху" target="" tilt="-1.16" pan="-65.6"/>
+      <hotspot url="images/4220_koz_7391_1 .jpg" skinid="ht_image" description="" id="Point07" title="Центральный пункт сбора нефти.  Главный вход" target="" tilt="-0.63" pan="-69.1"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="crossdissolve" softedge="0" blendcolor="0x000000" blendtime="1" zoomout="0"/>
