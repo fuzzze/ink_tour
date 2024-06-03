@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Sun Jun 2 23:24:21 2024
+// Generated Mon Jun 3 15:25:54 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "1");
@@ -5872,12 +5872,20 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._mapbtn.onclick=function (e) {
-			me._container_maps.style[domTransition]='none';
-			me._container_maps.style.visibility=(Number(me._container_maps.style.opacity)>0||!me._container_maps.style.opacity)?'inherit':'hidden';
-			me._container_maps.ggVisible=true;
-			me._container_cards.style[domTransition]='none';
+			if (player.transitionsDisabled) {
+				me._container_maps.style[domTransition]='none';
+			} else {
+				me._container_maps.style[domTransition]='all 300ms ease-out 0ms';
+			}
+			me._container_maps.style.opacity='1';
+			me._container_maps.style.visibility=me._container_maps.ggVisible?'inherit':'hidden';
+			if (player.transitionsDisabled) {
+				me._container_cards.style[domTransition]='none';
+			} else {
+				me._container_cards.style[domTransition]='all 300ms ease-out 0ms';
+			}
+			me._container_cards.style.opacity='0';
 			me._container_cards.style.visibility='hidden';
-			me._container_cards.ggVisible=false;
 		}
 		me._mapbtn.onmouseover=function (e) {
 			me.elementMouseOver['mapbtn']=true;
@@ -5954,12 +5962,13 @@ function pano2vrSkin(player,base) {
 		el.ggDx=12;
 		el.ggDy=56;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=false;
+		el.ggVisible=true;
 		el.className="ggskin ggskin_container ";
 		el.ggType='container';
 		hs ='';
 		hs+='height : 400px;';
 		hs+='left : -10000px;';
+		hs+='opacity : 0;';
 		hs+='position : absolute;';
 		hs+='top : -10000px;';
 		hs+='visibility : hidden;';
@@ -6139,12 +6148,20 @@ function pano2vrSkin(player,base) {
 			}
 		}
 		me._cardbtn.onclick=function (e) {
-			me._container_maps.style[domTransition]='none';
+			if (player.transitionsDisabled) {
+				me._container_maps.style[domTransition]='none';
+			} else {
+				me._container_maps.style[domTransition]='all 300ms ease-out 0ms';
+			}
+			me._container_maps.style.opacity='0';
 			me._container_maps.style.visibility='hidden';
-			me._container_maps.ggVisible=false;
-			me._container_cards.style[domTransition]='none';
-			me._container_cards.style.visibility=(Number(me._container_cards.style.opacity)>0||!me._container_cards.style.opacity)?'inherit':'hidden';
-			me._container_cards.ggVisible=true;
+			if (player.transitionsDisabled) {
+				me._container_cards.style[domTransition]='none';
+			} else {
+				me._container_cards.style[domTransition]='all 300ms ease-out 0ms';
+			}
+			me._container_cards.style.opacity='1';
+			me._container_cards.style.visibility=me._container_cards.ggVisible?'inherit':'hidden';
 		}
 		me._cardbtn.onmouseover=function (e) {
 			me.elementMouseOver['cardbtn']=true;
