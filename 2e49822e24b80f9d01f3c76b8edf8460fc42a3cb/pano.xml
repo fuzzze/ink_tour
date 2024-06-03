@@ -1814,11 +1814,10 @@
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot url="{node52}" skinid="Airpin" description="" id="Point01" title="Установка производства полиэтилена" target="" tilt="61.8" pan="-359.92"/>
-      <hotspot url="" skinid="JustTextPin" description="" id="Point02" title="Насосная технической и противопожарной воды" target="" tilt="-4.34" pan="-111.31"/>
-      <hotspot url="" skinid="JustTextPin" description="" id="Point03" title="Водоблок оборотного водоснабжения" target="" tilt="-7.97" pan="-84.34"/>
-      <hotspot url="" skinid="JustTextPin" description="" id="Point04" title="Комплекс очистных сооружений" target="" tilt="-5.97" pan="-135.91"/>
-      <hotspot url="" skinid="JustTextPin" description="" id="Point05" title="Установка водоподготовки" target="" tilt="-0.81" pan="-143.76"/>
-      <hotspot url="" skinid="JustTextPin" description="" id="Point06" title="ТП-220 ПС" target="" tilt="-8.21" pan="-148.16"/>
+      <hotspot url="{node54}" skinid="Redpin" description="" id="Point02" title="Насосная технической и противопожарной воды  " target="" tilt="-4.34" pan="-111.31"/>
+      <hotspot url="{node53}" skinid="Redpin" description="" id="Point03" title="Водоблок оборотного водоснабжения" target="" tilt="-7.97" pan="-84.34"/>
+      <hotspot url="{node55}" skinid="Redpin" description="" id="Point04" title="Комплекс очистных сооружений" target="" tilt="-5.97" pan="-135.91"/>
+      <hotspot url="{node62}" skinid="Redpin" description="" id="Point05" title="Установка водоподготовки" target="" tilt="-2.81" pan="-142.71"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
