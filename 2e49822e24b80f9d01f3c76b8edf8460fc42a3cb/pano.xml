@@ -46,13 +46,15 @@
       <hotspot url="{node73}" skinid="Redpin" description="" id="Point28" title="Газофракционирующая установка" target="" tilt="0" pan="159.766"/>
       <hotspot url="{node51}" skinid="pin-mar" description="" id="mark" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="" tilt="0" pan="-164.433"/>
       <hotspot url="{node8}" skinid="Airpin" description="" id="Point30" title="Дожимная компрессорная станция на УПН" target="" tilt="-4.39" pan="-119.43"/>
-      <hotspot url="" skinid="JustTextPin" description="" id="Point02" title="Водозаборная станция" target="" tilt="-50.91" pan="-32.7"/>
+      <hotspot url="" skinid="JustTextPin" description="" id="Point02" title="Водозаборная станция" target="" tilt="-34.74" pan="-30.78"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point10" title="Стадион" target="" tilt="-67.79" pan="-307.58"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point26" title="Городок подрядчиков" target="" tilt="-12.81" pan="-61.84"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point29" title="База производственного обеспечения (БПО)" target="" tilt="-18.97" pan="-107.83"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point31" title="Склад №2" target="" tilt="-67.91" pan="-137.19"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point32" title="Городок дорожно-строительного управления (ДСУ)&#xa;" target="" tilt="-37.03" pan="-350.79"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point33" title="Кустовая площадка 39 - городок «ИНК-СтройНефтеГаз»" target="" tilt="-14.49" pan="-334.85"/>
+      <hotspot url="" skinid="JustTextPin" description="" id="Point25" title="Узел приема и хранения газового конденсата" target="" tilt="-49.8" pan="-34"/>
+      <hotspot url="" skinid="JustTextPin" description="" id="Point34" title="Вертолетная площадка" target="" tilt="-40.3" pan="-311.99"/>
     </hotspots>
     <media>
       <lensflare blinding="50" type="2" alpha="80" id="sun" color="0xffffff" tilt="5.12" pan="-255.24"/>
@@ -212,7 +214,7 @@
       <hotspot url="{node7}" skinid="Redpin" description="" id="Point03" title="Дожимная компрессорная станция" target="-8.5/-5.8/70.0" tilt="-27.94" pan="-145.87"/>
       <hotspot url="{node13}" skinid="Redpin" description="" id="Point04" title="Дожимная насосная станция" target="" tilt="-9.05" pan="-294.87"/>
       <hotspot url="{node43}" skinid="pin-icho" description="" id="Point05" title="Ичёдинское месторождение" target="$fwd" tilt="0" pan="114.012"/>
-      <hotspot url="{node38}" skinid="pin-uk" description="" id="Point06" title="Установка по производству сжиженного гелия" target="$fwd" tilt="1.06" pan="-7.41163"/>
+      <hotspot url="{node38}" skinid="Redpin" description="" id="Point06" title="Установка по производству сжиженного гелия" target="$fwd" tilt="1.06" pan="-7.41"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
@@ -431,7 +433,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 19:10" copyright="" description="Установка подготовки нефти (УПН) Ярактинского месторождения введена в эксплуатацию в 2009 году, текущая проектная мощность - 5 млн тонн сырой нефти в год. На УПН Ярактинского НГКМ направляются все потоки нефти с основных месторождений ИНК.  На установке действует классическая трехступенчатая схема очистки УВС: дегазация – предварительный сброс пластовой воды в резервуаре, обезвоживание в отстойниках , обессоливание в электродегидраторах. Режим работы УПН – непрерывный, 8 400 часов в году.&#xa;&#xa;Наряду с собственной подготовкой на УПН осуществляется промежуточное хранение нефти перед ее отправкой на приемосдаточный пункт  &quot;&quot;Марковское&quot;&quot;, являющееся единственным объектом в ИНК, на котором осуществляется централизованная сдача товарной нефти в магистральный нефтепровод &quot;&quot;Восточная Сибирь - Тихий Океан&quot;&quot; (ВСТО). " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки нефти" author="" tags="5|Ярактинское месторождение" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_5" datetime="09.08.2023 19:10" copyright="" description="Установка подготовки нефти (УПН) Ярактинского месторождения введена в эксплуатацию в 2009 году, текущая проектная мощность - 5 млн тонн сырой нефти в год. На УПН Ярактинского НГКМ направляются все потоки нефти с основных месторождений ИНК.  На установке действует классическая трехступенчатая схема очистки УВС: дегазация – предварительный сброс пластовой воды в резервуаре, обезвоживание в отстойниках , обессоливание в электродегидраторах. Режим работы УПН – непрерывный, 8 400 часов в году.&#xa;&#xa;Наряду с собственной подготовкой на УПН осуществляется промежуточное хранение нефти перед ее отправкой на приемосдаточный пункт  &quot;&quot;Марковское&quot;&quot;, являющееся единственным объектом в ИНК, на котором осуществляется централизованная сдача товарной нефти в магистральный нефтепровод &quot;&quot;Восточная Сибирь - Тихий Океан&quot;&quot; (ВСТО). " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки нефти" author="" tags="5|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -462,7 +464,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 15:40" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки нефти" author="" tags="5-2|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_5_2" datetime="09.08.2023 15:40" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки нефти" author="" tags="5-2|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -490,7 +492,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 14:56" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки нефти" author="" tags="5-3|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_5_3" datetime="09.08.2023 14:56" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки нефти" author="" tags="5-3|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -517,7 +519,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 15:30" copyright="" description="Установка дизельного топлива (УПДТ) проектной мощностью по сырью 109,5 тыс. тонн в год (38 325 тонн в год по производству дизельного топлива) была введена в эксплуатацию в 2013 году. Сырьём установки является нефть, подготовленная на УПН Ярактинского НГКМ. Товарный продукт -  дизельное топливо различных марок, а также бензиновые и мазутные фракции. По данным на 2023 год, УПДТ, помимо 115 тонн дизельного топлива в месяц, выдает 25 тонн нафты." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки дизельного топлива" author="" tags="6|Ярактинское месторождение" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_6" datetime="09.08.2023 15:30" copyright="" description="Установка дизельного топлива (УПДТ) проектной мощностью по сырью 109,5 тыс. тонн в год (38 325 тонн в год по производству дизельного топлива) была введена в эксплуатацию в 2013 году. Сырьём установки является нефть, подготовленная на УПН Ярактинского НГКМ. Товарный продукт -  дизельное топливо различных марок, а также бензиновые и мазутные фракции. По данным на 2023 год, УПДТ, помимо 115 тонн дизельного топлива в месяц, выдает 25 тонн нафты." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки дизельного топлива" author="" tags="6|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1029,7 +1031,7 @@
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot url="{node26}" skinid="Airpin" description="" id="Point01" title="Установка комплексной подготовки газа (УКПГ-2)" target="" tilt="11.8" pan="-163.46"/>
+      <hotspot url="{node26}" skinid="Airpin" description="" id="Point01" title="Установка комплексной подготовки газа (УКПГ-2)" target="" tilt="3.47" pan="-199.58"/>
       <hotspot url="{node1}" skinid="pin-ya" description="" id="Point02" title="Ярактинское месторождение" target="" tilt="-0.0500004" pan="-344.42"/>
       <hotspot url="{node36}" skinid="Redpin" description="" id="Point03" title="Установка по производству сжиженного гелия" target="-140.8/-10.2/70.0" tilt="-77.82" pan="-123.96"/>
       <hotspot url="{node37}" skinid="Redpin" description="" id="Point04" title="Установка по производству сжиженного гелия" target="178.0/-5.7/70.0" tilt="-25.67" pan="-288.04"/>
@@ -1281,7 +1283,7 @@
       <preview strip="1" color="0x808080"/>
     </input>
     <view fovmode="0" pannorth="0">
-      <start projection="4" fov="28.1" tilt="-2.74" pan="-56.84"/>
+      <start projection="4" fov="55.6" tilt="7.01" pan="28.76"/>
       <flyin projection="9" fov="170" tilt="-90" pan="0"/>
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
@@ -2129,7 +2131,7 @@
       <hotspot url="{node74}" skinid="Redpin" description="" id="Point01" title="Установка комплексной подготовки газа" target="" tilt="-10.32" pan="-73.05"/>
       <hotspot url="{node75}" skinid="Redpin" description="" id="Point02" title="Установка комплексной подготовки газа" target="100.2/-15.7/70.0" tilt="-10.23" pan="-42.35"/>
       <hotspot url="{node76}" skinid="Redpin" description="" id="Point03" title="Установка комплексной подготовки газа" target="81.9/-40.4/70.0" tilt="-13.21" pan="-105.81"/>
-      <hotspot url="{node51}" skinid="Redpin" description="" id="Point04" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="0.0/-0.2/70.0" tilt="-1.51" pan="-359.92"/>
+      <hotspot url="{node51}" skinid="Redpin" description="" id="Point04" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="0.0/-0.2/70.0" tilt="4.38" pan="-570.48"/>
       <hotspot url="" skinid="JustTextPin" description="" id="Point05" title="Энергокомплекс" target="" tilt="0.08" pan="-250.04"/>
       <hotspot url="images/4220_koz_7510_m.jpg" skinid="ht_image" description="" id="Point06" title="Центральный пункт сбора нефти" target="" tilt="-1.05" pan="-296.02"/>
       <hotspot url="images/4220_koz_7485_m.jpg" skinid="ht_image" description="" id="Point07" title="Центральный пункт сбора нефти.  Вид сверху" target="" tilt="-1.49" pan="-298.12"/>
