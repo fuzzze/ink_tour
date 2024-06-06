@@ -1467,9 +1467,9 @@
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot url="{node41}" skinid="Redpin" description="" id="Point01" title="Причал на реке Лене, вблизи города Усть-Кута" target="-157.8/-6.8/70.0" tilt="-5.55" pan="-240.74"/>
+      <hotspot url="{node41}" skinid="Redpin" description="" id="Point01" title="Причал и промышленный водозабор на реке Лене, вблизи г. Усть-Кута" target="-157.8/-6.8/70.0" tilt="-5.55" pan="-240.74"/>
       <hotspot url="{node61}" skinid="Redpin" description="" id="Point02" title="Иркутский завод полимеров" target="148.0/-24.0/70.0" tilt="1.16" pan="-282.02"/>
-      <hotspot url="{node69}" skinid="Redpin" description="" id="Point03" title="Железнодорожная эстакада" target="31.0/-0.5/70.0" tilt="-2.25" pan="-239.57"/>
+      <hotspot url="{node69}" skinid="Redpin" description="" id="Point03" title="Железнодорожная эстакада СГК" target="31.0/-0.5/70.0" tilt="-2.25" pan="-239.57"/>
       <hotspot url="{node73}" skinid="Redpin" description="" id="Point04" title="Газофракционирующая установка" target="27.5/-0.2/70.0" tilt="-1.09" pan="-244.01"/>
       <hotspot url="{node64}" skinid="Redpin" description="" id="Point05" title="Комплекс приема,  хранения и отгрузки СУГ и СГК" target="-68.6/-27.0/70.0" tilt="-1.75" pan="-241.82"/>
       <hotspot url="{node1}" skinid="pin-ya" description="" id="Point06" title="Ярактинское месторождение" target="" tilt="-0.46" pan="-14.83"/>
@@ -1611,7 +1611,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 11:47" copyright="" description="Двусторонняя железнодорожная наливная эстакада для отгрузки сжиженных углеводородных газов (СУГ) и стабильного газового конденсата (СГК)" comment="г. Усть-Кут" longitude="106.023083" latitude="56.818294" title="Железнодорожная эстакада" author="" tags="19|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="" datetime="11.08.2023 11:47" copyright="" description="Двусторонняя железнодорожная наливная эстакада для отгрузки сжиженных углеводородных газов (СУГ) и стабильного газового конденсата (СГК)" comment="г. Усть-Кут" longitude="106.023083" latitude="56.818294" title="Железнодорожная эстакада СГК" author="" tags="19|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1638,7 +1638,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 11:12" copyright="" description="Двусторонняя железнодорожная наливная эстакада для отгрузки сжиженных углеводородных газов (СУГ) и стабильного газового конденсата (СГК)" comment="г. Усть-Кут" longitude="" latitude="" title="Железнодорожная эстакада" author="" tags="19-0316|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="" datetime="11.08.2023 11:12" copyright="" description="Двусторонняя железнодорожная наливная эстакада для отгрузки сжиженных углеводородных газов (СУГ) и стабильного газового конденсата (СГК)" comment="г. Усть-Кут" longitude="" latitude="" title="Железнодорожная эстакада СУГ" author="" tags="19-0316|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1700,10 +1700,10 @@
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot url="{node67}" skinid="Redpin" description="" id="Point01" title="Железнодорожная эстакада" target="" tilt="-7.86" pan="-252.15"/>
+      <hotspot url="{node67}" skinid="Redpin" description="" id="Point01" title="Железнодорожная эстакада СУГ" target="" tilt="-7.86" pan="-252.15"/>
       <hotspot url="{node65}" skinid="Redpin" description="" id="Point02" title="Комплекс приема,  хранения и отгрузки СУГ и СГК" target="" tilt="-61.2" pan="-66.37"/>
       <hotspot url="{node66}" skinid="Redpin" description="" id="Point03" title="Узел приема и хранения газового конденсата (УПХиГК)" target="45.8/1.1/70.0" tilt="-6.57" pan="-227.37"/>
-      <hotspot url="{node69}" skinid="Redpin" description="" id="Point04" title="Железнодорожная эстакада" target="-116.8/-3.5/70.0" tilt="-6.09" pan="-243.95"/>
+      <hotspot url="{node69}" skinid="Redpin" description="" id="Point04" title="Железнодорожная эстакада СГК" target="-116.8/-3.5/70.0" tilt="-6.09" pan="-243.95"/>
       <hotspot url="{node68}" skinid="Redpin" description="" id="Point05" title="Узел приема и хранения газового конденсата (УПХиГК) " target="-28.6/0.8/70.0" tilt="-18.83" pan="-328.8"/>
       <hotspot url="{node73}" skinid="Redpin" description="" id="Point06" title="Газофракционирующая установка" target="" tilt="4.05" pan="-89.74"/>
     </hotspots>
@@ -1784,7 +1784,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="12.08.2023 11:49" copyright="" description="Причал и автомобильные дороги построены для приемки и отгрузки крупногабаритного тяжеловесного оборудования Иркутского завода полимеров (ИЗП). Длина причала - 113 метров, вместе с подъездным путем - 310 метров. Для перевозки оборудования используются баржи грузоподъемностью 2500 тонн." comment="г. Усть-Кут" longitude="106.047235" latitude="56.815617" title="Причал на реке Лене, вблизи города Усть-Кута" author="" tags="14|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="" datetime="12.08.2023 11:49" copyright="" description="Причал и автомобильные дороги построены для приемки и отгрузки крупногабаритного тяжеловесного оборудования Иркутского завода полимеров (ИЗП). Длина причала - 113 метров, вместе с подъездным путем - 310 метров. Для перевозки оборудования используются баржи грузоподъемностью 2500 тонн." comment="г. Усть-Кут" longitude="106.047235" latitude="56.815617" title="Причал и промышленный водозабор на реке Лене, вблизи г. Усть-Кута" author="" tags="14|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
