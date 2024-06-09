@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Fri Jun 7 00:00:08 2024
+// Generated Sun Jun 9 23:42:50 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "1");
@@ -1817,11 +1817,11 @@ function pano2vrSkin(player,base) {
 		}
 		elVertScrollBg = me._scrollarea_ya__vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
-		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 456.75px; background-color: rgba(255,255,255,0.117647); pointer-events: auto;');
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 447.12px; background-color: rgba(255,255,255,0.117647); pointer-events: auto;');
 		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
 		elVertScrollFg = me._scrollarea_ya__vertScrollFg = document.createElement('div');
 		elVertScrollBg.appendChild(elVertScrollFg);
-		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 456.75px; background-color: rgba(255,255,255,0.784314); pointer-events: auto;');
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 447.12px; background-color: rgba(255,255,255,0.784314); pointer-events: auto;');
 		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
 		me._scrollarea_ya.ggScrollPosY = 0;
 		me._scrollarea_ya.ggScrollPosYPercent = 0.0;
@@ -1898,7 +1898,7 @@ function pano2vrSkin(player,base) {
 		hs ='';
 		hs+='border : 1px solid rgba(0, 0, 0, 0);';
 		hs+='cursor : pointer;';
-		hs+='height : 93.9815%;';
+		hs+='height : 92%;';
 		hs+='left : 16px;';
 		hs+='opacity : 0.89999;';
 		hs+='overflow : hidden;';

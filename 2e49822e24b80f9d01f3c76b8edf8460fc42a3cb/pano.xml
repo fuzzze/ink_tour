@@ -178,7 +178,6 @@
       <hotspot url="{node1}" skinid="pin-ya" description="" id="Point03" title="Ярактинское месторождение" target="" tilt="1.36" pan="-141.4"/>
       <hotspot url="{node43}" skinid="pin-icho" description="" id="Point04" title="Ичёдинское месторождение" target="$fwd" tilt="0" pan="102.867"/>
       <hotspot url="{node5}" skinid="Redpin" description="" id="Point05" title="Вахтовый жилой комплекс" target="$fwd" tilt="0" pan="69.0547"/>
-      <hotspot url="{node38}" skinid="pin-uk" description="" id="Point07" title="Установка по производству сжиженного гелия" target="$fwd" tilt="1.8" pan="48.5827"/>
       <hotspot url="{node8}" skinid="Redpin" description="" id="Point06" title="Дожимная компрессорная станция на УПН" target="$fwd" tilt="0" pan="-158.127"/>
       <hotspot url="{node46}" skinid="pin-mar" description="" id="Point08" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="$fwd" tilt="0.5" pan="-166.806"/>
     </hotspots>
@@ -214,7 +213,6 @@
       <hotspot url="{node7}" skinid="Redpin" description="" id="Point03" title="Дожимная компрессорная станция" target="-8.5/-5.8/70.0" tilt="-27.94" pan="-145.87"/>
       <hotspot url="{node13}" skinid="Redpin" description="" id="Point04" title="Дожимная насосная станция" target="" tilt="-9.05" pan="-294.87"/>
       <hotspot url="{node43}" skinid="pin-icho" description="" id="Point05" title="Ичёдинское месторождение" target="$fwd" tilt="0" pan="114.012"/>
-      <hotspot url="{node38}" skinid="Redpin" description="" id="Point06" title="Установка по производству сжиженного гелия" target="$fwd" tilt="1.06" pan="-7.41"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
@@ -546,7 +544,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 18:38" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки дизельного топлива" author="" tags="6-1|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_6_1" datetime="09.08.2023 18:38" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки дизельного топлива" author="" tags="6-1|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -574,7 +572,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 18:50" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки дизельного топлива" author="" tags="6-2|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_6_2" datetime="09.08.2023 18:50" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки дизельного топлива" author="" tags="6-2|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -602,7 +600,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 14:27" copyright="" description="Установка подготовки попутного нефтяного и природного газа (УПППНГ) на Ярактинском месторождении была запущена в работу в 2017 году. С неё началась реализация масштабного газового проекта ИНК. Объект предназначен для получения сухого отбензиненного газа (СОГ), сжиженного углеводородного газа (СУГ) и стабильного газового конденсата (СГК). Сырьем установки являются смесь природного и попутного нефтяного газов, а также НГК и ШФЛУ. Производительность УПППНГ -  3,6 млн кубометров в сутки по сырью." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ- 3,6)" author="" tags="7|Ярактинское месторождение" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_7" datetime="08.08.2023 14:27" copyright="" description="Установка подготовки попутного нефтяного и природного газа (УПППНГ) на Ярактинском месторождении была запущена в работу в 2017 году. С неё началась реализация масштабного газового проекта ИНК. Объект предназначен для получения сухого отбензиненного газа (СОГ), сжиженного углеводородного газа (СУГ) и стабильного газового конденсата (СГК). Сырьем установки являются смесь природного и попутного нефтяного газов, а также НГК и ШФЛУ. Производительность УПППНГ -  3,6 млн кубометров в сутки по сырью." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ- 3,6)" author="" tags="7|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -610,7 +608,6 @@
       <hotspot url="{node26}" skinid="Airpin" description="" id="Point02" title="Установка комплексной подготовки газа (УКПГ-2)" target="" tilt="4.86" pan="-208.01"/>
       <hotspot url="{node21}" skinid="Redpin" description="" id="Point03" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ- 3,6)" target="" tilt="-23.8" pan="-327.22"/>
       <hotspot url="{node28}" skinid="Airpin" description="" id="Point04" title="Парк хранения СУГ" target="" tilt="-2.42" pan="-239.31"/>
-      <hotspot url="{node38}" skinid="Airpin" description="" id="Point05" title="Установка по производству сжиженного гелия" target="" tilt="2.23" pan="-229.31"/>
     </hotspots>
     <media/>
     <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
@@ -633,7 +630,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 11:32" copyright="" description="Ярактинское месторождение" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ- 3,6)" author="" tags="7_6909|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_7_6909" datetime="08.08.2023 11:32" copyright="" description="Ярактинское месторождение" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ- 3,6)" author="" tags="7_6909|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -660,13 +657,12 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 12:21" copyright="" description="Две установки подготовки природного и попутного нефтяного газа (УПППНГ-6/1, УПППНГ-6/2) мощностью 6 млн м3 в сутки каждая. Запущены в работу в 2022 году.  В среднем выработка на одной УКПГ-6 должна составить 700 тонн по широкой фракции легких углеводородов (ШФЛУ) и 650 тонн по стабильному газовому конденсату (СГК) в сутки. &#xa;&#xa;Эти объекты являются частью проекта «Газ-2». Всего в него входит восемь заводов: УКПГ-2 (УПППНГ-6/1,2), УКПГ МНГКМ, гелиевая установка на Ярактинском месторождении, две линии ГФУ на УК ГПЗ и гелиевая линия на Марковском месторождении. Данные объекты в общей сложности могут перерабатывать порядка 23-25 млн кубометров газа в сутки. " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа (УКПГ-2)" author="" tags="8|Ярактинское месторождение" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_8" datetime="08.08.2023 12:21" copyright="" description="Две установки подготовки природного и попутного нефтяного газа (УПППНГ-6/1, УПППНГ-6/2) мощностью 6 млн м3 в сутки каждая. Запущены в работу в 2022 году.  В среднем выработка на одной УКПГ-6 должна составить 700 тонн по широкой фракции легких углеводородов (ШФЛУ) и 650 тонн по стабильному газовому конденсату (СГК) в сутки. &#xa;&#xa;Эти объекты являются частью проекта «Газ-2». Всего в него входит восемь заводов: УКПГ-2 (УПППНГ-6/1,2), УКПГ МНГКМ, гелиевая установка на Ярактинском месторождении, две линии ГФУ на УК ГПЗ и гелиевая линия на Марковском месторождении. Данные объекты в общей сложности могут перерабатывать порядка 23-25 млн кубометров газа в сутки. " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа (УКПГ-2)" author="" tags="8|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot url="{node1}" skinid="Redpin" description="" id="Point01" title="Ярактинское месторождение" target="" tilt="-0.28" pan="-193.31"/>
       <hotspot url="{node22}" skinid="Redpin" description="" id="Point02" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ- 3,6)" target="" tilt="-1.6" pan="-256.99"/>
-      <hotspot url="{node38}" skinid="Redpin" description="" id="Point03" title="Установка по производству сжиженного гелия" target="8.2/-54.3/70.0" tilt="-17.44" pan="-160.45"/>
       <hotspot url="{node28}" skinid="Redpin" description="" id="Point04" title="Парк хранения СУГ" target="8.4/-76.0/70.0" tilt="-2.8" pan="-233.43"/>
       <hotspot url="{node23}" skinid="Redpin" description="" id="Point05" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" target="" tilt="-8.43" pan="-353.42"/>
       <hotspot url="{node24}" skinid="Redpin" description="" id="Point06" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" target="" tilt="-2.35" pan="-41.71"/>
@@ -693,7 +689,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="07.08.2023 15:04" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" author="" tags="8-6052|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_8_6052" datetime="07.08.2023 15:04" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" author="" tags="8-6052|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -722,7 +718,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="07.08.2023 15:22" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" author="" tags="8-6128|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_8_6128" datetime="07.08.2023 15:22" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки природного и попутного нефтяного газа (УПППНГ-6)" author="" tags="8-6128|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -751,7 +747,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 13:20" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Дожимная компрессорная станция (ДКС)" author="" tags="8-7149|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_8_7149" datetime="08.08.2023 13:20" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Дожимная компрессорная станция (ДКС)" author="" tags="8-7149|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -778,7 +774,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 12:28" copyright="" description="Резервуарный парк ЦПГ-1 для хранения сжиженных углеводородных газов." comment="Ярактинское месторождение" longitude="" latitude="" title="Парк хранения СУГ" author="" tags="9|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_9" datetime="08.08.2023 12:28" copyright="" description="Резервуарный парк ЦПГ-1 для хранения сжиженных углеводородных газов." comment="Ярактинское месторождение" longitude="" latitude="" title="Парк хранения СУГ" author="" tags="9|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -806,7 +802,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 11:56" copyright="" description="Резервуарный парк ЦПГ-1 для хранения сжиженных углеводородных газов." comment="Ярактинское месторождение" longitude="" latitude="" title="Парк хранения СУГ" author="" tags="9-1|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_9_1" datetime="08.08.2023 11:56" copyright="" description="Резервуарный парк ЦПГ-1 для хранения сжиженных углеводородных газов." comment="Ярактинское месторождение" longitude="" latitude="" title="Парк хранения СУГ" author="" tags="9-1|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -833,7 +829,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 16:53" copyright="" description="Установка подготовки сернистой нефти и газа (УПСГ) мощностью 1 103,6 тыс. т/год была введена в эксплуатацию в 2014 году. Строительство УПСНГ было обусловлено вовлечением в производственный процесс скважин, сырье из которых отличается повышенным содержанием сероводорода. Сернистая нефть по отдельной нитке трубопроводов поступает напрямую на УПСНГ, очищается до нормативных показателей и направляется в резервуарный парк головной УПН на Яракте, откуда прокачивается на приемо-сдаточный пункт нефти «Марковское» для дальнейшей поставки в магистральный нефтепровод «Восточная Сибирь – Тихий океан»." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки сернистой нефти и газа" author="" tags="10|Ярактинское месторождение" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_10" datetime="09.08.2023 16:53" copyright="" description="Установка подготовки сернистой нефти и газа (УПСГ) мощностью 1 103,6 тыс. т/год была введена в эксплуатацию в 2014 году. Строительство УПСНГ было обусловлено вовлечением в производственный процесс скважин, сырье из которых отличается повышенным содержанием сероводорода. Сернистая нефть по отдельной нитке трубопроводов поступает напрямую на УПСНГ, очищается до нормативных показателей и направляется в резервуарный парк головной УПН на Яракте, откуда прокачивается на приемо-сдаточный пункт нефти «Марковское» для дальнейшей поставки в магистральный нефтепровод «Восточная Сибирь – Тихий океан»." comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки сернистой нефти и газа" author="" tags="10|Ярактинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -860,7 +856,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 16:27" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки сернистой нефти и газа" author="" tags="10-1|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_10_1" datetime="09.08.2023 16:27" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки сернистой нефти и газа" author="" tags="10-1|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -888,7 +884,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 16:35" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки сернистой нефти и газа" author="" tags="10-2|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_10_2" datetime="09.08.2023 16:35" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Установка подготовки сернистой нефти и газа" author="" tags="10-2|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -915,7 +911,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 13:10" copyright="" description="С 2012 года группа компаний ИНК активно развивает собственные генерирующие мощности, создавая изолированную энергосистему. На основных месторождениях продолжают создаваться энергокомплексы, в состав которых входят ГТЭС и ГПЭС, топливом для которых является сухой отбензиненный газ (СОГ), а также попутный нефтяной газ (ПНГ), используемый в качестве резервного топлива." comment="Ярактинское месторождение" longitude="" latitude="" title="Энергокомплекс 72 МВт" author="" tags="11|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_11" datetime="09.08.2023 13:10" copyright="" description="С 2012 года группа компаний ИНК активно развивает собственные генерирующие мощности, создавая изолированную энергосистему. На основных месторождениях продолжают создаваться энергокомплексы, в состав которых входят ГТЭС и ГПЭС, топливом для которых является сухой отбензиненный газ (СОГ), а также попутный нефтяной газ (ПНГ), используемый в качестве резервного топлива." comment="Ярактинское месторождение" longitude="" latitude="" title="Энергокомплекс 72 МВт" author="" tags="11|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -945,7 +941,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 12:17" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Энергокомплекс 72 МВт" author="" tags="11-1|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_11_1" datetime="09.08.2023 12:17" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Энергокомплекс 72 МВт" author="" tags="11-1|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1012,39 +1008,6 @@
     <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
     <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
   </panorama>
-  <panorama id="node38" hideabout="1">
-    <input leveltilesize="510" levelingpitch="0" height="4721" levelbiashidpi="1.000" width="4721" leveltileurl="tiles/node38/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" levelingroll="0">
-      <level height="4721" width="4721" predecode="0" preload="0"/>
-      <level height="2360" width="2360" predecode="0" preload="0"/>
-      <level height="1180" width="1180" predecode="0" preload="0"/>
-      <level height="590" width="590" predecode="0" preload="0"/>
-      <level height="295" width="295" predecode="1" preload="1"/>
-      <preview strip="1" color="0x808080"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start projection="4" fov="70" tilt="0" pan="0"/>
-      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
-    </view>
-    <userdata customnodeid="" datetime="08.08.2023 12:11" copyright="" description="Установка по производству сжиженного гелия была открыта в мае 2023 г. Мощность линии -10 млн литров в год.  По данным на 2023 г., это второй и крупнейший в РФ гелиевый завод, который способен потенциально обеспечить до 5% мирового производства. На гелиевую установку поступает сухой отбензиненный газ с УКПГ-2. " comment="Ярактинское месторождение" longitude="106.563039" latitude="58.089535" title="Установка по производству сжиженного гелия" author="" tags="12|Ярактинское месторождение" source="" info=""/>
-    <hotspots height="20" width="180" wordwrap="1">
-      <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
-      <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot url="{node26}" skinid="Airpin" description="" id="Point01" title="Установка комплексной подготовки газа (УКПГ-2)" target="" tilt="3.47" pan="-199.58"/>
-      <hotspot url="{node1}" skinid="pin-ya" description="" id="Point02" title="Ярактинское месторождение" target="" tilt="-0.0500004" pan="-344.42"/>
-      <hotspot url="{node36}" skinid="Redpin" description="" id="Point03" title="Установка по производству сжиженного гелия" target="-140.8/-10.2/70.0" tilt="-77.82" pan="-123.96"/>
-      <hotspot url="{node37}" skinid="Redpin" description="" id="Point04" title="Установка по производству сжиженного гелия" target="178.0/-5.7/70.0" tilt="-25.67" pan="-288.04"/>
-      <hotspot url="{node5}" skinid="Redpin" description="" id="Point05" title="Вахтовый жилой комплекс" target="$fwd" tilt="0" pan="-129.964"/>
-      <hotspot url="{node46}" skinid="pin-mar" description="" id="Point06" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" target="$fwd" tilt="0" pan="-155.387"/>
-      <hotspot url="{node43}" skinid="pin-icho" description="" id="Point07" title="Ичёдинское месторождение" target="$fwd" tilt="0" pan="120.554"/>
-    </hotspots>
-    <media/>
-    <transition zoomoutpause="1" zoomfov="20" zoomspeed="2" zoomin="0" enabled="1" type="cut" softedge="0" blendcolor="0x000000" blendtime="0" zoomout="4"/>
-    <flyintransition enabled="1" speed="1.00"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control speedwheel="1" dblclickfullscreen="1" lockedmouse="0" simulatemass="1" sensitivity="8" rubberband="0" invertwheel="0" lockedwheel="0" contextprojections="0" lockedkeyboard="0" hideabout="1" invertcontrol="1" lockedkeyboardzoom="0" contextfullscreen="0"/>
-  </panorama>
   <panorama id="node36" hideabout="1">
     <input leveltilesize="510" levelingpitch="0" height="4500" levelbiashidpi="1.000" width="4500" leveltileurl="tiles/node36/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbias="0.400" overlap="1" levelingroll="0">
       <level height="4500" width="4500" predecode="0" preload="0"/>
@@ -1064,7 +1027,6 @@
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
-      <hotspot url="{node38}" skinid="Airpin" description="" id="Point01" title="Установка по производству сжиженного гелия" target="" tilt="86.68" pan="-294.19"/>
       <hotspot url="{node37}" skinid="Redpin" description="" id="Point02" title="Установка по производству сжиженного гелия" target="" tilt="-1.33" pan="-95.56"/>
     </hotspots>
     <media/>
@@ -1093,7 +1055,6 @@
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
       <hotspot url="{node36}" skinid="Redpin" description="" id="Point01" title="Установка по производству сжиженного гелия" target="" tilt="0.89" pan="-263.64"/>
-      <hotspot url="{node38}" skinid="Airpin" description="" id="Point02" title="Установка по производству сжиженного гелия" target="" tilt="52.67" pan="-262.55"/>
     </hotspots>
     <media>
       <lensflare blinding="50" type="4" alpha="80" id="Lensflare01" color="0xffffff" tilt="32.4" pan="-207.64"/>
@@ -2124,7 +2085,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="07.08.2023 12:45" copyright="" description="Установка комплексной подготовки газа мощностью 6 млн кубометров газа в сутки на Марковском нефтегазоконденсатном месторождении. Запущена в работу в январе 2024 года. Объект входит в состав комплекса объектов второго этапа масштабного газового проекта ИНК." comment="Марковское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа" author="" tags="21|Марковское месторождение" source="" info=""/>
+    <userdata customnodeid="p_21" datetime="07.08.2023 12:45" copyright="" description="Установка комплексной подготовки газа мощностью 6 млн кубометров газа в сутки на Марковском нефтегазоконденсатном месторождении. Запущена в работу в январе 2024 года. Объект входит в состав комплекса объектов второго этапа масштабного газового проекта ИНК." comment="Марковское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа" author="" tags="21|Марковское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -2158,7 +2119,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="07.08.2023 12:30" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа" author="" tags="21-1|Марковское месторождение" source="" info=""/>
+    <userdata customnodeid="p_21_1" datetime="07.08.2023 12:30" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа" author="" tags="21-1|Марковское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -2191,7 +2152,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="07.08.2023 11:39" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа" author="" tags="21-2|Марковское месторождение" source="" info=""/>
+    <userdata customnodeid="p_21_2" datetime="07.08.2023 11:39" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа" author="" tags="21-2|Марковское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -2221,7 +2182,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="07.08.2023 11:56" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа" author="" tags="21-3|Марковское месторождение" source="" info=""/>
+    <userdata customnodeid="p_21_3" datetime="07.08.2023 11:56" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Установка комплексной подготовки газа" author="" tags="21-3|Марковское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
