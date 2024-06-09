@@ -969,7 +969,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 12:27" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Энергокомплекс 72 МВт" author="" tags="11-2|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_11_2" datetime="09.08.2023 12:27" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Энергокомплекс 72 МВт" author="" tags="11-2|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -996,7 +996,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 12:41" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Энергокомплекс 72 МВт" author="" tags="11-3|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_11_3" datetime="09.08.2023 12:41" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Энергокомплекс 72 МВт" author="" tags="11-3|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1023,7 +1023,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="07.08.2023 16:02" copyright="" description="Установка по производству сжиженного гелия была открыта в мае 2023 г. Мощность линии -10 млн литров в год.  По данным на 2023 г., это второй и крупнейший в РФ гелиевый завод, который способен потенциально обеспечить до 5% мирового производства. На гелиевую установку поступает сухой отбензиненный газ с УКПГ-2. " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка по производству сжиженного гелия" author="" tags="12-1|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_12_1" datetime="07.08.2023 16:02" copyright="" description="Установка по производству сжиженного гелия была открыта в мае 2023 г. Мощность линии -10 млн литров в год.  По данным на 2023 г., это второй и крупнейший в РФ гелиевый завод, который способен потенциально обеспечить до 5% мирового производства. На гелиевую установку поступает сухой отбензиненный газ с УКПГ-2. " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка по производству сжиженного гелия" author="" tags="12-1|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1050,7 +1050,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="07.08.2023 16:28" copyright="" description="Установка по производству сжиженного гелия была открыта в мае 2023 г. Мощность линии -10 млн литров в год.  По данным на 2023 г., это второй и крупнейший в РФ гелиевый завод, который способен потенциально обеспечить до 5% мирового производства. На гелиевую установку поступает сухой отбензиненный газ с УКПГ-2. " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка по производству сжиженного гелия" author="" tags="12-2|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_12_2" datetime="07.08.2023 16:28" copyright="" description="Установка по производству сжиженного гелия была открыта в мае 2023 г. Мощность линии -10 млн литров в год.  По данным на 2023 г., это второй и крупнейший в РФ гелиевый завод, который способен потенциально обеспечить до 5% мирового производства. На гелиевую установку поступает сухой отбензиненный газ с УКПГ-2. " comment="Ярактинское месторождение" longitude="" latitude="" title="Установка по производству сжиженного гелия" author="" tags="12-2|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1078,7 +1078,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 10:06" copyright="" description="" comment="Ярактинское месторождение" longitude="106.530852" latitude="58.150631" title="Скважина для закачки газа в пласт" author="" tags="13|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_13" datetime="09.08.2023 10:06" copyright="" description="" comment="Ярактинское месторождение" longitude="106.530852" latitude="58.150631" title="Скважина для закачки газа в пласт" author="" tags="13|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1106,7 +1106,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="09.08.2023 09:49" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Скважина для закачки газа в пласт" author="" tags="13-1|Ярактинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_13_1" datetime="09.08.2023 09:49" copyright="" description="" comment="Ярактинское месторождение" longitude="" latitude="" title="Скважина для закачки газа в пласт" author="" tags="13-1|Ярактинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1133,7 +1133,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="32.4" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 18:00" copyright="" description="Ичёдинское месторождение было открыто в 2012 году: по результатам испытания западно-ярактинской поисковой скважины №312 был получен приток нефти. Месторождение находится в границах Западно-Ярактинского лицензионного участка недр (Усть-Кутский и Катангский районы Иркутской области). Название Ичёде дала река, которая протекает недалеко от этого места." comment="Ичёдинское месторождение" longitude="105.884189" latitude="57.874625" title="Ичёдинское месторождение" author="" tags="15|главная|Ичёдинское месторождение" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_15" datetime="08.08.2023 18:00" copyright="" description="Ичёдинское месторождение было открыто в 2012 году: по результатам испытания западно-ярактинской поисковой скважины №312 был получен приток нефти. Месторождение находится в границах Западно-Ярактинского лицензионного участка недр (Усть-Кутский и Катангский районы Иркутской области). Название Ичёде дала река, которая протекает недалеко от этого места." comment="Ичёдинское месторождение" longitude="105.884189" latitude="57.874625" title="Ичёдинское месторождение" author="" tags="15|главная|Ичёдинское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1166,7 +1166,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 17:01" copyright="" description="На Ичединском месторождении создана производственная и социальная инфраструктура. Более того, Ичёда стала своеобразным полигоном для испытания новых технологических решений: например, именно здесь был реализован пилотный проект по внедрению неметаллических технологий при строительстве трубопроводов, а также построена первая в компании мобильная установка подготовки попутного нефтяного газа." comment="Ичёдинское месторождение" longitude="" latitude="" title="Ичёдинское месторождение" author="" tags="15-1|Ичёдинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_15_1" datetime="08.08.2023 17:01" copyright="" description="На Ичединском месторождении создана производственная и социальная инфраструктура. Более того, Ичёда стала своеобразным полигоном для испытания новых технологических решений: например, именно здесь был реализован пилотный проект по внедрению неметаллических технологий при строительстве трубопроводов, а также построена первая в компании мобильная установка подготовки попутного нефтяного газа." comment="Ичёдинское месторождение" longitude="" latitude="" title="Ичёдинское месторождение" author="" tags="15-1|Ичёдинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1193,7 +1193,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 17:13" copyright="" description="УПН проектной мощностью по подготовке нефти 1,395 млн т/год была введена в эксплуатацию в 2018 году и предназначена для сбора, сепарирования, обезвоживания и обессоливания водонефтяной эмульсии, поступающей с Ичединского и Верхнетирского нефтяных месторождений." comment="Ичёдинское месторождение" longitude="" latitude="" title="Ичёдинское месторождение" author="" tags="16|Ичёдинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_16" datetime="08.08.2023 17:13" copyright="" description="УПН проектной мощностью по подготовке нефти 1,395 млн т/год была введена в эксплуатацию в 2018 году и предназначена для сбора, сепарирования, обезвоживания и обессоливания водонефтяной эмульсии, поступающей с Ичединского и Верхнетирского нефтяных месторождений." comment="Ичёдинское месторождение" longitude="" latitude="" title="Ичёдинское месторождение" author="" tags="16|Ичёдинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1220,7 +1220,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="08.08.2023 17:47" copyright="" description="" comment="Ичёдинское месторождение" longitude="" latitude="" title="Энергокомплекс" author="" tags="16-1|Ичёдинское месторождение" source="" info=""/>
+    <userdata customnodeid="p_16_1" datetime="08.08.2023 17:47" copyright="" description="" comment="Ичёдинское месторождение" longitude="" latitude="" title="Энергокомплекс" author="" tags="16-1|Ичёдинское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1249,7 +1249,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="10.08.2023 12:26" copyright="" description="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot; проектной мощностью по объему сдаваемой товарной нефти в магистральный нефтепровод ВСТО 3,353 млн т/год был введен в эксплуатацию в 2010 году и предназначен для круглосуточного учета количества и качества принимаемой, перекачиваемой, находящейся в наличии и сдаваемой нефти с передачей информации в центральную инженерно-технологическую службу ИНК. В результате реализации проектов расширения в 2014, 2015 и 2019 гг. ежегодный объем перекачиваемой нефти на ПСП увеличился до 9,5 млн тонн. В настоящее время ПСП является единственным объектом, на котором осуществляется централизованная сдача всего объема нефти, добытой группой ИНК." comment="Марковское месторождение" longitude="107.030566" latitude="57.527472" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17|главная|Марковское месторождение" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_17" datetime="10.08.2023 12:26" copyright="" description="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot; проектной мощностью по объему сдаваемой товарной нефти в магистральный нефтепровод ВСТО 3,353 млн т/год был введен в эксплуатацию в 2010 году и предназначен для круглосуточного учета количества и качества принимаемой, перекачиваемой, находящейся в наличии и сдаваемой нефти с передачей информации в центральную инженерно-технологическую службу ИНК. В результате реализации проектов расширения в 2014, 2015 и 2019 гг. ежегодный объем перекачиваемой нефти на ПСП увеличился до 9,5 млн тонн. В настоящее время ПСП является единственным объектом, на котором осуществляется централизованная сдача всего объема нефти, добытой группой ИНК." comment="Марковское месторождение" longitude="107.030566" latitude="57.527472" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17|главная|Марковское месторождение" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1284,7 +1284,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="10.08.2023 13:25" copyright="" description="" comment="Марковское месторождение" longitude="107.039131" latitude="57.530721" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-1|Марковское месторождение" source="" info=""/>
+    <userdata customnodeid="p_17_1" datetime="10.08.2023 13:25" copyright="" description="" comment="Марковское месторождение" longitude="107.039131" latitude="57.530721" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-1|Марковское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1313,7 +1313,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="10.08.2023 13:03" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-2|Марковское месторождение" source="" info=""/>
+    <userdata customnodeid="p_17_2" datetime="10.08.2023 13:03" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-2|Марковское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1341,7 +1341,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="10.08.2023 13:14" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-3|Марковское месторождение" source="" info=""/>
+    <userdata customnodeid="p_17_3" datetime="10.08.2023 13:14" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-3|Марковское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1368,7 +1368,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="10.08.2023 11:22" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-4|Марковское месторождение" source="" info=""/>
+    <userdata customnodeid="p_17_4" datetime="10.08.2023 11:22" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-4|Марковское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1396,7 +1396,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="10.08.2023 11:44" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-5|Марковское месторождение" source="" info=""/>
+    <userdata customnodeid="p_17_5" datetime="10.08.2023 11:44" copyright="" description="" comment="Марковское месторождение" longitude="" latitude="" title="Приемо-сдаточный пункт нефти (ПСП) &quot;Марковское&quot;" author="" tags="17-5|Марковское месторождение" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1424,7 +1424,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="12.08.2023 10:18" copyright="" description="Иркутский завод полимеров (ИЗП) – первый в Восточной̆ Сибири завод по выпуску полимеров из этана, который будет обеспечен собственным сырьем. ИЗП является частью газохимического кластера, который включает создание системы предприятий для добычи, подготовки, транспортировки и переработки газа в продукт c высокой добавленной стоимостью. Данный проект группа компаний ИНК планомерно реализует с 2014 года." comment="г. Усть-Кут" longitude="" latitude="" title="Производственные объекты усть-кутской локации" author="" tags="18|г. Усть-Кут|главная" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_18" datetime="12.08.2023 10:18" copyright="" description="Иркутский завод полимеров (ИЗП) – первый в Восточной̆ Сибири завод по выпуску полимеров из этана, который будет обеспечен собственным сырьем. ИЗП является частью газохимического кластера, который включает создание системы предприятий для добычи, подготовки, транспортировки и переработки газа в продукт c высокой добавленной стоимостью. Данный проект группа компаний ИНК планомерно реализует с 2014 года." comment="г. Усть-Кут" longitude="" latitude="" title="Производственные объекты усть-кутской локации" author="" tags="18|г. Усть-Кут|главная" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1460,7 +1460,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 13:25" copyright="" description="Газофракционирующая установка входит в состав ООО &quot;Усть-Кутский ГПЗ&quot;.  ГФУ предназначена для разделения широкой фракции легких углеводородов (ШФЛУ), которая поступает с УКПГ-2, УПППНГ-3,6 ЯНГКМ, УКПГ МНГКМ, на составляющие компоненты. На сегодняшнем этапе из сырья извлекают пропан, бутан и стабильный газовый конденсат. Эти виды продукции реализуются конечным потребителям по железной дороге и автотранспортом. А в дальнейшем из ШФЛУ будут получать также и этан для Иркутского завода полимеров." comment="г. Усть-Кут" longitude="106.010231" latitude="56.826045" title="Газофракционирующая установка" author="" tags="20|г. Усть-Кут" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_20" datetime="11.08.2023 13:25" copyright="" description="Газофракционирующая установка входит в состав ООО &quot;Усть-Кутский ГПЗ&quot;.  ГФУ предназначена для разделения широкой фракции легких углеводородов (ШФЛУ), которая поступает с УКПГ-2, УПППНГ-3,6 ЯНГКМ, УКПГ МНГКМ, на составляющие компоненты. На сегодняшнем этапе из сырья извлекают пропан, бутан и стабильный газовый конденсат. Эти виды продукции реализуются конечным потребителям по железной дороге и автотранспортом. А в дальнейшем из ШФЛУ будут получать также и этан для Иркутского завода полимеров." comment="г. Усть-Кут" longitude="106.010231" latitude="56.826045" title="Газофракционирующая установка" author="" tags="20|г. Усть-Кут" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1491,7 +1491,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 13:28" copyright="" description="" comment="г. Усть-Кут" longitude="106.009839" latitude="56.825520" title="Газофракционирующая установка" author="" tags="20-1|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_20_1" datetime="11.08.2023 13:28" copyright="" description="" comment="г. Усть-Кут" longitude="106.009839" latitude="56.825520" title="Газофракционирующая установка" author="" tags="20-1|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1518,7 +1518,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 12:56" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Газофракционирующая установка" author="" tags="20-2|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_20_2" datetime="11.08.2023 12:56" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Газофракционирующая установка" author="" tags="20-2|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1545,7 +1545,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 13:05" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Газофракционирующая установка" author="" tags="20-3|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_20_3" datetime="11.08.2023 13:05" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Газофракционирующая установка" author="" tags="20-3|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1572,7 +1572,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 11:47" copyright="" description="Двусторонняя железнодорожная наливная эстакада для отгрузки сжиженных углеводородных газов (СУГ) и стабильного газового конденсата (СГК)" comment="г. Усть-Кут" longitude="106.023083" latitude="56.818294" title="Железнодорожная эстакада СГК" author="" tags="19|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_19" datetime="11.08.2023 11:47" copyright="" description="Двусторонняя железнодорожная наливная эстакада для отгрузки сжиженных углеводородных газов (СУГ) и стабильного газового конденсата (СГК)" comment="г. Усть-Кут" longitude="106.023083" latitude="56.818294" title="Железнодорожная эстакада СГК" author="" tags="19|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1599,7 +1599,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 11:12" copyright="" description="Двусторонняя железнодорожная наливная эстакада для отгрузки сжиженных углеводородных газов (СУГ) и стабильного газового конденсата (СГК)" comment="г. Усть-Кут" longitude="" latitude="" title="Железнодорожная эстакада СУГ" author="" tags="19-0316|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_19_0316" datetime="11.08.2023 11:12" copyright="" description="Двусторонняя железнодорожная наливная эстакада для отгрузки сжиженных углеводородных газов (СУГ) и стабильного газового конденсата (СГК)" comment="г. Усть-Кут" longitude="" latitude="" title="Железнодорожная эстакада СУГ" author="" tags="19-0316|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1628,7 +1628,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 11:34" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Узел приема и хранения газового конденсата (УПХиГК) " author="" tags="19-0412|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_19_0412" datetime="11.08.2023 11:34" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Узел приема и хранения газового конденсата (УПХиГК) " author="" tags="19-0412|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1657,7 +1657,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 12:01" copyright="" description="" comment="г. Усть-Кут" longitude="106.017906" latitude="56.821121" title="Комплекс приема,  хранения и отгрузки СУГ и СГК" author="" tags="19-1|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_19_1" datetime="11.08.2023 12:01" copyright="" description="" comment="г. Усть-Кут" longitude="106.017906" latitude="56.821121" title="Комплекс приема,  хранения и отгрузки СУГ и СГК" author="" tags="19-1|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1689,7 +1689,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 10:32" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Комплекс приема,  хранения и отгрузки СУГ и СГК" author="" tags="19-0144|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_19_0144" datetime="11.08.2023 10:32" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Комплекс приема,  хранения и отгрузки СУГ и СГК" author="" tags="19-0144|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1716,7 +1716,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 10:51" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Узел приема и хранения газового конденсата (УПХиГК)" author="" tags="19-0232|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_19_0232" datetime="11.08.2023 10:51" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Узел приема и хранения газового конденсата (УПХиГК)" author="" tags="19-0232|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1745,7 +1745,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="12.08.2023 11:49" copyright="" description="Причал и автомобильные дороги построены для приемки и отгрузки крупногабаритного тяжеловесного оборудования Иркутского завода полимеров (ИЗП). Длина причала - 113 метров, вместе с подъездным путем - 310 метров. Для перевозки оборудования используются баржи грузоподъемностью 2500 тонн." comment="г. Усть-Кут" longitude="106.047235" latitude="56.815617" title="Причал и промышленный водозабор на реке Лене, вблизи г. Усть-Кута" author="" tags="14|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_14" datetime="12.08.2023 11:49" copyright="" description="Причал и автомобильные дороги построены для приемки и отгрузки крупногабаритного тяжеловесного оборудования Иркутского завода полимеров (ИЗП). Длина причала - 113 метров, вместе с подъездным путем - 310 метров. Для перевозки оборудования используются баржи грузоподъемностью 2500 тонн." comment="г. Усть-Кут" longitude="106.047235" latitude="56.815617" title="Причал и промышленный водозабор на реке Лене, вблизи г. Усть-Кута" author="" tags="14|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1772,7 +1772,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="" copyright="" description="Иркутский завод полимеров (ИЗП) – первый в Восточной̆ Сибири завод по выпуску полимеров из этана, который будет обеспечен собственным сырьем. ИЗП является частью газохимического кластера, который включает создание системы предприятий для добычи, подготовки, транспортировки и переработки газа в продукт c высокой добавленной стоимостью. Данный проект группа компаний ИНК планомерно реализует с 2014 года." comment="г. Усть-Кут" longitude="" latitude="" title="Иркутский завод полимеров" author="" tags="18-11|г. Усть-Кут" source="" info="Главная панорама"/>
+    <userdata customnodeid="p_18_11" datetime="" copyright="" description="Иркутский завод полимеров (ИЗП) – первый в Восточной̆ Сибири завод по выпуску полимеров из этана, который будет обеспечен собственным сырьем. ИЗП является частью газохимического кластера, который включает создание системы предприятий для добычи, подготовки, транспортировки и переработки газа в продукт c высокой добавленной стоимостью. Данный проект группа компаний ИНК планомерно реализует с 2014 года." comment="г. Усть-Кут" longitude="" latitude="" title="Иркутский завод полимеров" author="" tags="18-11|г. Усть-Кут" source="" info="Главная панорама"/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1803,7 +1803,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 16:07" copyright="" description="На полимерном производстве простые молекулы этилена под воздействием катализаторов соединяются в очень длинные молекулярные цепочки, иногда до тысяч или миллионов элементов,  которые называются полимерами." comment="г. Усть-Кут" longitude="" latitude="" title="Установка производства полиэтилена" author="" tags="18-2|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_2" datetime="11.08.2023 16:07" copyright="" description="На полимерном производстве простые молекулы этилена под воздействием катализаторов соединяются в очень длинные молекулярные цепочки, иногда до тысяч или миллионов элементов,  которые называются полимерами." comment="г. Усть-Кут" longitude="" latitude="" title="Установка производства полиэтилена" author="" tags="18-2|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1842,7 +1842,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 17:15" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="Водоблок оборотного водоснабжения" author="" tags="18-3|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_3" datetime="11.08.2023 17:15" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="Водоблок оборотного водоснабжения" author="" tags="18-3|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1869,7 +1869,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 17:19" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Насосная технической и противопожарной воды  " author="" tags="18-4|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_4" datetime="11.08.2023 17:19" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Насосная технической и противопожарной воды  " author="" tags="18-4|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1896,7 +1896,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 17:21" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Комплекс очистных сооружений" author="" tags="18-5|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_5" datetime="11.08.2023 17:21" copyright="" description="" comment="г. Усть-Кут" longitude="" latitude="" title="Комплекс очистных сооружений" author="" tags="18-5|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1923,7 +1923,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 17:24" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="ТП-220 ПС" author="" tags="18-6|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_6" datetime="11.08.2023 17:24" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="ТП-220 ПС" author="" tags="18-6|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1950,7 +1950,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 18:12" copyright="" description="Комплектная реакционная установка для получения (синтеза) линейных альфа-олефинов из этилена, а именно получения бутена-1&#xa;Добавление бутена позволит получать полимеры с разными свойствами" comment="г. Усть-Кут" longitude="" latitude="" title="Установка получения бутена-1" author="" tags="18-7|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_7" datetime="11.08.2023 18:12" copyright="" description="Комплектная реакционная установка для получения (синтеза) линейных альфа-олефинов из этилена, а именно получения бутена-1&#xa;Добавление бутена позволит получать полимеры с разными свойствами" comment="г. Усть-Кут" longitude="" latitude="" title="Установка получения бутена-1" author="" tags="18-7|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -1977,7 +1977,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 18:15" copyright="" description="В пиролизной печи углеводородные газы разрушаются (происходит изменение молекулярных связей) для создания новых искусственных углеводородных цепочек между молекулами, которые называются мономерами. На выходе из печей пиролиза получается многокомпонентный газ (пирогаз), который состоит из таких компонентов как этилен, метан, водород, пропан-пропиленовая фракция, фракция С4 и т.д., наиболее ценным для нас является – этилен. Образовавшиеся мономеры практически не встречаются в природе – это бесцветные газы, главное сырье для всех синтетических материалов." comment="г. Усть-Кут" longitude="" latitude="" title="Печи пиролиза" author="" tags="18-8|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_8" datetime="11.08.2023 18:15" copyright="" description="В пиролизной печи углеводородные газы разрушаются (происходит изменение молекулярных связей) для создания новых искусственных углеводородных цепочек между молекулами, которые называются мономерами. На выходе из печей пиролиза получается многокомпонентный газ (пирогаз), который состоит из таких компонентов как этилен, метан, водород, пропан-пропиленовая фракция, фракция С4 и т.д., наиболее ценным для нас является – этилен. Образовавшиеся мономеры практически не встречаются в природе – это бесцветные газы, главное сырье для всех синтетических материалов." comment="г. Усть-Кут" longitude="" latitude="" title="Печи пиролиза" author="" tags="18-8|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -2004,7 +2004,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="34.8" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 18:21" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="Резервуарный парк хранения сырья для технологических установок" author="" tags="18-9|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_9" datetime="11.08.2023 18:21" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="Резервуарный парк хранения сырья для технологических установок" author="" tags="18-9|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -2031,7 +2031,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="11.08.2023 15:25" copyright="" description="Дальнейший путь пирогаза – это охлаждение, сжимание и промывка щелочным раствором – подготовка для дальнейшего разделения на компоненты" comment="г. Усть-Кут" longitude="" latitude="" title="Блок предварительной подготовки пирогаза" author="" tags="18-10|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_10" datetime="11.08.2023 15:25" copyright="" description="Дальнейший путь пирогаза – это охлаждение, сжимание и промывка щелочным раствором – подготовка для дальнейшего разделения на компоненты" comment="г. Усть-Кут" longitude="" latitude="" title="Блок предварительной подготовки пирогаза" author="" tags="18-10|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>
@@ -2058,7 +2058,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" fovfisheye="360" fov="120" scaletofit="1" tilt="90" pan="360"/>
     </view>
-    <userdata customnodeid="" datetime="19.03.2024 18:07" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="Установка водоподготовки" author="" tags="18-12|г. Усть-Кут" source="" info=""/>
+    <userdata customnodeid="p_18_12" datetime="19.03.2024 18:07" copyright="" description="Строительная площадка Иркутского завода полимеров, по состоянию на лето 2023 года." comment="г. Усть-Кут" longitude="" latitude="" title="Установка водоподготовки" author="" tags="18-12|г. Усть-Кут" source="" info=""/>
     <hotspots height="20" width="180" wordwrap="1">
       <label border="1" height="20" backgroundcolor="0xffffff" backgroundalpha="1" enabled="1" width="180" background="1" wordwrap="1" textcolor="0x000000" bordercolor="0x000000" borderradius="1" textalpha="1" borderalpha="1"/>
       <polystyle backgroundcolor="0x0000ff" backgroundalpha="0.2509803921568627" mode="0" bordercolor="0x0000ff" borderalpha="1" handcursor="1"/>

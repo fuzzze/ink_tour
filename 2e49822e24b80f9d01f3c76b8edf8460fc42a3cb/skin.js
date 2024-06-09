@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.0.1/17227
 // Filename: INK_material_2024.ggsk
-// Generated Sun Jun 9 23:42:50 2024
+// Generated Sun Jun 9 23:52:11 2024
 
 function pano2vrSkin(player,base) {
 	player.addVariable('currentPan', 0, "1");
@@ -2714,7 +2714,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow: hidden;';
 		els.setAttribute('style',hs);
 		me._gyro2.ggUpdateText=function() {
-			var hs="<button class=\"btn\" data-clipboard-action=\"copy\"  data-clipboard-text=\""+player.getVariableValue('baseURL')+"?coverShow=false#"+player.getCurrentNode()+","+player.getPanN().toFixed(1)+","+player.getTilt().toFixed(1)+","+player.getFov().toFixed(1)+",4,false\"><\/button>";
+			var hs="<button class=\"btn\" data-clipboard-action=\"copy\"  data-clipboard-text=\""+player.getVariableValue('baseURL')+"#"+me.ggUserdata.customnodeid+","+player.getPanN().toFixed(1)+","+player.getTilt().toFixed(1)+","+player.getFov().toFixed(1)+",4,false\"><\/button>";
 			if (hs!=this.ggText) {
 				this.ggText=hs;
 				this.ggTextDiv.innerHTML=hs;
